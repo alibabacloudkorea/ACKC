@@ -10,11 +10,11 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는대도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
 
-- 
+- 인스턴스를 2개 구매하여야 한다. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzk4MTkxMiwyMDg5Mzc2ODczLDQ2MD
+eyJoaXN0b3J5IjpbMTM0NzI1MjA0NCwyMDg5Mzc2ODczLDQ2MD
 UxNTg3Ml19
 -->
