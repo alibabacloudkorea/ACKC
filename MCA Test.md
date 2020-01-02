@@ -12,11 +12,11 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는대도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
 
 - 한국에 origin server가 위치한 경우, Anti-DDos Premium 을 선택해야 한다. Anti-DDos Pro는 origin server가 중국에 위치한 경우(도메인을 사용할 경우 ICP인증을 받아야 한다.)에 사용하는 서비스이다. 
-- 인스턴스를 Insurance 또는 Insurance(또는 
+- 인스턴스를 Insurance(또는 Unlimited) 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc3MTcxNjIsMjA4OTM3Njg3Myw0Nj
-A1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbLTcxMzI1ODIwNCwyMDg5Mzc2ODczLDQ2MD
+UxNTg3Ml19
 -->
