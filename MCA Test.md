@@ -13,12 +13,12 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 
 - 한국에 origin server가 위치한 경우, Anti-DDos Premium 을 선택해야 한다. Anti-DDos Pro는 origin server가 중국에 위치한 경우(도메인을 사용할 경우 ICP인증을 받아야 한다.)에 사용하는 서비스이다. 
 - 인스턴스를 2개 구매하여야 한다. 
-	- Insurance(또는 Unlimited): Cache기능을 사용하려면 Enhanced, 그렇지 않다면 Standard를 구매하면 된다. Standard를 구매해도 추후에 Up
+	- Insurance(또는 Unlimited): Cache기능을 사용하려면 Enhanced, 그렇지 않다면 Standard를 구매하면 된다. Standard를 구매해도 추후에 Enhanced로 업그레이드 가능하다. 다만, 다운그레이드는 불가하니 참고하자.
 	- MCA
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE5Nzc5NjMsLTcxMzI1ODIwNCwyMD
-g5Mzc2ODczLDQ2MDUxNTg3Ml19
+eyJoaXN0b3J5IjpbMTU5Njc5MDQ5NiwtNzEzMjU4MjA0LDIwOD
+kzNzY4NzMsNDYwNTE1ODcyXX0=
 -->
