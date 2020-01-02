@@ -17,9 +17,9 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 	- MCA
 - Provisioning 메뉴에서 웹사이트를 추가할 때, 위에서 생성한 2개의 인스턴스를 모두 선택해야 한다. 
 - **Provisioning 메뉴에서 웹사이트를 추가하고 나온 CNAME은 무시해야 한다. Sec-Traffic Manager에서 rule을 설정하고 나온 CNAME을 DNS 레코드에 추가하여야 한다. (이 부분에서 가장 실수가 많다. 참고하자.)****
-- Cache 기능을 사용할 경우 .css, .js, .txt 파일을 제외한 파일의 캐싱일 경우 
+- Cache 기능을 사용할 경우 .css, .js, .txt 파일을 제외한 파일의 캐싱일 경우, static page caching을 Enhanced로 해주어야 캐싱된다. (Mitigation Setting > Web acceleration Policies > 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA3MTMyNDUsLTcxMzI1ODIwNCwyMD
-g5Mzc2ODczLDQ2MDUxNTg3Ml19
+eyJoaXN0b3J5IjpbLTE4OTE4NTMxNywtNzEzMjU4MjA0LDIwOD
+kzNzY4NzMsNDYwNTE1ODcyXX0=
 -->
