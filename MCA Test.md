@@ -4,9 +4,9 @@ MCA는 알리바바에서 제공하는 Anti-DDos Premium 제품의 일부 기능
 
 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154692909135306_en-US.png)
 
-
+그림을 보면 Security Traffic Manager(STM)이 그 역할을 하는데 정상트래픽은 MCA acclerate 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUyMTc0NzEsNDYwNTE1ODcyXX0=
+eyJoaXN0b3J5IjpbLTE3MDA3OTQyMDMsNDYwNTE1ODcyXX0=
 -->
