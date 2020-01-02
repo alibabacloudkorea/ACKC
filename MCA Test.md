@@ -15,11 +15,12 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 - 인스턴스를 2개 구매하여야 한다. 
 	- Insurance(또는 Unlimited): Cache기능을 사용하려면 Enhanced, 그렇지 않다면 Standard를 구매하면 된다. Standard를 구매해도 추후에 Enhanced로 업그레이드 가능하다. 다만, 다운그레이드는 불가하니 참고하자.
 	- MCA
-- Provisioning 메뉴에서 웹상
+- Provisioning 메뉴에서 웹사이트를 추가할 때, 위에서 생성한 2개의 인스턴스를 모두 선택해야 한다. 
+- Provisioning 메뉴에서 웹사이트를 추가하고 나온 CNAME은 무시해야 한다. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE0MTEzNDIsLTcxMzI1ODIwNCwyMD
+eyJoaXN0b3J5IjpbLTEyMzc4MDM1MjcsLTcxMzI1ODIwNCwyMD
 g5Mzc2ODczLDQ2MDUxNTg3Ml19
 -->
