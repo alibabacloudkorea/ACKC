@@ -9,11 +9,12 @@ MCA는 알리바바에서 제공하는 Anti-DDos Premium 제품의 일부 기능
 MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/doc-detail/92502.htm](https://www.alibabacloud.com/help/doc-detail/92502.htm))을 참고하길 바란다.
 
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는대도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
+
 - 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTY3NDc3NCwyMDg5Mzc2ODczLDQ2MD
+eyJoaXN0b3J5IjpbMTYwNzk4MTkxMiwyMDg5Mzc2ODczLDQ2MD
 UxNTg3Ml19
 -->
