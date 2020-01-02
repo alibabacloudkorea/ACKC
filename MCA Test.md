@@ -6,16 +6,17 @@ MCA는 알리바바에서 제공하는 Anti-DDos Premium 제품의 일부 기능
 
 그림을 보면 Security Traffic Manager(STM)이 그 역할을 하는데 정상트래픽은 MCA accelerate line을, 비정상트래픽은 Anti-DDos scrubbing center로 라우팅하는 역할을 한다. Anti-ddos 설정을 하다보면 Security Traffic Manager의 rule을 생성하고 나오는 CNAME을 DNS record에 추가하는 부분이 있는데, 이 설정을 통해 origin server에 라우팅되는 모든 트래픽이 STM을 먼저 거치게 되는 것이다. 
 
-MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/doc-detail/92502.htm](https://www.alibabacloud.com/help/doc-detail/92502.htm))을 참고하길 바란다.
+MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/doc-detail/92502.htm](https://www.alibabacloud.com/help/doc-detail/92502.htm))을 참고하길 바란다. 
+> **Note** 이 문서에서 사용되는 용어는 모두 알리바바 공식 가이드 문서의 English 버전과 알리바바 클라우드 콘솔으
 
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는대도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
 
 - 한국에 origin server가 위치한 경우, Anti-DDos Premium 을 선택해야 한다. Anti-DDos Pro는 origin server가 중국에 위치한 경우(도메인을 사용할 경우 ICP인증을 받아야 한다.)에 사용하는 서비스이다. 
-- 인스턴스를  
+- 인스턴스를 Insurance 또는 Insurance(또는 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTk5NTMzMywyMDg5Mzc2ODczLDQ2MD
-UxNTg3Ml19
+eyJoaXN0b3J5IjpbOTk5ODMyODE3LDIwODkzNzY4NzMsNDYwNT
+E1ODcyXX0=
 -->
