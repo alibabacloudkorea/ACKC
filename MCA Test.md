@@ -50,16 +50,16 @@ Test는 다음과 같이 진행 되었다.
 
 ## Test 결과
 
- * Ping Test
+ * Ping Test (Beijing > Seoul, Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/PingTest.png?raw=true)
 
-* Web object load (Beijing > Seoul)
+* Static Web Object Load (Beijing > Seoul)
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
-* Web object load (Shanghai > Seoul)
+* Static Web Object Load (Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_WebStatic.png?raw=true)
 
-* Web object load (
+* Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/WebDynamic.png?raw=true)
 
 
@@ -68,9 +68,9 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTQxOTIxMSwtMTExMjk5MTg3MywtMT
-U1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0
-MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOTU1LDU5MDAyMjEzMS
-w5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODczLDQ2MDUx
-NTg3Ml19
+eyJoaXN0b3J5IjpbLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLT
+E1NTQwNzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3
+NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMz
+EsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1
+MTU4NzJdfQ==
 -->
