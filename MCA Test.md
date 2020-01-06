@@ -96,6 +96,9 @@ Test는 다음과 같이 진행 되었다.
 	| **pingtime (SH > KR)** | <center>0.0367 </center> |0.0366 |0.0373 |<center>0.152</center> |
 	| **pingloss-% (SH > KR)** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | 
 	
+
+
+
 * Static Web Object Load (Beijing > Seoul)
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
@@ -129,7 +132,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjQ0MTg4NywtMTE2MTU5NzIwNywtMT
+eyJoaXN0b3J5IjpbMTkwMzYyNjg1OSwtMTE2MTU5NzIwNywtMT
 gwNDcwNzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2
 MzYzLC05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIwMDcwMjg2Mi
 wtMTExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2
