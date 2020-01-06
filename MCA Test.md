@@ -149,16 +149,18 @@ Test는 다음과 같이 진행 되었다.
 
 * Dynamic content의 경우 리전에 따라 상이한 결과를 보인다. SH(상하이) 리전에서는 약 2배 정도의 속도 개선 효과가 있었지만 BJ(베이징) 리전에서는 효과가 없었다.  이 부분은 실제 구현된 웹사이트를 바탕으로 중국 전역에서 접속하는 client에 대해 속도를 측정하여야 정확한 결과를 알 수 있을 것 같다.
 
-* Website(http, https) 이외에도 TCP, UDP에 대해서도 MCA 설정이 가능하다. 
+* Website(http, https) 이외에도 NonWebsite TCP, UDP에 대해서도 MCA 설정이 가능하다. 
+
+* 동일한 서버에 도메인 이름이 여러 개인 경우 CNAME Reuse을 적용하여 한 번만 High Defense 구성을 추가하고 High Defense Configuration CNAME 주소를 여러 도메인 이름에 사용할 수 있습니다 . 재사용 CNAME 재사용을 사용하도록 설정 한 후에는 동일한 서버에서 여러 도메인 이름의 해상도 만 고화질 CNAME 주소로 지정하면되며 여러 도메인 이름을 고화질에 연결할 수 있습니다. 각 도메인 이름에 대해 높은 방어 구성을 추가 할 필요는 없습니다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjI0MzMwNywtNDExNzM2ODMwLDE1ND
-gzMzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5Nzky
-Nzc5MSwtMTE4OTE5MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3OD
-c5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgy
-ODQ2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2Mj
-IsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5LC02
-NjcxODMzMDddfQ==
+eyJoaXN0b3J5IjpbMjc2MTAwMjA1LDIwODIyNDMzMDcsLTQxMT
+czNjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4
+ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5My
+wtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMw
+MDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC
+0xODMwMTkwNjIyLC0xNzUzNDQ4NjgxLC02MjY5MjQyOTksMTY1
+Nzc4MzY5OV19
 -->
