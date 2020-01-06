@@ -154,14 +154,20 @@ Test는 다음과 같이 진행 되었다.
 * 동일한 서버에서 호스팅되는 여러 도메인을 Anti-DDoS Premium 인스턴스에 추가하려면 CNAME reuse를 신청해야 한다. 이 기능을 사용하면 Anti-DDoS Premium을 한 번만 구성하고 동일한 서버에서 호스팅하는 모든 도메인의 DNS resolution에 동일한 CNAME을 사용할 수 있다.
 	> Note: CNAME reuse는 ticket을 생성하여 요청해야 한다.
 
-## MCA 제안 시 주의사
+## MCA 제안 시 주의사항
+MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패치와 같은 큰 컨텐츠를 중국 유저를 대상으로 제공하는데 큰 역할을 할 수 있다. 그러나 다음과 같은 경우에는  MCA 고려 대상이 아니다. 
+
+-3XX로 리디렉션되는 URL
+-모든 동적 컨텐츠의 URL
+-스트리밍 없음 (HLS 없음)
+-웹 사이트는 복잡한 캐시 설정이 필요합니다
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMyNTcwMzgsMjA4MjI0MzMwNywtND
+eyJoaXN0b3J5IjpbLTEyMjMyMzI5MDIsMjA4MjI0MzMwNywtND
 ExNzM2ODMwLDE1NDgzMzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5
 Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MTAzNywtMTc2OTg1Mz
 kzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01
