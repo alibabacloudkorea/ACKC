@@ -17,7 +17,7 @@ Anti DDos 는 본래 DDoS 공격을 완화시키는 Security 제품이지만, �
 - 도메인 이름이 ICP 공식 승인을 받지 않아 (참고: ICP 승인을 받기 위해서는 중국 사업체가 있어야 한다) 중국 사용자의 속도 개선을 위해 CDN이나 GA2.0을 사용할 수 없는 경우
 > **Note: CDN, GA2.0 모두 웹사이트를 서비스 하기 위해 중국 내 IP를 사용한다.** **따라서 ICP 자격 대상 중 하나인 "중국내 IP를 사용하여 웹 사이트를 호스팅 하는 경우"에 부합하여 ICP 승인 대상에 포함된다.**
 
-Anti DDos Premium의 MCA는 홍콩 리전의 IP를 할당받아 ICP 자격 대상에서 
+Anti DDos Premium의 MCA는 홍콩 리전의 IP를 할당받기 때문에 ICP 승인 없이도 웹사이트를 가속화할 수 있으며 
 
 
 ## MCA 설정 시 주의사항
@@ -138,11 +138,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI4NjM3MzAsLTExODkxOTEwMzcsLT
-E3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2
-ODY1NSwtNTMwMDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0LD
-k1ODY0ODk0LC0xODMwMTkwNjIyLC0xNzUzNDQ4NjgxLC02MjY5
-MjQyOTksMTY1Nzc4MzY5OSwtNjY3MTgzMzA3LC03MDQ2MTIwNz
-UsLTE0Njg5ODY5OSwxOTAzNjI2ODU5LC0xMTYxNTk3MjA3LC0x
-ODA0NzA3MDQ2XX0=
+eyJoaXN0b3J5IjpbMTY0ODEyODQ3OSwtMTE4OTE5MTAzNywtMT
+c2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOTY4
+NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4NjI1NDQsOT
+U4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjky
+NDI5OSwxNjU3NzgzNjk5LC02NjcxODMzMDcsLTcwNDYxMjA3NS
+wtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLTExNjE1OTcyMDcsLTE4
+MDQ3MDcwNDZdfQ==
 -->
