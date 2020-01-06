@@ -94,10 +94,10 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 ## SmartyPants
 
-	| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
-	|:--------|:--------:|--------:| --------:| --------:|
-	| **pingtime (BJ > KR)** | <center>0.0367 </center> |0.0366 |0.0373 |<center>0.1504</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
-	| **pingloss-% (BJ > KR)** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
+|:--------|:--------:|--------:| --------:| --------:|
+| **pingtime (BJ > KR)** | <center>0.0367 </center> |0.0366 |0.0373 |<center>0.1504</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+| **pingloss-% (BJ > KR)** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
@@ -147,5 +147,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzYyMTU4MV19
+eyJoaXN0b3J5IjpbLTE5NTE3MDcyMzVdfQ==
 -->
