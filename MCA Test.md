@@ -100,10 +100,10 @@ Test는 다음과 같이 진행 되었다.
 
 
 * Static Web Object Load (Beijing > Seoul)
-![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
+![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_Static.png?raw=true)
 
 * Static Web Object Load (Shanghai > Seoul)
-![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_WebStatic.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_Static.png?raw=true)
 
 * Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/WebDynamic.png?raw=true)
@@ -132,11 +132,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzYyNjg1OSwtMTE2MTU5NzIwNywtMT
-gwNDcwNzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2
-MzYzLC05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIwMDcwMjg2Mi
-wtMTExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2
-NzAwMzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMD
-ExOTU1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwy
-MDg5Mzc2ODczXX0=
+eyJoaXN0b3J5IjpbLTE0Njg5ODY5OSwxOTAzNjI2ODU5LC0xMT
+YxNTk3MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMTMsODQxODU1
+ODE2LC04Nzc3MDYzNjMsLTkxMDgzNTA2NCwxMjY4NTQwOTQ3LC
+0xMjAwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgx
+OTE4MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NT
+UzODk1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwt
+NzEzMjU4MjA0XX0=
 -->
