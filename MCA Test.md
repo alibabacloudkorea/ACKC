@@ -72,7 +72,8 @@ Test는 다음과 같이 진행 되었다.
 	* MCA 적용 시 네트워크 성능 개선 여부 확인
 	* 중국의 여러 리전(본 테스트에는 BJ, SH로 한정) 별로 MCA 적용 여부에 따른 네트워크 성능 확인
 	* 시나리오 별 가장 적합한 인스턴스 조합 확인
-	* 
+	* 네트워크 성능 안전성 확인
+
 ## Assumptions
 
 ## Test 결과
@@ -108,7 +109,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzA4Mjc0NywtOTEwODM1MDY0LDEyNj
+eyJoaXN0b3J5IjpbLTg3NzcwNjM2MywtOTEwODM1MDY0LDEyNj
 g1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQw
 NzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5Mz
 YwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2
