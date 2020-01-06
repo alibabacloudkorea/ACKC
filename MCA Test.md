@@ -51,13 +51,18 @@ Test는 다음과 같이 진행 되었다.
 ## Test 결과
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
+![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_WebStatic.png?raw=true)
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/WebDynamic.png?raw=true)
+
+
 ## Key Finding
 
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NTE5MzUsLTE1NTQwNzM5MzAsODE5MT
-gzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4
-OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MT
-MyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbNzA2MzU1MTQyLC0xNTU0MDczOTMwLDgxOT
+E4MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUz
+ODk1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNz
+EzMjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1ODcyXX0=
 -->
