@@ -52,11 +52,13 @@ Test는 다음과 같이 진행 되었다.
 		* http://nonmca.haemieee2.xyz/file/500k.pdf
 		* http://nonmca.haemieee2.xyz/file/4.5M.sea
 		* http://nonmca.haemieee2.xyz/index.php
+		
 	* AntiDDos(Enhanced) + MCA with Cache function enabled
 		* http://mca2.haemieee2.xyz/file/1M.zip
 		* http://mca2.haemieee2.xyz/file/500k.pdf
 		* http://mca2.haemieee2.xyz/file/4.5M.sea
 		* http://mca2.haemieee2.xyz/index.php
+	
 	* AntiDDos(Standard) + MCA without Cache 
 		* http://mca.haemieee2.xyz/file/1M.zip
 		* http://mca.haemieee2.xyz/file/500k.pdf
@@ -127,11 +129,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjMwMTk3MjcsLTExNjE1OTcyMDcsLT
-E4MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4NTU4MTYsLTg3Nzcw
-NjM2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4Nj
-IsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgzMzcwLC0x
-NjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUsMTgxMT
-AxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQs
-MjA4OTM3Njg3M119
+eyJoaXN0b3J5IjpbLTQxODg1NjA5OSwtMTE2MTU5NzIwNywtMT
+gwNDcwNzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2
+MzYzLC05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIwMDcwMjg2Mi
+wtMTExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2
+NzAwMzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMD
+ExOTU1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwy
+MDg5Mzc2ODczXX0=
 -->
