@@ -25,14 +25,14 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 ## Test Overview
 Test는 다음과 같이 진행 되었다.
 
-* Test 기간
+*  Test 기간
 	* 2020-01-04 12:00(PM) ~ 2020-01-06 12:00(PM)
 
-* Test Region
+*  Test Region
 	* Beijing -> Seoul(목동 KT IDC)
 	* Shanghai -> Seoul(목동 KT IDC)
 	
-* Test 방법 및 측정 Metric
+3.  Test 방법 및 측정 Metric
 	* Ping Test
 		* avg pingtime(s)
 		* pingloss-%
@@ -43,14 +43,15 @@ Test는 다음과 같이 진행 되었다.
 		* Static content - 500k, 1M, 4M size
 		* Dynamic content - php
 
-* Test 도구
+4.  Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
 
 ## Assumptions
 
 ## Test 결과
 
-(https://github.com/rnlduaeo/alibaba/blob/master/PingTest.png?raw=true
+ 
+![](https://github.com/rnlduaeo/alibaba/blob/master/PingTest.png?raw=true)
 
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
@@ -64,8 +65,8 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDY1NDM5OCwtMTU1NDA3MzkzMCw4MT
-kxODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1
-Mzg5NSwxODExMDExOTU1LDU5MDAyMjEzMSw5MTYxNjY3ODksLT
-cxMzI1ODIwNCwyMDg5Mzc2ODczLDQ2MDUxNTg3Ml19
+eyJoaXN0b3J5IjpbLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsOD
+E5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1
+NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC
+03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
 -->
