@@ -90,10 +90,11 @@ Test는 다음과 같이 진행 되었다.
 	
 
 
+아래는 웹 페이지 로딩 속도를 측정한 그래프이다. 
 * Static Web Object Load (Beijing > Seoul) - 응답시간 추이
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_Static.png?raw=true)
 
-* Static Web Object Load (Shanghai > Seoul) - - 응답시간 추이
+* Static Web Object Load (Shanghai > Seoul) - 응답시간 추이
 ![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_Static.png?raw=true)
 
 * Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul) - 응답시간 추이
@@ -123,7 +124,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTQxMTYxOSwtNjY3MTgzMzA3LC03MD
+eyJoaXN0b3J5IjpbMTc1NjMxMjA3NSwtNjY3MTgzMzA3LC03MD
 Q2MTIwNzUsLTE0Njg5ODY5OSwxOTAzNjI2ODU5LC0xMTYxNTk3
 MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMTMsODQxODU1ODE2LC
 04Nzc3MDYzNjMsLTkxMDgzNTA2NCwxMjY4NTQwOTQ3LC0xMjAw
