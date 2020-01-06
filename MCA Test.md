@@ -39,12 +39,13 @@ Test는 다음과 같이 진행 되었다.
 	* Web object load 
 		* DownloadSpeed(MBps)
 		* ResponseTime(s)
-	* Web content type
-		* Static content - 500k, 1M, 4M size
-		* Dynamic content - php
-		
+* Test Object
+	* Static content - 500k, 1M, 4M size
+	* Dynamic content - php
+* Test Groups
+	* Direct()
 * Test URLs
-	* Direct (Public Internet)
+	* Direct (MCA 적용 X)
 	http://nonmca.haemieee2.xyz/file/1M.zip
 	http://nonmca.haemieee2.xyz/file/500k.pdf
 	http://nonmca.haemieee2.xyz/file/4.5M.sea
@@ -98,10 +99,10 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwMzQ0NjEsLTkxMDgzNTA2NCwxMjY4NT
-QwOTQ3LC0xMjAwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDcz
-OTMwLDgxOTE4MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MC
-wtOTc1NTUzODk1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2
-Njc4OSwtNzEzMjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1ODcyXX
-0=
+eyJoaXN0b3J5IjpbMTYzNDAzMjU3OCwtOTEwODM1MDY0LDEyNj
+g1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQw
+NzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5Mz
+YwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2
+MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4Nz
+JdfQ==
 -->
