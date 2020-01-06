@@ -108,7 +108,7 @@ Test는 다음과 같이 진행 되었다.
 1. Ping Test
 2. Static Web Object Load (Beijing > Seoul)
 - Direct (MCA 적용 X)
- 일정한 속도가
+ 간헐적으로 튀는 현상이 있기는 하지만 대체적으로 일정한 속도가 유지된다. 
 - AntiDDos(Enhanced) + MCA with Cache function enabled
 - AntiDDos(Standard) + MCA without Cache
 
@@ -119,7 +119,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Nzg0ODM0NSwxOTMzMDAxMjEzLDg0MT
+eyJoaXN0b3J5IjpbLTE1MjQyMDYzMCwxOTMzMDAxMjEzLDg0MT
 g1NTgxNiwtODc3NzA2MzYzLC05MTA4MzUwNjQsMTI2ODU0MDk0
 NywtMTIwMDcwMjg2MiwtMTExMjk5MTg3MywtMTU1NDA3MzkzMC
 w4MTkxODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0MzkzNjAsLTk3
