@@ -80,7 +80,7 @@ Test는 다음과 같이 진행 되었다.
 	* 네트워크 성능 안전성 확인
 
 ## Assumptions
-- 일반 curl 명령어를 통한 요청 응답시간과 Chrome의 요청 응답시간에는 어느정도의 차이를 보인다. chrome에서 실행된 요청을 curl로 copy해 보면 
+- User Agent는 Chrome 3.8의 
 
 ## Test 결과
 
@@ -128,11 +128,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3NjAxOTQsOTU4NjQ4OTQsLTE4MzAxOT
-A2MjIsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5
-LC02NjcxODMzMDcsLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MD
-M2MjY4NTksLTExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkzMzAw
-MTIxMyw4NDE4NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1MDY0LD
-EyNjg1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1
-NTQwNzM5MzBdfQ==
+eyJoaXN0b3J5IjpbLTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4Mz
+AxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwxNjU3Nzgz
+Njk5LC02NjcxODMzMDcsLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LD
+E5MDM2MjY4NTksLTExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkz
+MzAwMTIxMyw4NDE4NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1MD
+Y0LDEyNjg1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMs
+LTE1NTQwNzM5MzBdfQ==
 -->
