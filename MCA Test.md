@@ -151,16 +151,19 @@ Test는 다음과 같이 진행 되었다.
 
 * Website(http, https) 이외에도 NonWebsite TCP, UDP에 대해서도 MCA 설정이 가능하다. 
 
-* 동일한 서버에서 호스팅되는 여러 도메인을 Anti-DDoS Premium 인스턴스에 추가하려면 CNAME reuse를 신청하는 것이 좋습니다. 이 기능을 사용하면 Anti-DDoS Premium을 한 번만 구성하고 동일한 서버에서 호스팅하는 모든 도메인의 DNS resolution에 동일한 CNAME을 사용할 수 있습니다. CNAME 재사용이 활성화 된 후 동일한 서버에서 호스팅되는 도메인을 Anti-DDoS Premium에서 할당 한 CNAME으로 확인할 수 있습니다.
+* 동일한 서버에서 호스팅되는 여러 도메인을 Anti-DDoS Premium 인스턴스에 추가하려면 CNAME reuse를 신청해야 한다. 이 기능을 사용하면 Anti-DDoS Premium을 한 번만 구성하고 동일한 서버에서 호스팅하는 모든 도메인의 DNS resolution에 동일한 CNAME을 사용할 수 있다.
+	> Note: CNAME reuse는 ticket을 생성하여 요청해야 한다.
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDg0NjUwOSwyMDgyMjQzMzA3LC00MT
-E3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwtMjEyNDky
-ODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5ODUzOT
-MsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2NTUsLTUz
-MDAzOTAsMTk4ODI4NDY0NCwtMTI4MDg2MjU0NCw5NTg2NDg5NC
-wtMTgzMDE5MDYyMiwtMTc1MzQ0ODY4MSwtNjI2OTI0Mjk5LDE2
-NTc3ODM2OTldfQ==
+eyJoaXN0b3J5IjpbMzIwNTU0Nzg5LDIwODIyNDMzMDcsLTQxMT
+czNjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4
+ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5My
+wtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMw
+MDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC
+0xODMwMTkwNjIyLC0xNzUzNDQ4NjgxLC02MjY5MjQyOTksMTY1
+Nzc4MzY5OV19
 -->
