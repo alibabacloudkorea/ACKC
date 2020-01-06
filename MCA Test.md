@@ -157,21 +157,21 @@ Test는 다음과 같이 진행 되었다.
 ## MCA 제안 시 주의사항
 MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패치와 같은 큰 컨텐츠를 중국 유저를 대상으로 제공하는데 큰 역할을 할 수 있다. 그러나 다음과 같은 경우에는  MCA 고려 대상이 아니다. 
 
--3XX로 리디렉션되는 URL
--모든 동적 컨텐츠의 URL
--스트리밍 없음 (HLS 없음)
--웹 사이트는 복잡한 캐시 설정이 필요합니다
+* 3XX로 리디렉션되는 URL
+* 스트리밍 (HLS 없음)
+* 복잡한 캐시 설정이 필요한 웹사이트
 
+> Note: Dynamic Contents 의 경우 리전에 따라 상이한 결과를 보이기 때문에 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMyMzI5MDIsMjA4MjI0MzMwNywtND
-ExNzM2ODMwLDE1NDgzMzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5
-Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MTAzNywtMTc2OTg1Mz
-kzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01
-MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OT
-QsLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwx
-NjU3NzgzNjk5XX0=
+eyJoaXN0b3J5IjpbLTQxMDM2NzY4NywyMDgyMjQzMzA3LC00MT
+E3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwtMjEyNDky
+ODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5ODUzOT
+MsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2NTUsLTUz
+MDAzOTAsMTk4ODI4NDY0NCwtMTI4MDg2MjU0NCw5NTg2NDg5NC
+wtMTgzMDE5MDYyMiwtMTc1MzQ0ODY4MSwtNjI2OTI0Mjk5LDE2
+NTc3ODM2OTldfQ==
 -->
