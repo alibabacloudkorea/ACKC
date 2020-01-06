@@ -33,7 +33,7 @@ Test는 다음과 같이 진행 되었다.
 		* avg pingtime(s)
 		* pingloss-%
 	* Web object load 
-		* 
+		* DownloadSpeed(MBps)
 ## Assumptions
 
 ## Test 결과
@@ -43,8 +43,8 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAzNTc4MDIsLTE2NzAwMzg1NjIsLT
-E4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOTU1LDU5MDAy
-MjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODczLD
-Q2MDUxNTg3Ml19
+eyJoaXN0b3J5IjpbLTg2OTkzMzI2LC0xNjcwMDM4NTYyLC0xOD
+A3NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIx
+MzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0Nj
+A1MTU4NzJdfQ==
 -->
