@@ -23,7 +23,8 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 - Cache 기능을 사용할 경우 .css, .js, .txt 파일을 제외한 파일의 캐싱일 경우, static page caching을 Enhanced로 해주어야 캐싱된다. (Mitigation Setting > Web acceleration Policies > static page caching (Enhanced))
 
 ## Test Overview
-
+Test는 다음과 같이 진행 되었다.
+* Test Region: Beijing -> Seoul(목동 KT DC), 
 ## Assumptions
 
 ## Test 결과
@@ -33,7 +34,7 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTU1Mzg5NSwxODExMDExOTU1LDU5MD
-AyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODcz
-LDQ2MDUxNTg3Ml19
+eyJoaXN0b3J5IjpbMTkwMDg1ODAxOSwtOTc1NTUzODk1LDE4MT
+EwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNzEzMjU4MjA0
+LDIwODkzNzY4NzMsNDYwNTE1ODcyXX0=
 -->
