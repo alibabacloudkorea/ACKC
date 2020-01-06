@@ -154,16 +154,18 @@ Test는 다음과 같이 진행 되었다.
 * 동일한 서버에서 호스팅되는 여러 도메인을 Anti-DDoS Premium 인스턴스에 추가하려면 CNAME reuse를 신청해야 한다. 이 기능을 사용하면 Anti-DDoS Premium을 한 번만 구성하고 동일한 서버에서 호스팅하는 모든 도메인의 DNS resolution에 동일한 CNAME을 사용할 수 있다.
 	> Note: CNAME reuse는 ticket을 생성하여 요청해야 한다.
 
+## MCA 제안 시 주의사
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNTU0Nzg5LDIwODIyNDMzMDcsLTQxMT
-czNjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4
-ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5My
-wtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMw
-MDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC
-0xODMwMTkwNjIyLC0xNzUzNDQ4NjgxLC02MjY5MjQyOTksMTY1
-Nzc4MzY5OV19
+eyJoaXN0b3J5IjpbLTE3MTMyNTcwMzgsMjA4MjI0MzMwNywtND
+ExNzM2ODMwLDE1NDgzMzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5
+Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MTAzNywtMTc2OTg1Mz
+kzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01
+MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OT
+QsLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwx
+NjU3NzgzNjk5XX0=
 -->
