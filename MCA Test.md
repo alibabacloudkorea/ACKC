@@ -123,7 +123,7 @@ Test는 다음과 같이 진행 되었다.
 ## Key Finding
 1. Ping Test
 ![]()
-	>Note: Ping Test는 
+	>Note: Ping Test는 2019-01-06 16:30 ~ 2019-01-07 00:00 까지 약 0시간 진행되였다. 
 3. Static Web Object Load (Beijing > Seoul)
 	- Direct (MCA 적용 X)
  간헐적으로 튀는 현상이 있기는 하지만 대체적으로 일정한 속도가 유지된다.  
@@ -174,11 +174,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc3ODQyMTMsLTg1NTYwNzUxMiwtMT
-A1ODc5MDUxNiwtMTU0NjgxNTIxNCwtMTk5NjE3ODI2OCwyMDgy
-MjQzMzA3LC00MTE3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OT
-gzNiwtMjEyNDkyODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3
-LC0xNzY5ODUzOTMsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMD
-I5Njg2NTUsLTUzMDAzOTAsMTk4ODI4NDY0NCwtMTI4MDg2MjU0
-NCw5NTg2NDg5NF19
+eyJoaXN0b3J5IjpbMTE4MjUxNDkyLC04NTU2MDc1MTIsLTEwNT
+g3OTA1MTYsLTE1NDY4MTUyMTQsLTE5OTYxNzgyNjgsMjA4MjI0
+MzMwNywtNDExNzM2ODMwLDE1NDgzMzE2MzIsLTE5NzQyNzk4Mz
+YsLTIxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MTAzNywt
+MTc2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOT
+Y4NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4NjI1NDQs
+OTU4NjQ4OTRdfQ==
 -->
