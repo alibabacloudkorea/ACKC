@@ -39,10 +39,11 @@ Test는 다음과 같이 진행 되었다.
 		* Static content - 500k, 1M, 4M size
 		* Dynamic content - php
 
-* Test tool
+* Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
 
-* Test
+* Test 기간
+	* 2020-01-04 12:00(PM) ~ 2020-01-06 12:00(PM) 
 
 	
 ## Assumptions
@@ -54,7 +55,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3MTc5NDM4LC0xNjcwMDM4NTYyLC0xOD
+eyJoaXN0b3J5IjpbODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xOD
 A3NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIx
 MzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0Nj
 A1MTU4NzJdfQ==
