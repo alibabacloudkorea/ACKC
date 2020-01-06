@@ -147,11 +147,13 @@ Test는 다음과 같이 진행 되었다.
 
 * CDN을 대체할 만큼 다양한 기능을 보유하고 있지 않다. 가령 http header 설정, rewrite(http->https etc.) 설정 등은 모두 불가하다.
 
-* Dynamic content의 경우 SH(상하이) 리전에서는 약 2배 정도의 속도 개선 효과가 있었지만 BJ(베이징) 리전에서는 효과가 없었다. 리전에 따라 상이한 결과를 보이므로 이 부분은 실제 구현된 웹사이트를 바탕으로 
+* Dynamic content의 경우 리전에 따라 상이한 결과를 보인다. SH(상하이) 리전에서는 약 2배 정도의 속도 개선 효과가 있었지만 BJ(베이징) 리전에서는 효과가 없었다.  이 부분은 실제 구현된 웹사이트를 바탕으로 중국 전역에서 접속하는 client에 대해 속도를 측정하여야 정확한 결과를 알 수 있을 것 같다.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODc3MjYxODQsLTQxMTczNjgzMCwxNT
+eyJoaXN0b3J5IjpbLTE4MjU5ODkxMjksLTQxMTczNjgzMCwxNT
 Q4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02OTc5
 Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5MywtMTE2MzQ1Nz
 g3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMwMDM5MCwxOTg4
