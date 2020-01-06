@@ -49,14 +49,15 @@ Test는 다음과 같이 진행 되었다.
 ## Assumptions
 
 ## Test 결과
+![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
 ## Key Finding
 
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQwNzM5MzAsODE5MTgzMzcwLC0xNj
-cwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAx
-MTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMj
-A4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbOTI1NTE5MzUsLTE1NTQwNzM5MzAsODE5MT
+gzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4
+OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MT
+MyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
 -->
