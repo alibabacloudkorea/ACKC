@@ -112,7 +112,7 @@ Test는 다음과 같이 진행 되었다.
 - AntiDDos(Enhanced) + MCA with Cache function enabled
 가장 최적의 네트워크 성능을 보여 준다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 9배, 1M의 경우 약 8배, 4M의 경우 약 2배의 응답 시간 개선 효과를 가져왔다. 응답 시간도 튀는 현상 없이 안정적으로 유지된다. 
 - AntiDDos(Standard) + MCA without Cache
-
+평균 응답 시간을 보았을 때 어느 정도의 개선 효과는 있다. 그러나 
 4. Static Web Object Load (Shanghai > Seoul)
 5. Dynamic Web Object Load (Beijing > Seoul)
 6. Dynamic Web Object Load (Shanghai > Seoul)
@@ -120,7 +120,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTIzOTAxNywxOTMzMDAxMjEzLDg0MT
+eyJoaXN0b3J5IjpbLTQ1Njk3NTM0MSwxOTMzMDAxMjEzLDg0MT
 g1NTgxNiwtODc3NzA2MzYzLC05MTA4MzUwNjQsMTI2ODU0MDk0
 NywtMTIwMDcwMjg2MiwtMTExMjk5MTg3MywtMTU1NDA3MzkzMC
 w4MTkxODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0MzkzNjAsLTk3
