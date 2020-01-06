@@ -53,16 +53,17 @@ Test는 다음과 같이 진행 되었다.
  * Ping Test (Beijing > Seoul, Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/PingTest.png?raw=true)
 	 * 결과
-	|                                         |last      |min      |avg      |max    |
-	|----------------------------|---------|--------|--------|--------|
-	|pingtime (BJ > KR) [avg]|0.0368|0.0366|0.0373|0.152 |
-	|pingloss (BJ > KR) [avg] |0.0368|0.0366|0.0373|0.152 |
+	                                         |last      |min      |avg      |max    
+	----------------------------|---------|--------|--------|--------
+	 pingtime (BJ > KR) [avg]|0.0368|0.0366|0.0373|0.152 
+	 pingloss (BJ > KR) [avg] |0.0368|0.0366|0.0373|0.152 
+	 
 
-	|                |ASCII                          |HTML                         |
+	|             er   |ASCII                          |HTML                         |
 	|----------------|-------------------------------|-----------------------------|
-	|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-	|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-	|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+	| Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+	| Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+	| Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
 	
@@ -84,7 +85,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTY2NjM0MSwtMTIwMDcwMjg2MiwtMT
+eyJoaXN0b3J5IjpbMTY0NjU0OTM1MCwtMTIwMDcwMjg2MiwtMT
 ExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAw
 Mzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOT
 U1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5
