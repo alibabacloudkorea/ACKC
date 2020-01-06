@@ -60,8 +60,8 @@ Test는 다음과 같이 진행 되었다.
 
 	| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
 	|:--------|:--------:|--------:| --------:| --------:|
-	|**cell 1x1** | <center>0.0368 </center> |0.0366 |0.0373 |<center>0.152</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
-	|**cell 1x1** | <center>cell 1x2 </center> |*cell 1x3* | |**cell 2x1** | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+	| pingtime (BJ > KR) | <center>0.0368 </center> |0.0366 |0.0373 |<center>0.152</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+	| pingloss (BJ > KR) | <center>0</center> |<center>0</center>| |**cell 2x1** | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
 
 
 
@@ -84,7 +84,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTQwODMxMiwtMTIwMDcwMjg2MiwtMT
+eyJoaXN0b3J5IjpbMTg5Njk1NzgxMiwtMTIwMDcwMjg2MiwtMT
 ExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAw
 Mzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOT
 U1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5
