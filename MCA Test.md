@@ -69,7 +69,7 @@ Test는 다음과 같이 진행 되었다.
 * Static Web Object Load (Beijing > Seoul)
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
-	* BJ > KR, DownloadSpeed, static, 500k
+	* BJ > KR, Static Content(500k) 로딩 테스트, DownloadSpeed
 	
 	| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
 	|:--------|:--------:|--------:| --------:| --------:|
@@ -77,6 +77,7 @@ Test는 다음과 같이 진행 되었다.
 	| **MCA No Cache** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | 
 	| **Public 망** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> |
 	
+	* BJ > KR, Static Content(1M) 로딩 테스트, DownloadSpeed
 * Static Web Object Load (Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_WebStatic.png?raw=true)
 
@@ -89,7 +90,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjU2MTMxMywtMTIwMDcwMjg2MiwtMT
+eyJoaXN0b3J5IjpbLTMyNDYzMTE3NywtMTIwMDcwMjg2MiwtMT
 ExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAw
 Mzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOT
 U1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5
