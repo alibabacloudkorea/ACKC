@@ -127,7 +127,7 @@ Test는 다음과 같이 진행 되었다.
 	- AntiDDos(Enhanced) + MCA with Cache function enabled
 가장 최적의 네트워크 성능을 보여 준다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 9배, 1M의 경우 약 8배, 4M의 경우 약 2배의 응답 시간 개선 효과를 가져왔다. 간헐적으로 튀는 현상이 있지만 대체적으로 Direct 보다 훨씬 큰 폭의 대역폭을 유지한다. 
 	- AntiDDos(Standard) + MCA without Cache
-평균 응답 시간을 보았을 때 그 개선효과가 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.3배, 1M의 경우 약 1.7배 개선되었지만 4M의 경우 오히려 0.9배로 미 적용시보다 속도가 저하되었다. 응답시간은 불 안정적으로 변동폭이 큰 편이다. 
+평균 응답 시간을 보았을 때 그 개선효과가 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.3배, 1M의 경우 약 1.7배 개선되었지만 4M의 경우 비슷한 속도를 보였다. 응답시간은 불 안정적으로 변동폭이 큰 편이다. 
 3. Static Web Object Load (Shanghai > Seoul)
 	- Direct (MCA 적용 X)
  간헐적으로 튀는 현상이 있기는 하지만 대체적으로 일정한 속도가 유지된다.  
@@ -171,11 +171,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg3OTA1MTYsLTE1NDY4MTUyMTQsLT
-E5OTYxNzgyNjgsMjA4MjI0MzMwNywtNDExNzM2ODMwLDE1NDgz
-MzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5NzkyNz
-c5MSwtMTE4OTE5MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3ODc5
-LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgyOD
-Q2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2MjIs
-LTE3NTM0NDg2ODFdfQ==
+eyJoaXN0b3J5IjpbNjk0MjYyODYyLC0xMDU4NzkwNTE2LC0xNT
+Q2ODE1MjE0LC0xOTk2MTc4MjY4LDIwODIyNDMzMDcsLTQxMTcz
+NjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4OD
+g4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5Mywt
+MTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMwMD
+M5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC0x
+ODMwMTkwNjIyXX0=
 -->
