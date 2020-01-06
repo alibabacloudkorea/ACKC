@@ -32,7 +32,7 @@ Test는 다음과 같이 진행 되었다.
 	* Beijing -> Seoul(목동 KT IDC)
 	* Shanghai -> Seoul(목동 KT IDC)
 	
-3.  Test 방법 및 측정 Metric
+* Test 방법 및 측정 Metric
 	* Ping Test
 		* avg pingtime(s)
 		* pingloss-%
@@ -42,7 +42,8 @@ Test는 다음과 같이 진행 되었다.
 	* Web content type
 		* Static content - 500k, 1M, 4M size
 		* Dynamic content - php
-4. Test URLs
+		
+* Test URLs
 	* Direct (Public Internet)
 	http://nonmca.haemieee2.xyz/file/1M.zip
 	http://nonmca.haemieee2.xyz/file/500k.pdf
@@ -59,7 +60,7 @@ Test는 다음과 같이 진행 되었다.
 	http://mca.haemieee2.xyz/file/4.5M.sea
 	http://mca.haemieee2.xyz/index.php
 	
-6.  Test 도구
+* Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
 
 ## Assumptions
@@ -97,9 +98,10 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDgzNTA2NCwxMjY4NTQwOTQ3LC0xMj
-AwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgxOTE4
-MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUzOD
-k1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNzEz
-MjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1ODcyXX0=
+eyJoaXN0b3J5IjpbNzMwMzQ0NjEsLTkxMDgzNTA2NCwxMjY4NT
+QwOTQ3LC0xMjAwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDcz
+OTMwLDgxOTE4MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MC
+wtOTc1NTUzODk1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2
+Njc4OSwtNzEzMjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1ODcyXX
+0=
 -->
