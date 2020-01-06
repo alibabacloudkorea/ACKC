@@ -108,7 +108,7 @@ Test는 다음과 같이 진행 되었다.
 1. Ping Test
 2. Static Web Object Load (Beijing > Seoul)
 - Direct (MCA 적용 X)
- 
+ 일정한 속도가
 - AntiDDos(Enhanced) + MCA with Cache function enabled
 - AntiDDos(Standard) + MCA without Cache
 
@@ -119,10 +119,10 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzAwMTIxMyw4NDE4NTU4MTYsLTg3Nz
-cwNjM2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4
-NjIsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgzMzcwLC
-0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUsMTgx
-MTAxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMD
-QsMjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbMTU1Nzg0ODM0NSwxOTMzMDAxMjEzLDg0MT
+g1NTgxNiwtODc3NzA2MzYzLC05MTA4MzUwNjQsMTI2ODU0MDk0
+NywtMTIwMDcwMjg2MiwtMTExMjk5MTg3MywtMTU1NDA3MzkzMC
+w4MTkxODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0MzkzNjAsLTk3
+NTU1Mzg5NSwxODExMDExOTU1LDU5MDAyMjEzMSw5MTYxNjY3OD
+ksLTcxMzI1ODIwNCwyMDg5Mzc2ODczLDQ2MDUxNTg3Ml19
 -->
