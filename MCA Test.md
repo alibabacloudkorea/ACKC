@@ -80,7 +80,7 @@ Test는 다음과 같이 진행 되었다.
 	* 네트워크 성능 안전성 확인
 
 ## Assumptions
-- 일반 curl 명령어와 Ch
+- 일반 curl 명령어를 통한 요청 응답시간과 Chrome의 요청 응답시간에는 어느정도의 차이를 보인다. chrome에서 실행된 요청을 curl로 copy해 보면 
 
 ## Test 결과
 
@@ -128,11 +128,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4OTU5Mzg0LDk1ODY0ODk0LC0xODMwMT
-kwNjIyLC0xNzUzNDQ4NjgxLC02MjY5MjQyOTksMTY1Nzc4MzY5
-OSwtNjY3MTgzMzA3LC03MDQ2MTIwNzUsLTE0Njg5ODY5OSwxOT
-AzNjI2ODU5LC0xMTYxNTk3MjA3LC0xODA0NzA3MDQ2LDE5MzMw
-MDEyMTMsODQxODU1ODE2LC04Nzc3MDYzNjMsLTkxMDgzNTA2NC
-wxMjY4NTQwOTQ3LC0xMjAwNzAyODYyLC0xMTEyOTkxODczLC0x
-NTU0MDczOTMwXX0=
+eyJoaXN0b3J5IjpbODg3NjAxOTQsOTU4NjQ4OTQsLTE4MzAxOT
+A2MjIsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5
+LC02NjcxODMzMDcsLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MD
+M2MjY4NTksLTExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkzMzAw
+MTIxMyw4NDE4NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1MDY0LD
+EyNjg1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1
+NTQwNzM5MzBdfQ==
 -->
