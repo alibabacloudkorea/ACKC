@@ -11,7 +11,7 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 > **Note** 이 문서에서 사용되는 용어는 모두 알리바바 공식 가이드 문서의 English 버전과 알리바바 클라우드 콘솔의 English 버전을 참고합니다. 용어에 혼선 없으시기 바랍니다. 
 
 ## MCA Use Cases
-Anti DDos 는 본래 DDoS 공격을 완화시키는 Security 제품이지만, 많은 경우 한국 
+Anti DDos 는 본래 DDoS 공격을 완화시키는 Security 제품이지만, 한국의 경우 Domain Name을 사용하는 웹 사이트의 응답시간 속도 개선을 위해 사용할 수 있다. 본래 응답 속도 개선을 위해서는 cd
 
 ## MCA 설정 시 주의사항
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는 데도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
@@ -131,11 +131,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjQxOTkyMywtMTE2MzQ1Nzg3OSw4Mj
-g2NzMwMzUsMTAwMjk2ODY1NSwtNTMwMDM5MCwxOTg4Mjg0NjQ0
-LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC0xODMwMTkwNjIyLC0xNz
-UzNDQ4NjgxLC02MjY5MjQyOTksMTY1Nzc4MzY5OSwtNjY3MTgz
-MzA3LC03MDQ2MTIwNzUsLTE0Njg5ODY5OSwxOTAzNjI2ODU5LC
-0xMTYxNTk3MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMTMsODQx
-ODU1ODE2XX0=
+eyJoaXN0b3J5IjpbOTA1MDY3NDIyLC0xMTYzNDU3ODc5LDgyOD
+Y3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQs
+LTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NT
+M0NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5LC02NjcxODMz
+MDcsLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLT
+ExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4
+NTU4MTZdfQ==
 -->
