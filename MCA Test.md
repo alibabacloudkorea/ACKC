@@ -107,16 +107,16 @@ Test는 다음과 같이 진행 되었다.
 ## Key Finding
 1. Ping Test
 2. Static Web Object Load (Beijing > Seoul)
-평균 response time을 보면 아래와 같다.
+- MCA 미적용
 
-3. Static Web Object Load (Shanghai > Seoul)
-4. Dynamic Web Object Load (Beijing > Seoul)
-5. Dynamic Web Object Load (Shanghai > Seoul)
+4. Static Web Object Load (Shanghai > Seoul)
+5. Dynamic Web Object Load (Beijing > Seoul)
+6. Dynamic Web Object Load (Shanghai > Seoul)
 
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjc3Mzc1MCw4NDE4NTU4MTYsLTg3Nz
+eyJoaXN0b3J5IjpbMTY2NjA3Mzg4Myw4NDE4NTU4MTYsLTg3Nz
 cwNjM2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4
 NjIsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgzMzcwLC
 0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUsMTgx
