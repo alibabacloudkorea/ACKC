@@ -106,7 +106,7 @@ Test는 다음과 같이 진행 되었다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_Static.png?raw=true)
 
 * Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
-![](https://github.com/rnlduaeo/alibaba/blob/master/WebDynamic.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/Dynamic.png?raw=true)
 
 
 ## Key Finding
@@ -132,11 +132,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg5ODY5OSwxOTAzNjI2ODU5LC0xMT
-YxNTk3MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMTMsODQxODU1
-ODE2LC04Nzc3MDYzNjMsLTkxMDgzNTA2NCwxMjY4NTQwOTQ3LC
-0xMjAwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgx
-OTE4MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NT
-UzODk1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwt
-NzEzMjU4MjA0XX0=
+eyJoaXN0b3J5IjpbLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MD
+M2MjY4NTksLTExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkzMzAw
+MTIxMyw4NDE4NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1MDY0LD
+EyNjg1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1
+NTQwNzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3ND
+M5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEs
+OTE2MTY2Nzg5XX0=
 -->
