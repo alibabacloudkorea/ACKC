@@ -105,12 +105,17 @@ Test는 다음과 같이 진행 되었다.
 
 
 ## Key Finding
-
+1. Ping Test
+2. Static Web Object Load (Beijing > Seoul)
+	* 
+3. Static Web Object Load (Shanghai > Seoul)
+4. Dynamic Web Object Load (Beijing > Seoul)
+5. Dynamic Web Object Load (Shanghai > Seoul)
 
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1OTUyOTgzLC04Nzc3MDYzNjMsLTkxMD
+eyJoaXN0b3J5IjpbODQxODU1ODE2LC04Nzc3MDYzNjMsLTkxMD
 gzNTA2NCwxMjY4NTQwOTQ3LC0xMjAwNzAyODYyLC0xMTEyOTkx
 ODczLC0xNTU0MDczOTMwLDgxOTE4MzM3MCwtMTY3MDAzODU2Mi
 wtMTgwNzQzOTM2MCwtOTc1NTUzODk1LDE4MTEwMTE5NTUsNTkw
