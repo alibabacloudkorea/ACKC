@@ -43,17 +43,17 @@ Test는 다음과 같이 진행 되었다.
 		* Static content - 500k, 1M, 4M size
 		* Dynamic content - php
 4. Test URLs
-	* Direct
+	* Direct (Public Internet)
 	http://nonmca.haemieee2.xyz/file/1M.zip
 	http://nonmca.haemieee2.xyz/file/500k.pdf
 	http://nonmca.haemieee2.xyz/file/4.5M.sea
 	http://nonmca.haemieee2.xyz/index.php
-	* MCA with Cache
+	* AntiDDos(Enhanced) + MCA with Cache function enabled
 	http://mca2.haemieee2.xyz/file/1M.zip
 	http://mca2.haemieee2.xyz/file/500k.pdf
 	http://mca2.haemieee2.xyz/file/4.5M.sea
 	http://mca2.haemieee2.xyz/index.php
-	* MCA without Cache 
+	* AntiDDos(Standard) + MCA without Cache 
 	http://mca.haemieee2.xyz/file/1M.zip
 	http://mca.haemieee2.xyz/file/500k.pdf
 	http://mca.haemieee2.xyz/file/4.5M.sea
@@ -97,7 +97,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDQ4NjM2NSwxMjY4NTQwOTQ3LC0xMj
+eyJoaXN0b3J5IjpbLTkxMDgzNTA2NCwxMjY4NTQwOTQ3LC0xMj
 AwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgxOTE4
 MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUzOD
 k1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNzEz
