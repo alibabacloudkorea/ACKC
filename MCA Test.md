@@ -57,13 +57,11 @@ Test는 다음과 같이 진행 되었다.
 	----------------------------|---------|--------|--------|--------
 	 pingtime (BJ > KR) [avg]|0.0368|0.0366|0.0373|0.152 
 	 pingloss (BJ > KR) [avg] |0.0368|0.0366|0.0373|0.152 
-	 
 
-	|             er   |ASCII                          |HTML                         |
-	|----------------|-------------------------------|-----------------------------|
-	| Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-	| Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-	| Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+	| <center>Header1</center> | <center>Header2</center> | <center>Header3</center> | 
+	|:--------|:--------:|--------:| 
+	|**cell 1x1** | <center>cell 1x2 </center> |*cell 1x3* | |**cell 2x1** | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+
 
 
 	
@@ -85,7 +83,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjU0OTM1MCwtMTIwMDcwMjg2MiwtMT
+eyJoaXN0b3J5IjpbMTkyNzY2MDE0NiwtMTIwMDcwMjg2MiwtMT
 ExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAw
 Mzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOT
 U1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5
