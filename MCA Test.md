@@ -145,13 +145,13 @@ Test는 다음과 같이 진행 되었다.
 
 * MCA 설정은 매우 간단하다. 인스턴스 프로비저닝 및 웹 사이트 설정은 수 분 안에 모두 끝낼 수 있다. 
 
-* CDN을 대체할 만큼 다양한 기능을 보유하고 있지 않다. 가령 http header 설정, rewrite(http->https etc.) 설정 등은 모두 불가하다. 또한 dynamic co
+* CDN을 대체할 만큼 다양한 기능을 보유하고 있지 않다. 가령 http header 설정, rewrite(http->https etc.) 설정 등은 모두 불가하다. 또한 dynamic content
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MzI4ODEzLDE1NDgzMzE2MzIsLTE5Nz
-QyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5
-MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAzNS
-wxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4
-NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NTM0NDg2OD
-EsLTYyNjkyNDI5OSwxNjU3NzgzNjk5LC02NjcxODMzMDcsLTcw
-NDYxMjA3NV19
+eyJoaXN0b3J5IjpbLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC0xOT
+c0Mjc5ODM2LC0yMTI0OTI4ODg4LC02OTc5Mjc3OTEsLTExODkx
+OTEwMzcsLTE3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMwMz
+UsMTAwMjk2ODY1NSwtNTMwMDM5MCwxOTg4Mjg0NjQ0LC0xMjgw
+ODYyNTQ0LDk1ODY0ODk0LC0xODMwMTkwNjIyLC0xNzUzNDQ4Nj
+gxLC02MjY5MjQyOTksMTY1Nzc4MzY5OSwtNjY3MTgzMzA3LC03
+MDQ2MTIwNzVdfQ==
 -->
