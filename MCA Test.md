@@ -145,9 +145,9 @@ Test는 다음과 같이 진행 되었다.
 
 * MCA 설정은 매우 간단하다. 인스턴스 프로비저닝 및 웹 사이트 설정은 수 분 안에 모두 끝낼 수 있다. 
 
-* 
+* CDN을 대체할 만큼 다양한 기능을 보유하고 있지 않다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDY0NTE3MSwtMTk3NDI3OTgzNiwtMj
+eyJoaXN0b3J5IjpbMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwtMj
 EyNDkyODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5
 ODUzOTMsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2NT
 UsLTUzMDAzOTAsMTk4ODI4NDY0NCwtMTI4MDg2MjU0NCw5NTg2
