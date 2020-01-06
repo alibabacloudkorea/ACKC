@@ -161,13 +161,13 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 * 스트리밍 (HLS 없음)
 * 복잡한 캐시 설정이 필요한 웹사이트
 
-> Note: Dynamic Contents 의 경우 리전에 따라 상이한 결과를 보이기 때문에 
+> Note: Dynamic Contents 의 경우 리전에 따라 상이한 결과를 보이기 때문에 고객의 실제 Website를 바탕으로 한 PoC 결과를 참고하는 것이 좋겠다.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDM2NzY4NywyMDgyMjQzMzA3LC00MT
+eyJoaXN0b3J5IjpbMTA3Mjc5NjEzNCwyMDgyMjQzMzA3LC00MT
 E3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwtMjEyNDky
 ODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5ODUzOT
 MsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2NTUsLTUz
