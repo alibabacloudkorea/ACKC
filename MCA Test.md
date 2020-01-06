@@ -69,7 +69,8 @@ Test는 다음과 같이 진행 되었다.
 	* Zabbix(Open source monitoring tool) 및 manual curl command
 	* Zabbix master server 홍콩에 위치, agent 서버는 각각 Beijing과 Shanghai 위치
 * 테스트 목표
-	* 
+	* MCA 적용 시 네트워크 성능이 얼마나 개선되는지 여부를 확인
+	* MCA 
 ## Assumptions
 
 ## Test 결과
@@ -105,10 +106,10 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM3OTU5MDksLTkxMDgzNTA2NCwxMj
-Y4NTQwOTQ3LC0xMjAwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0
-MDczOTMwLDgxOTE4MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOT
-M2MCwtOTc1NTUzODk1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkx
-NjE2Njc4OSwtNzEzMjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1OD
-cyXX0=
+eyJoaXN0b3J5IjpbMTAyNTg2NDQ1MiwtOTEwODM1MDY0LDEyNj
+g1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQw
+NzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5Mz
+YwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2
+MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4Nz
+JdfQ==
 -->
