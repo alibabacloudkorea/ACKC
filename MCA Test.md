@@ -80,8 +80,8 @@ Test는 다음과 같이 진행 되었다.
 	* 네트워크 성능 안전성 확인
 
 ## Assumptions
-- User Agent는 Chrome 3.8(Windows)로 한정했다. 
-
+- User Agent는 Chrome 3.8(Windows)로 한정했다. 브라우저의 경우 브라우저 자체적으로 캐싱이 default로 설정되어 있기 때문에 해당 캐시에 영향을 받지 않기 위해 요청 간격을 5분으로 설정했다.
+- 
 ## Test 결과
 
  * Ping Test (Beijing > Seoul, Shanghai > Seoul)
@@ -128,11 +128,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk2ODk4NDksLTEyODA4NjI1NDQsOT
-U4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjky
-NDI5OSwxNjU3NzgzNjk5LC02NjcxODMzMDcsLTcwNDYxMjA3NS
-wtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLTExNjE1OTcyMDcsLTE4
-MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4NTU4MTYsLTg3NzcwNj
-M2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4NjIs
-LTExMTI5OTE4NzNdfQ==
+eyJoaXN0b3J5IjpbMTYwNTMwNjg2NSwtMTI4MDg2MjU0NCw5NT
+g2NDg5NCwtMTgzMDE5MDYyMiwtMTc1MzQ0ODY4MSwtNjI2OTI0
+Mjk5LDE2NTc3ODM2OTksLTY2NzE4MzMwNywtNzA0NjEyMDc1LC
+0xNDY4OTg2OTksMTkwMzYyNjg1OSwtMTE2MTU5NzIwNywtMTgw
+NDcwNzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2Mz
+YzLC05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIwMDcwMjg2Miwt
+MTExMjk5MTg3M119
 -->
