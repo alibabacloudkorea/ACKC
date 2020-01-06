@@ -14,7 +14,7 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 
 Anti DDos 는 본래 DDoS 공격을 완화시키는 Security 제품이지만, 한국의 경우 다음과 같은 사항에 MCA를 고려해 볼 수 있다.
 - 한국에 Origin Server가 위치해 있고 중국의 사용자를 대상으로 서비스 하는 경우
-- 
+- 도메인 이름이 ICP 공식 허가를 받지 않아(참고: ) 중국 사용자의 속도 개선을 위해 CDN을 사용할 
 
 
 ## MCA 설정 시 주의사항
@@ -135,11 +135,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAzODY1NTMsLTExNjM0NTc4NzksOD
-I4NjczMDM1LDEwMDI5Njg2NTUsLTUzMDAzOTAsMTk4ODI4NDY0
-NCwtMTI4MDg2MjU0NCw5NTg2NDg5NCwtMTgzMDE5MDYyMiwtMT
-c1MzQ0ODY4MSwtNjI2OTI0Mjk5LDE2NTc3ODM2OTksLTY2NzE4
-MzMwNywtNzA0NjEyMDc1LC0xNDY4OTg2OTksMTkwMzYyNjg1OS
-wtMTE2MTU5NzIwNywtMTgwNDcwNzA0NiwxOTMzMDAxMjEzLDg0
-MTg1NTgxNl19
+eyJoaXN0b3J5IjpbLTQwOTg2Njg3LC0xMTYzNDU3ODc5LDgyOD
+Y3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQs
+LTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NT
+M0NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5LC02NjcxODMz
+MDcsLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLT
+ExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4
+NTU4MTZdfQ==
 -->
