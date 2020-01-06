@@ -33,6 +33,7 @@ Test는 다음과 같이 진행 되었다.
 		* avg pingtime(s)
 		* pingloss-%
 	* Web object load 
+		* 
 ## Assumptions
 
 ## Test 결과
@@ -42,7 +43,8 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzAwMzg1NjIsLTE4MDc0MzkzNjAsLT
-k3NTU1Mzg5NSwxODExMDExOTU1LDU5MDAyMjEzMSw5MTYxNjY3
-ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODczLDQ2MDUxNTg3Ml19
+eyJoaXN0b3J5IjpbLTEzMjAzNTc4MDIsLTE2NzAwMzg1NjIsLT
+E4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOTU1LDU5MDAy
+MjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODczLD
+Q2MDUxNTg3Ml19
 -->
