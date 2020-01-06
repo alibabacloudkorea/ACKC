@@ -50,7 +50,7 @@ Test는 다음과 같이 진행 되었다.
 
 ## Test 결과
 
- 
+ * 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/PingTest.png?raw=true)
 
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
@@ -65,8 +65,9 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsOD
-E5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1
-NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC
-03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbLTk1MDg1MjUzNSwtMTExMjk5MTg3MywtMT
+U1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0
+MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOTU1LDU5MDAyMjEzMS
+w5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODczLDQ2MDUx
+NTg3Ml19
 -->
