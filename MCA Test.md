@@ -70,7 +70,7 @@ Test는 다음과 같이 진행 되었다.
 	* Zabbix master server 홍콩에 위치, agent 서버는 각각 Beijing과 Shanghai 위치
 * 테스트 목표
 	* MCA 적용 시 네트워크 성능이 얼마나 개선되는지 여부를 확인
-	* MCA CInstance Plan(Standard, Enhanced)
+	* 중국의 여러 리전( 별로 MCA 적용 여부에 따른 네트워크 성능 확인
 ## Assumptions
 
 ## Test 결과
@@ -106,10 +106,10 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjM4MzE4NSwtOTEwODM1MDY0LDEyNj
-g1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQw
-NzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5Mz
-YwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2
-MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4Nz
-JdfQ==
+eyJoaXN0b3J5IjpbLTI1NjAyOTEzLC05MTA4MzUwNjQsMTI2OD
+U0MDk0NywtMTIwMDcwMjg2MiwtMTExMjk5MTg3MywtMTU1NDA3
+MzkzMCw4MTkxODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0MzkzNj
+AsLTk3NTU1Mzg5NSwxODExMDExOTU1LDU5MDAyMjEzMSw5MTYx
+NjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODczLDQ2MDUxNTg3Ml
+19
 -->
