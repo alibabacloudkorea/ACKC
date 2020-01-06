@@ -22,9 +22,18 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 - '410 Gone' 에러가 나올 경우, 동일 도메인에 여러 CNAME을 중복 적용했을 경우, 또는 동일 CNAME을 여러 도메인에 중복 적용했을 경우에 주어진 도메인 이름으로 타겟 주소를 찾아가지 못하여 발생하는 에러이다. 내 도메인에 MCA cname을 하나만 적용했는지, 다수 적용했는지, 또는 MCA cname을 여러 도메인에 적용하지는 않았는지 확인해 보자. 
 - Cache 기능을 사용할 경우 .css, .js, .txt 파일을 제외한 파일의 캐싱일 경우, static page caching을 Enhanced로 해주어야 캐싱된다. (Mitigation Setting > Web acceleration Policies > static page caching (Enhanced))
 
-## 
+## Test Overview
+
+## Assumptions
+
+## Test 결과
+
+## Key Finding
+
+##  시사점
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjIwMjk1NCwxODExMDExOTU1LDU5MD
+eyJoaXN0b3J5IjpbLTk3NTU1Mzg5NSwxODExMDExOTU1LDU5MD
 AyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODcz
 LDQ2MDUxNTg3Ml19
 -->
