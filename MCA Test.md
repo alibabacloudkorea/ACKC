@@ -90,7 +90,7 @@ Test는 다음과 같이 진행 되었다.
 	
 
 
-아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 500k, 1M, 4M 파일에 대한 로딩을 나타낸다. 
+아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 500k, 1M, 4M 파일에 대한 로딩을 나타낸다. - 속도에 대한 내용 다시 측정..좀 이상함;;
 * Static Web Object Load (Beijing > Seoul) - 응답시간 추이
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_Static.png?raw=true)
 
@@ -124,11 +124,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNDY2NDgyLC02NjcxODMzMDcsLTcwND
-YxMjA3NSwtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLTExNjE1OTcy
-MDcsLTE4MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4NTU4MTYsLT
-g3NzcwNjM2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3
-MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgzMz
-cwLC0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUs
-MTgxMTAxMTk1NV19
+eyJoaXN0b3J5IjpbLTUyNzk1ODIyMiwtNjY3MTgzMzA3LC03MD
+Q2MTIwNzUsLTE0Njg5ODY5OSwxOTAzNjI2ODU5LC0xMTYxNTk3
+MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMTMsODQxODU1ODE2LC
+04Nzc3MDYzNjMsLTkxMDgzNTA2NCwxMjY4NTQwOTQ3LC0xMjAw
+NzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgxOTE4Mz
+M3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUzODk1
+LDE4MTEwMTE5NTVdfQ==
 -->
