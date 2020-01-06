@@ -30,7 +30,9 @@ Test는 다음과 같이 진행 되었다.
 	
 * Test 방법 및 측정 Metric
 	* Ping Test
-		* avg ping time
+		* avg pingtime(s)
+		* pingloss-%
+	* Web object loading 
 ## Assumptions
 
 ## Test 결과
@@ -40,7 +42,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMDM4NTEyLC05NzU1NTM4OTUsMTgxMT
-AxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQs
-MjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxOD
+ExMDExOTU1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIw
+NCwyMDg5Mzc2ODczLDQ2MDUxNTg3Ml19
 -->
