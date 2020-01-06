@@ -90,13 +90,13 @@ Test는 다음과 같이 진행 되었다.
 	
 
 
-* Static Web Object Load (Beijing > Seoul)
+* Static Web Object Load (Beijing > Seoul) - 응답시간 추이
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_Static.png?raw=true)
 
-* Static Web Object Load (Shanghai > Seoul)
+* Static Web Object Load (Shanghai > Seoul) - - 응답시간 추이
 ![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_Static.png?raw=true)
 
-* Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
+* Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul) - 응답시간 추이
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Dynamic.png?raw=true)
 
 
@@ -123,11 +123,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzE4MzMwNywtNzA0NjEyMDc1LC0xND
-Y4OTg2OTksMTkwMzYyNjg1OSwtMTE2MTU5NzIwNywtMTgwNDcw
-NzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2MzYzLC
-05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIwMDcwMjg2MiwtMTEx
-Mjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAwMz
-g1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOTU1
-LDU5MDAyMjEzMV19
+eyJoaXN0b3J5IjpbMTMxNTQxMTYxOSwtNjY3MTgzMzA3LC03MD
+Q2MTIwNzUsLTE0Njg5ODY5OSwxOTAzNjI2ODU5LC0xMTYxNTk3
+MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMTMsODQxODU1ODE2LC
+04Nzc3MDYzNjMsLTkxMDgzNTA2NCwxMjY4NTQwOTQ3LC0xMjAw
+NzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgxOTE4Mz
+M3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUzODk1
+LDE4MTEwMTE5NTVdfQ==
 -->
