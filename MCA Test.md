@@ -107,7 +107,10 @@ Test는 다음과 같이 진행 되었다.
 ## Key Finding
 1. Ping Test
 2. Static Web Object Load (Beijing > Seoul)
-- MCA 미적용
+- Direct (MCA 적용 X)
+ 
+- AntiDDos(Enhanced) + MCA with Cache function enabled
+- AntiDDos(Standard) + MCA without Cache
 
 4. Static Web Object Load (Shanghai > Seoul)
 5. Dynamic Web Object Load (Beijing > Seoul)
@@ -116,7 +119,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjA3Mzg4Myw4NDE4NTU4MTYsLTg3Nz
+eyJoaXN0b3J5IjpbMTkzMzAwMTIxMyw4NDE4NTU4MTYsLTg3Nz
 cwNjM2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4
 NjIsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgzMzcwLC
 0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUsMTgx
