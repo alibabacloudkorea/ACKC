@@ -65,21 +65,21 @@ Test는 다음과 같이 진행 되었다.
 	* AntiDDos(Standard) + MCA without Cache 
 * Test URLs
 	* Direct (MCA 적용 X)
-		* http://nonmca.haemieee2.xyz/file/1M.zip
-		* http://nonmca.haemieee2.xyz/file/500k.pdf
-		* http://nonmca.haemieee2.xyz/file/4.5M.sea
+		* http://nonmca.haemieee2.xyz/file/500K.png
+		* http://nonmca.haemieee2.xyz/file/1M.pdf
+		* http://nonmca.haemieee2.xyz/file/4M.pdf
 		* http://nonmca.haemieee2.xyz/index.php
 		
 	* AntiDDos(Enhanced) + MCA with Cache function enabled
-		* http://mca2.haemieee2.xyz/file/1M.zip
-		* http://mca2.haemieee2.xyz/file/500k.pdf
-		* http://mca2.haemieee2.xyz/file/4.5M.sea
+		* http://nonmca.haemieee2.xyz/file/500K.png
+		* http://nonmca.haemieee2.xyz/file/1M.pdf
+		* http://nonmca.haemieee2.xyz/file/4M.pdf
 		* http://mca2.haemieee2.xyz/index.php
 	
 	* AntiDDos(Standard) + MCA without Cache 
-		* http://mca.haemieee2.xyz/file/1M.zip
-		* http://mca.haemieee2.xyz/file/500k.pdf
-		* http://mca.haemieee2.xyz/file/4.5M.sea
+		* http://nonmca.haemieee2.xyz/file/500K.png
+		* http://nonmca.haemieee2.xyz/file/1M.pdf
+		* http://nonmca.haemieee2.xyz/file/4M.pdf
 		* http://mca.haemieee2.xyz/index.php
 	
 * DNS 관리
@@ -171,11 +171,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM1NDMxOTIsLTg1NTYwNzUxMiwtMT
-A1ODc5MDUxNiwtMTU0NjgxNTIxNCwtMTk5NjE3ODI2OCwyMDgy
-MjQzMzA3LC00MTE3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OT
-gzNiwtMjEyNDkyODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3
-LC0xNzY5ODUzOTMsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMD
-I5Njg2NTUsLTUzMDAzOTAsMTk4ODI4NDY0NCwtMTI4MDg2MjU0
-NCw5NTg2NDg5NF19
+eyJoaXN0b3J5IjpbLTM2NDEwNTY5MCwtODU1NjA3NTEyLC0xMD
+U4NzkwNTE2LC0xNTQ2ODE1MjE0LC0xOTk2MTc4MjY4LDIwODIy
+NDMzMDcsLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5OD
+M2LC0yMTI0OTI4ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcs
+LTE3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMj
+k2ODY1NSwtNTMwMDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0
+LDk1ODY0ODk0XX0=
 -->
