@@ -30,7 +30,8 @@ Anti DDos Premium의 MCA는 홍콩 리전의 IP를 할당받기 때문에 ICP �
 	- MCA
 - Provisioning 메뉴에서 웹사이트를 추가할 때, 위에서 생성한 2개의 인스턴스를 모두 선택해야 한다. 
 
-- **Provisioning 메뉴에서 웹사이트를 추가하고 나온 CNAME은 무시해야 한다. Sec-Traffic Manager에서 rule을 설정하고 나온 CNAME을 DNS 레코드에 추가하여야 한다. (이 부분에서 가장 실수가 많다. 참고하자.)** Sec-Traffic Manager를 적용하지 않고 Provisioning 메뉴에서 나온 CNAME을 적용할 경우, 도메인 이름으로 요청을 보낼 때 provisioning시 선택한 인스턴스 IP 중 무작위 방식으로 IP가 선택되어 요청이 라우팅되기 때문에 트래픽 전송 라우팅이 예측 불가능하게 된다. 테스트 결과, Anti DDos와 MCA인스턴스 IP가 번갈아가며 선택되어, Anti DDos쪽이 선택되는 경우 전송 속도가 현저히 느리며, MCA쪽이 선택되는 경우 전송 속도가 빠르다. 따라서 Sec-Traffic Manager 설정을 통해 문제가 있는 비정상 트래픽만 Anti DDos로, 문제가 없는 정상 트래픽은 반드시 MCA로 라우팅 될 수 있도록 설정해야 예측 가능한 성능을 보장할 수 있다. 
+- **Provisioning 메뉴에서 웹사이트를 추가하고 나온 CNAME은 무시해야 한다. Sec-Traffic Manager에서 rule을 설정하고 나온 CNAME을 DNS 레코드에 추가하여야 한다. (이 부분에서 가장 실수가 많다. 참고하자.)** 
+Sec-Traffic Manager를 적용하지 않고 Provisioning 메뉴에서 나온 CNAME을 적용할 경우, 도메인 이름으로 요청을 보낼 때 provisioning시 선택한 인스턴스 IP 중 무작위 방식으로 IP가 선택되어 요청이 라우팅되기 때문에 트래픽 전송 라우팅이 예측 불가능하게 된다. 테스트 결과, Anti DDos와 MCA인스턴스 IP가 번갈아가며 선택되어, Anti DDos쪽이 선택되는 경우 전송 속도가 현저히 느리며, MCA쪽이 선택되는 경우 전송 속도가 빠르다. 따라서 Sec-Traffic Manager 설정을 통해 문제가 있는 비정상 트래픽만 Anti DDos로, 문제가 없는 정상 트래픽은 반드시 MCA로 라우팅 될 수 있도록 설정해야 예측 가능한 성능을 보장할 수 있다. 
 
 - '410 Gone' 에러가 나올 경우, 동일 도메인에 여러 CNAME을 중복 적용했을 경우, 또는 동일 CNAME을 여러 도메인에 중복 적용했을 경우에 주어진 도메인 이름으로 타겟 주소를 찾아가지 못하여 발생하는 에러이다. 내 도메인에 MCA cname을 하나만 적용했는지, 다수 적용했는지, 또는 MCA cname을 여러 도메인에 적용하지는 않았는지 확인해 보자. (여러 도메인에 동일 CNAME을 적용하고자 한다면 CNAME reuse를 사용하자, 뒤에서 설명)
 
@@ -174,11 +175,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0ODE5ODg2LC04NTU2MDc1MTIsLTEwNT
-g3OTA1MTYsLTE1NDY4MTUyMTQsLTE5OTYxNzgyNjgsMjA4MjI0
-MzMwNywtNDExNzM2ODMwLDE1NDgzMzE2MzIsLTE5NzQyNzk4Mz
-YsLTIxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MTAzNywt
-MTc2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOT
-Y4NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4NjI1NDQs
-OTU4NjQ4OTRdfQ==
+eyJoaXN0b3J5IjpbMzAxMjIxMzEyLDIzNDgxOTg4NiwtODU1Nj
+A3NTEyLC0xMDU4NzkwNTE2LC0xNTQ2ODE1MjE0LC0xOTk2MTc4
+MjY4LDIwODIyNDMzMDcsLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC
+0xOTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02OTc5Mjc3OTEsLTEx
+ODkxOTEwMzcsLTE3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2Nz
+MwMzUsMTAwMjk2ODY1NSwtNTMwMDM5MCwxOTg4Mjg0NjQ0LC0x
+MjgwODYyNTQ0XX0=
 -->
