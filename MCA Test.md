@@ -24,12 +24,16 @@ Anti DDos Premium의 MCA는 홍콩 리전의 IP를 할당받기 때문에 ICP �
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는 데도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
 
 - 한국에 origin server가 위치한 경우, Anti-DDos Premium 을 선택해야 한다. Anti-DDos Pro는 origin server가 중국에 위치한 경우(도메인을 사용할 경우 ICP인증을 받아야 한다.)에 사용하는 서비스이다. 
+
 - 인스턴스를 2개 구매하여야 한다. 
 	- Insurance(또는 Unlimited): Cache기능을 사용하려면 Enhanced, 그렇지 않다면 Standard를 구매하면 된다. Standard를 구매해도 추후에 Enhanced로 업그레이드 가능하다. 다만, 다운그레이드는 불가하니 참고하자.
 	- MCA
 - Provisioning 메뉴에서 웹사이트를 추가할 때, 위에서 생성한 2개의 인스턴스를 모두 선택해야 한다. 
+
 - **Provisioning 메뉴에서 웹사이트를 추가하고 나온 CNAME은 무시해야 한다. Sec-Traffic Manager에서 rule을 설정하고 나온 CNAME을 DNS 레코드에 추가하여야 한다. (이 부분에서 가장 실수가 많다. 참고하자.)** Sec-Traffic Manager를 적용하지 않고 Provisioning 메뉴에서 나온 CNAME을 적용할 경우, 도메인 이름으로 요청을 보낼 때 provisioning시 선택한 인스턴스 IP 중 무작위 방식으로 IP가 선택되어 요청이 라우팅되기 때문에 트래픽 전송 라우팅이 예측 불가능하게 된다. 테스트 결과, Anti DDos와 MCA인스턴스 IP가 번갈아가며 선택되어, Anti DDos쪽이 선택되는 경우 전송 속도가 현저히 느리며, MCA쪽이 선택되는 경우 전송 속도가 빠르다. 따라서 Sec-Traffic Manager 설정을 통해 문제가 있는 비정상 트래픽만 Anti DDos로, 문제가 없는 정상 트래픽은 반드시 MCA로 라우팅 될 수 있도록 설정해야 예측 가능한 성능을 보장할 수 있다. 
+
 - '410 Gone' 에러가 나올 경우, 동일 도메인에 여러 CNAME을 중복 적용했을 경우, 또는 동일 CNAME을 여러 도메인에 중복 적용했을 경우에 주어진 도메인 이름으로 타겟 주소를 찾아가지 못하여 발생하는 에러이다. 내 도메인에 MCA cname을 하나만 적용했는지, 다수 적용했는지, 또는 MCA cname을 여러 도메인에 적용하지는 않았는지 확인해 보자. 
+
 - Cache 기능을 사용할 경우 .css, .js, .txt 파일을 제외한 파일의 캐싱일 경우, static page caching을 Enhanced로 해주어야 캐싱된다. (Mitigation Setting > Web acceleration Policies > static page caching (Enhanced))
 
 ## Test Overview
@@ -167,11 +171,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTYxNzgyNjgsMjA4MjI0MzMwNywtND
-ExNzM2ODMwLDE1NDgzMzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5
-Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MTAzNywtMTc2OTg1Mz
-kzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01
-MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OT
-QsLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwx
-NjU3NzgzNjk5XX0=
+eyJoaXN0b3J5IjpbNDM2NzEyMjkyLC0xOTk2MTc4MjY4LDIwOD
+IyNDMzMDcsLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5
+ODM2LC0yMTI0OTI4ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMz
+csLTE3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAw
+Mjk2ODY1NSwtNTMwMDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNT
+Q0LDk1ODY0ODk0LC0xODMwMTkwNjIyLC0xNzUzNDQ4NjgxLC02
+MjY5MjQyOTldfQ==
 -->
