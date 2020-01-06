@@ -24,6 +24,10 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 
 ## Test Overview
 Test는 다음과 같이 진행 되었다.
+
+* Test 기간
+	* 2020-01-04 12:00(PM) ~ 2020-01-06 12:00(PM)
+
 * Test Region
 	* Beijing -> Seoul(목동 KT IDC)
 	* Shanghai -> Seoul(목동 KT IDC)
@@ -42,10 +46,6 @@ Test는 다음과 같이 진행 되었다.
 * Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
 
-* Test 기간
-	* 2020-01-04 12:00(PM) ~ 2020-01-06 12:00(PM) 
-
-	
 ## Assumptions
 
 ## Test 결과
@@ -55,8 +55,8 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xOD
-A3NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIx
-MzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0Nj
-A1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbLTE1NTQwNzM5MzAsODE5MTgzMzcwLC0xNj
+cwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAx
+MTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMj
+A4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
 -->
