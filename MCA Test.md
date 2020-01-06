@@ -24,7 +24,13 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 
 ## Test Overview
 Test는 다음과 같이 진행 되었다.
-* Test Region: Beijing -> Seoul(목동 KT DC), 
+* Test Region
+	* Beijing -> Seoul(목동 KT IDC)
+	* Shanghai -> Seoul(목동 KT IDC)
+	
+* Test 방법 및 측정 Metric
+	* Ping Test
+		* avg ping time
 ## Assumptions
 
 ## Test 결과
@@ -34,7 +40,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDg1ODAxOSwtOTc1NTUzODk1LDE4MT
-EwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNzEzMjU4MjA0
-LDIwODkzNzY4NzMsNDYwNTE1ODcyXX0=
+eyJoaXN0b3J5IjpbMjUyMDM4NTEyLC05NzU1NTM4OTUsMTgxMT
+AxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQs
+MjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
 -->
