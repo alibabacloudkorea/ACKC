@@ -44,9 +44,10 @@ Test는 다음과 같이 진행 되었다.
 		* Dynamic content - php
 4. Test URLs
 	* Direct
-
+	
 	* MCA with Cache
-
+	http://mca2.haemieee2.xyz/file/1M.zip
+	http://mca2.haemieee2.xyz/file/1M.zip
 	* MCA without Cache 
 6.  Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
@@ -86,9 +87,9 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzcyNDk3OCwxMjY4NTQwOTQ3LC0xMj
-AwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgxOTE4
-MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUzOD
-k1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNzEz
-MjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1ODcyXX0=
+eyJoaXN0b3J5IjpbLTEyODA2NTc0ODAsMTI2ODU0MDk0NywtMT
+IwMDcwMjg2MiwtMTExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkx
+ODMzNzAsLTE2NzAwMzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mz
+g5NSwxODExMDExOTU1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcx
+MzI1ODIwNCwyMDg5Mzc2ODczLDQ2MDUxNTg3Ml19
 -->
