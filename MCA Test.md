@@ -14,7 +14,7 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 
 
 ## MCA 설정 시 주의사항
-공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는대도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
+공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는 데도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
 
 - 한국에 origin server가 위치한 경우, Anti-DDos Premium 을 선택해야 한다. Anti-DDos Pro는 origin server가 중국에 위치한 경우(도메인을 사용할 경우 ICP인증을 받아야 한다.)에 사용하는 서비스이다. 
 - 인스턴스를 2개 구매하여야 한다. 
@@ -131,11 +131,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjk2ODY1NSwtNTMwMDM5MCwxOTg4Mj
-g0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC0xODMwMTkwNjIy
-LC0xNzUzNDQ4NjgxLC02MjY5MjQyOTksMTY1Nzc4MzY5OSwtNj
-Y3MTgzMzA3LC03MDQ2MTIwNzUsLTE0Njg5ODY5OSwxOTAzNjI2
-ODU5LC0xMTYxNTk3MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMT
-MsODQxODU1ODE2LC04Nzc3MDYzNjMsLTkxMDgzNTA2NCwxMjY4
-NTQwOTQ3XX0=
+eyJoaXN0b3J5IjpbODI4NjczMDM1LDEwMDI5Njg2NTUsLTUzMD
+AzOTAsMTk4ODI4NDY0NCwtMTI4MDg2MjU0NCw5NTg2NDg5NCwt
+MTgzMDE5MDYyMiwtMTc1MzQ0ODY4MSwtNjI2OTI0Mjk5LDE2NT
+c3ODM2OTksLTY2NzE4MzMwNywtNzA0NjEyMDc1LC0xNDY4OTg2
+OTksMTkwMzYyNjg1OSwtMTE2MTU5NzIwNywtMTgwNDcwNzA0Ni
+wxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2MzYzLC05MTA4
+MzUwNjRdfQ==
 -->
