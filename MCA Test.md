@@ -52,7 +52,16 @@ Test는 다음과 같이 진행 되었다.
 
  * Ping Test (Beijing > Seoul, Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/PingTest.png?raw=true)
-	 * 결과: pingtime (BJ > KR) 
+	 * 결과
+	|                |                          |
+	|----------------|-------------------------------|
+	|Single backticks|`'Isn't this fun?'`            |
+	|Quotes          |`"Isn't this fun?"`            |
+	|Dashes          |`-- is en-dash, --- is em-dash`|
+	
+
+
+
 * Static Web Object Load (Beijing > Seoul)
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
@@ -68,7 +77,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTA5ODM4MywtMTIwMDcwMjg2MiwtMT
+eyJoaXN0b3J5IjpbLTg3MzE0MzgxNywtMTIwMDcwMjg2MiwtMT
 ExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAw
 Mzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOT
 U1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5
