@@ -17,12 +17,12 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 	- MCA
 - Provisioning 메뉴에서 웹사이트를 추가할 때, 위에서 생성한 2개의 인스턴스를 모두 선택해야 한다. 
 - **Provisioning 메뉴에서 웹사이트를 추가하고 나온 CNAME은 무시해야 한다. Sec-Traffic Manager에서 rule을 설정하고 나온 CNAME을 DNS 레코드에 추가하여야 한다. (이 부분에서 가장 실수가 많다. 참고하자.)**
-- '410 Gone' 에러가 나올 경우, 동일 도메인으로 CNAME을 중복 적용했을 경우, 또는 동일 CNAME을 여러 도메인에 중복 적용했을 경우에 나오는 
+- '410 Gone' 에러가 나올 경우, 동일 도메인에 여러 CNAME을 중복 적용했을 경우, 또는 동일 CNAME을 여러 도메인에 중복 적용했을 경우에 주어진 도메인 이름으로 타겟 주소를 찾아가지 못하여 발생하는 에러이다. 
 - Cache 기능을 사용할 경우 .css, .js, .txt 파일을 제외한 파일의 캐싱일 경우, static page caching을 Enhanced로 해주어야 캐싱된다. (Mitigation Setting > Web acceleration Policies > static page caching (Enhanced))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDA4NDkyMSw1OTAwMjIxMzEsOTE2MT
-Y2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4NzJd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMDkyNDk0MzIsNTkwMDIyMTMxLDkxNj
+E2Njc4OSwtNzEzMjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1ODcy
+XX0=
 -->
