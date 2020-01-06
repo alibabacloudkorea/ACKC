@@ -122,15 +122,16 @@ Test는 다음과 같이 진행 되었다.
 평균 응답 시간을 보았을 때 그 개선효과가 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.46배, 1M의 경우 약 1.13배, 4M의 경우 1.06배의 응답시간 개선효과가 있었다. 응답시간은 불 안정적으로 변동폭이 큰 편이다.
 
 5. Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
-베이징, 상하이 모두 네트워크 속도가 불안정하지만 그 정도가 SH가 더욱 심하다. 베이징의 경우 1.8배의 개선 효과가 있었지만, 상하이의 경우 오히려 속도가 저하되었다. 
+베이징, 상하이 모두 네트워크 속도가 불안정하지만 그 정도가 SH가 더욱 심하다. 베이징의 경우 1.8배의 개선 효과가 있었지만, 상하이의 경우 오히려 속도가 저하되었다. 다이나믹 컨텐츠에 대한 개선 효과는 크게 없다고 볼 수 있다.
+
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMTkwOTc0LC0xODA0NzA3MDQ2LDE5Mz
-MwMDEyMTMsODQxODU1ODE2LC04Nzc3MDYzNjMsLTkxMDgzNTA2
-NCwxMjY4NTQwOTQ3LC0xMjAwNzAyODYyLC0xMTEyOTkxODczLC
-0xNTU0MDczOTMwLDgxOTE4MzM3MCwtMTY3MDAzODU2MiwtMTgw
-NzQzOTM2MCwtOTc1NTUzODk1LDE4MTEwMTE5NTUsNTkwMDIyMT
-MxLDkxNjE2Njc4OSwtNzEzMjU4MjA0LDIwODkzNzY4NzMsNDYw
-NTE1ODcyXX0=
+eyJoaXN0b3J5IjpbLTExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMT
+kzMzAwMTIxMyw4NDE4NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1
+MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4Nz
+MsLTE1NTQwNzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0x
+ODA3NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMj
+IxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0
+NjA1MTU4NzJdfQ==
 -->
