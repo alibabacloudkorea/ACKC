@@ -84,19 +84,10 @@ Test는 다음과 같이 진행 되었다.
 
 	 * Beijing > Seoul
     
-	| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
-	|:--------|:--------:|--------:| --------:| --------:|
-	| **pingtime (BJ > KR)** | <center>0.0367 </center> |0.0366 |0.0373 |<center>0.1504</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
-	| **pingloss-% (BJ > KR)** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+
 
 	*Shanghai > Seoul 
 	
-	| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
-	|:--------|:--------:|--------:| --------:| --------:|
-	| **pingtime (SH > KR)** | <center>0.0367 </center> |0.0366 |0.0373 |<center>0.152</center> |
-	| **pingloss-% (SH > KR)** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | 
-	
-
 
 
 * Static Web Object Load (Beijing > Seoul)
@@ -132,7 +123,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzY0OTI0OSwtNzA0NjEyMDc1LC0xND
+eyJoaXN0b3J5IjpbLTY2NzE4MzMwNywtNzA0NjEyMDc1LC0xND
 Y4OTg2OTksMTkwMzYyNjg1OSwtMTE2MTU5NzIwNywtMTgwNDcw
 NzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2MzYzLC
 05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIwMDcwMjg2MiwtMTEx
