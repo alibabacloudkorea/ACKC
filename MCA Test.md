@@ -1,5 +1,6 @@
 # MCA Test 
 
+## MCA Overview
 MCA는 알리바바에서 제공하는 Anti-DDos Premium 제품의 일부 기능이다. Anti-DDos는 DDos 공격으로 의심되는 트래픽을 사전에 차단하고 완화해주는 Security Service이다. 이 Anti-DDos에는 MCA라는 Mainland China Accelerator라는 기능이 있다. 이 기능을 사용하면 비정상(DDos 공격으로 의심되는) 트래픽은 Anti-DDos instance로 라우팅 되어 scrubbing되고, 정상 트래픽은 MCA instance로 라우팅 되어 중국과 그밖의 지역 간 네트워크 전송속도를 향상 시킨다. 
 
 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154692909135306_en-US.png)
@@ -9,6 +10,7 @@ MCA는 알리바바에서 제공하는 Anti-DDos Premium 제품의 일부 기능
 MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/doc-detail/92502.htm](https://www.alibabacloud.com/help/doc-detail/92502.htm))을 참고하길 바란다. 
 > **Note** 이 문서에서 사용되는 용어는 모두 알리바바 공식 가이드 문서의 English 버전과 알리바바 클라우드 콘솔의 English 버전을 참고합니다. 용어에 혼선 없으시기 바랍니다. 
 
+## MCA 설정 시 주의사항
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는대도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
 
 - 한국에 origin server가 위치한 경우, Anti-DDos Premium 을 선택해야 한다. Anti-DDos Pro는 origin server가 중국에 위치한 경우(도메인을 사용할 경우 ICP인증을 받아야 한다.)에 사용하는 서비스이다. 
@@ -20,9 +22,9 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 - '410 Gone' 에러가 나올 경우, 동일 도메인에 여러 CNAME을 중복 적용했을 경우, 또는 동일 CNAME을 여러 도메인에 중복 적용했을 경우에 주어진 도메인 이름으로 타겟 주소를 찾아가지 못하여 발생하는 에러이다. 내 도메인에 MCA cname을 하나만 적용했는지, 다수 적용했는지, 또는 MCA cname을 여러 도메인에 적용하지는 않았는지 확인해 보자. 
 - Cache 기능을 사용할 경우 .css, .js, .txt 파일을 제외한 파일의 캐싱일 경우, static page caching을 Enhanced로 해주어야 캐싱된다. (Mitigation Setting > Web acceleration Policies > static page caching (Enhanced))
 
-
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2MT
-Y2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4NzJd
-fQ==
+eyJoaXN0b3J5IjpbMTkzNjIwMjk1NCwxODExMDExOTU1LDU5MD
+AyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5Mzc2ODcz
+LDQ2MDUxNTg3Ml19
 -->
