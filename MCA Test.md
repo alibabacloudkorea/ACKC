@@ -43,7 +43,9 @@ Test는 다음과 같이 진행 되었다.
 	* Static content - 500k, 1M, 4M size
 	* Dynamic content - php
 * Test Groups
-	* Direct()
+	* Direct(MCA 적용 X)
+	* AntiDDos(Enhanced) + MCA with Cache function enabled
+	* AntiDDos(Standard) + MCA without Cache 
 * Test URLs
 	* Direct (MCA 적용 X)
 	http://nonmca.haemieee2.xyz/file/1M.zip
@@ -61,6 +63,8 @@ Test는 다음과 같이 진행 되었다.
 	http://mca.haemieee2.xyz/file/4.5M.sea
 	http://mca.haemieee2.xyz/index.php
 	
+* DNS 관리
+	* Alibaba 
 * Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
 
@@ -99,10 +103,10 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDAzMjU3OCwtOTEwODM1MDY0LDEyNj
-g1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQw
-NzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5Mz
-YwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2
-MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4Nz
-JdfQ==
+eyJoaXN0b3J5IjpbLTEyNDc3NjQ1ODIsLTkxMDgzNTA2NCwxMj
+Y4NTQwOTQ3LC0xMjAwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0
+MDczOTMwLDgxOTE4MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOT
+M2MCwtOTc1NTUzODk1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkx
+NjE2Njc4OSwtNzEzMjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1OD
+cyXX0=
 -->
