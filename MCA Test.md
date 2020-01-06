@@ -20,6 +20,7 @@ Anti DDos 는 본래 DDoS 공격을 완화시키는 Security 제품이지만, �
 Anti DDos Premium의 MCA는 홍콩 리전의 IP를 할당받기 때문에 ICP 승인 없이도 웹사이트를 가속화할 수 있으며 라우팅 경로를 중국에서 홍콩을 거쳐 한국으로 들어오도록 변경함으로써 속도를 향상시킨다. 아래는 실제 테스트 계정에서 발급받은 MCA 인스턴스 IP와 해당 IP의 geolocation 정보이다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/hk.png?raw=true)
 
+또한 간단한 DNS 설정 
 
 
 ## MCA 설정 시 주의사항
@@ -140,11 +141,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMT
-E4OTE5MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3
-MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQsLT
-EyODA4NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NTM0
-NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5LC02NjcxODMzMD
-csLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLTEx
-NjE1OTcyMDddfQ==
+eyJoaXN0b3J5IjpbMTk1NTA0OTk0MiwtMjEyNDkyODg4OCwtNj
+k3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5ODUzOTMsLTExNjM0
+NTc4NzksODI4NjczMDM1LDEwMDI5Njg2NTUsLTUzMDAzOTAsMT
+k4ODI4NDY0NCwtMTI4MDg2MjU0NCw5NTg2NDg5NCwtMTgzMDE5
+MDYyMiwtMTc1MzQ0ODY4MSwtNjI2OTI0Mjk5LDE2NTc3ODM2OT
+ksLTY2NzE4MzMwNywtNzA0NjEyMDc1LC0xNDY4OTg2OTksMTkw
+MzYyNjg1OV19
 -->
