@@ -138,15 +138,17 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 * Anti DDos(Enhanced - Cache function enabled)와 MCA의 조합이 static content에 한하여 가장 최적의 결과를 가져왔다. cache 설정은 아래처럼 각 페이지 URL 별로 설정 가능하다. 
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-06%20at%208.44.29%20PM.png?raw=true)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-06%20at%208.39.08%20PM.png?raw=true)
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk5OTM2NzUsLTE5NzQyNzk4MzYsLT
-IxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MTAzNywtMTc2
-OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwxMDAyOTY4Nj
-U1LC01MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4NjI1NDQsOTU4
-NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjkyND
-I5OSwxNjU3NzgzNjk5LC02NjcxODMzMDcsLTcwNDYxMjA3NSwt
-MTQ2ODk4Njk5XX0=
+eyJoaXN0b3J5IjpbMTc0NjQ0NTc2LC0xOTc0Mjc5ODM2LC0yMT
+I0OTI4ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4
+NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NS
+wtNTMwMDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0
+ODk0LC0xODMwMTkwNjIyLC0xNzUzNDQ4NjgxLC02MjY5MjQyOT
+ksMTY1Nzc4MzY5OSwtNjY3MTgzMzA3LC03MDQ2MTIwNzUsLTE0
+Njg5ODY5OV19
 -->
