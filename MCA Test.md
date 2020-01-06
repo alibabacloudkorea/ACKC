@@ -43,7 +43,11 @@ Test는 다음과 같이 진행 되었다.
 		* Static content - 500k, 1M, 4M size
 		* Dynamic content - php
 4. Test URLs
-Pulib
+	* Direct
+
+	* MCA with Cache
+
+	* MCA without Cache 
 6.  Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
 
@@ -82,9 +86,9 @@ Pulib
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTYzODQ5LDEyNjg1NDA5NDcsLTEyMD
-A3MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgz
-MzcwLC0xNjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OT
-UsMTgxMTAxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMy
-NTgyMDQsMjA4OTM3Njg3Myw0NjA1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbMTE0MzcyNDk3OCwxMjY4NTQwOTQ3LC0xMj
+AwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgxOTE4
+MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUzOD
+k1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNzEz
+MjU4MjA0LDIwODkzNzY4NzMsNDYwNTE1ODcyXX0=
 -->
