@@ -108,7 +108,8 @@ Test는 다음과 같이 진행 되었다.
 	
 
 
-아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 500k, 1M, 4M 파일에 대한 로딩을 나타낸다. - 속도에 대한 내용 다시 측정..좀 이상함;; 바로 다운로드 받는 거 말고 다른걸로 해보자..
+아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 500k, 1M, 4M 파일에 대한 로딩을 나타낸다. 
+
 * Static Web Object Load (Beijing > Seoul) - 응답시간 추이
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_Static.png?raw=true)
 
@@ -121,14 +122,16 @@ Test는 다음과 같이 진행 되었다.
 
 ## Key Finding
 1. Ping Test
-2. Static Web Object Load (Beijing > Seoul)
+![]()
+	>Note: Ping Test는 
+3. Static Web Object Load (Beijing > Seoul)
 	- Direct (MCA 적용 X)
  간헐적으로 튀는 현상이 있기는 하지만 대체적으로 일정한 속도가 유지된다.  
 	- AntiDDos(Enhanced) + MCA with Cache function enabled
 가장 최적의 네트워크 성능을 보여 준다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 9배, 1M의 경우 약 8배, 4M의 경우 약 2배의 응답 시간 개선 효과를 가져왔다. 간헐적으로 튀는 현상이 있지만 대체적으로 Direct 보다 훨씬 큰 폭의 대역폭을 유지한다. 
 	- AntiDDos(Standard) + MCA without Cache
 평균 응답 시간을 보았을 때 그 개선효과가 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.3배, 1M의 경우 약 1.7배 개선되었지만 4M의 경우 비슷한 속도를 보였다. 
-3. Static Web Object Load (Shanghai > Seoul)
+4. Static Web Object Load (Shanghai > Seoul)
 	- Direct (MCA 적용 X)
  간헐적으로 튀는 현상이 있기는 하지만 대체적으로 일정한 속도가 유지된다.  
 	- AntiDDos(Enhanced) + MCA with Cache function enabled
@@ -171,11 +174,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDEwNTY5MCwtODU1NjA3NTEyLC0xMD
-U4NzkwNTE2LC0xNTQ2ODE1MjE0LC0xOTk2MTc4MjY4LDIwODIy
-NDMzMDcsLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5OD
-M2LC0yMTI0OTI4ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcs
-LTE3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMj
-k2ODY1NSwtNTMwMDM5MCwxOTg4Mjg0NjQ0LC0xMjgwODYyNTQ0
-LDk1ODY0ODk0XX0=
+eyJoaXN0b3J5IjpbLTEyNDc3ODQyMTMsLTg1NTYwNzUxMiwtMT
+A1ODc5MDUxNiwtMTU0NjgxNTIxNCwtMTk5NjE3ODI2OCwyMDgy
+MjQzMzA3LC00MTE3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OT
+gzNiwtMjEyNDkyODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3
+LC0xNzY5ODUzOTMsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMD
+I5Njg2NTUsLTUzMDAzOTAsMTk4ODI4NDY0NCwtMTI4MDg2MjU0
+NCw5NTg2NDg5NF19
 -->
