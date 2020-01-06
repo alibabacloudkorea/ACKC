@@ -48,20 +48,20 @@ Test는 다음과 같이 진행 되었다.
 	* AntiDDos(Standard) + MCA without Cache 
 * Test URLs
 	* Direct (MCA 적용 X)
-	http://nonmca.haemieee2.xyz/file/1M.zip
-	http://nonmca.haemieee2.xyz/file/500k.pdf
-	http://nonmca.haemieee2.xyz/file/4.5M.sea
-	http://nonmca.haemieee2.xyz/index.php
+		* http://nonmca.haemieee2.xyz/file/1M.zip
+		* http://nonmca.haemieee2.xyz/file/500k.pdf
+		* http://nonmca.haemieee2.xyz/file/4.5M.sea
+		* http://nonmca.haemieee2.xyz/index.php
 	* AntiDDos(Enhanced) + MCA with Cache function enabled
-	http://mca2.haemieee2.xyz/file/1M.zip
-	http://mca2.haemieee2.xyz/file/500k.pdf
-	http://mca2.haemieee2.xyz/file/4.5M.sea
-	http://mca2.haemieee2.xyz/index.php
+		* http://mca2.haemieee2.xyz/file/1M.zip
+		* http://mca2.haemieee2.xyz/file/500k.pdf
+		* http://mca2.haemieee2.xyz/file/4.5M.sea
+		* http://mca2.haemieee2.xyz/index.php
 	* AntiDDos(Standard) + MCA without Cache 
-	http://mca.haemieee2.xyz/file/1M.zip
-	http://mca.haemieee2.xyz/file/500k.pdf
-	http://mca.haemieee2.xyz/file/4.5M.sea
-	http://mca.haemieee2.xyz/index.php
+		* http://mca.haemieee2.xyz/file/1M.zip
+		* http://mca.haemieee2.xyz/file/500k.pdf
+		* http://mca.haemieee2.xyz/file/4.5M.sea
+		* http://mca.haemieee2.xyz/index.php
 	
 * DNS 관리
 	* Alibaba Cloud (International) DNS 사용, ICP 적용되지 않은 도메인 사용
@@ -127,11 +127,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMT
-kzMzAwMTIxMyw4NDE4NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1
-MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4Nz
-MsLTE1NTQwNzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0x
-ODA3NDM5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMj
-IxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQsMjA4OTM3Njg3Myw0
-NjA1MTU4NzJdfQ==
+eyJoaXN0b3J5IjpbLTEwNjMwMTk3MjcsLTExNjE1OTcyMDcsLT
+E4MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4NTU4MTYsLTg3Nzcw
+NjM2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3MDI4Nj
+IsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgzMzcwLC0x
+NjcwMDM4NTYyLC0xODA3NDM5MzYwLC05NzU1NTM4OTUsMTgxMT
+AxMTk1NSw1OTAwMjIxMzEsOTE2MTY2Nzg5LC03MTMyNTgyMDQs
+MjA4OTM3Njg3M119
 -->
