@@ -66,13 +66,13 @@ Test는 다음과 같이 진행 되었다.
 	| **pingloss-% (SH > KR)** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
 
 
-	
-
-
-
 * Static Web Object Load (Beijing > Seoul)
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_WebStatic.png?raw=true)
 
+	| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
+	|:--------|:--------:|--------:| --------:| --------:|
+	| **pingtime (SH > KR)** | <center>0.0367 </center> |0.0366 |0.0373 |<center>0.152</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+	| **pingloss-% (SH > KR)** | <center>0</center> |<center>0.0236</center>| <center>33.33</center>|<center>0</center> | <center>cell 2x2 </center> |*cell 2x3* | |**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
 * Static Web Object Load (Shanghai > Seoul)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_WebStatic.png?raw=true)
 
@@ -85,7 +85,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Nzc4NjgwMywtMTIwMDcwMjg2MiwtMT
+eyJoaXN0b3J5IjpbMTExNTE3OTY0MSwtMTIwMDcwMjg2MiwtMT
 ExMjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAw
 Mzg1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOT
 U1LDU5MDAyMjEzMSw5MTYxNjY3ODksLTcxMzI1ODIwNCwyMDg5
