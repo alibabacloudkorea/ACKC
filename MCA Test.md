@@ -15,7 +15,7 @@ MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/do
 Anti DDos 는 본래 DDoS 공격을 완화시키는 Security 제품이지만, 한국의 경우 다음과 같은 사항에 MCA를 고려해 볼 수 있다.
 - 한국에 Origin Server가 위치해 있고 중국의 사용자를 대상으로 서비스 하는 경우
 - 도메인 이름이 ICP 공식 승인을 받지 않아 (참고: ICP 승인을 받기 위해서는 중국 사업체가 있어야 한다) 중국 사용자의 속도 개선을 위해 CDN이나 GA2.0을 사용할 수 없는 경우
-> Note: CDN, GA2.0 모두 웹사이트를 서비스 하기 위해 중국 내 IP를 사용한다. 따라서 
+> **Note: CDN, GA2.0 모두 웹사이트를 서비스 하기 위해 중국 내 IP를 사용한다. 따라서 ICP 자격 대상 중 하나인 "중국내 IP를 사용하여 웹 사이트를 호스팅 하는 경우"에 부합하여 ICP 승인 대상에 포함된다. **
 
 
 ## MCA 설정 시 주의사항
@@ -136,7 +136,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzEzNTI2NCwtMTc2OTg1MzkzLC0xMT
+eyJoaXN0b3J5IjpbLTIxNjgxMTU4NSwtMTc2OTg1MzkzLC0xMT
 YzNDU3ODc5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkw
 LDE5ODgyODQ2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4Mz
 AxOTA2MjIsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwxNjU3Nzgz
