@@ -39,8 +39,9 @@ Test는 다음과 같이 진행 되었다.
 	* Web object load 
 		* DownloadSpeed(MBps)
 		* ResponseTime(s)
+	* User Agent
+		* Chrome 38.0 (Windows)
 
-	* User Agent: Chrome 38.0 (Windows)
 * Test Object
 	* Static content - 500k, 1M, 4M size
 	* Dynamic content - php
@@ -79,6 +80,7 @@ Test는 다음과 같이 진행 되었다.
 	* 네트워크 성능 안전성 확인
 
 ## Assumptions
+
 
 ## Test 결과
 
@@ -126,11 +128,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEsLT
-YyNjkyNDI5OSwxNjU3NzgzNjk5LC02NjcxODMzMDcsLTcwNDYx
-MjA3NSwtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLTExNjE1OTcyMD
-csLTE4MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4NTU4MTYsLTg3
-NzcwNjM2MywtOTEwODM1MDY0LDEyNjg1NDA5NDcsLTEyMDA3MD
-I4NjIsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAsODE5MTgzMzcw
-LC0xNjcwMDM4NTYyXX0=
+eyJoaXN0b3J5IjpbOTU4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NT
+M0NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5LC02NjcxODMz
+MDcsLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MDM2MjY4NTksLT
+ExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkzMzAwMTIxMyw4NDE4
+NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1MDY0LDEyNjg1NDA5ND
+csLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1NTQwNzM5MzAs
+ODE5MTgzMzcwXX0=
 -->
