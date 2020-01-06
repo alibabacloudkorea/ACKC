@@ -81,7 +81,7 @@ Test는 다음과 같이 진행 되었다.
 ## Test 결과
 
  * Ping Test (Beijing > Seoul, Shanghai > Seoul)
-![](https://github.com/rnlduaeo/alibaba/blob/master/PingTest.png?raw=true)
+
 	 * Beijing > Seoul
     
 	| <center>--</center> | <center>last</center> | <center>min</center> | <center>avg</center> | <center>max</center> | 
@@ -132,11 +132,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDYxMjA3NSwtMTQ2ODk4Njk5LDE5MD
-M2MjY4NTksLTExNjE1OTcyMDcsLTE4MDQ3MDcwNDYsMTkzMzAw
-MTIxMyw4NDE4NTU4MTYsLTg3NzcwNjM2MywtOTEwODM1MDY0LD
-EyNjg1NDA5NDcsLTEyMDA3MDI4NjIsLTExMTI5OTE4NzMsLTE1
-NTQwNzM5MzAsODE5MTgzMzcwLC0xNjcwMDM4NTYyLC0xODA3ND
-M5MzYwLC05NzU1NTM4OTUsMTgxMTAxMTk1NSw1OTAwMjIxMzEs
-OTE2MTY2Nzg5XX0=
+eyJoaXN0b3J5IjpbMTA2NzY0OTI0OSwtNzA0NjEyMDc1LC0xND
+Y4OTg2OTksMTkwMzYyNjg1OSwtMTE2MTU5NzIwNywtMTgwNDcw
+NzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNiwtODc3NzA2MzYzLC
+05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIwMDcwMjg2MiwtMTEx
+Mjk5MTg3MywtMTU1NDA3MzkzMCw4MTkxODMzNzAsLTE2NzAwMz
+g1NjIsLTE4MDc0MzkzNjAsLTk3NTU1Mzg5NSwxODExMDExOTU1
+LDU5MDAyMjEzMV19
 -->
