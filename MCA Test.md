@@ -10,6 +10,9 @@ MCA는 알리바바에서 제공하는 Anti-DDos Premium 제품의 일부 기능
 MCA설정은 알리바바 공식 메뉴얼([https://www.alibabacloud.com/help/doc-detail/92502.htm](https://www.alibabacloud.com/help/doc-detail/92502.htm))을 참고하길 바란다. 
 > **Note** 이 문서에서 사용되는 용어는 모두 알리바바 공식 가이드 문서의 English 버전과 알리바바 클라우드 콘솔의 English 버전을 참고합니다. 용어에 혼선 없으시기 바랍니다. 
 
+## MCA Use Cases
+
+
 ## MCA 설정 시 주의사항
 공식 메뉴얼을 참고하는데 주의사항이 있다. 많은 경우에 설정을 잘못하여 MCA가 제대로 동작하지 않는 것을 보았다. 혹시 메뉴얼을 따라 했는대도 제대로 동작하지 않는 다면 다음과 같은 경우가 아닌지 의심해 볼 필요가 있다.
 
@@ -128,11 +131,11 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDAzOTAsMTk4ODI4NDY0NCwtMTI4MD
-g2MjU0NCw5NTg2NDg5NCwtMTgzMDE5MDYyMiwtMTc1MzQ0ODY4
-MSwtNjI2OTI0Mjk5LDE2NTc3ODM2OTksLTY2NzE4MzMwNywtNz
-A0NjEyMDc1LC0xNDY4OTg2OTksMTkwMzYyNjg1OSwtMTE2MTU5
-NzIwNywtMTgwNDcwNzA0NiwxOTMzMDAxMjEzLDg0MTg1NTgxNi
-wtODc3NzA2MzYzLC05MTA4MzUwNjQsMTI2ODU0MDk0NywtMTIw
-MDcwMjg2Ml19
+eyJoaXN0b3J5IjpbMTAwMjk2ODY1NSwtNTMwMDM5MCwxOTg4Mj
+g0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC0xODMwMTkwNjIy
+LC0xNzUzNDQ4NjgxLC02MjY5MjQyOTksMTY1Nzc4MzY5OSwtNj
+Y3MTgzMzA3LC03MDQ2MTIwNzUsLTE0Njg5ODY5OSwxOTAzNjI2
+ODU5LC0xMTYxNTk3MjA3LC0xODA0NzA3MDQ2LDE5MzMwMDEyMT
+MsODQxODU1ODE2LC04Nzc3MDYzNjMsLTkxMDgzNTA2NCwxMjY4
+NTQwOTQ3XX0=
 -->
