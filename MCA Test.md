@@ -52,11 +52,12 @@ Test는 다음과 같이 진행 되었다.
 	http://mca2.haemieee2.xyz/file/1M.zip
 	http://mca2.haemieee2.xyz/file/500k.pdf
 	http://mca2.haemieee2.xyz/file/4.5M.sea
-	http://nonmca.haemieee2.xyz/index.php
+	http://mca2.haemieee2.xyz/index.php
 	* MCA without Cache 
 	http://mca.haemieee2.xyz/file/1M.zip
 	http://mca.haemieee2.xyz/file/500k.pdf
 	http://mca.haemieee2.xyz/file/4.5M.sea
+	http://mca.haemieee2.xyz/index.php
 	
 6.  Test 도구
 	* Zabbix(Open source monitoring tool) 및 manual curl command
@@ -96,7 +97,7 @@ Test는 다음과 같이 진행 되었다.
 ##  시사점
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTA5OTAzMiwxMjY4NTQwOTQ3LC0xMj
+eyJoaXN0b3J5IjpbLTM2NDQ4NjM2NSwxMjY4NTQwOTQ3LC0xMj
 AwNzAyODYyLC0xMTEyOTkxODczLC0xNTU0MDczOTMwLDgxOTE4
 MzM3MCwtMTY3MDAzODU2MiwtMTgwNzQzOTM2MCwtOTc1NTUzOD
 k1LDE4MTEwMTE5NTUsNTkwMDIyMTMxLDkxNjE2Njc4OSwtNzEz
