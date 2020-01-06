@@ -137,7 +137,7 @@ Test는 다음과 같이 진행 되었다.
 평균 응답 시간을 보았을 때 그 개선효과가 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.46배, 1M의 경우 약 1.13배, 4M의 경우 1.06배의 응답시간 개선효과가 있었다. 응답시간은 불 안정적으로 변동폭이 큰 편이다.
 
 5. Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
-베이징, 상하이 모두 네트워크 속도가 불안정하지만 그 정도가 SH가 더욱 심하다. 베이징의 경우 1.8배의 개선 효과가 있었지만, 상하이의 경우 오히려 속도가 저하되었다. 다이나믹 컨텐츠에 대한 개선 효과는 크게 없다고 볼 수 있다.
+리전에 따라 상이한 결과를 보인다. 베이징의 경우 1.8배의 개선 효과가 있었지만, 상하이의 경우 비슷한 속도를 보였다. 
 
 ##  시사점
 
@@ -171,11 +171,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY4MTUyMTQsLTE5OTYxNzgyNjgsMj
-A4MjI0MzMwNywtNDExNzM2ODMwLDE1NDgzMzE2MzIsLTE5NzQy
-Nzk4MzYsLTIxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OTE5MT
-AzNywtMTc2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAzNSwx
-MDAyOTY4NjU1LC01MzAwMzkwLDE5ODgyODQ2NDQsLTEyODA4Nj
-I1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2MjIsLTE3NTM0NDg2ODEs
-LTYyNjkyNDI5OV19
+eyJoaXN0b3J5IjpbLTEwNTg3OTA1MTYsLTE1NDY4MTUyMTQsLT
+E5OTYxNzgyNjgsMjA4MjI0MzMwNywtNDExNzM2ODMwLDE1NDgz
+MzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5NzkyNz
+c5MSwtMTE4OTE5MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3ODc5
+LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgyOD
+Q2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2MjIs
+LTE3NTM0NDg2ODFdfQ==
 -->
