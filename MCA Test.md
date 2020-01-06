@@ -155,7 +155,7 @@ Test는 다음과 같이 진행 되었다.
 	> Note: CNAME reuse는 ticket을 생성하여 요청해야 한다.
 
 ## MCA 제안 시 주의사항
-MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패치와 같은 큰 컨텐츠를 중국 유저를 대상으로 제공하는데 큰 역할을 할 수 있다. 그러나 다음과 같은 경우에는  MCA 고려 대상이 아니다. 
+MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패치와 같은 큰 컨텐츠를 중국 유저를 대상으로 제공하는데 큰 역할을 할 수 있다. 그러나 다음과 같은 경우에는  MCA 고려 대상이 아니니 주의하자. 
 
 * 3XX로 리디렉션되는 URL
 * 스트리밍 (HLS 없음)
@@ -167,7 +167,7 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Mjc5NjEzNCwyMDgyMjQzMzA3LC00MT
+eyJoaXN0b3J5IjpbLTE3MjgwODU0NiwyMDgyMjQzMzA3LC00MT
 E3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwtMjEyNDky
 ODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5ODUzOT
 MsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2NTUsLTUz
