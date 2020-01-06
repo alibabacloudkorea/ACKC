@@ -149,15 +149,16 @@ Test는 다음과 같이 진행 되었다.
 
 * Dynamic content의 경우 리전에 따라 상이한 결과를 보인다. SH(상하이) 리전에서는 약 2배 정도의 속도 개선 효과가 있었지만 BJ(베이징) 리전에서는 효과가 없었다.  이 부분은 실제 구현된 웹사이트를 바탕으로 중국 전역에서 접속하는 client에 대해 속도를 측정하여야 정확한 결과를 알 수 있을 것 같다.
 
+* Website 이외에도 TCP, UDP에 대해
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU5ODkxMjksLTQxMTczNjgzMCwxNT
-Q4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02OTc5
-Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5MywtMTE2MzQ1Nz
-g3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMwMDM5MCwxOTg4
-Mjg0NjQ0LC0xMjgwODYyNTQ0LDk1ODY0ODk0LC0xODMwMTkwNj
-IyLC0xNzUzNDQ4NjgxLC02MjY5MjQyOTksMTY1Nzc4MzY5OSwt
-NjY3MTgzMzA3XX0=
+eyJoaXN0b3J5IjpbLTM5NDkzNzI0MiwtNDExNzM2ODMwLDE1ND
+gzMzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5Nzky
+Nzc5MSwtMTE4OTE5MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3OD
+c5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5ODgy
+ODQ2NDQsLTEyODA4NjI1NDQsOTU4NjQ4OTQsLTE4MzAxOTA2Mj
+IsLTE3NTM0NDg2ODEsLTYyNjkyNDI5OSwxNjU3NzgzNjk5LC02
+NjcxODMzMDddfQ==
 -->
