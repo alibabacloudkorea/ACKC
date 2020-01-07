@@ -42,7 +42,7 @@ Anti DDos Premium의 MCA는 홍콩 리전의 IP를 할당받기 때문에 ICP �
 Test는 다음과 같이 진행 되었다.
 
 *  Test 기간
-	* 2020-01-05 12:00(AM) ~ 2020-01-07 12:00(AM)
+	* 2020-01-05 12:00(AM) ~ 2020-01-07 13:00(PM)
 
 *  Test Region
 	* Beijing -> Seoul(목동 KT IDC)
@@ -100,8 +100,7 @@ Test는 다음과 같이 진행 되었다.
 
 ## Test 결과
 
- * Ping Test (Beijing > Seoul, Shanghai > Seoul)
-	* Beijing > Seoul(왼쪽),  Shanghai > Seoul(오른쪽)
+ * Ping Test (Beijing > Seoul 왼쪽, Shanghai > Seoul 오른쪽)
 		![](https://github.com/rnlduaeo/alibaba/blob/master/pingtime.png?raw=true)
 		
 
@@ -171,11 +170,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDg2NDM3NSwtNzIwNzcxMDA0LDIzND
-gxOTg4NiwtODU1NjA3NTEyLC0xMDU4NzkwNTE2LC0xNTQ2ODE1
-MjE0LC0xOTk2MTc4MjY4LDIwODIyNDMzMDcsLTQxMTczNjgzMC
-wxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02
-OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5MywtMTE2Mz
-Q1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMwMDM5MCwx
-OTg4Mjg0NjQ0XX0=
+eyJoaXN0b3J5IjpbLTEwODI1MDQ4NTAsLTcyMDc3MTAwNCwyMz
+Q4MTk4ODYsLTg1NTYwNzUxMiwtMTA1ODc5MDUxNiwtMTU0Njgx
+NTIxNCwtMTk5NjE3ODI2OCwyMDgyMjQzMzA3LC00MTE3MzY4Mz
+AsMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwtMjEyNDkyODg4OCwt
+Njk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5ODUzOTMsLTExNj
+M0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2NTUsLTUzMDAzOTAs
+MTk4ODI4NDY0NF19
 -->
