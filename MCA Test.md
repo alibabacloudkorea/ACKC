@@ -102,7 +102,7 @@ Test는 다음과 같이 진행 되었다.
 
  * Ping Test (Beijing > Seoul 왼쪽, Shanghai > Seoul 오른쪽)
 		![](https://github.com/rnlduaeo/alibaba/blob/master/pingtime.png?raw=true)
-> Note: 사정 상 Ping Test만 2019-01-06 16:00 - 2019-01-07 13:00 기간 동안 진행되었다. 평균 응답시간이 불규칙하고 Ping loss 도 Peak time 때는 
+> Note: 사정 상 Ping Test만 2019-01-06 16:00 - 2019-01-07 13:00 기간 동안 진행되었다. 평균 응답시간이 불규칙하고 Peak time 때는 ping loss 도 많이 발생하는 편이다. 
 
 아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 MCA Cache(연두), MCA NoCache(주황), Public(파랑)망을 나타낸다. 속도는 베이징, 상해에서 서울로 500k, 1M, 4M 페이지에 대한 페이지 로딩 속도를 측정했다. 응답시간이 낮을 수록 로딩 속도가 빠르다는 것을 나타낸다.
 
@@ -170,11 +170,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ5NjA2NjgsLTE0MDYxNTY2NDUsLT
-EwODI1MDQ4NTAsLTcyMDc3MTAwNCwyMzQ4MTk4ODYsLTg1NTYw
-NzUxMiwtMTA1ODc5MDUxNiwtMTU0NjgxNTIxNCwtMTk5NjE3OD
-I2OCwyMDgyMjQzMzA3LC00MTE3MzY4MzAsMTU0ODMzMTYzMiwt
-MTk3NDI3OTgzNiwtMjEyNDkyODg4OCwtNjk3OTI3NzkxLC0xMT
-g5MTkxMDM3LC0xNzY5ODUzOTMsLTExNjM0NTc4NzksODI4Njcz
-MDM1LDEwMDI5Njg2NTVdfQ==
+eyJoaXN0b3J5IjpbMTAwNzcyMzE5MSwtMTQwNjE1NjY0NSwtMT
+A4MjUwNDg1MCwtNzIwNzcxMDA0LDIzNDgxOTg4NiwtODU1NjA3
+NTEyLC0xMDU4NzkwNTE2LC0xNTQ2ODE1MjE0LC0xOTk2MTc4Mj
+Y4LDIwODIyNDMzMDcsLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC0x
+OTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02OTc5Mjc3OTEsLTExOD
+kxOTEwMzcsLTE3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMw
+MzUsMTAwMjk2ODY1NV19
 -->
