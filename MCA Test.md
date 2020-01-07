@@ -101,14 +101,11 @@ Test는 다음과 같이 진행 되었다.
 ## Test 결과
 
  * Ping Test (Beijing > Seoul, Shanghai > Seoul)
+	* Beijing > Seoul(왼쪽),  Shanghai > Seoul(오른쪽)
+		![](https://github.com/rnlduaeo/alibaba/blob/master/pingtime.png?raw=true)
+		
 
-		* Beijing > Seoul(왼쪽),  Shanghai > Seoul(오른쪽)
-		![](https://github.com/rnlduaeo/alibaba/blob/master/pingtime.png?raw=true) 
-	
-
-
-
-아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 500k, 1M, 4M 파일에 대한 로딩을 나타낸다. 
+아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 MCA Cache(, 1M, 4M 파일에 대한 로딩을 나타낸다. 
 
 * Static Web Object Load (Beijing > Seoul) - 응답시간 추이
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR.png?raw=true)
@@ -174,11 +171,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTU3MDMxLC03MjA3NzEwMDQsMjM0OD
-E5ODg2LC04NTU2MDc1MTIsLTEwNTg3OTA1MTYsLTE1NDY4MTUy
-MTQsLTE5OTYxNzgyNjgsMjA4MjI0MzMwNywtNDExNzM2ODMwLD
-E1NDgzMzE2MzIsLTE5NzQyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5
-NzkyNzc5MSwtMTE4OTE5MTAzNywtMTc2OTg1MzkzLC0xMTYzND
-U3ODc5LDgyODY3MzAzNSwxMDAyOTY4NjU1LC01MzAwMzkwLDE5
-ODgyODQ2NDRdfQ==
+eyJoaXN0b3J5IjpbLTM2OTU5MTAyOCwtNzIwNzcxMDA0LDIzND
+gxOTg4NiwtODU1NjA3NTEyLC0xMDU4NzkwNTE2LC0xNTQ2ODE1
+MjE0LC0xOTk2MTc4MjY4LDIwODIyNDMzMDcsLTQxMTczNjgzMC
+wxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02
+OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Njk4NTM5MywtMTE2Mz
+Q1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1NSwtNTMwMDM5MCwx
+OTg4Mjg0NjQ0XX0=
 -->
