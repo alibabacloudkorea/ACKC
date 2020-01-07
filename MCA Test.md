@@ -136,7 +136,7 @@ Test는 다음과 같이 진행 되었다.
 평균 응답 시간을 보았을 때 그 개선효과가 Cache 적용 보다는 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.84배, 1M의 경우 약 1.46배, 4M의 경우 1.4배의 응답시간 개선효과가 있었다. 
 
 5. Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
-리전에 따라 상이한 결과를 보인다. 베이징의 경우 1.8배의 개선 효과가 있었지만, 상하이의 경우 비슷한 속도를 보였다. 
+리전에 따라 상이한 결과를 보인다. 베이징의 경우 1.85배의 개선 효과가 있었지만, 상하이의 경우 비슷한 속도를 보였다.
 
 ##  시사점
 
@@ -170,11 +170,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1NjYwMDM3LC0xNDA2MTU2NjQ1LC0xMD
-gyNTA0ODUwLC03MjA3NzEwMDQsMjM0ODE5ODg2LC04NTU2MDc1
-MTIsLTEwNTg3OTA1MTYsLTE1NDY4MTUyMTQsLTE5OTYxNzgyNj
-gsMjA4MjI0MzMwNywtNDExNzM2ODMwLDE1NDgzMzE2MzIsLTE5
-NzQyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OT
-E5MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAz
-NSwxMDAyOTY4NjU1XX0=
+eyJoaXN0b3J5IjpbLTg2MzgyNDEyOCwtMTQwNjE1NjY0NSwtMT
+A4MjUwNDg1MCwtNzIwNzcxMDA0LDIzNDgxOTg4NiwtODU1NjA3
+NTEyLC0xMDU4NzkwNTE2LC0xNTQ2ODE1MjE0LC0xOTk2MTc4Mj
+Y4LDIwODIyNDMzMDcsLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC0x
+OTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02OTc5Mjc3OTEsLTExOD
+kxOTEwMzcsLTE3Njk4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMw
+MzUsMTAwMjk2ODY1NV19
 -->
