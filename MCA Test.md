@@ -126,14 +126,14 @@ Test는 다음과 같이 진행 되었다.
 	- AntiDDos(Enhanced) + MCA with Cache function enabled
 가장 최적의 네트워크 성능을 보여 준다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 9배, 1M의 경우 약 8배, 4M의 경우 약 2배의 응답 시간 개선 효과를 가져왔다. 간헐적으로 튀는 현상이 있지만 대체적으로 Direct 보다 훨씬 큰 폭의 대역폭을 유지한다. 
 	- AntiDDos(Standard) + MCA without Cache
-평균 응답 시간을 보았을 때 그 개선효과가 Cache 적용보다는 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.7배, 1M의 경우 약 2.68배 개선되었지만 4M의 경우 1.12배 개선되었다. 
+평균 응답 시간을 보았을 때 그 개선효과가 Cache 적용 보다는 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.7배, 1M의 경우 약 2.68배 개선되었지만 4M의 경우 1.12배 개선되었다. 
 4. Static Web Object Load (Shanghai > Seoul)
 	- Direct (MCA 적용 X)
  간헐적으로 튀는 현상이 있기는 하지만 대체적으로 일정한 속도가 유지된다.  
 	- AntiDDos(Enhanced) + MCA with Cache function enabled
 가장 최적의 네트워크 성능을 보여 준다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 7배, 1M의 경우 약 6배, 4M의 경우 약 6배의 응답 시간 개선 효과를 가져왔다. 간헐적으로 튀는 현상이 있지만 대체적으로 Direct 보다 훨씬 큰 폭의 대역폭을 유지한다. 
 	- AntiDDos(Standard) + MCA without Cache
-평균 응답 시간을 보았을 때 그 개선효과가 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.84배, 1M의 경우 약 1.13배, 4M의 경우 1.06배의 응답시간 개선효과가 있었다. 응답시간은 불 안정적으로 변동폭이 큰 편이다.
+평균 응답 시간을 보았을 때 그 개선효과가 Cache 적용 보다는 미미하다. Direct와 비교했을 때 500k의 오브젝트의 경우 약 1.84배, 1M의 경우 약 1.46배, 4M의 경우 1.4배의 응답시간 개선효과가 있었다. 
 
 5. Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul)
 리전에 따라 상이한 결과를 보인다. 베이징의 경우 1.8배의 개선 효과가 있었지만, 상하이의 경우 비슷한 속도를 보였다. 
@@ -170,11 +170,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODc5MjgyMSwtMTA4MjUwNDg1MCwtNz
-IwNzcxMDA0LDIzNDgxOTg4NiwtODU1NjA3NTEyLC0xMDU4Nzkw
-NTE2LC0xNTQ2ODE1MjE0LC0xOTk2MTc4MjY4LDIwODIyNDMzMD
-csLTQxMTczNjgzMCwxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0y
-MTI0OTI4ODg4LC02OTc5Mjc3OTEsLTExODkxOTEwMzcsLTE3Nj
-k4NTM5MywtMTE2MzQ1Nzg3OSw4Mjg2NzMwMzUsMTAwMjk2ODY1
-NSwtNTMwMDM5MF19
+eyJoaXN0b3J5IjpbLTE0MDYxNTY2NDUsLTEwODI1MDQ4NTAsLT
+cyMDc3MTAwNCwyMzQ4MTk4ODYsLTg1NTYwNzUxMiwtMTA1ODc5
+MDUxNiwtMTU0NjgxNTIxNCwtMTk5NjE3ODI2OCwyMDgyMjQzMz
+A3LC00MTE3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwt
+MjEyNDkyODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNz
+Y5ODUzOTMsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2
+NTUsLTUzMDAzOTBdfQ==
 -->
