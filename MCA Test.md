@@ -113,10 +113,10 @@ Test는 다음과 같이 진행 되었다.
 아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 500k, 1M, 4M 파일에 대한 로딩을 나타낸다. 
 
 * Static Web Object Load (Beijing > Seoul) - 응답시간 추이
-![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR_Static.png?raw=true)
+![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR.png?raw=true)
 
 * Static Web Object Load (Shanghai > Seoul) - 응답시간 추이
-![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR_Static.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR.png?raw=true)
 
 * Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul) - 응답시간 추이
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Dynamic.png?raw=true)
@@ -176,11 +176,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDc3MTAwNCwyMzQ4MTk4ODYsLTg1NT
-YwNzUxMiwtMTA1ODc5MDUxNiwtMTU0NjgxNTIxNCwtMTk5NjE3
-ODI2OCwyMDgyMjQzMzA3LC00MTE3MzY4MzAsMTU0ODMzMTYzMi
-wtMTk3NDI3OTgzNiwtMjEyNDkyODg4OCwtNjk3OTI3NzkxLC0x
-MTg5MTkxMDM3LC0xNzY5ODUzOTMsLTExNjM0NTc4NzksODI4Nj
-czMDM1LDEwMDI5Njg2NTUsLTUzMDAzOTAsMTk4ODI4NDY0NCwt
-MTI4MDg2MjU0NF19
+eyJoaXN0b3J5IjpbNTIzNzQzMDYsLTcyMDc3MTAwNCwyMzQ4MT
+k4ODYsLTg1NTYwNzUxMiwtMTA1ODc5MDUxNiwtMTU0NjgxNTIx
+NCwtMTk5NjE3ODI2OCwyMDgyMjQzMzA3LC00MTE3MzY4MzAsMT
+U0ODMzMTYzMiwtMTk3NDI3OTgzNiwtMjEyNDkyODg4OCwtNjk3
+OTI3NzkxLC0xMTg5MTkxMDM3LC0xNzY5ODUzOTMsLTExNjM0NT
+c4NzksODI4NjczMDM1LDEwMDI5Njg2NTUsLTUzMDAzOTAsMTk4
+ODI4NDY0NF19
 -->
