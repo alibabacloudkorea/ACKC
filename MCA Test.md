@@ -105,7 +105,7 @@ Test는 다음과 같이 진행 되었다.
 		![](https://github.com/rnlduaeo/alibaba/blob/master/pingtime.png?raw=true)
 		
 
-아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 MCA Cache(연두), MCA NoCache(주황), Public(파랑)망을 나타낸다. 속도는 베이징, 상해에서 서울로 500k, 1M, 4M 페이지에 대한 페이지 로딩 속도를 측정했다. 응답시간이 낮을 수록 로딩 속도가 빠르
+아래는 웹 페이지 로딩 속도를 측정한 그래프이다. y축은 요청에 대한 응답시간을 나타내고 x축은 색깔 별로 각각 MCA Cache(연두), MCA NoCache(주황), Public(파랑)망을 나타낸다. 속도는 베이징, 상해에서 서울로 500k, 1M, 4M 페이지에 대한 페이지 로딩 속도를 측정했다. 응답시간이 낮을 수록 로딩 속도가 빠르다는 것을 나타낸다.
 
 * Static Web Object Load (Beijing > Seoul) - 응답시간 추이
 ![hello](https://github.com/rnlduaeo/alibaba/blob/master/BJ_KR.png?raw=true)
@@ -171,7 +171,7 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTkxMjgxNiwtNzIwNzcxMDA0LDIzND
+eyJoaXN0b3J5IjpbMjA4NDg2NDM3NSwtNzIwNzcxMDA0LDIzND
 gxOTg4NiwtODU1NjA3NTEyLC0xMDU4NzkwNTE2LC0xNTQ2ODE1
 MjE0LC0xOTk2MTc4MjY4LDIwODIyNDMzMDcsLTQxMTczNjgzMC
 wxNTQ4MzMxNjMyLC0xOTc0Mjc5ODM2LC0yMTI0OTI4ODg4LC02
