@@ -113,7 +113,7 @@ Test는 다음과 같이 진행 되었다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/SH_KR.png?raw=true)
 
 * Dynamic Web Object Load (Beijing > Seoul, Shanghai > Seoul) - 응답시간 추이
-![](https://github.com/rnlduaeo/alibaba/blob/master/Dynamic.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-07%20at%201.19.36%20PM.png?raw=true)
 
 
 ## Key Finding
@@ -170,11 +170,11 @@ MCA와 관련된 ICP 관련된 이점 외에도, 게임 패키지, 리소스 패
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYxNTY2NDUsLTEwODI1MDQ4NTAsLT
-cyMDc3MTAwNCwyMzQ4MTk4ODYsLTg1NTYwNzUxMiwtMTA1ODc5
-MDUxNiwtMTU0NjgxNTIxNCwtMTk5NjE3ODI2OCwyMDgyMjQzMz
-A3LC00MTE3MzY4MzAsMTU0ODMzMTYzMiwtMTk3NDI3OTgzNiwt
-MjEyNDkyODg4OCwtNjk3OTI3NzkxLC0xMTg5MTkxMDM3LC0xNz
-Y5ODUzOTMsLTExNjM0NTc4NzksODI4NjczMDM1LDEwMDI5Njg2
-NTUsLTUzMDAzOTBdfQ==
+eyJoaXN0b3J5IjpbNTM1NjYwMDM3LC0xNDA2MTU2NjQ1LC0xMD
+gyNTA0ODUwLC03MjA3NzEwMDQsMjM0ODE5ODg2LC04NTU2MDc1
+MTIsLTEwNTg3OTA1MTYsLTE1NDY4MTUyMTQsLTE5OTYxNzgyNj
+gsMjA4MjI0MzMwNywtNDExNzM2ODMwLDE1NDgzMzE2MzIsLTE5
+NzQyNzk4MzYsLTIxMjQ5Mjg4ODgsLTY5NzkyNzc5MSwtMTE4OT
+E5MTAzNywtMTc2OTg1MzkzLC0xMTYzNDU3ODc5LDgyODY3MzAz
+NSwxMDAyOTY4NjU1XX0=
 -->
