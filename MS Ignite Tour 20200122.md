@@ -1,7 +1,7 @@
 # MS Azure Ignite Tour in Seoul Review
 
 ## ML DevOps in Azure
-There are several terms when we talk about ML, that is, datasets registered for ML process, experiments for already trained sets, pipelines for training workflows.
+There are several terms when we talk about ML. Datasets registered for ML process, experiments for already trained sets, pipelines for training workflows etc. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/7.JPG?raw=true)
 
 In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly presented out of several terms in machine learning development lifecycle.
@@ -67,6 +67,6 @@ Resources info. If you are interested in, plz refer to it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU0MTQ1MjgsLTM0MDIwNDU3NSwtOT
+eyJoaXN0b3J5IjpbLTE1Mzc4MjY5MDUsLTM0MDIwNDU3NSwtOT
 M2MzY3NzkxXX0=
 -->
