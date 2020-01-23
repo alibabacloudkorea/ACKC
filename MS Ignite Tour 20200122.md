@@ -10,6 +10,13 @@
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/3.JPG?raw=true)
 
+
+
+In general ML development cycles, we followed below process.
+
+- data preprocessing (cleansing, normalization etc.)
+-  training with 
+
 ![](https://github.com/rnlduaeo/alibaba/blob/master/4.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
@@ -41,5 +48,5 @@ In ML DevOps session, pipelines and pipeline endpoints(for result set) were main
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODM0NTkwNV19
+eyJoaXN0b3J5IjpbMTM4MzY5OTUyNV19
 -->
