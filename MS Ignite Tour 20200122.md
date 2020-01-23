@@ -23,7 +23,7 @@ In azure ML pipeline, we can define this ML development process with flow diagra
 In console, the user can see the historically changed trend in model accuracy, do the rollback by simply clicking etc.  
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
 
-Can be leveraged in different scenarios either model embedded in application or development with azure cognitive service API(e.g image, voice recognition API) 
+Can be leveraged in different scenarios either model embedded in application or development with azure cognitive service API(e.g image, voice recognition prebuilt API) 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/3.JPG?raw=true)
 
 General comment on this session: 
@@ -32,10 +32,13 @@ Quite inspired by their user-friendly console UI, was easy to understand due to 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/8.JPG?raw=true)
 
+## ML in PowerBI
+
+General introduction of Azure ML services
+![](https://github.com/rnlduaeo/alibaba/blob/master/2.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/1.JPG?raw=true)
 
-![](https://github.com/rnlduaeo/alibaba/blob/master/2.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/9.JPG?raw=true)
 
@@ -55,5 +58,5 @@ Quite inspired by their user-friendly console UI, was easy to understand due to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzI1ODc2MCwtOTM2MzY3NzkxXX0=
+eyJoaXN0b3J5IjpbMTU4NTQwNTQ2OCwtOTM2MzY3NzkxXX0=
 -->
