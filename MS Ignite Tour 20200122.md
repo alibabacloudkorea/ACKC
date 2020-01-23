@@ -1,6 +1,6 @@
 # MS Azure Ignite Tour in Seoul Review
 
-1. ML devops in Azure
+1. ML DevOps in Azure
 
 2. ML inside powerBI
 
@@ -14,6 +14,7 @@
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
 
+In ML DevOps session, azure pipelines and pip
 ![](https://github.com/rnlduaeo/alibaba/blob/master/6.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/7.JPG?raw=true)
@@ -38,5 +39,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzODYyMTIwXX0=
+eyJoaXN0b3J5IjpbMTk3MzAxNjU5M119
 -->
