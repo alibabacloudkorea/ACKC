@@ -17,6 +17,7 @@
 In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly presented out of several resources in machine learning development lifecycle.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/6.JPG?raw=true)
 
+There are several terms when we talk about ML such as datasets registered for ML process, experiments for already trained sets, pipelines for 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/7.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/8.JPG?raw=true)
@@ -39,5 +40,5 @@ In ML DevOps session, pipelines and pipeline endpoints(for result set) were main
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MTAxMDE4XX0=
+eyJoaXN0b3J5IjpbLTE2MDg4MjU2MjFdfQ==
 -->
