@@ -42,10 +42,10 @@ General introduction of Azure ML services
 Power BI can be integrated with ML ecosystem in Azure. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/9.JPG?raw=true)
 
-The title was ML in Power BI, however the presenter mainly talks about general development methodology with Power BI using embedded analytics, Rest API, custom visuals.
+The title was ML in Power BI, however the presenter mainly talked about general development methodology with Power BI using embedded analytics, Rest API, custom visuals.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/10.JPG?raw=true)
 
-When I was in Oracle and delivered Oracle BI product which called OAC(similar visualization tool with Power BI), I saw many customers want to embed(integrate) BI dashboard to their own application seamlessly which includes identity federation with existing IAM(Identity and Access Management) solution).
+When I was in Oracle and delivered Oracle BI product which called as OAC(similar visualization tool with Power BI), I saw many customers who want to embed(integrate) BI dashboard to their own application seamlessly which includes identity federation with existing IAM(Identity and Access Management) solution.
 
 From my perspective,  Power BI is considered to have market value in that it has a variety of features that facilitate integration with existing applications.
 
@@ -67,6 +67,6 @@ Resources info. If you are interested in, plz refer to it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc4MjY5MDUsLTM0MDIwNDU3NSwtOT
-M2MzY3NzkxXX0=
+eyJoaXN0b3J5IjpbMzIwMzE3NjI2LC0xNTM3ODI2OTA1LC0zND
+AyMDQ1NzUsLTkzNjM2Nzc5MV19
 -->
