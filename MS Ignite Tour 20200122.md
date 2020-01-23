@@ -14,7 +14,7 @@
 
 
 
-In azure ML pipeline, we can define this ML development process with flow diagram and build a CI/CD pipeline (traditional CI/CD process likewise). In other word, select different kinds of dataset, training code, model registration, test the model in staging system, and deployment to production system
+In azure ML pipeline, we can define this ML development process with flow diagram and build a CI/CD pipeline (traditional CI/CD process likewise). In other word, the whole cycle where selecting different kinds of dataset, training code, model registration, testing the model in staging system, and final deployment to production system becomes automate which makes reduc
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
 
 There are several terms when we talk about ML such as datasets registered for ML process, experiments for already trained sets, pipelines for training workflows.
@@ -55,5 +55,5 @@ With new data coming in, we follow same process with new data (we call it test d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjQ3MTIxNCwtOTM2MzY3NzkxXX0=
+eyJoaXN0b3J5IjpbMzUxOTQwMDM2LC05MzYzNjc3OTFdfQ==
 -->
