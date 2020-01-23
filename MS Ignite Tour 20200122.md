@@ -51,6 +51,7 @@ From my perspective,  Power BI is considered to have market value in that it has
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/11.JPG?raw=true)
 
+Datasets in PowerBI can be shared 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/12.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/13.JPG?raw=true)
@@ -63,5 +64,5 @@ From my perspective,  Power BI is considered to have market value in that it has
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA4MjUzMDcsLTkzNjM2Nzc5MV19
+eyJoaXN0b3J5IjpbMTc3NTQ5NTg2NywtOTM2MzY3NzkxXX0=
 -->
