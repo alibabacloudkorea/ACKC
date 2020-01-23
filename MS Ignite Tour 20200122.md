@@ -36,7 +36,7 @@ In azure ML pipeline, we can define this ML development process with flow diagra
 In console, the user can see the historically changed trend in model accuracy, do the rollback by simply clicking etc.  
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
 
-Can be leveraged in different scenarios either with application
+Can be leveraged in different scenarios either model embedded in application or development with azure cognitive service API(e.g image, voice recognition API) 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/3.JPG?raw=true)
 
 
@@ -64,5 +64,5 @@ Quite inspired by their user-friendly console UI, was easy to understand due to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5MTIxMTkxLC05MzYzNjc3OTFdfQ==
+eyJoaXN0b3J5IjpbLTEyNzQ5NDc4NzYsLTkzNjM2Nzc5MV19
 -->
