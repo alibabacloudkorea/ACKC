@@ -27,7 +27,7 @@ Can be leveraged in different scenarios either model embedded in application or 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/3.JPG?raw=true)
 
 General comment on this session: 
-Quite interested in their user-friendly console UI. was easy to understand due to similarity with traditional CI/CD pipeline concept. 
+Their user-friendly console UI was interesting. was easy to understand due to similarity with traditional CI/CD pipeline concept. 
 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/8.JPG?raw=true)
@@ -67,7 +67,7 @@ Resources info. If you are interested in, plz refer to it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzc0OTUzNCwtODUxMDExMjE5LC03NT
-IzMDY3OTMsLTE1Mzc4MjY5MDUsLTM0MDIwNDU3NSwtOTM2MzY3
-NzkxXX0=
+eyJoaXN0b3J5IjpbMjE0ODUyMjk5LC04NTEwMTEyMTksLTc1Mj
+MwNjc5MywtMTUzNzgyNjkwNSwtMzQwMjA0NTc1LC05MzYzNjc3
+OTFdfQ==
 -->
