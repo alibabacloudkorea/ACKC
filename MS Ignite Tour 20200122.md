@@ -54,15 +54,17 @@ From my perspective,  Power BI is considered to have market value in that it has
 Datasets in PowerBI can be not only shared by itself but also bound with dynamic values from application side. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/12.JPG?raw=true)
 
+API has different kinds of behaviors. can simply select them. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/13.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/14.JPG?raw=true)
 
+The presenter showed us power BI dashhis own application embedded
 ![](https://github.com/rnlduaeo/alibaba/blob/master/15.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/16.JPG?raw=true)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTk3OTMwODgsLTkzNjM2Nzc5MV19
+eyJoaXN0b3J5IjpbLTg1MDgzNzU4OSwtOTM2MzY3NzkxXX0=
 -->
