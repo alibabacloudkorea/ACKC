@@ -4,7 +4,7 @@
 There are several terms when we talk about ML. Datasets registered for ML process, experiments for already trained sets, pipelines for training workflows etc. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/7.JPG?raw=true)
 
-In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly presented out of several terms in machine learning development lifecycle.
+In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly delivered out of several terms in machine learning development lifecycle.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/6.JPG?raw=true)
 
 In general ML development cycles, we have following process.
@@ -67,6 +67,6 @@ Resources info. If you are interested in, plz refer to it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjMwNjc5MywtMTUzNzgyNjkwNSwtMz
-QwMjA0NTc1LC05MzYzNjc3OTFdfQ==
+eyJoaXN0b3J5IjpbLTg1MTAxMTIxOSwtNzUyMzA2NzkzLC0xNT
+M3ODI2OTA1LC0zNDAyMDQ1NzUsLTkzNjM2Nzc5MV19
 -->
