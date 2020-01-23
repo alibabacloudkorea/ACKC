@@ -18,7 +18,7 @@ With new data coming in, we follow same process with new data (we call it test d
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/4.JPG?raw=true)
 
-In azure ML pipeline, we can define this ML development process with flow diagram and build a CI/CD pipeline (traditional CI/CD process likewise). In other word, the whole cycle where selecting different kinds of dataset, training code, model registration, testing the model in staging system, and final deployment to production system becomes automate which reduces huge amount of repeated tasks. 
+In azure ML pipeline, we can define this ML development process with flow diagram and build a CI/CD pipeline (traditional CI/CD process likewise). In other word, the whole cycle where selecting different kinds of dataset, training code, model registration, testing the model in staging system, and final deployment to production system becomes automate which allows us to reduce huge amount of repeated tasks. 
 
 In console, the user can see the historically changed trend in model accuracy, do the rollback by simply clicking etc.  
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
@@ -45,7 +45,7 @@ Power BI can integrated with ML ecosystem in Azure.
 The title was ML in Power BI, however the presenter mainly talks about general development methodology with Power BI using embedded analytics, Rest API, custom visuals.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/10.JPG?raw=true)
 
-When I was in Oracle and delivered Oracle BI product which called OAC(similar visualization tool with Power BI), I saw many customers wan
+When I was in Oracle and delivered Oracle BI product which called OAC(similar visualization tool with Power BI), I saw many customers want to embed(integrate) BI dashboard to their own application seamlessly (
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/11.JPG?raw=true)
 
@@ -61,5 +61,5 @@ When I was in Oracle and delivered Oracle BI product which called OAC(similar vi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzA1OTE2MCwtOTM2MzY3NzkxXX0=
+eyJoaXN0b3J5IjpbLTMxNDE4Mzk4NiwtOTM2MzY3NzkxXX0=
 -->
