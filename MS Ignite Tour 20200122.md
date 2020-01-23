@@ -34,7 +34,7 @@ With new data coming in, we follow same process with new data (we call it test d
 
 In azure ML pipeline, we can define this ML development process with flow diagram and build a CI/CD pipeline (traditional CI/CD process likewise). In other word, the whole cycle where selecting different kinds of dataset, training code, model registration, testing the model in staging system, and final deployment to production system becomes automate which reduces huge amount of repeated tasks. 
 
-In console, the user can see the historically changed trend in model accuracy, rollback etc.  
+In console, the user can see the historically changed trend in model accuracy, do the rollback by simply clicking etc.  
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
 
 
@@ -58,5 +58,5 @@ In console, the user can see the historically changed trend in model accuracy, r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQwODk1ODAsLTkzNjM2Nzc5MV19
+eyJoaXN0b3J5IjpbLTU3ODQxMTU5NSwtOTM2MzY3NzkxXX0=
 -->
