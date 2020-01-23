@@ -12,6 +12,17 @@
 
 
 
+
+
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
+
+There are several terms when we talk about ML such as datasets registered for ML process, experiments for already trained sets, pipelines for training workflows.
+![](https://github.com/rnlduaeo/alibaba/blob/master/7.JPG?raw=true)
+
+In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly presented out of several resources in machine learning development lifecycle.
+![](https://github.com/rnlduaeo/alibaba/blob/master/6.JPG?raw=true)
+
 In general ML development cycles, we followed below process.
 
 - data preprocessing (cleansing, normalization etc.)
@@ -22,14 +33,6 @@ In general ML development cycles, we followed below process.
 With new data coming in, we follow same process with new data (we call it test dataset). Once outcome came out, model validation(with model accuracy) will be conducted and retrain the model while keeping changing the parameter set(variable) with different values until the model reach certain level of accuracy. 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/4.JPG?raw=true)
-
-![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
-
-There are several terms when we talk about ML such as datasets registered for ML process, experiments for already trained sets, pipelines for training workflows.
-![](https://github.com/rnlduaeo/alibaba/blob/master/7.JPG?raw=true)
-
-In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly presented out of several resources in machine learning development lifecycle.
-![](https://github.com/rnlduaeo/alibaba/blob/master/6.JPG?raw=true)
 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/8.JPG?raw=true)
@@ -52,5 +55,5 @@ In ML DevOps session, pipelines and pipeline endpoints(for result set) were main
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3OTg0OTAzXX0=
+eyJoaXN0b3J5IjpbLTkzNjM2Nzc5MV19
 -->
