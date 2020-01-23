@@ -54,7 +54,7 @@ From my perspective,  Power BI has market value in that it has a variety of feat
 Datasets in PowerBI can be not only shared by itself but also bound with dynamic values from application side. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/12.JPG?raw=true)
 
-API has different kinds of operations with certain privilege. can simply select them. 
+API has different kinds of operations with certain privilege. We can simply select them. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/13.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/14.JPG?raw=true)
@@ -67,6 +67,6 @@ Resources info. If you are interested in, plz refer to it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjMyODA3NywtMTUzNzgyNjkwNSwtMz
+eyJoaXN0b3J5IjpbLTc1MjMwNjc5MywtMTUzNzgyNjkwNSwtMz
 QwMjA0NTc1LC05MzYzNjc3OTFdfQ==
 -->
