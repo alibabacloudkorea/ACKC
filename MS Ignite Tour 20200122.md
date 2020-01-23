@@ -1,23 +1,10 @@
 # MS Azure Ignite Tour in Seoul Review
 
-1. ML DevOps in Azure
-
-2. ML inside powerBI
-
-![](https://github.com/rnlduaeo/alibaba/blob/master/1.JPG?raw=true)
-
-![](https://github.com/rnlduaeo/alibaba/blob/master/2.JPG?raw=true)
-
-
-
-
-
-
-
+## ML DevOps in Azure
 There are several terms when we talk about ML such as datasets registered for ML process, experiments for already trained sets, pipelines for training workflows.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/7.JPG?raw=true)
 
-In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly presented out of several resources in machine learning development lifecycle.
+In ML DevOps session, pipelines and pipeline endpoints(for result set) were mainly presented out of several terms in machine learning development lifecycle.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/6.JPG?raw=true)
 
 In general ML development cycles, we followed below process.
@@ -39,12 +26,21 @@ In console, the user can see the historically changed trend in model accuracy, d
 Can be leveraged in different scenarios either model embedded in application or development with azure cognitive service API(e.g image, voice recognition API) 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/3.JPG?raw=true)
 
-
 General comment on this session: 
 Quite inspired by their user-friendly console UI, was easy to understand due to similarity with traditional CI/CD pipeline concept. 
 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/8.JPG?raw=true)
+
+
+
+
+
+
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/1.JPG?raw=true)
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/2.JPG?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/9.JPG?raw=true)
 
@@ -64,5 +60,5 @@ Quite inspired by their user-friendly console UI, was easy to understand due to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ5NDc4NzYsLTkzNjM2Nzc5MV19
+eyJoaXN0b3J5IjpbMTcxMTQzNzIyLC05MzYzNjc3OTFdfQ==
 -->
