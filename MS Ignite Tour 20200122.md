@@ -37,6 +37,9 @@ In azure ML pipeline, we can define this ML development process with flow diagra
 In console, the user can see the historically changed trend in model accuracy, do the rollback by simply clicking etc.  
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
 
+General comment on this session: 
+Quite inspired by their user-friendly console UI, 
+
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/8.JPG?raw=true)
 
@@ -58,5 +61,5 @@ In console, the user can see the historically changed trend in model accuracy, d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODQxMTU5NSwtOTM2MzY3NzkxXX0=
+eyJoaXN0b3J5IjpbLTg4MDY1OTY1OCwtOTM2MzY3NzkxXX0=
 -->
