@@ -17,8 +17,9 @@ In general ML development cycles, we followed below process.
 - data preprocessing (cleansing, normalization etc.)
 - training with data
 - model registration
-- deploy to the compute resources
-- 
+- deploy to the compute resources (ACI, AKS)
+
+With new data coming in, we follow same process with new data (we call it test dat
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/4.JPG?raw=true)
 
@@ -51,5 +52,5 @@ In ML DevOps session, pipelines and pipeline endpoints(for result set) were main
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDc4MzM5M119
+eyJoaXN0b3J5IjpbMTM4NjIwMzUxN119
 -->
