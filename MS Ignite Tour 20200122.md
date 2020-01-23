@@ -14,7 +14,7 @@
 
 
 
-
+In azure ML pipeline, we can define this ML development process with flow diagram and automate commit, test, , select different kinds of dataset, model, 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/5.JPG?raw=true)
 
 There are several terms when we talk about ML such as datasets registered for ML process, experiments for already trained sets, pipelines for training workflows.
@@ -55,5 +55,5 @@ With new data coming in, we follow same process with new data (we call it test d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjM2Nzc5MV19
+eyJoaXN0b3J5IjpbMjE0NDk2OTI5MywtOTM2MzY3NzkxXX0=
 -->
