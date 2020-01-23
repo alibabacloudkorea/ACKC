@@ -39,7 +39,7 @@ General introduction of Azure ML services
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/1.JPG?raw=true)
 
-Power BI can be integrated with ML ecosystem in Azure. 
+Power BI can be easily integrated with ML ecosystem in Azure. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/9.JPG?raw=true)
 
 The title was ML in Power BI, however the presenter mainly talked about general development methodology with Power BI using embedded analytics, Rest API, custom visuals.
@@ -67,7 +67,7 @@ Resources info. If you are interested in, plz refer to it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0ODUyMjk5LC04NTEwMTEyMTksLTc1Mj
-MwNjc5MywtMTUzNzgyNjkwNSwtMzQwMjA0NTc1LC05MzYzNjc3
-OTFdfQ==
+eyJoaXN0b3J5IjpbMTU3OTQ4OTcyOCwtODUxMDExMjE5LC03NT
+IzMDY3OTMsLTE1Mzc4MjY5MDUsLTM0MDIwNDU3NSwtOTM2MzY3
+NzkxXX0=
 -->
