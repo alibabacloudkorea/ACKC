@@ -47,7 +47,7 @@ The title was ML in Power BI, however the presenter mainly talks about general d
 
 When I was in Oracle and delivered Oracle BI product which called OAC(similar visualization tool with Power BI), I saw many customers want to embed(integrate) BI dashboard to their own application seamlessly which includes identity federation with existing IAM(Identity and Access Management) solution).
 
-From my perspective, Power BI has an advantage having bunch of features in terms o
+From my perspective,  Power BI is considered to have market value in that it has a variety of features that facilitate integration with existing applications.
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/11.JPG?raw=true)
 
@@ -63,5 +63,5 @@ From my perspective, Power BI has an advantage having bunch of features in terms
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg3OTQxMjQsLTkzNjM2Nzc5MV19
+eyJoaXN0b3J5IjpbLTE4MDA4MjUzMDcsLTkzNjM2Nzc5MV19
 -->
