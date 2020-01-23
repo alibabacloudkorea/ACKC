@@ -59,12 +59,13 @@ API has different kinds of behaviors. can simply select them.
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/14.JPG?raw=true)
 
-The presenter showed us power BI dashhis own application embedded
+The presenter showed us one of power BI dashboards embedded in his own application. emphasized simplicity too much.. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/15.JPG?raw=true)
 
+Resources info. If you are interested in, plz refer to it. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/16.JPG?raw=true)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDgzNzU4OSwtOTM2MzY3NzkxXX0=
+eyJoaXN0b3J5IjpbLTM0MDIwNDU3NSwtOTM2MzY3NzkxXX0=
 -->
