@@ -35,10 +35,13 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
 
 또한 트래픽을 중간에서 가로채서 cleaning하는 것이기 때문에(anti-ddos의 scrubbing center와 유사, anti-ddos도 ddos로 의심되는 트래픽은 anti-ddos scrubbing center로 보내 cleaning한다.) 서비스가 되었다 안되었다 할 수 있다. 
 
-> Note: MCA는 GFW의 대안이 될 수 없다. MCA는 Border Network에 CN라인이라고 하는 MPLS line(중국-홍콩)을 타게 된다. 이를 통해 일반 public 망을 통한 네트워크 보다는 빠르지만 마찬가지로 GFW의 검열 대상이 된다. 
+> Note: MCA는 GFW의 대안이 될 수 없다. MCA는 Border Network에 CN라인이라고 하는 MPLS line(중국-홍콩)을 타게 된다. 이를 통해 일반 public 망을 통한 네트워크 보다는 빠르지만 위와 마찬가지로 GFW의 검열 대상이 된다. 
 
-> Note 2: GA2.0을 사용하려면 ICP 도메인을 받아야 한다. 이유는  
+> Note 2: GA2.0을 사용하려면 ICP 도메인을 받아야 한다. 이유는 GA에서 발급하는 IP가 중국내 IP이기 때문이다. 
+
+ ## 고객 상황에 따른 제안 방향
+ 1. 도
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NzE3MDgxLDE4MzcwNzIyNzddfQ==
+eyJoaXN0b3J5IjpbLTE4OTQzMjIxMCwxODM3MDcyMjc3XX0=
 -->
