@@ -5,9 +5,10 @@
 
 ## China Great Firewall
 ICP와는 별개로 트래픽에 관한 규제이다. 
-- **대상: Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)에 대하여 규제한다. **
+- **대상: Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)에 대하여 규제한다.**
 - 방법: 알려진 바로는 키워드 필터링, IP 주소 블랙리스트, DNS poisioning, 패킷 검사 등을 통해 컨텐츠를 검열한다. 
 
+위의 대상이 되는 트래픽에 대해 잘 기억하자.
 ## ICP와 China Great Firewall간의 관계
 많은 경우에 한국에 서버를 두고 서비스를 하는데 중국 유저들의 접속이 원활하지 못한 경우가 있다. 단순히 속도가 느린 것은 다른 알리바바 서비스를 통해 쉽게 해결이 가능하지만, 문제는 가령 사이트 접속은 잘되는데 특정 컨텐츠가 안보인다든지, 모바일 앱을 켰는데 갑자기 접속이 안된다든지, 모바일 앱의 특정 기능이 작동 안 한다든지 등 중국의 great firewall에 의해 차단된 것으로 의심되는 경우이다. 이 경우 우리는 다음과 같은 질문을 할 수 있다.
 
@@ -16,7 +17,7 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 답은 아니다. ICP와 China Great Firewall(GFW)은 별개이다. ICP비안을 받은 도메인을 사용할지라도 컨텐츠(즉 트래픽)에 따라 GFW에 의해 필터링 되어 서비스가 원활히 실행되지 못할 수 있다. 
 
 ## 해결 가능한 알리바바 클라우드 솔루션
-위의 경우 우리가 제안할 수 있는 솔루션은 GA2.0이다. 
+위의 경우(고객이 GFW에 의해 ) 우리가 제안할 수 있는 솔루션은 GA2.0이다. 
 
 # Files
 
@@ -157,6 +158,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1MTUzNDg5LC0xMjkxODA0OTAxLDEwNT
-Y2NjA3ODNdfQ==
+eyJoaXN0b3J5IjpbMTcwMjQ5MDE3MCwtMTI5MTgwNDkwMSwxMD
+U2NjYwNzgzXX0=
 -->
