@@ -14,7 +14,8 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 
 - 현재 안되는 서비스(GFW에 의해 차단된 것으로 의심되는)에서 사용하는 도메인 이름을 ICP 비안을 통해 정식 등록을 하게 되면 서비스가 원활히 진행될까요?
 
-답은 아니다. ICP와 China Great Firewall(GFW)은 별개이다. ICP비안을 받은 도메인을 사용할지라도 컨텐츠(즉 트래픽)에 따라 GFW에 의해 필터링 되어 서비스가 원활히 실행되지 못할 수 있다. 
+**답은 아니다.**
+ ICP와 China Great Firewall(GFW)은 별개이다. ICP비안을 받은 도메인을 사용할지라도 컨텐츠(즉 트래픽)에 따라 GFW에 의해 필터링 되어 서비스가 원활히 실행되지 못할 수 있다. 
 
 ## 해결 가능한 알리바바 클라우드 솔루션
 위의 경우(문제의 원인이 GFW로 의심될 경우) 우리가 제안할 수 있는 솔루션은 GA2.0이다. 
@@ -36,7 +37,8 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
 
 > Note: MCA는 GFW의 대안이 될 수 없다. MCA는 Border Network에 CN라인이라고 하는 MPLS line(중국-홍콩)을 타게 된다. 이를 통해 일반 public 망을 통한 네트워크 보다는 빠르지만 마찬가지로 GFW의 검열 대상이 된다. 
 
+> Note 2: GA2.0을 사용하려면 ICP 도메인을 받아야 한다. 이유는  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzA3MjI3N119
+eyJoaXN0b3J5IjpbNTI1NzE3MDgxLDE4MzcwNzIyNzddfQ==
 -->
