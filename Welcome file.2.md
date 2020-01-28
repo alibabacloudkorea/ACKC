@@ -4,7 +4,7 @@
 중국 내 온라인(인터넷)을 통한 비즈니스를 운영할 시 필요한 절차이다. 자세한 사항은 문서 참고. 
 
 ## China Great Firewall
-ICP와는 별개로 트래픽에 관한 규제이다. Border Network(중국-중국외지역)를 경유하는 모든 퍼블릭 틀
+ICP와는 별개로 트래픽에 관한 규제이다. Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)에 대하여 규제한다. 
 
 # Files
 
@@ -145,6 +145,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzkzNDk4LC0xMjkxODA0OTAxLDEwNT
-Y2NjA3ODNdfQ==
+eyJoaXN0b3J5IjpbLTU2MzE5NjI3MywtMTI5MTgwNDkwMSwxMD
+U2NjYwNzgzXX0=
 -->
