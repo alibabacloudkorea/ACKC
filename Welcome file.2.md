@@ -21,7 +21,10 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 
 GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따라서 GA를 사용하는 트래픽은 위에 언급한 GFW의 대상이 되는 "Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)"이 아니다. 즉, 검열 대상에서 제외된다는 의미이다. 
 
-따라서 GFW은 
+따라서 GFW이 의심되는 고객의 경우 GA2.0을 통한 테스트를 제안해 볼 수 있다.
+
+!()[https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-28%20at%203.59.29%20PM.png?raw=true]
+
 
 # Files
 
@@ -162,6 +165,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjcxODIwMCwtMTI5MTgwNDkwMSwxMD
-U2NjYwNzgzXX0=
+eyJoaXN0b3J5IjpbLTE5MzEwNjUxNTEsMTMyMjcxODIwMCwtMT
+I5MTgwNDkwMSwxMDU2NjYwNzgzXX0=
 -->
