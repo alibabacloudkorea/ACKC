@@ -41,11 +41,11 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
 
  ## 고객 상황에 따른 제안 방향
  1. 도메인 이름이 막힌 경우(nslookup 실패)
- 
  도메인을 바꾸면 된다. ICP도메인을 받더라도 GFW의 문제는 벗어날 수 없다. (위에 이유 설명함) 따라서 단순히 도메인을 바꾸는 것만으로도 문제를 해결할 수는 있다. (다만, 추후 또 막힐 수 있음. 막히면 또 바꿔야 함)
  2. 도메인 이름으로 접속은 원활히 실행되지만 요청에 대한 응답을 받지 못한 경우
+ GA2.0을 제안하고 테스트를 진행한다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTcwOTY3NywtMTM0Njk5Mjk4NCwxOD
+eyJoaXN0b3J5IjpbMTkyODIyMDc1NiwtMTM0Njk5Mjk4NCwxOD
 M3MDcyMjc3XX0=
 -->
