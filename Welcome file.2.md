@@ -17,7 +17,9 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 답은 아니다. ICP와 China Great Firewall(GFW)은 별개이다. ICP비안을 받은 도메인을 사용할지라도 컨텐츠(즉 트래픽)에 따라 GFW에 의해 필터링 되어 서비스가 원활히 실행되지 못할 수 있다. 
 
 ## 해결 가능한 알리바바 클라우드 솔루션
-위의 경우(고객이 GFW에 의해 ) 우리가 제안할 수 있는 솔루션은 GA2.0이다. 
+위의 경우(문제의 원인이 GFW로 의심될 경우) 우리가 제안할 수 있는 솔루션은 GA2.0이다. 
+
+GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따라서 위에 언급한 GFW의 대상이 되는 "Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)"
 
 # Files
 
@@ -158,6 +160,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjQ5MDE3MCwtMTI5MTgwNDkwMSwxMD
-U2NjYwNzgzXX0=
+eyJoaXN0b3J5IjpbLTE1NjY5NTA5MzYsLTEyOTE4MDQ5MDEsMT
+A1NjY2MDc4M119
 -->
