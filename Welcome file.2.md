@@ -12,7 +12,8 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 많은 경우에 한국에 서버를 두고 서비스를 하는데 중국 유저들의 접속이 원활하지 못한 경우가 있다. 단순히 속도가 느린 것은 다른 알리바바 서비스를 통해 쉽게 해결이 가능하지만, 문제는 가령 사이트 접속은 잘되는데 특정 컨텐츠가 안보인다든지, 모바일 앱을 켰는데 갑자기 접속이 안된다든지, 모바일 앱의 특정 기능이 작동 안 한다든지 등 중국의 great firewall에 의해 차단된 것으로 의심되는 경우이다. 이 경우 우리는 다음과 같은 질문을 할 수 있다.
 
 - 현재 안되는 서비스(GFW에 의해 차단된 것으로 의심되는)에서 사용하는 도메인 이름을 ICP 비안을 통해 정식 등록을 하게 되면 서비스가 원활히 진행될까요?
-- 
+
+답은 아니다. ICP와 China Great Firewall(GFW)은 별개이다. ICP비안을 받은 도메인을 사용할지라도 컨텐츠(즉 트래픽)에 따라 GFW에 의해 필터링 되어 서비스가 원활히 실행되지 못할 수 있다. 
 
 # Files
 
@@ -153,6 +154,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg4NDAxMjYsLTEyOTE4MDQ5MDEsMT
-A1NjY2MDc4M119
+eyJoaXN0b3J5IjpbNzkxNzA0NDk1LC0xMjkxODA0OTAxLDEwNT
+Y2NjA3ODNdfQ==
 -->
