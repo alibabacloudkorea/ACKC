@@ -23,7 +23,11 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
 
 따라서 GFW이 의심되는 고객의 경우 GA2.0을 통한 테스트를 제안해 볼 수 있다.
 
-!()[https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-28%20at%203.59.29%20PM.png?raw=true]
+예를 들어 근래 문제가 되었던 아프리카 TV같은 경우를 보자.
+아래는 베이징에서 아프리카 티비의 vod를 보기 위해 요청을 보낸 것이다. 도메인이름으로 질의를 보냈는데 서버의 IP를 잘 가져오는 것으로 보아 "vod.afreecatv.com" 도메인 자체는 문제가 되지 
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-28%20at%203.59.29%20PM.png?raw=true)
+
+
 
 
 # Files
@@ -165,6 +169,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEwNjUxNTEsMTMyMjcxODIwMCwtMT
+eyJoaXN0b3J5IjpbLTE5OTEwNTYxMTIsMTMyMjcxODIwMCwtMT
 I5MTgwNDkwMSwxMDU2NjYwNzgzXX0=
 -->
