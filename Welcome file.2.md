@@ -27,7 +27,7 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
 아래는 베이징에서 아프리카 티비의 vod를 보기 위해 요청을 보낸 것이다. DNS resolution부터 컨텐츠 전달 까지 잘 작동된다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-28%20at%203.59.29%20PM.png?raw=true)
 
-이번엔 다른 비디오(조금 야한 컨텐츠)의 URL로 요청을 보내보아
+이번엔 다른 비디오(조금 야한 컨텐츠)의 URL로 요청을 보냈다. DNS resolution은 잘 진행되었지만(222.233.54.41 이라는 IP주소를 잘 받아온다) 요청에 대한 응답은 받지 못하였다. 즉, 트래픽이 client(중국)와 server(한국 위치)간 border network를 경유하기 때문에 GFW의 컨텐츠 검열의 ㄷ
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-28%20at%203.59.00%20PM.png?raw=true)
 
 
@@ -171,6 +171,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgzNzExOTgsMTMyMjcxODIwMCwtMT
-I5MTgwNDkwMSwxMDU2NjYwNzgzXX0=
+eyJoaXN0b3J5IjpbMzIwNjA3NDI5LDEzMjI3MTgyMDAsLTEyOT
+E4MDQ5MDEsMTA1NjY2MDc4M119
 -->
