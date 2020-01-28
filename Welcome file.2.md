@@ -9,7 +9,7 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 - 방법: 알려진 바로는 키워드 필터링, IP 주소 블랙리스트, DNS poisioning, 패킷 검사 등을 통해 컨텐츠를 검열한다. 
 
 ## ICP와 China Great Firewall간의 관계
-많은 경우에 한국에 서버를 두고 서비스를 하는데 중국 유저들의 접속이 원활하지 못한 경우가 있다. 속도가 느린 것은 다른 알리바바 서비스를 통해 쉽게 해결이 가능하지만 가령 컨텐츠 자체가 막혔다던
+많은 경우에 한국에 서버를 두고 서비스를 하는데 중국 유저들의 접속이 원활하지 못한 경우가 있다. 속도가 느린 것은 다른 알리바바 서비스를 통해 쉽게 해결이 가능하지만 가령 사이트
 
 # Files
 
@@ -150,6 +150,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTE2MTg4NywtMTI5MTgwNDkwMSwxMD
+eyJoaXN0b3J5IjpbLTQ4NDQxNjg0NiwtMTI5MTgwNDkwMSwxMD
 U2NjYwNzgzXX0=
 -->
