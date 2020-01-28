@@ -40,8 +40,9 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
 > Note 2: GA2.0을 사용하려면 ICP 도메인을 받아야 한다. 이유는 GA에서 발급하는 IP가 중국내 IP이기 때문이다. 
 
  ## 고객 상황에 따른 제안 방향
- 1. 도메인 이름이 막힌 경우(nslookup 실패): 
+ 1. 도메인 이름이 막힌 경우(nslookup 실패): 도메인을 바꾸면 된다. ICP도메인을 받더라도 GFW의 문제는 벗어날 수 없다. (위에 이유 설명함) 따라서 단순히 도메인을 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY5OTI5ODQsMTgzNzA3MjI3N119
+eyJoaXN0b3J5IjpbMTU5MTE5OTg2NCwtMTM0Njk5Mjk4NCwxOD
+M3MDcyMjc3XX0=
 -->
