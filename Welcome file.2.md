@@ -1,7 +1,7 @@
 # 중국의 GFW과 ICP간 관계
 
 ## ICP 비안
-중국 내 client를 대상으로 하는 모든 도메인에 해당한다. 도메인 관련 규제는 web, mobile native app 등 DNS lookup을 통해 
+중국 내 client를 대상으로 하는 모든 도메인에 해당한다. 도메인 관련 규제는 web, mobile native app 등 DNS lookup에 해당되는 모든 도메인 이름
 
 # Files
 
@@ -142,5 +142,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE4MDQ5MDEsMTA1NjY2MDc4M119
+eyJoaXN0b3J5IjpbLTEwMTA0NDUwMjEsLTEyOTE4MDQ5MDEsMT
+A1NjY2MDc4M119
 -->
