@@ -1,7 +1,12 @@
 # 중국의 GFW과 ICP간 관계
 
 ## ICP 비안
-중국 내 client를 대상으로 하는 모든 도메인에 해당한다. 도메인 관련 규제는 web, mobile native app 등 DNS lookup에 해당되는 모든 도메인 이름
+중국 내 온라인(인터넷)을 통한 비즈니스를 운영할 시 필요한 절차이다. 자세한 사항은 문서 참고. 
+
+알리바바는 console을 통해 
+
+## China Great Firewall
+
 
 # Files
 
@@ -142,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA0NDUwMjEsLTEyOTE4MDQ5MDEsMT
-A1NjY2MDc4M119
+eyJoaXN0b3J5IjpbLTc3OTgzNDkxNiwtMTI5MTgwNDkwMSwxMD
+U2NjYwNzgzXX0=
 -->
