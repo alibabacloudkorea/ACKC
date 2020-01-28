@@ -5,7 +5,7 @@
 
 ## China Great Firewall
 ICP와는 별개로 트래픽에 관한 규제이다. 
-- 대상: Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)에 대하여 규제한다. 
+- **대상: Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)에 대하여 규제한다. **
 - 방법: 알려진 바로는 키워드 필터링, IP 주소 블랙리스트, DNS poisioning, 패킷 검사 등을 통해 컨텐츠를 검열한다. 
 
 ## ICP와 China Great Firewall간의 관계
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzOTkxMDU3LC0xMjkxODA0OTAxLDEwNT
+eyJoaXN0b3J5IjpbODk1MTUzNDg5LC0xMjkxODA0OTAxLDEwNT
 Y2NjA3ODNdfQ==
 -->
