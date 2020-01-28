@@ -15,6 +15,9 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 
 답은 아니다. ICP와 China Great Firewall(GFW)은 별개이다. ICP비안을 받은 도메인을 사용할지라도 컨텐츠(즉 트래픽)에 따라 GFW에 의해 필터링 되어 서비스가 원활히 실행되지 못할 수 있다. 
 
+## 해결 가능한 알리바바 클라우드 솔루션
+위의 경우 우리가 제안할 수 있는 솔루션은 GA2.0이다. 
+
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -154,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNzA0NDk1LC0xMjkxODA0OTAxLDEwNT
+eyJoaXN0b3J5IjpbODgzOTkxMDU3LC0xMjkxODA0OTAxLDEwNT
 Y2NjA3ODNdfQ==
 -->
