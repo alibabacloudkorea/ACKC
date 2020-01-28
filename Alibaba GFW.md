@@ -40,8 +40,8 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
 > Note 2: GA2.0을 사용하려면 ICP 도메인을 받아야 한다. 이유는 GA에서 발급하는 IP가 중국내 IP이기 때문이다. 
 
  ## 고객 상황에 따른 제안 방향
- 1. 도
+ 1. 도메인 이름이 막힌 경우: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzMjIxMCwxODM3MDcyMjc3XX0=
+eyJoaXN0b3J5IjpbMTM2MjE0OTU4NCwxODM3MDcyMjc3XX0=
 -->
