@@ -19,7 +19,9 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 ## 해결 가능한 알리바바 클라우드 솔루션
 위의 경우(문제의 원인이 GFW로 의심될 경우) 우리가 제안할 수 있는 솔루션은 GA2.0이다. 
 
-GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따라서 위에 언급한 GFW의 대상이 되는 "Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)"
+GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따라서 GA를 사용하는 트래픽은 위에 언급한 GFW의 대상이 되는 "Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)"이 아니다. 즉, 검열 대상에서 제외된다는 의미이다. 
+
+따라서 GFW은 
 
 # Files
 
@@ -160,6 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY5NTA5MzYsLTEyOTE4MDQ5MDEsMT
-A1NjY2MDc4M119
+eyJoaXN0b3J5IjpbMTMyMjcxODIwMCwtMTI5MTgwNDkwMSwxMD
+U2NjYwNzgzXX0=
 -->
