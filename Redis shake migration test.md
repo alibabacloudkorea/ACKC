@@ -39,7 +39,10 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 	- Account: International account
 
 # 테스트 시나리오
-1. 문서 상 
+1. Redis Shake with "sync" mode 
+	
+	- 현재 Redis Cluster Edition은 소스로 지원하지 않는다. 하지만 테스트 차 돌려보았다.
+2. Redis Shake with "rymp" mode
 
 # Files
 
@@ -180,6 +183,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjQwODM0OCw4NTQ0ODgzMywtNTYzOT
+eyJoaXN0b3J5IjpbLTI1OTYyNTc5Miw4NTQ0ODgzMywtNTYzOT
 g1MjA2XX0=
 -->
