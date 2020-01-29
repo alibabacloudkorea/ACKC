@@ -8,9 +8,16 @@ Redis shake는 알리바바에서 개발하는 오픈소스 마이그레이션 �
 
 # 테스트 환경
 - Source DB: 
+	- Region: China (Hong Kong)
+	- Zone: Hong Kong MZone1 B+C
+	- Redis version: 4.0
+	- Architecture Type: Cluster
+	- Instance Class: 2G (2 shards with 2 replicas)
+	- Package Type: Standard Package
 - Target DB
 	- Region: China (Hong Kong)
 	- Zone: Hong Kong MZone1 B+C
+	- Redis version: 4.0
 	- Architecture Type: Cluster
 	- Instance Class: 1G (2 shards with 2 replicas)
 	- Package Type: Standard Package
@@ -154,5 +161,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM4MTA2OTZdfQ==
+eyJoaXN0b3J5IjpbLTU2Mzk4NTIwNl19
 -->
