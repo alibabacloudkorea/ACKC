@@ -12,6 +12,9 @@ Redis shake는 알리바바에서 개발하는 오픈소스 마이그레이션 �
 	결론은.. DTS가 account간 마이그레이션을 지원할 때까지 기다려야 한다. 당장은 지원 예정에 없다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%205.15.58%20PM.png?raw=true)
 
+	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%205.18.59%20PM.png?raw=true)
+
+
 - Redis Shake를 통한 마이그레이션 
 sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레이션이 가능하다. 하지만 현재 sync mode에서 Apsara redis cluster edition DB를 지원하지 않는다.
 
@@ -177,6 +180,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0NTkyMzYxLDg1NDQ4ODMzLC01NjM5OD
-UyMDZdfQ==
+eyJoaXN0b3J5IjpbMTUyNjQwODM0OCw4NTQ0ODgzMywtNTYzOT
+g1MjA2XX0=
 -->
