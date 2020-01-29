@@ -3,7 +3,7 @@
 Redis shake는 알리바바에서 개발하는 오픈소스 마이그레이션 툴이다. 본 테스트는 redis 마이그레이션을 위해 수행했지만 redis 뿐만 아니라 mongodb도 지원한다. 
 
 # 테스트 목적
-테스트를 진행한 이유는 고객이 알리바바 클라우드 China console에서 International console로 마이그레이션을 하는데 다운타임을 적게 가져가고 싶어 해서다. 레디스를 온라인 상 마이그레이션하는 방법은 다음과 같다.
+테스트를 진행한 이유는 고객이 알리바바 클라우드 China console에서 International console로 마이그레이션을 하는데 최소한의 다운타임을 가져가는 것을 원해서라고 할 수 있다. 레디스를 온라인 상 마이그레이션하는 방법은 다음과 같다.
 
 - DTS(Data Transmission Service): Source/Target 모두 Redis Cluster Edition을 지원하지만 어카운트 간 마이그레이션은 지원하지 않는다. 
 
@@ -74,6 +74,6 @@ souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1ODMwNzI3LDg1NDQ4ODMzLC01NjM5OD
-UyMDZdfQ==
+eyJoaXN0b3J5IjpbMTI1NjYwMTgxNyw4MTU4MzA3MjcsODU0ND
+g4MzMsLTU2Mzk4NTIwNl19
 -->
