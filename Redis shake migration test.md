@@ -50,8 +50,9 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 
 # 테스트 내용
 1. Redis Shake with "sync" mode
-2.  
-3. Redis Shake with "rump" mode
+souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이기 때문) proxy는 현재 rump mode에서만 지원가능하다는 에러가 나옴. 따라서 해당 기능이 제공되는 새로운 버전이 나올 때 까지 기다려야 함. 
+2. Redis Shake with "rump" mode
+![]()
 
 # Files
 
@@ -192,6 +193,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU4MzQ4MjUsODU0NDg4MzMsLTU2Mz
-k4NTIwNl19
+eyJoaXN0b3J5IjpbOTQ1MzM3OTgsODU0NDg4MzMsLTU2Mzk4NT
+IwNl19
 -->
