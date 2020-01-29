@@ -46,8 +46,7 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 	- Data consistency를 위해 DB 중단 후 사용 가능, 즉 오프라인 마이그레이션 용
 	- 럼프 모드에서 redis-shake는 SCAN 모드의 소스 Redis에서 전체 데이터 양을 가져 와서 대상에 쓰고 데이터 마이그레이션을 구현함. 이 마이그레이션 방법은 SYNC 또는 PSYNC를 사용하지 않으며 Redis 서비스 성능에 거의 영향을 미치지 않는다. Redis 클러스터를 지원하는데 이는 클라우드 DB든, 자체 구축 DB든 모두 지원한다. 
 	- 럼프 모드는 버전 2.8 인스턴스를 버전 4.0 인스턴스로 마이그레이션하는 것과 같이 버전 간 마이그레이션을 지원함.
-럼프 모드는 크로스 클라우드 마이그레이션을 지원하지만 최소한 한쪽 끝은 공용 네트워크 액세스를 지원해야합니다.
-redis-shake에 대한 자세한 내용은 redis-shake Github 홈페이지 또는 FAQ를 참조하십시오.
+	- redis-shake에 대한 자세한 내용은 [redis-shake Github 홈페이지](https://github.com/aliyun/redis-shake?spm=a2c4g.11186623.2.10.10776f10RwLL6e) 또는 [FAQ](https://github.com/alibaba/RedisShake/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E9%85%8D%E7%BD%AE%EF%BC%9F?spm=a2c4g.11186623.2.11.10776f10RwLL6e)를 참조하십시오.
 
 # Files
 
@@ -188,6 +187,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTAzMzAzMSw4NTQ0ODgzMywtNTYzOT
+eyJoaXN0b3J5IjpbMTg3MjM4NzQ0MSw4NTQ0ODgzMywtNTYzOT
 g1MjA2XX0=
 -->
