@@ -7,7 +7,9 @@ Redis shake는 알리바바에서 개발하는 오픈소스 마이그레이션 �
 
 - DTS(Data Transmission Service): Source/Target 모두 Redis Cluster Edition을 지원하지만 어카운트 간 마이그레이션은 지원하지 않는다. 
 
-테스트 차 Target instance type을 User-Created Database Connected Over Express Connect ---" 로 해보았으나 연결은 되지 않았다. 수 차례 테스트 결과 단순히 두 VPC간 마이그레이션과는 다르게 RAM 계정에서의  적절한 권한을 주고 target instance에서 DTS private IP list를 whitelist에 넣어주고 등연동 등이 필요하다. 그것이 지원되려면 먼저 DTS console자체에서 지원되는게 필요하다. 
+	테스트 차 Target instance type을 User-Created Database Connected Over Express Connect ---" 로 해보았으나 연결은 되지 않았다. 수 차례 테스트 결과 단순히 두 VPC간 마이그레이션과는 다르게 RAM 계정에서의  적절한 권한을 주고 target instance에서 DTS private IP list를 whitelist에 넣어주는 등의 작업이 필요하다. 그 작업을 다 해도 결국 연결은 되지 않았다. 
+
+	결론은.. DTS가 account간 마이그레이션을 지원할 때까지 기다려야 한다. 당장은 지원 예정에 없다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%205.15.58%20PM.png?raw=true)
 
 따라서 본 테스트는 redis cluster이 얼마만큼 간단하고 빠르게 수행되는지, online migration을 위한 incremental migration이 진행되는지를 확인하는 것이 목적이다. 
@@ -172,6 +174,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDcwMDM3NTksODU0NDg4MzMsLTU2Mz
+eyJoaXN0b3J5IjpbLTE1MTIxNTMyNDIsODU0NDg4MzMsLTU2Mz
 k4NTIwNl19
 -->
