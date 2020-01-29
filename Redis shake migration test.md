@@ -49,6 +49,8 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 	- 럼프 모드는 버전 2.8 인스턴스를 버전 4.0 인스턴스로 마이그레이션하는 것과 같이 버전 간 마이그레이션을 지원함.
 	- redis-shake에 대한 자세한 내용은 [redis-shake Github 홈페이지](https://github.com/aliyun/redis-shake?spm=a2c4g.11186623.2.10.10776f10RwLL6e) 또는 [FAQ](https://github.com/alibaba/RedisShake/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E9%85%8D%E7%BD%AE%EF%BC%9F?spm=a2c4g.11186623.2.11.10776f10RwLL6e)를 참조하십시오.
 
+> Note: 어차피 redis shake의 sync모드가 redis DB 엔진의 sync와 psync command를 바탕으로 하기 때문에 내부적으로 해당 코멘드가 실행 가능한지 ticket을 통해 물어보았다.
+
 # 테스트 내용
 1. Redis Shake with "sync" mode
 souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이기 때문) proxy는 현재 rump mode에서만 지원가능하다는 에러가 나옴. 따라서 해당 기능이 제공되는 새로운 버전이 나올 때 까지 기다려야 함. 
@@ -63,7 +65,7 @@ souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이�
 아래는 aliyun account의 source DB다. learderboard key에 1000개의 레코드가 있다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%202.22.47%20PM.png?raw=true)
 
-아래는 international account의 target DB이다. 하나의 키와 1000개의 레코드
+아래는 international account의 target DB이다. 하나의 키와 1000개의 레코드가 잘 마이그레이션 된 것을 확인할 수 있다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%204.50.44%20PM.png?raw=true)
 
 
@@ -209,6 +211,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDk1MDIzNyw4NTQ0ODgzMywtNTYzOT
-g1MjA2XX0=
+eyJoaXN0b3J5IjpbODc4MzI2MTMxLDg1NDQ4ODMzLC01NjM5OD
+UyMDZdfQ==
 -->
