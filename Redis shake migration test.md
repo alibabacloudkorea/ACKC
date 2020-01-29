@@ -47,7 +47,7 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 	- Data consistency를 위해 DB 중단 후 사용하는 것이 좋음. 즉 오프라인 마이그레이션 용
 	- 럼프 모드에서 redis-shake는 SCAN 모드의 소스 Redis에서 전체 데이터 양을 가져 와서 대상에 쓰고 데이터 마이그레이션을 구현함. 이 마이그레이션 방법은 SYNC 또는 PSYNC를 사용하지 않으며 Redis 서비스 성능에 거의 영향을 미치지 않는다. Redis 클러스터를 지원하는데 이는 클라우드 DB든, 자체 구축 DB든 모두 지원한다. 
 	- 럼프 모드는 버전 2.8 인스턴스를 버전 4.0 인스턴스로 마이그레이션하는 것과 같이 버전 간 마이그레이션을 지원함.
-	- redis-shake에 대한 자세한 내용은 [redis-shake Github 홈페이지](https://github.com/aliyun/redis-shake?spm=a2c4g.11186623.2.10.10776f10RwLL6e) 또는 [FAQ](https://github.com/alibaba/RedisShake/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E9%85%8D%E7%BD%AE%EF%BC%9F?spm=a2c4g.11186623.2.11.10776f10RwLL6e)를 참조하십시오.
+	- redis-shake에 대한 자세한 내용은 [redis-shake Github 홈페이지](https://github.com/aliyun/redis-shake?spm=a2c4g.11186623.2.10.10776f10RwLL6e) 와 [FAQ](https://github.com/alibaba/RedisShake/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E9%85%8D%E7%BD%AE%EF%BC%9F?spm=a2c4g.11186623.2.11.10776f10RwLL6e)를 참조하십시오.
 
 > Note: 어차피 redis shake의 sync모드가 redis DB 엔진의 sync와 psync command를 바탕으로 하기 때문에 내부적으로 해당 코멘드가 실행 가능한지 ticket을 통해 물어보았다. 답변은 아직 진행 중이다.
 
@@ -58,7 +58,7 @@ souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%204.51.16%20PM.png?raw=true)
 데이터가 적어서 그런지 금방 수행되었다.
 
-	설정 방법은 [aliyun documentation]([https://help.aliyun.com/document_detail/117311.html?spm=a2c4g.11186623.6.699.33f57892h0NAy9](https://help.aliyun.com/document_detail/117311.html?spm=a2c4g.11186623.6.699.33f57892h0NAy9))과 [github - how to setup]([https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up#32-example-cluster-to-cluster-sync](https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up#32-example-cluster-to-cluster-sync))을 참고했다.
+	설정 방법은 [aliyun documentation](https://help.aliyun.com/document_detail/117311.html?spm=a2c4g.11186623.6.699.33f57892h0NAy9]과 [github - how to setup](https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up#32-example-cluster-to-cluster-sync)을 참고했다.
 
 # 테스트 결과
 
@@ -74,6 +74,6 @@ souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjYwMTgxNyw4MTU4MzA3MjcsODU0ND
-g4MzMsLTU2Mzk4NTIwNl19
+eyJoaXN0b3J5IjpbLTEwNDI4MDIyNiwxMjU2NjAxODE3LDgxNT
+gzMDcyNyw4NTQ0ODgzMywtNTYzOTg1MjA2XX0=
 -->
