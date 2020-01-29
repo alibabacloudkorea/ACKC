@@ -40,9 +40,11 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 
 # 테스트 시나리오
 1. Redis Shake with "sync" mode 
-	
+	- Online 상 마이그레이션 가능
 	- 현재 Redis Cluster Edition은 소스로 지원하지 않는다. 하지만 테스트 차 돌려보았다.
-2. Redis Shake with "rymp" mode
+2. Redis Shake with "rump" mode
+	- Data consistency를 위해 DB 중단 후 사용 가능, 즉 오프라인 마이그레이션 용
+	- 
 
 # Files
 
@@ -183,6 +185,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTYyNTc5Miw4NTQ0ODgzMywtNTYzOT
-g1MjA2XX0=
+eyJoaXN0b3J5IjpbLTQzMTQyNzQ1LDg1NDQ4ODMzLC01NjM5OD
+UyMDZdfQ==
 -->
