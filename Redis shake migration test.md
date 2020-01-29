@@ -6,6 +6,8 @@ Redis shake는 알리바바에서 개발하는 오픈소스 마이그레이션 �
 테스트를 진행한 이유는 고객이 알리바바 클라우드 China console에서 International console로 마이그레이션을 하는데 다운타임을 적게 가져가고 싶어 해서다. 레디스를 온라인 상 마이그레이션하는 방법은 다음과 같다.
 
 - DTS(Data Transmission Service): Source/Target 모두 Redis Cluster Edition을 지원하지만 어카운트 간 마이그레이션은 지원하지 않는다. 
+
+테스트 차 Target instance type을 User-Created Database Connected Over Express Connect ---" 로 해보았으나 연결은 되지 않았다. 수 차례 테스트 결과 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%205.15.58%20PM.png?raw=true)
 
 따라서 본 테스트는 redis cluster이 얼마만큼 간단하고 빠르게 수행되는지, online migration을 위한 incremental migration이 진행되는지를 확인하는 것이 목적이다. 
@@ -170,6 +172,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjYyMTYzMiw4NTQ0ODgzMywtNTYzOT
+eyJoaXN0b3J5IjpbLTg1MTkxOTM0OSw4NTQ0ODgzMywtNTYzOT
 g1MjA2XX0=
 -->
