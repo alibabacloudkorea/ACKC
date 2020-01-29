@@ -60,8 +60,10 @@ souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이�
 
 # 테스트 결과
 
+아래는 aliyun account의 source DB다. learderboard key에 1000개의 레코드가 있다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%202.22.47%20PM.png?raw=true)
 
+아래는 international account의 target DB이다. 하나의 키와 1000개의 레코드
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%204.50.44%20PM.png?raw=true)
 
 
@@ -207,6 +209,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ1ODc3MDcsODU0NDg4MzMsLTU2Mz
-k4NTIwNl19
+eyJoaXN0b3J5IjpbLTYyMDk1MDIzNyw4NTQ0ODgzMywtNTYzOT
+g1MjA2XX0=
 -->
