@@ -38,7 +38,7 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 	- Package Type: Standard Package
 	- Account: International account
 - NW configuration
-	
+	- CEN을 통한 vpc peering이 된 상태다. 즉, 네트워크는 알리바바 private 망으로 구성되었다 할 수 있다.
 # 테스트 시나리오
 1. Redis Shake with "sync" mode 
 	- Online 상 마이그레이션 가능
@@ -54,7 +54,10 @@ sync mode와 rump모드가 있고 sync mode로 이관 시 온라인 마이그레
 souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이기 때문) proxy는 현재 rump mode에서만 지원가능하다는 에러가 나옴. 따라서 해당 기능이 제공되는 새로운 버전이 나올 때 까지 기다려야 함. 
 2. Redis Shake with "rump" mode
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%204.51.16%20PM.png?raw=true)
+데이터가 적어서 그런지 금방 수행되었다.
+
 	설정 방법은 [aliyun documentation]([https://help.aliyun.com/document_detail/117311.html?spm=a2c4g.11186623.6.699.33f57892h0NAy9](https://help.aliyun.com/document_detail/117311.html?spm=a2c4g.11186623.6.699.33f57892h0NAy9))과 [github - how to setup]([https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up#32-example-cluster-to-cluster-sync](https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up#32-example-cluster-to-cluster-sync))을 참고했다.
+
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%202.22.47%20PM.png?raw=true)
 
@@ -203,6 +206,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMzcwNjE3LDg1NDQ4ODMzLC01NjM5OD
-UyMDZdfQ==
+eyJoaXN0b3J5IjpbMTEyNjkxNDUwNiw4NTQ0ODgzMywtNTYzOT
+g1MjA2XX0=
 -->
