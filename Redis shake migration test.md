@@ -58,6 +58,7 @@ souce.type 에 proxy를 지정해야 하는데(Apsara Redis가 proxy 구성이�
 
 	설정 방법은 [aliyun documentation]([https://help.aliyun.com/document_detail/117311.html?spm=a2c4g.11186623.6.699.33f57892h0NAy9](https://help.aliyun.com/document_detail/117311.html?spm=a2c4g.11186623.6.699.33f57892h0NAy9))과 [github - how to setup]([https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up#32-example-cluster-to-cluster-sync](https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up#32-example-cluster-to-cluster-sync))을 참고했다.
 
+# 테스트 결과
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-01-29%20at%202.22.47%20PM.png?raw=true)
 
@@ -206,6 +207,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjkxNDUwNiw4NTQ0ODgzMywtNTYzOT
-g1MjA2XX0=
+eyJoaXN0b3J5IjpbLTEyMDQ1ODc3MDcsODU0NDg4MzMsLTU2Mz
+k4NTIwNl19
 -->
