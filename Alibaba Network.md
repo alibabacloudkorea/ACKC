@@ -13,7 +13,7 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 2. GA2.0
 한 중간 전용선 연결 서비스이다. 타입은 여러가지가 있고 타입에 따라 한중간 연결된 알리바바 backbone 망(CEN)을 통한  가속화가 이루어지거나 China Telecom의 기업전용회선을 통한 가속화가 이루어진다. 
 
-> Non-ICP 도메인 사용 가능 여부: 가속화 지역을 홍콩으로 선택하면 사용 
+> Non-ICP 도메인 사용 가능 여부: 가속화 지역을 홍콩으로 선택하면 사용 가능하다. 
 
 3. CDN
 
@@ -25,6 +25,6 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDk3OTIyNSwtMTg4Mzg4MjY4LDk0Nj
-g2NjIyNCwtMTgyMDIzMDY5NSwtMTYyNTI0NzM4OV19
+eyJoaXN0b3J5IjpbLTE0MjgxMTI5NTAsLTE4ODM4ODI2OCw5ND
+Y4NjYyMjQsLTE4MjAyMzA2OTUsLTE2MjUyNDczODldfQ==
 -->
