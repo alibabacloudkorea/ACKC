@@ -18,7 +18,7 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 3. CDN
 위에 설명한 MCA, GA가 bandwidth 솔루션인 반면, CDN은 트래픽 솔루션이다. 즉 bandwidth를 한정해 놓지 않고 불특정 다수에게 서비스 하는 모든 인터넷 기반 서비스에 적용 가능한 솔루션이다. 사용 가능한 서비스 종류는 아래와 같다.
 	- Mainland China: 중국내 edge node에 매핑된다. ICP 도메인이 필요하다.
-	- 
+	- Global 
 	- 
 
 4. CEN
@@ -29,6 +29,6 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTA4ODQzOSwtMTg4Mzg4MjY4LDk0Nj
+eyJoaXN0b3J5IjpbLTkxNjgxODkzMiwtMTg4Mzg4MjY4LDk0Nj
 g2NjIyNCwtMTgyMDIzMDY5NSwtMTYyNTI0NzM4OV19
 -->
