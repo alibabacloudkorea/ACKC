@@ -31,8 +31,8 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 **2. Non-ICP 도메인 사용 가능 여부**
 
 서비스 종류에 따라 달라진다. 
-- Mainland China Only: 중국내 edge node에 매핑된다. ICP 도메인이 필요하다.
-- Global: 중국과 중국 밖 edge node에 매핑된다. 중국내 노드를 사용하므로 ICP 도메인이 필요하다.
+- Mainland China Only: 중국 내 edge node에 매핑된다. ICP 도메인이 필요하다.
+- Global: 중국 내, 중국 밖 edge node에 매핑된다. 중국내 노드를 사용하므로 ICP 도메인이 필요하다.
 - Global (Excluding Mainland China): 중국 밖 edge node에 매핑된다. ICP 비안을 받지 않은 도메인도 설정할 수 있다. 
 
 ### CEN
@@ -55,8 +55,8 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc3NTk4NjAsLTc5MjgzMTA0MCwtOD
-U2MDEzMjExLC0xMTMwNjY3Mjc0LDE5MDU5MDM3OSwtOTE2ODE4
-OTMyLC0xODgzODgyNjgsOTQ2ODY2MjI0LC0xODIwMjMwNjk1LC
-0xNjI1MjQ3Mzg5XX0=
+eyJoaXN0b3J5IjpbMTg5MDI0MTY2MCwtNzkyODMxMDQwLC04NT
+YwMTMyMTEsLTExMzA2NjcyNzQsMTkwNTkwMzc5LC05MTY4MTg5
+MzIsLTE4ODM4ODI2OCw5NDY4NjYyMjQsLTE4MjAyMzA2OTUsLT
+E2MjUyNDczODldfQ==
 -->
