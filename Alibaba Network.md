@@ -48,9 +48,12 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 ### SAG(Smart Access Gateway)
 
 ## 상황 별 Right Solution 정리
-한국에 오리진 서버를 두고 중국내
-### 불특정 다수 대상 인터넷 대외서비스
+한국에 오리진 서버를 두고 중국내 사용자들을 대상으로 하는 모든 애플리케이션을 대상으로 한정 짓는다.
 
+### 불특정 다수 대상 인터넷 대외서비스
+- ICP 도메인 보유
+CDN 
+- ICP 도메인 미보유
 ### 기업 내 Enterprise Application
 
 ### 한중간 VPN 가속화
@@ -59,8 +62,8 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzUxMTc3Nyw4NjAwNTY2MjcsLTc5Mj
-gzMTA0MCwtODU2MDEzMjExLC0xMTMwNjY3Mjc0LDE5MDU5MDM3
-OSwtOTE2ODE4OTMyLC0xODgzODgyNjgsOTQ2ODY2MjI0LC0xOD
-IwMjMwNjk1LC0xNjI1MjQ3Mzg5XX0=
+eyJoaXN0b3J5IjpbLTE2OTA4MDM0MzUsODYwMDU2NjI3LC03OT
+I4MzEwNDAsLTg1NjAxMzIxMSwtMTEzMDY2NzI3NCwxOTA1OTAz
+NzksLTkxNjgxODkzMiwtMTg4Mzg4MjY4LDk0Njg2NjIyNCwtMT
+gyMDIzMDY5NSwtMTYyNTI0NzM4OV19
 -->
