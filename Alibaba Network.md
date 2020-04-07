@@ -10,21 +10,26 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 
 **2. Non-ICP 도메인 사용 가능 여부**
+
 Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때문에 ICP 비안을 받지 않은 도메인 설정이 가능하다. 가속화할 도메인 별로 http, https, websocket 프로토콜, 포트, 도메인을 설정할 수 있다. https 도메인의 경우 ssl certificate 을 업로드 하여 적용 가능하다. Static contents에 한하여 Cache가 가능하지만 마찬가지로 중국밖 캐시노드에 매핑되고 client에서 다운받는 last mile도 MCA bandwidth안에 포함된다. 중국내 사용자 트래픽이 MCA bandwidth안에서 소화가능할 때 사용 가능한 솔루션이다. 
 
 
 ### GA(Global Acceleration)
 **1. 솔루션 소개**
+
 한 중간 전용선 연결 서비스이다. 타입은 여러가지가 있고 타입에 따라 한중간 연결된 알리바바 backbone 망(CEN)을 통한  가속화가 이루어지거나 China Telecom의 기업전용회선을 통한 가속화가 이루어진다. 
 
 **2. Non-ICP 도메인 사용 가능 여부**
+
 가속화 지역을 홍콩으로 선택하면 사용 가능하다. (Premium bandwidth 단독 구매) 홍콩부터 한국 pop까지 알리바바 backbone망을 타게 되면서 가속된다. 어느정도 가속될지는 한국 pop이 지원되고 나면 테스트할 예정.
 
 ### CDN
 **1.  솔루션 소개**
+
 위에 설명한 MCA, GA가 bandwidth 솔루션인 반면, CDN은 트래픽 솔루션이다. 즉 bandwidth를 한정해 놓지 않고 불특정 다수에게 서비스 하는 모든 인터넷 기반 서비스에 적용 가능한 솔루션이다. 중국내 2300개가 넘는 노드를 보유하고 있으며 전세계 2800개가 넘는 CDN 노드를 보유하고 있다. 
 
 **2. Non-ICP 도메인 사용 가능 여부**
+
 서비스 종류에 따라 달라진다. 
 - Mainland China Only: 중국내 edge node에 매핑된다. ICP 도메인이 필요하다.
 - Global: 중국과 중국 밖 edge node에 매핑된다. 중국내 노드를 사용하므로 ICP 도메인이 필요하다.
@@ -32,10 +37,12 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 
 ### CEN
 **1. 솔루션 소개**
+
 알리바바에서 사용하는 모든 네트워크 솔루션을 하나로 관리할 수 있는 솔루션이다. 알리바바 VPC, VBR(전용선-Express Connect 사용 시 생성되는 3rd party의 라우터), CCN(SAG - SDWAN+VPN 사용시 생성되는 라우터) 모두 CEN 인스턴스에 attach하여 모든 네트워크를 알리바바 백본망을 통해 연결할 수 있다. 즉 peer to peer로 네트워크 연결 및 관리가 가능한 네트워크 솔루션이다. 다만, 동일 Region간 연결은 트래픽 비용이 무료지만 다른 Region간 연결은 cross-region bandwidth를 구매하여야 한다. 
 
 ### VPN gateway
 **1. 솔루션 소개**
+
 알리바바는 SSL VPN(client-site VPN)과 IPSec 기반 VPN site-to-site VPN connection을 모두 지원한다. 
 
 ### SAG(Smart Access Gateway)
@@ -48,8 +55,8 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzI1NTE0NiwtNzkyODMxMDQwLC04NT
-YwMTMyMTEsLTExMzA2NjcyNzQsMTkwNTkwMzc5LC05MTY4MTg5
-MzIsLTE4ODM4ODI2OCw5NDY4NjYyMjQsLTE4MjAyMzA2OTUsLT
-E2MjUyNDczODldfQ==
+eyJoaXN0b3J5IjpbLTE1NDc3NTk4NjAsLTc5MjgzMTA0MCwtOD
+U2MDEzMjExLC0xMTMwNjY3Mjc0LDE5MDU5MDM3OSwtOTE2ODE4
+OTMyLC0xODgzODgyNjgsOTQ2ODY2MjI0LC0xODIwMjMwNjk1LC
+0xNjI1MjQ3Mzg5XX0=
 -->
