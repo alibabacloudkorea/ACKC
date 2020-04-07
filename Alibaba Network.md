@@ -22,14 +22,15 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 	- Global (Excluding Mainland China): 중국 밖 edge node에 매핑된다. ICP 비안을 받지 않은 도메인도 설정할 수 있다. 
 
 4. CEN
-알리바바에서 사용하는 모든 네트워크 솔루션을 하나로 관리할 수 있는 솔루션이다. 알리바바 VPC, VBR(전용선-Express Connect 사용 시 생성되는 3rd party의 라우터), CCN(SAG - SDWAN+VPN 사용시 생성되는 라우터) 모두 CEN인스턴스에 attach하여 하나로 연결할 수 있다. 즉 peer to peer로 
+알리바바에서 사용하는 모든 네트워크 솔루션을 하나로 관리할 수 있는 솔루션이다. 알리바바 VPC, VBR(전용선-Express Connect 사용 시 생성되는 3rd party의 라우터), CCN(SAG - SDWAN+VPN 사용시 생성되는 라우터) 모두 CEN 인스턴스에 attach하여 하나로 연결할 수 있다. 즉 peer to peer로 네트워크 연결 및 관리가 가능한 네트워크 솔루션이다. 다만, 다른 Region간 연결은 cross-region bandwidth를 구매하여야 한다. 
+
 5. VPN
 
 ## 상황 별 Right Solution 정리
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI4ODQ5MTksLTkxNjgxODkzMiwtMT
-g4Mzg4MjY4LDk0Njg2NjIyNCwtMTgyMDIzMDY5NSwtMTYyNTI0
-NzM4OV19
+eyJoaXN0b3J5IjpbLTQ3ODk2MjA5MSwtOTE2ODE4OTMyLC0xOD
+gzODgyNjgsOTQ2ODY2MjI0LC0xODIwMjMwNjk1LC0xNjI1MjQ3
+Mzg5XX0=
 -->
