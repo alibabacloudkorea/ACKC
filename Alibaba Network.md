@@ -51,9 +51,12 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 한국에 오리진 서버를 두고 중국내 사용자들을 대상으로 하는 모든 애플리케이션을 대상으로 한정 짓는다.
 
 ### 불특정 다수 대상 인터넷 대외서비스
-- ICP 도메인 보유: CDN
+- ICP 도메인 보유
+	- CDN only
+	- CDN + GA2.0
 - ICP 도메인 미보유: 
-
+	- MCA
+	- VPN(FlexGW 또는 ) + GA2.0
 ### 기업 내 Enterprise Application
 
 ### 한중간 VPN 가속화
@@ -62,8 +65,8 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg5MDY1NzksODYwMDU2NjI3LC03OT
-I4MzEwNDAsLTg1NjAxMzIxMSwtMTEzMDY2NzI3NCwxOTA1OTAz
-NzksLTkxNjgxODkzMiwtMTg4Mzg4MjY4LDk0Njg2NjIyNCwtMT
-gyMDIzMDY5NSwtMTYyNTI0NzM4OV19
+eyJoaXN0b3J5IjpbLTM5MTI1Nzc1Myw4NjAwNTY2MjcsLTc5Mj
+gzMTA0MCwtODU2MDEzMjExLC0xMTMwNjY3Mjc0LDE5MDU5MDM3
+OSwtOTE2ODE4OTMyLC0xODgzODgyNjgsOTQ2ODY2MjI0LC0xOD
+IwMjMwNjk1LC0xNjI1MjQ3Mzg5XX0=
 -->
