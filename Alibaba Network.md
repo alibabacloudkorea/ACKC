@@ -31,9 +31,13 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 ## 상황 별 Right Solution 정리
 
+### 불특정 다수 대상 인터넷 대외서비스
 
+### 기업 내 Enterprise Application
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA2NjcyNzQsMTkwNTkwMzc5LC05MT
-Y4MTg5MzIsLTE4ODM4ODI2OCw5NDY4NjYyMjQsLTE4MjAyMzA2
-OTUsLTE2MjUyNDczODldfQ==
+eyJoaXN0b3J5IjpbLTg1NjAxMzIxMSwtMTEzMDY2NzI3NCwxOT
+A1OTAzNzksLTkxNjgxODkzMiwtMTg4Mzg4MjY4LDk0Njg2NjIy
+NCwtMTgyMDIzMDY5NSwtMTYyNTI0NzM4OV19
 -->
