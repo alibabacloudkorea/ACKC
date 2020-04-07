@@ -25,14 +25,15 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 알리바바에서 사용하는 모든 네트워크 솔루션을 하나로 관리할 수 있는 솔루션이다. 알리바바 VPC, VBR(전용선-Express Connect 사용 시 생성되는 3rd party의 라우터), CCN(SAG - SDWAN+VPN 사용시 생성되는 라우터) 모두 CEN 인스턴스에 attach하여 하나로 연결할 수 있다. 즉 peer to peer로 네트워크 연결 및 관리가 가능한 네트워크 솔루션이다. 다만, 다른 Region간 연결은 cross-region bandwidth를 구매하여야 한다. 
 
 5. VPN gateway
-알리바바는 SSL VPN(client-site vpn)과 IPSec 기반 VPN connection을 모두 지원한다. 
+알리바바는 SSL VPN(client-site VPN)과 IPSec 기반 VPN site-to-site VPN connection을 모두 지원한다. 
+
 7. SAG(Smart Access Gateway)
 
 ## 상황 별 Right Solution 정리
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI4ODg5MjUsMTkwNTkwMzc5LC05MT
+eyJoaXN0b3J5IjpbLTExMzA2NjcyNzQsMTkwNTkwMzc5LC05MT
 Y4MTg5MzIsLTE4ODM4ODI2OCw5NDY4NjYyMjQsLTE4MjAyMzA2
 OTUsLTE2MjUyNDczODldfQ==
 -->
