@@ -6,6 +6,8 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/MCA.png?raw=true)
 
+> Note: 
+
 2. GA2.0
 
 3. CDN
@@ -18,6 +20,6 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNDMxODAsLTE4MjAyMzA2OTUsLTE2Mj
-UyNDczODldfQ==
+eyJoaXN0b3J5IjpbLTEzODYwOTY1MzQsLTE4MjAyMzA2OTUsLT
+E2MjUyNDczODldfQ==
 -->
