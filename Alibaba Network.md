@@ -16,9 +16,9 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 > Non-ICP 도메인 사용 가능 여부: 가속화 지역을 홍콩으로 선택하면 사용 가능하다. (Premium bandwidth 단독 구매) 홍콩부터 한국 pop까지 알리바바 backbone망을 타게 되면서 가속된다. 어느정도 가속될지는 한국 pop이 지원되고 나면 테스트할 예정.
 
 3. CDN
-위에 설명한 MCA, GA가 bandwidth 솔루션인 반면, CDN은 트래픽 솔루션이다. 즉 bandwidth를 한정해 놓지 않고 불특정 다수에게 서비스 하는 모든 인터넷 기반 서비스에 적용 가능한 솔루션이다. 
-	- ㅇㄹ
-	- ㅇㄹ
+위에 설명한 MCA, GA가 bandwidth 솔루션인 반면, CDN은 트래픽 솔루션이다. 즉 bandwidth를 한정해 놓지 않고 불특정 다수에게 서비스 하는 모든 인터넷 기반 서비스에 적용 가능한 솔루션이다. 사용 가능한 서비스 종류는 아래와 같다.
+	- Mainland China: 중국내 edge node에 매핑된다. ICP 도메인이 필요하다.
+	- 
 	- 
 
 4. CEN
@@ -29,6 +29,6 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTMzMzIwODgsLTE4ODM4ODI2OCw5ND
-Y4NjYyMjQsLTE4MjAyMzA2OTUsLTE2MjUyNDczODldfQ==
+eyJoaXN0b3J5IjpbLTk5MTA4ODQzOSwtMTg4Mzg4MjY4LDk0Nj
+g2NjIyNCwtMTgyMDIzMDY5NSwtMTYyNTI0NzM4OV19
 -->
