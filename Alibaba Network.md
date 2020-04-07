@@ -6,7 +6,7 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/MCA.png?raw=true)
 
-> Note: Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때문에 ICP 비안을 받지 않은 도메인 설정이 가능하다. 따라서 ICP 비안받
+> Note: Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때문에 ICP 비안을 받지 않은 도메인 설정이 가능하다. 따라서 가속화할 도메인 별로 http, https, websocket 
 
 2. GA2.0
 
@@ -20,6 +20,6 @@ MCA는 알리바바 클라우드 DDoS Protection 중 Anti-DDoS Premium 서비스
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ0OTUzMTgsLTE4MjAyMzA2OTUsLT
-E2MjUyNDczODldfQ==
+eyJoaXN0b3J5IjpbOTQ2ODY2MjI0LC0xODIwMjMwNjk1LC0xNj
+I1MjQ3Mzg5XX0=
 -->
