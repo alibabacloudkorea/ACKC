@@ -31,7 +31,7 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 
 ### CEN
 **1. 솔루션 소개**
-알리바바에서 사용하는 모든 네트워크 솔루션을 하나로 관리할 수 있는 솔루션이다. 알리바바 VPC, VBR(전용선-Express Connect 사용 시 생성되는 3rd party의 라우터), CCN(SAG - SDWAN+VPN 사용시 생성되는 라우터) 모두 CEN 인스턴스에 attach하여 모든 네트워크를 알리바바 백본망을 통해 연결할 수 있다. 즉 peer to peer로 네트워크 연결 및 관리가 가능한 네트워크 솔루션이다. 다만, 동일 ㄹ다른 Region간 연결은 cross-region bandwidth를 구매하여야 한다. 
+알리바바에서 사용하는 모든 네트워크 솔루션을 하나로 관리할 수 있는 솔루션이다. 알리바바 VPC, VBR(전용선-Express Connect 사용 시 생성되는 3rd party의 라우터), CCN(SAG - SDWAN+VPN 사용시 생성되는 라우터) 모두 CEN 인스턴스에 attach하여 모든 네트워크를 알리바바 백본망을 통해 연결할 수 있다. 즉 peer to peer로 네트워크 연결 및 관리가 가능한 네트워크 솔루션이다. 다만, 동일 Region간 연결은 트래픽 비용이 무료지만 다른 Region간 연결은 cross-region bandwidth를 구매하여야 한다. 
 
 3. VPN gateway
 알리바바는 SSL VPN(client-site VPN)과 IPSec 기반 VPN site-to-site VPN connection을 모두 지원한다. 
@@ -46,8 +46,8 @@ Anti-DDoS Premium과 MCA는 모두 중국 밖의 리소스를 사용하기 때�
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0OTE0Njg5LC04NTYwMTMyMTEsLTExMz
-A2NjcyNzQsMTkwNTkwMzc5LC05MTY4MTg5MzIsLTE4ODM4ODI2
-OCw5NDY4NjYyMjQsLTE4MjAyMzA2OTUsLTE2MjUyNDczODldfQ
-==
+eyJoaXN0b3J5IjpbLTc5MjgzMTA0MCwtODU2MDEzMjExLC0xMT
+MwNjY3Mjc0LDE5MDU5MDM3OSwtOTE2ODE4OTMyLC0xODgzODgy
+NjgsOTQ2ODY2MjI0LC0xODIwMjMwNjk1LC0xNjI1MjQ3Mzg5XX
+0=
 -->
