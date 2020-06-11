@@ -1,6 +1,8 @@
 # GA2.0 Test
 
-![](https://github.com/rnlduaeo/alibaba.git)
+결과 로서..
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
+
 
 
 
@@ -143,5 +145,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQ3OTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMTE5NDM2MjA3NV19
 -->
