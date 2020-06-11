@@ -4,6 +4,8 @@
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
 
 
+hping3 -S 123.56.94.53 -p 22 -c 3
+hping3 -S 3.34.191.119 -p 22 -c 3
 
 
 # Files
@@ -145,5 +147,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDM2MjA3NV19
+eyJoaXN0b3J5IjpbLTE4NTQ0NTM1NzVdfQ==
 -->
