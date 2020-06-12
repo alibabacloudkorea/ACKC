@@ -11,13 +11,23 @@ a. Beijing client --> Korea AWS server
 b. Method: TCP ping
 
 3. 테스트 결과
-a. Before GA: 
-	- 633ms in average
-	- 34% packet loss
-b. After GA 
+a. Before GA: 633ms in average, 34% packet loss
+b. After GA: 7.9ms in average, 0% packet loss
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
 
+1. GA 세팅
+a. Premium
+b. Accelerated Area: Hongkong
+c. Endpoint Area: Korea
+d. Backend service type: custom domain (Non-ICP domain)
 
+2. 테스트 시나리오
+a. Beijing client --> Korea AWS server
+b. Method: TCP ping
+
+3. 테스트 결과
+a. Before GA: 633ms in average, 34% packet loss
+b. After GA: 7.9ms in average, 0% packet loss
 
 
 
@@ -160,6 +170,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTk1NTIyMSwtMjA3NDg2NTMzNCwtMT
-g1NDQ1MzU3NV19
+eyJoaXN0b3J5IjpbMjgyMjkyMzEyLC0yMDc0ODY1MzM0LC0xOD
+U0NDUzNTc1XX0=
 -->
