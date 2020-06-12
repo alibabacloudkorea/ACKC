@@ -1,5 +1,5 @@
 # GA2.0 Test
-한/중 간 네트워크를 개선하기 위하여 GA(Global Accelerator) 도입을 고려할 수 있다. GA는 알리바바의 기 구축된 전용회선을 기반으로 사용자에게  
+한/중 간 네트워크를 개선하기 위하여 GA(Global Accelerator) 도입을 고려할 수 있다. GA는 알리바바의 기 구축된 전용회선을 기반으로 사용자에게 필요한 만큼의 bandwidth를 나누어주는 형식이다. 사용자는 가속화 지역, 즉 end-user가 위치한 지역과 서비스 지역, 오리진 서버가 위치한 지역을 지정하고 필요한 bandwidth를 할당해 주면 그 구간은 일반적인 인터넷 망을 탔을 때 모다 성능이 개선된다.  
 
 ## For ICP-filing domain
 1. GA 세팅
@@ -42,6 +42,6 @@ b. After GA: 65.4ms in average, 0% packet loss
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3NTU4OTI5LDE0MzkxNDYxNDIsMjgyMj
-kyMzEyLC0yMDc0ODY1MzM0LC0xODU0NDUzNTc1XX0=
+eyJoaXN0b3J5IjpbMTY1NzMyNzUzMCwxNDM5MTQ2MTQyLDI4Mj
+I5MjMxMiwtMjA3NDg2NTMzNCwtMTg1NDQ1MzU3NV19
 -->
