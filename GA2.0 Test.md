@@ -1,7 +1,10 @@
 # GA2.0 Test
 
 1. GA 세팅
-
+a. Enhanced + crossborder
+b. Accelerated Area: Beijing
+c. Endpoint Area: Korea
+d. Endpoint group type: custom IP
 3. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
 
@@ -148,6 +151,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ4NjUzMzQsLTE4NTQ0NTM1NzVdfQ
-==
+eyJoaXN0b3J5IjpbLTg4MjYxMzEzOSwtMjA3NDg2NTMzNCwtMT
+g1NDQ1MzU3NV19
 -->
