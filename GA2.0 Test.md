@@ -9,6 +9,12 @@ d. Backend service type: custom IP
 2. 테스트 시나리오
 a. Beijing client --> Korea AWS server
 b. Method: TCP ping
+
+3. 테스트 결과
+a. Before GA: 
+	- 633ms in average
+	- 34% packet loss
+b. After GA 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
 
 
@@ -154,6 +160,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgzMTA0MDcsLTIwNzQ4NjUzMzQsLT
-E4NTQ0NTM1NzVdfQ==
+eyJoaXN0b3J5IjpbLTUzOTk1NTIyMSwtMjA3NDg2NTMzNCwtMT
+g1NDQ1MzU3NV19
 -->
