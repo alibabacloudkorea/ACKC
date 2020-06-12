@@ -30,7 +30,7 @@ d. Backend service type: custom domain (Non-ICP domain)
 a. Beijing client --> Korea AWS server
 b. Method: TCP ping
 
-7. 테스트 결과
+7. 테스트 결과: 72% 속도 개선 
 a. Before GA: 112.6ms in average, 34% packet loss
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Before%20GA.png?raw=true)
 b. After GA: 65.4ms in average, 0% packet loss
@@ -178,6 +178,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Njc5MjU0NiwyODIyOTIzMTIsLTIwNz
+eyJoaXN0b3J5IjpbLTkzNjM1MTM0NywyODIyOTIzMTIsLTIwNz
 Q4NjUzMzQsLTE4NTQ0NTM1NzVdfQ==
 -->
