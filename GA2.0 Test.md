@@ -19,7 +19,8 @@ a. Before GA: 633ms in average, 34% packet loss
 b. After GA: 7.9ms in average, 0% packet loss
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
 
-5. GA 세팅
+## For Non-ICP domain
+1. GA 세팅
 a. Premium
 b. Accelerated Area: Hongkong
 c. Endpoint Area: Korea
@@ -177,6 +178,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTAxNDYyMywyODIyOTIzMTIsLTIwNz
+eyJoaXN0b3J5IjpbLTk5Njc5MjU0NiwyODIyOTIzMTIsLTIwNz
 Q4NjUzMzQsLTE4NTQ0NTM1NzVdfQ==
 -->
