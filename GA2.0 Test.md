@@ -14,7 +14,7 @@ b. Method: TCP ping
 3. 테스트 시간
 a. 16:00-17:00, 2020.06.11, normally has huge congestion in cross-border public network
 
-4. 테스트 결과
+4. 테스트 결과: 80배 속도 개선
 a. Before GA: 633ms in average, 34% packet loss
 b. After GA: 7.9ms in average, 0% packet loss
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
@@ -30,7 +30,7 @@ d. Backend service type: custom domain (Non-ICP domain)
 a. Beijing client --> Korea AWS server
 b. Method: TCP ping
 
-7. 테스트 결과: 72% 속도 개선 
+7. 테스트 결과: 1.72배 속도 개선 
 a. Before GA: 112.6ms in average, 34% packet loss
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Before%20GA.png?raw=true)
 b. After GA: 65.4ms in average, 0% packet loss
@@ -178,6 +178,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjM1MTM0NywyODIyOTIzMTIsLTIwNz
+eyJoaXN0b3J5IjpbMTQzOTE0NjE0MiwyODIyOTIzMTIsLTIwNz
 Q4NjUzMzQsLTE4NTQ0NTM1NzVdfQ==
 -->
