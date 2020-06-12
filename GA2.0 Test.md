@@ -5,7 +5,8 @@ a. Enhanced + crossborder
 b. Accelerated Area: Beijing
 c. Endpoint Area: Korea
 d. Backend service type: custom IP
-2. Test 시나리오
+
+2. 테스트 시나리오
 a. Beijing client --> Korea AWS server
 b. Method: TCP ping
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
@@ -153,6 +154,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTUyODMyNDEsLTIwNzQ4NjUzMzQsLT
+eyJoaXN0b3J5IjpbLTE1MjgzMTA0MDcsLTIwNzQ4NjUzMzQsLT
 E4NTQ0NTM1NzVdfQ==
 -->
