@@ -14,10 +14,10 @@ b. Method: TCP ping
 3. 테스트 시간
 a. 16:00-17:00, 2020.06.11, normally has huge congestion in cross-border public network
 
-4. 테스트 결과: 80배 속도 개선
-a. Before GA: 633ms in average, 34% packet loss
-b. After GA: 7.9ms in average, 0% packet loss
-![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-11%20at%203.43.07%20PM.png?raw=true)
+4. 테스트 결과: 27배 속도 개선
+a. Before GA: 221.8ms in average, 0% packet loss
+b. After GA: 8.2ms in average, 0% packet loss
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-06-12%20at%207.29.05%20PM.png?raw=true)
 
 ## For Non-ICP domain
 1. GA 세팅
@@ -178,6 +178,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTE0NjE0MiwyODIyOTIzMTIsLTIwNz
-Q4NjUzMzQsLTE4NTQ0NTM1NzVdfQ==
+eyJoaXN0b3J5IjpbODMzMzcwMjgsMTQzOTE0NjE0MiwyODIyOT
+IzMTIsLTIwNzQ4NjUzMzQsLTE4NTQ0NTM1NzVdfQ==
 -->
