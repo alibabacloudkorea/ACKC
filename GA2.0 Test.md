@@ -10,7 +10,7 @@
 a. Enhanced + crossborder
 b. Accelerated Area: Beijing
 c. Endpoint Area: Korea
-d. Backend service type: custom IP
+d. Backend service type: custom IP (테스트로 진행할 ICP domain이 없어서 IP로 진행했다)
 
 2. 테스트 시나리오
 a. Beijing client --> Korea AWS server
@@ -45,7 +45,8 @@ b. After GA: 65.4ms in average, 0% packet loss
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzU5OTc5NSwxNDM5MTQ2MTQyLDI4Mj
-I5MjMxMiwtMjA3NDg2NTMzNCwtMTg1NDQ1MzU3NV19
+eyJoaXN0b3J5IjpbLTE4OTM2MjQ3NTEsMTQzOTE0NjE0MiwyOD
+IyOTIzMTIsLTIwNzQ4NjUzMzQsLTE4NTQ0NTM1NzVdfQ==
 -->
