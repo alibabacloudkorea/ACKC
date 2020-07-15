@@ -50,13 +50,13 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	```
 	# firewall-cmd --reload
 	```
-8. Test if it works. On the left side, connected from 52.78.119.192 and on the right side, connected from my macbook PC. 
+8. Test if it works. On the left side, connected from 52.78.119.192 and on the right side, connected from my macbook PC. It only allows ssh connection from specific IP. 
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.29.28%20PM.png?raw=true)
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTczMzY1MSwzNTk4MTIyNDcsLTUxNj
-IwMTc0MiwtMTg2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIz
-NV19
+eyJoaXN0b3J5IjpbLTE1OTEyMzI4MTcsMzU5ODEyMjQ3LC01MT
+YyMDE3NDIsLTE4NjIxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcy
+MzVdfQ==
 -->
