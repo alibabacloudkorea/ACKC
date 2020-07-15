@@ -22,9 +22,10 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
 5. In ecs console, I added four endpoint group IP.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.51.52%20PM.png?raw=true)
-6. Assuming AWS Seoul public IP is the client's static IP, I ssh to the Alibaba ecs(Beijing) from AWS ec2(Client in Seoul) and at the same time, I captured tcpdump on port 22. 
+6. Assuming AWS Seoul public IP is the client's static IP, I ssh to the Alibaba ecs(Beijing) from AWS ec2(Client in Seoul) and at the same time, I captured tcpdump on port 22. In result, as you can see as follows, client real IP has been captured. (6)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.10%20PM.png?raw=true)
-![]()
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.39%20PM.png?raw=true)
+
 
 ## Create files and folders
 
@@ -166,6 +167,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTMxNDk5MCwtNTE2MjAxNzQyLC0xOD
-YyMTQxNzU0LDEwMzYwMzQ1LC0xOTUxNzA3MjM1XX0=
+eyJoaXN0b3J5IjpbLTE2Nzc4MDU3NjAsLTUxNjIwMTc0MiwtMT
+g2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIzNV19
 -->
