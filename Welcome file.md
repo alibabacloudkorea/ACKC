@@ -7,7 +7,7 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 2. GA instance - Basic bandwidth(enhanced) + Cross-border bandwidth
 
 ## Prerequisite
-1. Apply KR 
+1. Apply whitelist fo
 
 ## Create files and folders
 
@@ -149,5 +149,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDUyNjY4MywtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbMTMzNDQ4NjgzOCwtMTk1MTcwNzIzNV19
 -->
