@@ -1,6 +1,6 @@
 # SSH connection acceleration with GA including ACL
 
-As of 2020.07.05, there is no feature that control ACL(Access Control List) in Global Accelerator. However, many customers still need to 
+As of 2020.07.05, there is no feature that control ACL(Access Control List) in Global Accelerator. However, due to security reason, 
 
 # Files
 
@@ -146,6 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY1MDU3MDAsLTE5NTE3MDcyMzVdfQ
-==
+eyJoaXN0b3J5IjpbMzg0OTc3NjU4LC0xOTUxNzA3MjM1XX0=
 -->
