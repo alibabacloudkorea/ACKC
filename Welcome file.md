@@ -35,9 +35,10 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	# systemctl status firewalld
 	# systemctl start firewalld
 	``` 
-	firewall-cmd --list-all
+		# firewall-cmd --list-all
 	```
 	You'll see your default zone is public and the services enabled are dhcpv6-client and ssh. We don't want any public services available, only the whitelisted IP's are authorized. So let's remove the two public services.
+	
 	```
 	# firewall-cmd --zone=public --remove-service=ssh --permanent
 	# firewall-cmd --zone=public --remove-service=dhcpv6-client --permanent
@@ -179,6 +180,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTUxMTc5MywtNTE2MjAxNzQyLC0xOD
-YyMTQxNzU0LDEwMzYwMzQ1LC0xOTUxNzA3MjM1XX0=
+eyJoaXN0b3J5IjpbMTIzNjQxMTA0LC01MTYyMDE3NDIsLTE4Nj
+IxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
 -->
