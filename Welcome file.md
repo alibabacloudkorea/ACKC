@@ -23,12 +23,14 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 5. In ecs console, I added four endpoint group IP.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.51.52%20PM.png?raw=true)
 6. Assuming AWS Seoul public IP is the client's static IP, I ssh to the Alibaba ecs(Beijing) from AWS ec2(Client in Seoul) and at the same time, I captured tcpdump on port 22. In result, as you can see as follows, client real IP has been captured. (62.78.119.192)
-![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.10%20PM.png?raw=true)
-
+	```
+	# tcpdump -nn port 22 -w result.pcap
+	```
+	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.10%20PM.png?raw=true)
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.39%20PM.png?raw=true)
 
 7. Let's whitelist source IP addresses and port in OS firewall rule. (CentOS 7)
-	By default, the firewall is disabled in ecs, so we need to enable the firewall rule.
+	By default, the firewall is disabled in ecs, so we need to enable the firewall rule first.
 	```
 	# systemctl status firewalld
 	# systemctl start firewalld
@@ -177,6 +179,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc5Njk2OTIsLTUxNjIwMTc0MiwtMT
-g2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbMTIwOTUxMTc5MywtNTE2MjAxNzQyLC0xOD
+YyMTQxNzU0LDEwMzYwMzQ1LC0xOTUxNzA3MjM1XX0=
 -->
