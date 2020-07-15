@@ -1,8 +1,8 @@
 # SSH connection acceleration with GA including ACL
 
-As of 2020.07.05, there is no feature that control ACL(Access Control List) in Global Accelerator. However, if we think of working on server via ssh, we typically allow specific fixed IP range 
+As of 2020.07.05, there is no feature that control ACL(Access Control List) in Global Accelerator.(This feature is planned to be published on 2020.10) However, if we think of working on server via ssh, we typically allow specific fixed IP range or use bastion server for security reasons. 
 
-# Files
+## Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -146,5 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM5NTI3MiwtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbLTEwMjYwNDg0MywtMTk1MTcwNzIzNV19
 -->
