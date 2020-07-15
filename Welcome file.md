@@ -50,9 +50,10 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	```
 	# firewall-cmd --reload
 	```
+	8. Test if it works. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODAxOTQ1OTEsLTUxNjIwMTc0MiwtMT
-g2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbMzU5ODEyMjQ3LC01MTYyMDE3NDIsLTE4Nj
+IxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
 -->
