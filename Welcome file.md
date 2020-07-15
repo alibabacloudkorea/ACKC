@@ -5,11 +5,9 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 ## Test scenario
 1. For Korea users to access China server, setup Korea as an accelerated area and Beijing as an endpoint group area.
 2. GA instance - Basic bandwidth(enhanced) + Cross-border bandwidth
-3. 
 
 ## Prerequisite
-
-1. 
+1. Apply KR 
 
 ## Create files and folders
 
@@ -151,5 +149,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ4NDg3NywtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbMTk5MDUyNjY4MywtMTk1MTcwNzIzNV19
 -->
