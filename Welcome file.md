@@ -27,12 +27,17 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.39%20PM.png?raw=true)
 
-7. Let's whitelist source IP addresses and port in OS firewall rule.
+7. Let's whitelist source IP addresses and port in OS firewall rule. (CentOS 7)
 	``` 
-	firewall-c
+	firewall-cmd --list-all
 	```
-
-
+	You'll see your default zone is public and the services enabled are dhcpv6-client and ssh. We don't want any public services available, only the whitelisted IP's are authorized. So let's remove the two public services.
+	```
+	# 
+	```
+```
+firewall-cmd --zone=public --remove-service=ssh --permanent
+```
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -173,6 +178,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjYwMzI5NiwtNTE2MjAxNzQyLC0xOD
-YyMTQxNzU0LDEwMzYwMzQ1LC0xOTUxNzA3MjM1XX0=
+eyJoaXN0b3J5IjpbLTEwOTk3MjM4NjMsLTUxNjIwMTc0MiwtMT
+g2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIzNV19
 -->
