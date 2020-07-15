@@ -58,9 +58,11 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.29.28%20PM.png?raw=true)
 	
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.52.50%20PM.png?raw=true)
+9. Opposite way is simpler than this one. You can setup the following diagram below.
+China client --> ECS(eg. Beijing) 
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5Nzg0NTI1MywtMTM1ODc0MjQxMl19
+eyJoaXN0b3J5IjpbLTU0NzIyMzcxLC0xMzU4NzQyNDEyXX0=
 -->
