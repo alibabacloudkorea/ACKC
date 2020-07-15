@@ -33,10 +33,20 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	```
 	You'll see your default zone is public and the services enabled are dhcpv6-client and ssh. We don't want any public services available, only the whitelisted IP's are authorized. So let's remove the two public services.
 	```
-	# 
+	# firewall-cmd --zone=public --remove-service=ssh --permanent
+	# firewall-cmd --zone=public --remove-service=dhcpv6-client --permanent
+	```
+	Now, let's whitelist a specific IP which grants access to 22(SSH) port.
+	```
+	```
+#firewall-cmd --permanent --zone=public --add-rich-rule='rule family="ipv4" source address="xx.xx.xx.xx" service name="ssh" accept'
+```
 	```
 ```
-firewall-cmd --zone=public --remove-service=ssh --permanent
+```
+firewall-cmd --zone=public --remove-service=dhcpv6-client --permanent
+```
+ice=ssh --permanent
 ```
 ## Create files and folders
 
@@ -178,6 +188,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk3MjM4NjMsLTUxNjIwMTc0MiwtMT
-g2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbNjEyOTM3OTQ4LC01MTYyMDE3NDIsLTE4Nj
+IxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
 -->
