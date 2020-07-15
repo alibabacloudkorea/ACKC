@@ -22,7 +22,7 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
 5. In ecs console, I added four endpoint group IP.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.51.52%20PM.png?raw=true)
-6. Assuming AWS Seoul public IP is the client's static IP, I ssh to the Alibaba ecs(Beijing) from AWS ec2(Client in Seoul)
+6. Assuming AWS Seoul public IP is the client's static IP, I ssh to the Alibaba ecs(Beijing) from AWS ec2(Client in Seoul) and at the same time, I captured tcpdump on port 22. 
 
 ## Create files and folders
 
@@ -164,6 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI5NDczMDgsLTE4NjIxNDE3NTQsMT
-AzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
+eyJoaXN0b3J5IjpbLTUxNjIwMTc0MiwtMTg2MjE0MTc1NCwxMD
+M2MDM0NSwtMTk1MTcwNzIzNV19
 -->
