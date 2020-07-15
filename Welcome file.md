@@ -18,7 +18,7 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 3. This is the result of GA configuration. The red boxes in the image are what you should be aware of for further configuration later on.
 
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.34.31%20PM.png?raw=true)
-4. Origin server is hosed in Alibaba Cloud
+4. Origin server is hosed in Alibaba Cloud and I added its public IP address.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
 
 ## Create files and folders
@@ -161,6 +161,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIxNDE3NTQsMTAzNjAzNDUsLTE5NT
-E3MDcyMzVdfQ==
+eyJoaXN0b3J5IjpbMTE0ODAyMTcwMiwtMTg2MjE0MTc1NCwxMD
+M2MDM0NSwtMTk1MTcwNzIzNV19
 -->
