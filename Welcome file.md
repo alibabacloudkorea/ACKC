@@ -1,7 +1,6 @@
-# SSH connection acceleration with 
+# SSH connection acceleration with GA including ACL
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
+As of 2020.07.05, there is no feature that control ACL in GA.
 
 # Files
 
@@ -147,6 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTcxMzc4NDEsLTE5NTE3MDcyMzVdfQ
-==
+eyJoaXN0b3J5IjpbNzg5Mzk3MDk3LC0xOTUxNzA3MjM1XX0=
 -->
