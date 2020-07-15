@@ -38,27 +38,12 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	```
 	Now, let's whitelist a specific IP which grants access to 22(SSH) port.
 	```
+	# firewall-cmd --permanent --zone=public --add-rich-rule='rule family="ipv4" source address="xx.xx.xx.xx" service name="ssh" accept'
 	```
-#firewall-cmd --permanent --zone=public --add-rich-rule='rule family="ipv4" source address="xx.xx.xx.xx" service name="ssh" accept'
-```
+	If you're connecting via SSH, be sure to authorize your IP before applying your new rule set. When ready to apply the new rules.
 	```
-```
-```
-firewall-cmd --zone=public --remove-service=dhcpv6-client --permanent
-```
-ice=ssh --permanent
-```
-## Create files and folders
-
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
-
-## Switch to another file
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
-## Rename a file
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+	# firewall-cmd --reload
+	```
 
 ## Delete a file
 
@@ -188,6 +173,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyOTM3OTQ4LC01MTYyMDE3NDIsLTE4Nj
-IxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
+eyJoaXN0b3J5IjpbMjA0MjQxNzA5MCwtNTE2MjAxNzQyLC0xOD
+YyMTQxNzU0LDEwMzYwMzQ1LC0xOTUxNzA3MjM1XX0=
 -->
