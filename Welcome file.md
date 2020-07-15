@@ -1,6 +1,6 @@
 # SSH connection acceleration with GA including ACL
 
-As of 2020.07.05, there is no feature that control ACL(Access Control List) in Global Accelerator.(This feature is planned to be published on 2020.10) However, if we think of working on server via ssh, we typically allow specific fixed IP range to which IT team belongs or use bastion server for security reasons. Here we will discuss how we can use GA to accelerate ssh traffic between China and Korea 
+As of 2020.07.05, there is no feature that control ACL(Access Control List) in Global Accelerator.(This feature is planned to be published on 2020.10) However, if we think of working on server via ssh, we typically allow specific fixed IP range to which IT team belongs or use bastion server for security reasons. Here we will discuss how we can use GA to accelerate ssh traffic between China and Korea and setup firewall rule based on client IP address at the same time.
 
 ## Files
 
@@ -146,6 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM4MjEwNTEsLTE5NTE3MDcyMzVdfQ
-==
+eyJoaXN0b3J5IjpbLTIyNTE3OTY1OCwtMTk1MTcwNzIzNV19
 -->
