@@ -13,11 +13,9 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 
 ## Configuration overview
 1. You can check detailed procedure of GA configuration in [Alibaba GA document](https://www.alibabacloud.com/help/doc-detail/153199.htm?spm=a2c63.p38356.b99.13.23f95285c25T51)
-2. While configuring endpoint group, you would see the menu 'Reserve Client IP' given that your whitelist has been applied successfully to your account. You should ena
-3.  
-4. 
-5. 
+2. While configuring endpoint group, you would see the menu 'Reserve Client IP' given that your whitelist has been applied successfully to your account. You should enable this feature.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.36.19%20PM.png?raw=true)
+3. This is the result of GA configuration. 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.34.31%20PM.png?raw=true)
 6. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
@@ -162,6 +160,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc4ODkwNTMsMTAzNjAzNDUsLTE5NT
-E3MDcyMzVdfQ==
+eyJoaXN0b3J5IjpbLTM4MjQwNDk1NCwxMDM2MDM0NSwtMTk1MT
+cwNzIzNV19
 -->
