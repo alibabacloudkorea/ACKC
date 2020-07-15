@@ -53,10 +53,11 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 8. Test if it works. On the left side, connected from 52.78.119.192 and on the right side, connected from my macbook PC. It only allows ssh connection from specific IP. 
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.29.28%20PM.png?raw=true)
 	
+	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.48.59%20PM.png?raw=true)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEyMzI4MTcsMzU5ODEyMjQ3LC01MT
-YyMDE3NDIsLTE4NjIxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcy
-MzVdfQ==
+eyJoaXN0b3J5IjpbLTEzNTg3NDI0MTIsLTE1OTEyMzI4MTcsMz
+U5ODEyMjQ3LC01MTYyMDE3NDIsLTE4NjIxNDE3NTQsMTAzNjAz
+NDUsLTE5NTE3MDcyMzVdfQ==
 -->
