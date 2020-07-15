@@ -12,7 +12,9 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	> Note: Before purchasing an instance, you should apply above two things in advance, otherwise you should purchase an instance again after application. This inconvenience has been escalated to product development team. It should be fixed as quickly as possible.
 
 ## Configuration overview
-1. ![]
+1. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.34.31%20PM.png?raw=true)
+2. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
+3. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.36.19%20PM.png?raw=true)
 
 ## Create files and folders
 
@@ -154,6 +156,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzA1MDY4OCwxMDM2MDM0NSwtMTk1MT
+eyJoaXN0b3J5IjpbMTA5MDkwMDkwOSwxMDM2MDM0NSwtMTk1MT
 cwNzIzNV19
 -->
