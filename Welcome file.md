@@ -12,9 +12,13 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	> Note: Before purchasing an instance, you should apply above two things in advance, otherwise you should purchase an instance again after application. This inconvenience has been escalated to product development team. It should be fixed as quickly as possible.
 
 ## Configuration overview
-1. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.34.31%20PM.png?raw=true)
-2. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
-3. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.36.19%20PM.png?raw=true)
+1. GA 설정 가이드는 ![알리바바 GA 공식문서]([https://www.alibabacloud.com/help/doc-detail/153199.htm?spm=a2c63.p38356.b99.13.23f95285c25T51](https://www.alibabacloud.com/help/doc-detail/153199.htm?spm=a2c63.p38356.b99.13.23f95285c25T51))
+2. 
+3. 
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.36.19%20PM.png?raw=true)
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.34.31%20PM.png?raw=true)
+4. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
 
 ## Create files and folders
 
@@ -156,6 +160,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDkwMDkwOSwxMDM2MDM0NSwtMTk1MT
+eyJoaXN0b3J5IjpbMTE1MjU3NjA4NSwxMDM2MDM0NSwtMTk1MT
 cwNzIzNV19
 -->
