@@ -7,9 +7,12 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 2. GA instance - Basic bandwidth(enhanced) + Cross-border bandwidth
 
 ## Prerequisite
-1. Submit a ticket for adding Korea region - this is done based on UID
+1. Submit a ticket for adding Korea region - this is done based on UID(User ID)
 2. Submit a ticket for enable 'Reserve client IP addresses' feature - this is also done based on UID
 	> Note: Before purchasing an instance, you should apply above two things in advance, otherwise you should purchase an instance again after application. This inconvenience has been escalated to product development team. It should be fixed as quickly as possible.
+
+## Configuration overview
+1. 
 
 ## Create files and folders
 
@@ -151,5 +154,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNTc0MTgyLC0xOTUxNzA3MjM1XX0=
+eyJoaXN0b3J5IjpbMTAzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
 -->
