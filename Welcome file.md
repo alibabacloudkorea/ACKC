@@ -30,6 +30,7 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 7. Let's whitelist source IP addresses and port in OS firewall rule.
 
 
+
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -170,6 +171,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzkyOTc1OTQsLTUxNjIwMTc0MiwtMT
-g2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbLTU2NDQ3NTkyLC01MTYyMDE3NDIsLTE4Nj
+IxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
 -->
