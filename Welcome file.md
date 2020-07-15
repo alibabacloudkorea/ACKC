@@ -28,6 +28,10 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.39%20PM.png?raw=true)
 
 7. Let's whitelist source IP addresses and port in OS firewall rule. (CentOS 7)
+	By default, the firewall is disabled in ecs, so we need to enable the firewall rule.
+	```
+	# systemctl status firewalld
+	# systemctl start firewalld
 	``` 
 	firewall-cmd --list-all
 	```
@@ -173,6 +177,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjQxNzA5MCwtNTE2MjAxNzQyLC0xOD
-YyMTQxNzU0LDEwMzYwMzQ1LC0xOTUxNzA3MjM1XX0=
+eyJoaXN0b3J5IjpbLTIxMjc5Njk2OTIsLTUxNjIwMTc0MiwtMT
+g2MjE0MTc1NCwxMDM2MDM0NSwtMTk1MTcwNzIzNV19
 -->
