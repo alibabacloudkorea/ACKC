@@ -9,7 +9,7 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 ## Prerequisite
 1. Submit a ticket for adding Korea region - this is done based on UID
 2. Submit a ticket for enable 'Reserve client IP addresses' feature - this is also done based on UID
-	> Note: Before purchasing an instance, you should apply above two things in advance, otherwise you should 
+	> Note: Before purchasing an instance, you should apply above two things in advance, otherwise you should purchase an instance again after application. This inconvenience has been escalated to product development team. It should be fixed as quickly as possible.
 
 ## Create files and folders
 
@@ -151,6 +151,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjExNDE3MDMsLTE5NTE3MDcyMzVdfQ
-==
+eyJoaXN0b3J5IjpbOTkyNTc0MTgyLC0xOTUxNzA3MjM1XX0=
 -->
