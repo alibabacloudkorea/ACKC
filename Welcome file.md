@@ -12,7 +12,7 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	> Note: Before purchasing an instance, you should apply above two things in advance, otherwise you should purchase an instance again after application. This inconvenience has been escalated to product development team. It should be fixed as quickly as possible.
 
 ## Configuration overview
-1. You can check [알리바바 GA 공식문서](https://www.alibabacloud.com/help/doc-detail/153199.htm?spm=a2c63.p38356.b99.13.23f95285c25T51) 
+1. You can check detailed procedure of GA configuration in [Alibaba GA document](https://www.alibabacloud.com/help/doc-detail/153199.htm?spm=a2c63.p38356.b99.13.23f95285c25T51)
 2. 
 3. 
 4. 
@@ -162,6 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODUwMTA3OSwxMDM2MDM0NSwtMTk1MT
-cwNzIzNV19
+eyJoaXN0b3J5IjpbNDY0OTkzNDU1LDEwMzYwMzQ1LC0xOTUxNz
+A3MjM1XX0=
 -->
