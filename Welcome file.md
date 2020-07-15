@@ -20,7 +20,9 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.34.31%20PM.png?raw=true)
 4. Origin server is hosed in Alibaba Cloud and I added its public IP address. An Endpoint Group IP should be added to cloud security group.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.35.16%20PM.png?raw=true)
-5. In ecs console, I added abiv
+5. In ecs console, I added four endpoint group IP.
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.51.52%20PM.png?raw=true)
+
 
 ## Create files and folders
 
@@ -162,6 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjIyNzQ4OCwtMTg2MjE0MTc1NCwxMD
-M2MDM0NSwtMTk1MTcwNzIzNV19
+eyJoaXN0b3J5IjpbNTUyNzUyMTc0LC0xODYyMTQxNzU0LDEwMz
+YwMzQ1LC0xOTUxNzA3MjM1XX0=
 -->
