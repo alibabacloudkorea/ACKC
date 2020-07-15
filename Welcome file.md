@@ -28,7 +28,9 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.04.39%20PM.png?raw=true)
 
 7. Let's whitelist source IP addresses and port in OS firewall rule.
-
+	``` 
+	firewall-c
+	```
 
 
 ## Create files and folders
@@ -171,6 +173,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDQ3NTkyLC01MTYyMDE3NDIsLTE4Nj
-IxNDE3NTQsMTAzNjAzNDUsLTE5NTE3MDcyMzVdfQ==
+eyJoaXN0b3J5IjpbMTE1MjYwMzI5NiwtNTE2MjAxNzQyLC0xOD
+YyMTQxNzU0LDEwMzYwMzQ1LC0xOTUxNzA3MjM1XX0=
 -->
