@@ -11,7 +11,11 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 2. Submit a ticket for enable 'Reserve client IP addresses' feature - this is also done based on UID
 	> Note: Before purchasing an instance, you should apply above two things in advance, otherwise you should purchase an instance again after application. This inconvenience has been escalated to product development team. It should be fixed as quickly as possible.
 
-## Configuration overview
+## Architecture diagram
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.52.50%20PM.png?raw=true)
+
+
+## Step by step configuration
 1. You can check detailed procedure of GA configuration in [Alibaba GA document](https://www.alibabacloud.com/help/doc-detail/153199.htm?spm=a2c63.p38356.b99.13.23f95285c25T51)
 2. While configuring endpoint group, you would see the menu 'Reserve Client IP' given that your whitelist has been applied successfully to your account. You should enable this feature.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%206.36.19%20PM.png?raw=true)
@@ -53,9 +57,10 @@ As of 2020.07.05, there is no feature that control ACL(Access Control List) in G
 8. Test if it works. On the left side, connected from 52.78.119.192 and on the right side, connected from my macbook PC. It only allows ssh connection from specific IP. 
 	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.29.28%20PM.png?raw=true)
 	
-	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.48.59%20PM.png?raw=true)
+	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202020-07-15%20at%207.52.50%20PM.png?raw=true)
+	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg3NDI0MTJdfQ==
+eyJoaXN0b3J5IjpbLTM5Nzg0NTI1MywtMTM1ODc0MjQxMl19
 -->
