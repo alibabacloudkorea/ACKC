@@ -19,6 +19,7 @@ To accelerate the Korea MS teams service as an example, we have 4 main parts:
 2. CCN: CCN is Alibaba Cloud SD-WAN access network, which consists of access points all over the country. It can quickly connect SAG terminals to Alibaba Cloud backbone networks.
 3. CEN: CEN is a global virtual enterprise network. Relying on Alibaba Cloud global backbone network, it provides high-quality global networking services for enterprise customers.
 4. Proxy server: As a forward proxy and SNAT, it has two different functions to forward the traffic. It acts as a L4 proxy  helped from the upper layer to extract the domain name and acts as a SNAT to access public internet through GAIP.
+5. GA1.0: 
 
 ## Create files and folders
 
@@ -155,6 +156,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEwNTkzMjgsOTczODU0Mzc3LC04NT
-kyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbMTgwODYyNDI2NiwtMTM4MTA1OTMyOCw5Nz
+M4NTQzNzcsLTg1OTI3Nzg1Nl19
 -->
