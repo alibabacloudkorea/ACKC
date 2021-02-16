@@ -23,7 +23,7 @@ To accelerate the Korea MS teams service as an example, we have 5 main parts:
 
 ## 2.2 Acceleration Principle
 
-The
+This solution can accelerate HTTP/HTTPs based on the domain name
 
 ## Switch to another file
 
@@ -156,6 +156,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk4OTI4NDMsLTEzODEwNTkzMjgsOT
-czODU0Mzc3LC04NTkyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbMTc3Njc4MjU4MCwtMTM4MTA1OTMyOCw5Nz
+M4NTQzNzcsLTg1OTI3Nzg1Nl19
 -->
