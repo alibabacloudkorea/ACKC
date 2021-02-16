@@ -143,6 +143,9 @@ curl https://network-scripts.oss-cn-shanghai.aliyuncs.com/proxy-scripts/install-
 If you want to see how the forward proxy works through **ngx_stream_ssl_preread_module**, reach the following blog to understand how this L4 proxy extract the domain name from the upper-layer packets to obtain the target domain name. (in this case, teams related domains)
 https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-server_595799#
 
+### 4.3.2 configure SNAT 
+
+
 There are two types of synchronization and they can complement each other:
 
 - The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
@@ -252,6 +255,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU1OTMxNTksLTE5NzIzNjgzNSwxNz
-EyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0MzddfQ==
+eyJoaXN0b3J5IjpbLTI0Nzg5MDY0MSwtMTk3MjM2ODM1LDE3MT
+IyNzEyMjAsMTgxOTUzNTYxOSwtMjA4MDEzMjQzN119
 -->
