@@ -42,11 +42,13 @@ In this step, the basic network architecture on which the entire service depends
 
 ## 4.1.1 create a VPC
 In this scenario, we need to create 2 VPC.
+|   VPC name       |usage                          |Region     |     Address segment  |
+|----------------|-------------------------------|-----------------------------|----|
+|Proxy_VPC|Deploy forward proxy services|Shanghai (can be the other region depending on your needs)| 10.0.0.0/8
+|PVZ_VPC|The domain name associated with the PrivateZone.|Shanghai|172.19.0.0/16
+Which Proxy-VPC can be created in 2 different AZ the vSwitch for easy deployment High available agent cluster. You do not need to deploy any resources in the PVZ-VPC. You can also use any existing domestic VPC without any conflict with the PrivateZone configuration.
 
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
-## Delete a file
+## 4.1.2 create a CEN
 
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
@@ -125,10 +127,11 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 |   VPC name       |usage                          |Region     |     Address segment  |
 |----------------|-------------------------------|-----------------------------|----|
-|Proxy_VPC|Deploy forward proxy services|Shanghai (can be other region depending on your needs)| 10.0.0.0/8
+|Proxy_VPC|Deploy forward proxy services|Shanghai (can be the other region depending on your needs)| 10.0.0.0/8
 |PVZ_VPC|The domain name associated with the PrivateZone.|Shanghai|172.19.0.0/16
+Which Proxy-VPC can be created in 2 different AZ the vSwitch for easy deployment High available agent cluster. You do not need to deploy any resources in the PVZ-VPC. You can also use any existing domestic VPC without any conflict with the PrivateZone configuration.
 
-## KaTeX
+## 4.
 
 You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
 
@@ -167,7 +170,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQwMzI0MTIsLTg3ODg2MTk0Nyw1Nz
-E1MDAyODUsMTA3NTI1NTg4MCwxNzc2NzgyNTgwLC0xMzgxMDU5
-MzI4LDk3Mzg1NDM3NywtODU5Mjc3ODU2XX0=
+eyJoaXN0b3J5IjpbMzIzNTk3Mjk5LC04Nzg4NjE5NDcsNTcxNT
+AwMjg1LDEwNzUyNTU4ODAsMTc3Njc4MjU4MCwtMTM4MTA1OTMy
+OCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
 -->
