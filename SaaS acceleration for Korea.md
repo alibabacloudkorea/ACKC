@@ -168,10 +168,16 @@ https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-ser
 4. SNAT Verification
 if you can access the internet, `ping 8.8.8.8` then, SNAT is successfully working.
 
+## 4.4 Configure PrivateZone and domain names
+In this step, we create a PrivateZone and configure the relevant domain name. Then associate this PrivateZone with PVZ_VPC for SAG-APP acceleration.
 
+### 4.4.1 activate PrivateZone
+The procedure for activating PrivateZone is as follows:
+https://www.alibabacloud.com/help/doc-detail/64627.htm?spm=a2c63.l28256.b99.13.3b872bdd0Pu1Y9
 
+### 4.4.2 add an accelerate doma
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5Njg5MzIwLDIwMjA3NTQxNzIsLTI0Nz
-g5MDY0MSwtMTk3MjM2ODM1LDE3MTIyNzEyMjAsMTgxOTUzNTYx
-OSwtMjA4MDEzMjQzN119
+eyJoaXN0b3J5IjpbLTE1NTc5NTQxMTAsMjAyMDc1NDE3MiwtMj
+Q3ODkwNjQxLC0xOTcyMzY4MzUsMTcxMjI3MTIyMCwxODE5NTM1
+NjE5LC0yMDgwMTMyNDM3XX0=
 -->
