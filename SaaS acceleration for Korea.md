@@ -181,8 +181,12 @@ First add a zone
 
 > Note: If you need to configure generic resolution, do not check the subdomain recursive resolution proxy.
 
-Add the required domain name resolution to the Zone: pointing to 
+Add the required domain name resolution to the Zone: pointing to proxy ECS eth0 address
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.07.11%20PM.png?raw=true)
+You can configure a wildcard resolution to overwrite all subdomains under this domain name to reduce the configuration workload.
+
+Fore more information, see:
+https://www.alibabacloud.com/help/doc-detail/64628.htm?spm=a2c63.p38356.b99.14.26287690yMEHob
 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.07.45%20PM.png?raw=true)
@@ -197,7 +201,7 @@ Add the required domain name resolution to the Zone: pointing to
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.09.45%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTAzMjI0MiwtNTk0MDQwNzYwLC0xMj
+eyJoaXN0b3J5IjpbLTE2MjEyMDkwOCwtNTk0MDQwNzYwLC0xMj
 MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
 MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
 0=
