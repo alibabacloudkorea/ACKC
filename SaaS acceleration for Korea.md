@@ -79,7 +79,7 @@ Where:
 1.  Configure the Internet bandwidth as needed;
 2.  The security group needs to release TCP80 and TCP443 ports;
 3.  The instance type can be configured as needed;
-4.  According to the need in 2 different available area create 1 table ECS as agents;
+4.  According to the HA need, you can create create two 
 
 
 ## 4.2.2 Create a GA instance
@@ -236,5 +236,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTYzODg5MiwtMjA4MDEzMjQzN119
+eyJoaXN0b3J5IjpbLTI0MjQ1MTg3MywtMjA4MDEzMjQzN119
 -->
