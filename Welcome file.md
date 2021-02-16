@@ -5,11 +5,6 @@ Many multinational enterprises use SaaS services deployed overseas, such as Offi
 
 This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users in China accelerate access to application systems deployed overseas.
 
-> Note: As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use GA1.0 which is an old version of GA(Global Accelerator). We can use GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc. To be able to use GA1.0, you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
-	1) GA1.0
-	2) Korea(Seoul) Network PoP
-	3) VPC whitelist for Korea Network PoP
-
 # 2. Solution Overview
 ## 2.1 Overview
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.04.06%20AM.png?raw=true)
@@ -31,11 +26,13 @@ Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
 
 2. Use the Private Zone to resolve the domain name to be accelerated into the internal IP address of the proxy server. If the domain does not exist in Private Zone, the SAG client then lookup public DNS to reach the target server. In this way, we only accelerate teams related domains.
 3. The traffic to be accelerated is forwarded to the proxy server via CCN and CEN. The proxy server then send the request to the MS teams service through the local Korea internet.
-4. Traffic that does not need to be accelerated is not pulled to CCN, and is directly accessed from the local internet 
+4. Traffic that does not need to be accelerated is not pulled to CCN, and is directly accessed from the local internet of the client, without occupying SAG-APP acceleration bandwidth.
 
-## Switch to another file
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+# Prerequisites
+As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use GA1.0 which is an old version of GA(Global Accelerator). We can use GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc. To be able to use GA1.0, you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
+	1) GA1.0
+	2) Korea(Seoul) Network PoP
+	3) VPC whitelist for Korea Network PoP
 
 ## Rename a file
 
@@ -164,6 +161,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzE3MDgxLDE3NzY3ODI1ODAsLTEzOD
-EwNTkzMjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NjAwMjc1MzMsMTc3Njc4MjU4MCwtMT
+M4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
 -->
