@@ -165,9 +165,11 @@ https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-ser
 3. Verify configuration using the command `iptables -L -n -t nat`. You should see a SNAT rule is configured:
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.57.04%20PM.png?raw=true)
 
+4. SNAT Verification
+if you can access internet, `ping 8.8.8.8` then, SNAT is successfully working.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTYwNDEyNCwyMDIwNzU0MTcyLC0yND
-c4OTA2NDEsLTE5NzIzNjgzNSwxNzEyMjcxMjIwLDE4MTk1MzU2
-MTksLTIwODAxMzI0MzddfQ==
+eyJoaXN0b3J5IjpbODExMTQ1Mjc1LDIwMjA3NTQxNzIsLTI0Nz
+g5MDY0MSwtMTk3MjM2ODM1LDE3MTIyNzEyMjAsMTgxOTUzNTYx
+OSwtMjA4MDEzMjQzN119
 -->
