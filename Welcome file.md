@@ -90,7 +90,7 @@ Click the 'Bind instance' button.
 Choose the ECS instance previously created.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.48.48%20PM.png?raw=true)
 
-
+Now you can see the backend service instance IP address. Keep this address.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.49.22%20PM.png?raw=true)
 
 
@@ -206,7 +206,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAyMTA3MDYsMTE0ODY2NDIzNCwtOD
+eyJoaXN0b3J5IjpbLTIxMzU3Njc2OTksMTE0ODY2NDIzNCwtOD
 Q2OTM4NjM5LDEwMjE1Mzk1ODEsMTM5MTc1MjE3MSwtMjMxNzM1
 NzU5LC04Nzg4NjE5NDcsNTcxNTAwMjg1LDEwNzUyNTU4ODAsMT
 c3Njc4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3
