@@ -5,7 +5,7 @@ Many multinational enterprises use SaaS services deployed overseas, such as Offi
 
 This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users in China accelerate access to application systems deployed overseas.
 
-> Note: As of now(2021.02.16), Alibaba Cloud do not have a local data center in Korea, for having every component be in Alibaba Cloud, we use GA1.0(A formal version of GA) rather than GA(Global Accelerator). To be able to use GA1.0, you need to submit the ticket and apply whitelist for GA1.0. 
+> Note: As of now(2021.02.16), Alibaba Cloud do not have a local data center in Korea, for having every component be in Alibaba Cloud, we use GA1.0(A formal version of GA) rather than GA(Global Accelerator). To be able to use GA1.0, you need to submit the ticket and apply a whitelist for GA1.0. Make sure that you apply GA1.0, Korea(Seoul) Network PoP and VPC whitelist.
 
 # Files
 
@@ -146,5 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTc4NjksLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbMjA0MTY1NzU3MywtODU5Mjc3ODU2XX0=
 -->
