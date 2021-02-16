@@ -49,8 +49,14 @@ In this scenario, we need to create 2 VPC.
 Which Proxy-VPC can be created in 2 different AZ the vSwitch for easy deployment High available agent cluster. You do not need to deploy any resources in the PVZ-VPC. You can also use any existing domestic VPC without any conflict with the PrivateZone configuration.
 
 ## 4.1.2 create a CEN
+Create a CEN instance named SF_Accelerate_CEN.
+For more information, see:
+https://www.alibabacloud.com/help/doc-detail/128625.htm?spm=a2c63.l28256.b99.21.28856ee1KV3iAr
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+Add the previously created Proxy_VPC and PVZ_VPC to CEN.
+
+For detailed operation steps, see:
+https://www.alibabacloud.com/help/doc-detail/128653.htm?spm=a2c63.p38356.b99.22.a6d216b0iUTv2R
 
 ## Export a file
 
@@ -170,7 +176,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNTk3Mjk5LC04Nzg4NjE5NDcsNTcxNT
-AwMjg1LDEwNzUyNTU4ODAsMTc3Njc4MjU4MCwtMTM4MTA1OTMy
-OCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbMTA0MTkzNTI5MCwtODc4ODYxOTQ3LDU3MT
+UwMDI4NSwxMDc1MjU1ODgwLDE3NzY3ODI1ODAsLTEzODEwNTkz
+MjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
