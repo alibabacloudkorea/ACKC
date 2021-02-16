@@ -70,7 +70,7 @@ https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6
 ## 4.2 Create proxy ECS, GA and bind a backend ECS
 In this step, we will create a proxy instance in Proxy_VPC in Shanghai as an exit for service access.
 
-## 4.2.1 Create a proxy ECS instance
+### 4.2.1 Create a proxy ECS instance
 The following is an example of an ECS instance:
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.08.34%20PM.png?raw=true)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.09.56%20PM.png?raw=true)
@@ -82,7 +82,7 @@ Where:
 4.  According to the HA need, you can create create two different ECS in different zones and use SLB to forward the traffic to backend ECS. Here I only create a single instance.
 
 
-## 4.2.2 Create a GA instance
+### 4.2.2 Create a GA instance
 If your whitelist (see in the prerequisites section) is successfully applied, you would see the Global Accelerator in VPC console.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.02.08%20PM.png?raw=true)
 
@@ -96,7 +96,7 @@ Select the same as the figure below and complete purchasing.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.04.00%20PM.png?raw=true)
 
 
-## 4.2.2 Bind the backend instance
+### 4.2.2 Bind the backend instance
 Now you can see the GA instance just created. Make sure that you choose the region 'Asia Pacific NE 2 pop (Seoul)', otherwise you can not see anything in the console.
 Click the 'Bind instance' button.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.48.11%20PM.png?raw=true)
@@ -107,7 +107,7 @@ Choose the ECS instance previously created.
 Now you can see the backend service instance IP address. Copy this address to keep it.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.49.22%20PM.png?raw=true)
 
-## 4.2.3 Activate the backend service
+### 4.2.3 Activate the backend service
 After the backend service is bound, you need to add a NIC sub interface to the bound ECS instance. The IP address of the sub interface is the backend service address allocated by the system. After the backend service is bound to the Global Acceleration instance, the acceleration link is always active as long as the sub interface in the backend server is correctly configured.
 
 > Note: Activation is required only when the backend service is an ECS instance.
@@ -132,8 +132,8 @@ After the backend service is bound, you need to add a NIC sub interface to the b
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.25.43%20PM.png?raw=true)
 	After the backend service is bound, you can ping the EIP of the Global Acceleration instance to verify if the configuration takes effect. 
 
-## 4.3 configure
-
+## 4.3 configure proxy service
+### 4.3.1 
 
 There are two types of synchronization and they can complement each other:
 
@@ -244,6 +244,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjAyMjQwMiwxODE5NTM1NjE5LC0yMD
-gwMTMyNDM3XX0=
+eyJoaXN0b3J5IjpbLTEyMTAzMjI3MjYsMTgxOTUzNTYxOSwtMj
+A4MDEzMjQzN119
 -->
