@@ -218,10 +218,11 @@ After the purchase is successful, you need to configure the SAG-APP. Mainly:
 -   Configure private CIDR block: configure the CIDR block assigned to the SAG-APP client. This CIDR block must be carefully planned and cannot conflict with other CIDR blocks in the network, try to avoid conflicts with the address segment of the customer terminal itself and avoid using the address segment in 168.0.0/16.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.33.45%20PM.png?raw=true)
 
-### 4.5.3 create 
+### 4.5.3 create SAG-APP account
+After you download and install the SAG app on your terminal, you need to wait for a while to access Alibaba Cloud Network, i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDI5MjI4LC01OTQwNDA3NjAsLTEyMz
-AwMTUwNCwyMDIwNzU0MTcyLC0yNDc4OTA2NDEsLTE5NzIzNjgz
-NSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0MzddfQ
-==
+eyJoaXN0b3J5IjpbMTI2ODQ0ODE0MSwtNTk0MDQwNzYwLC0xMj
+MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
+MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
+0=
 -->
