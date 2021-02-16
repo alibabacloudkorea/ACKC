@@ -225,10 +225,9 @@ After you download and install the SAG app on your terminal, you need to wait fo
 You can compare the upload/download speed while connecting to SAG app and disconnecting to SAG app respectively to compare the latency and packet loss.
 
 # 6. Application to other similar scenarios
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDYxMTE1OSwtNTY1Nzc2NzEwLC01OT
-QwNDA3NjAsLTEyMzAwMTUwNCwyMDIwNzU0MTcyLC0yNDc4OTA2
-NDEsLTE5NzIzNjgzNSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLT
-IwODAxMzI0MzddfQ==
+eyJoaXN0b3J5IjpbLTI0NDAwODc3MywtNTMwNjExMTU5LC01Nj
+U3NzY3MTAsLTU5NDA0MDc2MCwtMTIzMDAxNTA0LDIwMjA3NTQx
+NzIsLTI0Nzg5MDY0MSwtMTk3MjM2ODM1LDE3MTIyNzEyMjAsMT
+gxOTUzNTYxOSwtMjA4MDEzMjQzN119
 -->
