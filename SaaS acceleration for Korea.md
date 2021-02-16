@@ -51,6 +51,7 @@ Which Proxy-VPC can be created in 2 different AZ the vSwitch for easy deployment
 
 ### 4.1.2 create a CEN
 Create a CEN instance named SF_Accelerate_CEN.
+
 For more information, see:
 https://www.alibabacloud.com/help/doc-detail/128625.htm?spm=a2c63.l28256.b99.21.28856ee1KV3iAr
 
@@ -245,6 +246,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMD
-gwMTMyNDM3XX0=
+eyJoaXN0b3J5IjpbLTE4NTc5OTUxOCwxNzEyMjcxMjIwLDE4MT
+k1MzU2MTksLTIwODAxMzI0MzddfQ==
 -->
