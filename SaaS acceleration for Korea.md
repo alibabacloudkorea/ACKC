@@ -60,7 +60,7 @@ Add the previously created Proxy_VPC and PVZ_VPC to CEN.
 For detailed operation steps, see:
 https://www.alibabacloud.com/help/doc-detail/128653.htm?spm=a2c63.p38356.b99.22.a6d216b0iUTv2R
 
-## 4.1.3 create a CCN
+### 4.1.3 create a CCN
 Create a CCN instance for SAG-APP access and name it SF_Accelerate_CCN.
 
 The steps to create CCN are detailed in:
@@ -246,6 +246,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc5OTUxOCwxNzEyMjcxMjIwLDE4MT
+eyJoaXN0b3J5IjpbLTE5NzIzNjgzNSwxNzEyMjcxMjIwLDE4MT
 k1MzU2MTksLTIwODAxMzI0MzddfQ==
 -->
