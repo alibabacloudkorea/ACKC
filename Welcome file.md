@@ -78,7 +78,7 @@ Select the region 'Asia Pacific NE 2 pop (Seoul)'.
 Select the 'Dedicated Bandwidth' and the 'create instance' button. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.03.35%20PM.png?raw=true)
 
-
+Select the same as the figure below and complete purchasing.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.04.00%20PM.png?raw=true)
 
 
@@ -195,8 +195,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjkzODYzOSwxMDIxNTM5NTgxLDEzOT
-E3NTIxNzEsLTIzMTczNTc1OSwtODc4ODYxOTQ3LDU3MTUwMDI4
-NSwxMDc1MjU1ODgwLDE3NzY3ODI1ODAsLTEzODEwNTkzMjgsOT
-czODU0Mzc3LC04NTkyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbMTE0ODY2NDIzNCwtODQ2OTM4NjM5LDEwMj
+E1Mzk1ODEsMTM5MTc1MjE3MSwtMjMxNzM1NzU5LC04Nzg4NjE5
+NDcsNTcxNTAwMjg1LDEwNzUyNTU4ODAsMTc3Njc4MjU4MCwtMT
+M4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
 -->
