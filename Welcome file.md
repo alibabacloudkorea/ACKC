@@ -27,6 +27,10 @@ This solution can accelerate HTTP/HTTPs based on the domain name.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.26.37%20AM.png?raw=true)
 1. The client configures the DNS address of the Private Zone. The custom DNS function of the SAG-APP allows you to configure the DNS of the terminal to Private Zone DNS. 
 
+Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
+
+2. Use the Private Zone to resolve the domain name to be accelerated into the internal IP address of the proxy server. If the domain does not exist in Private Zone, the SAG client then lookup public DNS to 
+
 ## Switch to another file
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
@@ -158,6 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQwMDQ4LDE3NzY3ODI1ODAsLTEzOD
+eyJoaXN0b3J5IjpbNzA0NzczNzQ4LDE3NzY3ODI1ODAsLTEzOD
 EwNTkzMjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
