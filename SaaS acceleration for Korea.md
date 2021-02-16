@@ -104,7 +104,7 @@ Click the 'Bind instance' button.
 Choose the ECS instance previously created.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.48.48%20PM.png?raw=true)
 
-Now you can see the backend service instance IP address. Keep this address.
+Now you can see the backend service instance IP address. Copy this address to keep it.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.49.22%20PM.png?raw=true)
 
 ## 4.2.3 Activate the backend service
@@ -112,18 +112,19 @@ After the backend service is bound, you need to add a NIC sub interface to the b
 
 > Note: Activation is required only when the backend service is an ECS instance.
 
-1. Run the following command to open the NIC configuration file.
+1. Access the proxy ECS. 
+2. Run the following command to open the NIC configuration file.
 	```
 	sudo vi /etc/sysconfig/network-scripts/ifcfg-eth0:1
 	```
-2. Add the following information in the configuration file.
+3. Add the following information in the configuration file. Change the IPADDR to your own copied address from previous section.
 	```
 	DEVICE=eth0:1
 	 IPADDR=10.0.0.124
 	 NETMASK=255.255.255.255
 	 ONBOOT=yes
 	```
-3. Run the following command to make the configuration take effect.
+4. Run the following command to make the configuration take effect.
 	```
 	ifup eth0:1
 	```
@@ -236,5 +237,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1Nzg0MTY4LC0yMDgwMTMyNDM3XX0=
+eyJoaXN0b3J5IjpbODI2NTkyODI4LC0yMDgwMTMyNDM3XX0=
 -->
