@@ -132,6 +132,8 @@ After the backend service is bound, you need to add a NIC sub interface to the b
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.25.43%20PM.png?raw=true)
 	After the backend service is bound, you can ping the EIP of the Global Acceleration instance to verify if the configuration takes effect. 
 
+## 4.3 configure
+
 
 There are two types of synchronization and they can complement each other:
 
@@ -242,6 +244,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM2NjksMTgxOTUzNTYxOSwtMjA4MD
-EzMjQzN119
+eyJoaXN0b3J5IjpbLTQwNjAyMjQwMiwxODE5NTM1NjE5LC0yMD
+gwMTMyNDM3XX0=
 -->
