@@ -25,6 +25,7 @@ To accelerate the Korea MS teams service as an example, we have 5 main parts:
 
 This solution can accelerate HTTP/HTTPs based on the domain name.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.26.37%20AM.png?raw=true)
+1. The client configures the DNS address of the Private Zone. The custom DNS function of the SAG-APP allows you to configure the DNS of the terminal to Private Zone DNS. 
 
 ## Switch to another file
 
@@ -157,6 +158,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDM3MTA0OCwxNzc2NzgyNTgwLC0xMz
-gxMDU5MzI4LDk3Mzg1NDM3NywtODU5Mjc3ODU2XX0=
+eyJoaXN0b3J5IjpbLTE4MDQwMDQ4LDE3NzY3ODI1ODAsLTEzOD
+EwNTkzMjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
