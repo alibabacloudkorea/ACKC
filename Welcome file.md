@@ -29,7 +29,8 @@ This solution can accelerate HTTP/HTTPs based on the domain name.
 
 Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
 
-2. Use the Private Zone to resolve the domain name to be accelerated into the internal IP address of the proxy server. If the domain does not exist in Private Zone, the SAG client then lookup public DNS to 
+2. Use the Private Zone to resolve the domain name to be accelerated into the internal IP address of the proxy server. If the domain does not exist in Private Zone, the SAG client then lookup public DNS to reach the target server. In this way, we only accelerate teams related domains.
+3. The traffic to be accelerated is forwarded to t
 
 ## Switch to another file
 
@@ -162,6 +163,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0NzczNzQ4LDE3NzY3ODI1ODAsLTEzOD
-EwNTkzMjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbMTYzMzg5NDI0OCwxNzc2NzgyNTgwLC0xMz
+gxMDU5MzI4LDk3Mzg1NDM3NywtODU5Mjc3ODU2XX0=
 -->
