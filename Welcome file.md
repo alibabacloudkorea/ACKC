@@ -40,6 +40,10 @@ As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having ever
 ## 4.1 create a VPC/CEN/CCN
 In this step, the basic network architecture on which the entire service depends is built. 
 
+## 4.1.1 create a VPC
+In this scenario, we need to create 2 VPC.
+
+
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
 ## Delete a file
@@ -119,7 +123,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-|                |ASCII                          |HTML                         |
+|   VPC name       |usage                          |HTML                         |
 |----------------|-------------------------------|-----------------------------|
 |Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
 |Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
@@ -165,7 +169,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYwNzY4OTAsNTcxNTAwMjg1LDEwNz
+eyJoaXN0b3J5IjpbLTE1MTc0Nzg2MzUsNTcxNTAwMjg1LDEwNz
 UyNTU4ODAsMTc3Njc4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQz
 NzcsLTg1OTI3Nzg1Nl19
 -->
