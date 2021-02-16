@@ -14,7 +14,8 @@ This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an applicati
 ## 2.1 Overview
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.04.06%20AM.png?raw=true)
 
-To accelerate the 
+To accelerate the Korea MS teams service as an example, we have 4 main parts:
+1. Client: SAG-APP is Alibaba Cloud SD-WAN client software that can be installed on Android, iOS, Windows, MacOS
 
 ## Create files and folders
 
@@ -151,6 +152,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc0ODIyODUsOTczODU0Mzc3LC04NT
-kyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbMTEzMTg1MDk1LDk3Mzg1NDM3NywtODU5Mj
+c3ODU2XX0=
 -->
