@@ -71,6 +71,15 @@ https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6
 In this step, we will create a proxy instance in Proxy_VPC in Shanghai as an exit for service access.
 
 ## 4.2.1 Create an ECS instance
+The following is an example of an ECS instance:
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.08.34%20PM.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.09.56%20PM.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.08.49%20PM.png?raw=true)
+Where:
+1.  Configure the Internet bandwidth as needed;
+2.  The security group needs to release TCP80 and TCP443 ports;
+3.  The instance type can be configured as needed;
+4.  According to the need in 2 different available area create 1 table ECS as agents;
 
 
 ## 4.2.2 Create a GA instance
@@ -227,5 +236,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAxMzI0MzddfQ==
+eyJoaXN0b3J5IjpbLTMyOTYzODg5MiwtMjA4MDEzMjQzN119
 -->
