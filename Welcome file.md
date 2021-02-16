@@ -29,7 +29,7 @@ Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
 4. Traffic that does not need to be accelerated is not pulled to CCN, and is directly accessed from the local internet of the client, without occupying SAG-APP acceleration bandwidth.
 
 # Prerequisites
-As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use an old version of GA(Global Accelerator). We can use a current version of GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc which can be cumbersome to manage entire coponents. To be able to use GA1.0, you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
+As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use an old version of GA(Global Accelerator). We can use a current version of GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc, which leads to become cumbersome to manage entire components. To be able to use old version of GA(GA1.0), you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
 	1) GA1.0
 	2) Korea(Seoul) Network PoP for an accelerated area
 	3) A VPC whitelist for Korea Network PoP
@@ -162,7 +162,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyNjQzMjczLDEwNzUyNTU4ODAsMTc3Nj
+eyJoaXN0b3J5IjpbNTcxNTAwMjg1LDEwNzUyNTU4ODAsMTc3Nj
 c4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3Nzg1
 Nl19
 -->
