@@ -46,6 +46,7 @@ In this scenario, we need to create 2 VPC.
 |----------------|-------------------------------|-----------------------------|----|
 |Proxy_VPC|Deploy forward proxy services|Shanghai (can be the other region depending on your needs)| 10.0.0.0/8
 |PVZ_VPC|The domain name associated with the PrivateZone.|Shanghai|172.19.0.0/16
+
 Which Proxy-VPC can be created in 2 different AZ the vSwitch for easy deployment High available agent cluster. You do not need to deploy any resources in the PVZ-VPC. You can also use any existing domestic VPC without any conflict with the PrivateZone configuration.
 
 ### 4.1.2 create a CEN
@@ -244,6 +245,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzQ3MzY3MCwxODE5NTM1NjE5LC0yMD
+eyJoaXN0b3J5IjpbMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMD
 gwMTMyNDM3XX0=
 -->
