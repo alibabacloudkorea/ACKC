@@ -35,7 +35,10 @@ As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having ever
 	3) A VPC whitelist for Korea Network PoP
 
 # Main steps
+![](https://github.com/rnlduaeo/alibaba/blob/master/process.png?raw=true)
 
+## 4.1 create a VPC/CEN/CCN
+In this step, the basic network architecture on which the entire service depends is built. 
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
@@ -162,7 +165,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNTAwMjg1LDEwNzUyNTU4ODAsMTc3Nj
-c4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3Nzg1
-Nl19
+eyJoaXN0b3J5IjpbLTEzMzYwNzY4OTAsNTcxNTAwMjg1LDEwNz
+UyNTU4ODAsMTc3Njc4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQz
+NzcsLTg1OTI3Nzg1Nl19
 -->
