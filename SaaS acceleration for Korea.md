@@ -150,7 +150,7 @@ https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-ser
 	sysctl -p
 	```
 
-2. Install and configure the iptables SNAT rules. 
+2. Install and configure the iptables SNAT rules. In our scenario, we should change the source IP from eth0 to eth0:1 to access the internet through the GA public IP.
 	```
 	yum -y install iptables-services
 	systemctl start iptables       
@@ -158,7 +158,10 @@ https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-ser
 	
    #snat rule, dns resolve to eth0, and using eth0:1 as a source to access the internet
 	iptables -t nat -A POSTROUTING -s 10.0.0.122 -o eth0 -j SNAT --to-source 10.0.0.124
-	```
+
+	iptables-save > /etc/sysconfig/iptables
+	systemctl restart iptables
+```
 	
 
 There are two types of synchronization and they can complement each other:
@@ -270,7 +273,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk0NzM2OCwtMjQ3ODkwNjQxLC0xOT
+eyJoaXN0b3J5IjpbMTgxNDAwNjEwNSwtMjQ3ODkwNjQxLC0xOT
 cyMzY4MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMy
 NDM3XX0=
 -->
