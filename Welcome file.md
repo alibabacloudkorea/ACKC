@@ -31,10 +31,11 @@ Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
 # Prerequisites
 As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use GA1.0 which is an old version of GA(Global Accelerator). We can use GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc. To be able to use GA1.0, you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
 	1) GA1.0
-	2) Korea(Seoul) Network PoP
-	3) VPC whitelist for Korea Network PoP
+	2) Korea(Seoul) Network PoP for an accelerated area
+	3) A VPC whitelist for Korea Network PoP
 
-## Rename a file
+# Main steps
+
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
@@ -161,6 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAwMjc1MzMsMTc3Njc4MjU4MCwtMT
-M4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbMTA3NTI1NTg4MCwxNzc2NzgyNTgwLC0xMz
+gxMDU5MzI4LDk3Mzg1NDM3NywtODU5Mjc3ODU2XX0=
 -->
