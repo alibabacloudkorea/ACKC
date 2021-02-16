@@ -204,9 +204,14 @@ Do the same procedure for other domains. In my test scenario, I found out 8 doma
 You need to publish the Private Zone to CEN so as to let other CEN networks (PVZ_VPC) communicate with Private Zone.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.09.45%20PM.png?raw=true)
 
+## 4.5 purchase and configure SAG-APP
+In this step, we will purchase and configure SAG-APP to enable the terminal to access CCN and access the proxy server cluster in Shanghai through CEN.
+You can purchase, configure, and create an account.
+### 4.5.1 purchase SAG-APP
+For more information about how to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE5NDQ2NTEsLTU5NDA0MDc2MCwtMT
-IzMDAxNTA0LDIwMjA3NTQxNzIsLTI0Nzg5MDY0MSwtMTk3MjM2
-ODM1LDE3MTIyNzEyMjAsMTgxOTUzNTYxOSwtMjA4MDEzMjQzN1
-19
+eyJoaXN0b3J5IjpbLTcwNDE1MTQ5NSwtNTk0MDQwNzYwLC0xMj
+MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
+MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
+0=
 -->
