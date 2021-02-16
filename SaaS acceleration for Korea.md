@@ -219,9 +219,9 @@ After the purchase is successful, you need to configure the SAG-APP. Mainly:
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.33.45%20PM.png?raw=true)
 
 ### 4.5.3 create SAG-APP account
-After you download and install the SAG app on your terminal, you need to wait for a while to access Alibaba Cloud Network, i
+After you download and install the SAG app on your terminal, you need to wait for a while to access Alibaba Cloud Network. If you fail to access to intranet network, please wait for a while and retry.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODQ0ODE0MSwtNTk0MDQwNzYwLC0xMj
+eyJoaXN0b3J5IjpbLTU2NTc3NjcxMCwtNTk0MDQwNzYwLC0xMj
 MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
 MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
 0=
