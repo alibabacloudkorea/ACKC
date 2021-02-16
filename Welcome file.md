@@ -5,7 +5,8 @@ Many multinational enterprises use SaaS services deployed overseas, such as Offi
 
 This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users in China accelerate access to application systems deployed overseas.
 
-> Note: As of now(2021.02.16), Alibaba Cloud do not have 
+> Note: As of now(2021.02.16), Alibaba Cloud do not have a local data center in Korea, for having every component be in Alibaba Cloud, 
+
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -145,5 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxOTU3ODYwLC04NTkyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbMzAxNTM1NjUsLTg1OTI3Nzg1Nl19
 -->
