@@ -5,6 +5,8 @@ Many multinational enterprises use SaaS services deployed overseas, such as Offi
 
 This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users in China accelerate access to application systems deployed overseas.
 
+Before the start, you need to check the locati
+
 # 2. Solution Overview
 ## 2.1 Overview
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.04.06%20AM.png?raw=true)
@@ -230,8 +232,8 @@ This scenario only takes an example of microsoft teams, but you can register the
 
 - **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different is that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example www.qq.com, baidu.com) over Alibaba backbone network to accelerate it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTU4MTc4MSwtNTMwNjExMTU5LC01Nj
-U3NzY3MTAsLTU5NDA0MDc2MCwtMTIzMDAxNTA0LDIwMjA3NTQx
-NzIsLTI0Nzg5MDY0MSwtMTk3MjM2ODM1LDE3MTIyNzEyMjAsMT
-gxOTUzNTYxOSwtMjA4MDEzMjQzN119
+eyJoaXN0b3J5IjpbLTEyOTMwODQyNzAsMTgwMTU4MTc4MSwtNT
+MwNjExMTU5LC01NjU3NzY3MTAsLTU5NDA0MDc2MCwtMTIzMDAx
+NTA0LDIwMjA3NTQxNzIsLTI0Nzg5MDY0MSwtMTk3MjM2ODM1LD
+E3MTIyNzEyMjAsMTgxOTUzNTYxOSwtMjA4MDEzMjQzN119
 -->
