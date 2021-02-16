@@ -125,7 +125,8 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 |   VPC name       |usage                          |Region     |     Address segment  |
 |----------------|-------------------------------|-----------------------------|----|
-|Proxy_VPC|Deploy forward proxy services|Shanghai (can be other region depending on your needs)| 
+|Proxy_VPC|Deploy forward proxy services|Shanghai (can be other region depending on your needs)| 10.0.0.0/8
+|PVZ_VPC|The domain name associated with the PrivateZone.|Shanghai|172.19.0.0/16
 
 ## KaTeX
 
@@ -166,7 +167,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODg2MTk0Nyw1NzE1MDAyODUsMTA3NT
-I1NTg4MCwxNzc2NzgyNTgwLC0xMzgxMDU5MzI4LDk3Mzg1NDM3
-NywtODU5Mjc3ODU2XX0=
+eyJoaXN0b3J5IjpbLTIwOTQwMzI0MTIsLTg3ODg2MTk0Nyw1Nz
+E1MDAyODUsMTA3NTI1NTg4MCwxNzc2NzgyNTgwLC0xMzgxMDU5
+MzI4LDk3Mzg1NDM3NywtODU5Mjc3ODU2XX0=
 -->
