@@ -70,6 +70,9 @@ https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6
 ## 4.2 Create GA and bind a backend instance
 If your whitelist (see in the prerequisites section) is successfully applied, you would see the Global Accelerator in VPC console.
 
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.04.00%20PM.png?raw=true)
+
+![]()
 
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
@@ -183,7 +186,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTczNTc1OSwtODc4ODYxOTQ3LDU3MT
-UwMDI4NSwxMDc1MjU1ODgwLDE3NzY3ODI1ODAsLTEzODEwNTkz
-MjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbMTM5MTc1MjE3MSwtMjMxNzM1NzU5LC04Nz
+g4NjE5NDcsNTcxNTAwMjg1LDEwNzUyNTU4ODAsMTc3Njc4MjU4
+MCwtMTM4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
 -->
