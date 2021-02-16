@@ -136,7 +136,7 @@ After the backend service is bound, you need to add a NIC sub interface to the b
 
 ## 4.3 configure proxy service
 ### 4.3.1 configure a forward proxy using nginx
-Access the proxy ECS and run the following command after root logon:
+Log in to the proxy ECS and run the following command after root logon:
 ```
 curl https://network-scripts.oss-cn-shanghai.aliyuncs.com/proxy-scripts/install-proxy.sh|bash
 ```
@@ -255,6 +255,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Nzg5MDY0MSwtMTk3MjM2ODM1LDE3MT
-IyNzEyMjAsMTgxOTUzNTYxOSwtMjA4MDEzMjQzN119
+eyJoaXN0b3J5IjpbLTk3MjAxNzUyNywtMjQ3ODkwNjQxLC0xOT
+cyMzY4MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMy
+NDM3XX0=
 -->
