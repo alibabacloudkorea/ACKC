@@ -81,6 +81,8 @@ Select the 'Dedicated Bandwidth' and the 'create instance' button.
 Select the same as the figure below and complete purchasing.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.04.00%20PM.png?raw=true)
 
+Now you can see the GA instance just created. Make sure that you choose the region 'Asia Pacific NE 2 pop (Seoul)', otherwise you can not see anything in the console.
+Click th'Bind instance'
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.48.11%20PM.png?raw=true)
 
 
@@ -202,9 +204,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk0MDUyODcsMTE0ODY2NDIzNCwtOD
-Q2OTM4NjM5LDEwMjE1Mzk1ODEsMTM5MTc1MjE3MSwtMjMxNzM1
-NzU5LC04Nzg4NjE5NDcsNTcxNTAwMjg1LDEwNzUyNTU4ODAsMT
-c3Njc4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3
-Nzg1Nl19
+eyJoaXN0b3J5IjpbLTMyODg1NjM2NCwxMTQ4NjY0MjM0LC04ND
+Y5Mzg2MzksMTAyMTUzOTU4MSwxMzkxNzUyMTcxLC0yMzE3MzU3
+NTksLTg3ODg2MTk0Nyw1NzE1MDAyODUsMTA3NTI1NTg4MCwxNz
+c2NzgyNTgwLC0xMzgxMDU5MzI4LDk3Mzg1NDM3NywtODU5Mjc3
+ODU2XX0=
 -->
