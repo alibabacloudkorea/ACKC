@@ -1,9 +1,9 @@
 # SaaS acceleration for Korea: SAG + CEN + GA (for bidirectional, KR to CN and CN to KR)
 
 # background
-Many multinational enterprises use SaaS services deployed overseas, such as Office365 and Salesforce. Due to the poor quality of domestic visits to overseas sites, the daily use of customers is affected.
+Many multinational enterprises use SaaS services deployed overseas, such as Office365 and Salesforce. Due to the poor quality of China domestic visits to overseas sites, the customer experience is badly affected.
 
-This solution uses smart Access Gateway SAG and CEN to build an application acceleration service, which can help domestic users accelerate access to application systems deployed overseas.
+This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users accelerate access to application systems deployed overseas.
 
 # [](https://www.atatech.org/articles/181438?spm=ata.13269325.0.0.715849fabZkZPF#1)
 
@@ -147,5 +147,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ1OTcxMTYsLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbMTgyMDkwNzIxMiwtODU5Mjc3ODU2XX0=
 -->
