@@ -175,9 +175,10 @@ In this step, we create a PrivateZone and configure the relevant domain name. Th
 The procedure for activating PrivateZone is as follows:
 https://www.alibabacloud.com/help/doc-detail/64627.htm?spm=a2c63.l28256.b99.13.3b872bdd0Pu1Y9
 
-### 4.4.2 add an accelerate doma
+### 4.4.2 add an accelerate domain name
+First add a zone
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc5NTQxMTAsMjAyMDc1NDE3MiwtMj
-Q3ODkwNjQxLC0xOTcyMzY4MzUsMTcxMjI3MTIyMCwxODE5NTM1
-NjE5LC0yMDgwMTMyNDM3XX0=
+eyJoaXN0b3J5IjpbLTEyMzAwMTUwNCwyMDIwNzU0MTcyLC0yND
+c4OTA2NDEsLTE5NzIzNjgzNSwxNzEyMjcxMjIwLDE4MTk1MzU2
+MTksLTIwODAxMzI0MzddfQ==
 -->
