@@ -179,7 +179,9 @@ https://www.alibabacloud.com/help/doc-detail/64627.htm?spm=a2c63.l28256.b99.13.3
 First add a zone
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.06.48%20PM.png?raw=true)
 
+> Note: If you need to configure generic resolution, do not check the subdomain recursive resolution proxy.
 
+Add the required domain name resolution to the Zone: pointing to 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.07.11%20PM.png?raw=true)
 
 
@@ -195,8 +197,8 @@ First add a zone
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.09.45%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg1NjgwMzgsLTU5NDA0MDc2MCwtMT
-IzMDAxNTA0LDIwMjA3NTQxNzIsLTI0Nzg5MDY0MSwtMTk3MjM2
-ODM1LDE3MTIyNzEyMjAsMTgxOTUzNTYxOSwtMjA4MDEzMjQzN1
-19
+eyJoaXN0b3J5IjpbMTUwMTAzMjI0MiwtNTk0MDQwNzYwLC0xMj
+MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
+MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
+0=
 -->
