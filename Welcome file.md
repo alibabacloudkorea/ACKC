@@ -3,11 +3,9 @@
 # background
 Many multinational enterprises use SaaS services deployed overseas, such as Office365 and Salesforce. Due to the poor quality of China domestic visits to overseas sites, the customer experience is badly affected.
 
-This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users accelerate access to application systems deployed overseas.
+This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users in China accelerate access to application systems deployed overseas.
 
-# [](https://www.atatech.org/articles/181438?spm=ata.13269325.0.0.715849fabZkZPF#1)
-
-
+> Note: As of now(2021.02.16), Alibaba Cloud do not have 
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -147,5 +145,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDkwNzIxMiwtODU5Mjc3ODU2XX0=
+eyJoaXN0b3J5IjpbNjAxOTU3ODYwLC04NTkyNzc4NTZdfQ==
 -->
