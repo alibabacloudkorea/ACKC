@@ -162,10 +162,10 @@ https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-ser
 	iptables-save > /etc/sysconfig/iptables
 	systemctl restart iptables
 	```
-3. 
+3. Verify configuration using the command `iptables -L -n -t nat`. You should see a SNAT rule is configured:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzQ5NjQ5MSwtMjQ3ODkwNjQxLC0xOT
+eyJoaXN0b3J5IjpbMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOT
 cyMzY4MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMy
 NDM3XX0=
 -->
