@@ -1,16 +1,17 @@
 # SaaS acceleration for Korea: SAG + CEN + GA (for bidirectional, KR to CN and CN to KR)
 
-# background
+# 1. background
 Many multinational enterprises use SaaS services deployed overseas, such as Office365 and Salesforce. Due to the poor quality of China domestic visits to overseas sites, the customer experience is badly affected.
 
 This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users in China accelerate access to application systems deployed overseas.
 
 > Note: As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use GA1.0 which is an old version of GA(Global Accelerator). We can use GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc. To be able to use GA1.0, you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
-	* GA1.0
-	* Korea(Seoul) Network PoP
-* VPC whitelist for Korea Network PoP
+	1) GA1.0
+	2) Korea(Seoul) Network PoP
+	3) VPC whitelist for Korea Network PoP
 
-# Files
+# 2. Solution Overview
+## 2.1 Overview
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -149,5 +150,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc0NTY1OTYsLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
