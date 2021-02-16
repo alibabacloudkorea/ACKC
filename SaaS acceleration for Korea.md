@@ -68,6 +68,7 @@ After the CCN is created, bind the CCN to SF_Accelerate_CEN. For more informatio
 https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6b3e72e6tMfBFd
 
 ## 4.2 Create proxy ECS, GA and bind a backend ECS
+In this step, we will create a proxy instance in Proxy_VPC in Shanghai as an exit for service access.
 
 ## 4.2.1 Create an ECS instance
 
@@ -226,5 +227,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE1MjIzNDBdfQ==
+eyJoaXN0b3J5IjpbLTIwODAxMzI0MzddfQ==
 -->
