@@ -70,7 +70,7 @@ https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6
 ## 4.2 Create proxy ECS, GA and bind a backend ECS
 In this step, we will create a proxy instance in Proxy_VPC in Shanghai as an exit for service access.
 
-## 4.2.1 Create an ECS instance
+## 4.2.1 Create a proxy ECS instance
 The following is an example of an ECS instance:
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.08.34%20PM.png?raw=true)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.09.56%20PM.png?raw=true)
@@ -236,6 +236,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTcwMDQ0NTgsLTIwODAxMzI0MzddfQ
-==
+eyJoaXN0b3J5IjpbMzc1Nzg0MTY4LC0yMDgwMTMyNDM3XX0=
 -->
