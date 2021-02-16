@@ -166,10 +166,12 @@ https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-ser
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.57.04%20PM.png?raw=true)
 
 4. SNAT Verification
-if you can access internet, `ping 8.8.8.8` then, SNAT is successfully working.
+if you can access the internet, `ping 8.8.8.8` then, SNAT is successfully working.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMTQ1Mjc1LDIwMjA3NTQxNzIsLTI0Nz
+eyJoaXN0b3J5IjpbMzU5Njg5MzIwLDIwMjA3NTQxNzIsLTI0Nz
 g5MDY0MSwtMTk3MjM2ODM1LDE3MTIyNzEyMjAsMTgxOTUzNTYx
 OSwtMjA4MDEzMjQzN119
 -->
