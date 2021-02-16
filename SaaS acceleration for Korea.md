@@ -135,7 +135,12 @@ After the backend service is bound, you need to add a NIC sub interface to the b
 	After the backend service is bound, you can ping the EIP of the Global Acceleration instance to verify if the configuration takes effect. 
 
 ## 4.3 configure proxy service
-### 4.3.1 
+### 4.3.1 configure a forward proxy using nginx
+Access the proxy ECS and run the following command after root logon:
+```
+curl https://network-scripts.oss-cn-shanghai.aliyuncs.com/proxy-scripts/install-proxy.sh|bash
+```
+If you want to 
 
 There are two types of synchronization and they can complement each other:
 
@@ -246,6 +251,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIzNjgzNSwxNzEyMjcxMjIwLDE4MT
-k1MzU2MTksLTIwODAxMzI0MzddfQ==
+eyJoaXN0b3J5IjpbMjEwNzI1NzI2NiwtMTk3MjM2ODM1LDE3MT
+IyNzEyMjAsMTgxOTUzNTYxOSwtMjA4MDEzMjQzN119
 -->
