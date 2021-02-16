@@ -58,7 +58,10 @@ Add the previously created Proxy_VPC and PVZ_VPC to CEN.
 For detailed operation steps, see:
 https://www.alibabacloud.com/help/doc-detail/128653.htm?spm=a2c63.p38356.b99.22.a6d216b0iUTv2R
 
-## Export a file
+## 4.1.3 create a CCN
+Create a CCN instance for SAG-APP access and name it SF_Accelerate_CCN.
+
+The steps to create CCN are detailed in:
 
 You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
@@ -176,7 +179,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTkzNTI5MCwtODc4ODYxOTQ3LDU3MT
+eyJoaXN0b3J5IjpbLTkzMzU2NTIyMSwtODc4ODYxOTQ3LDU3MT
 UwMDI4NSwxMDc1MjU1ODgwLDE3NzY3ODI1ODAsLTEzODEwNTkz
 MjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
