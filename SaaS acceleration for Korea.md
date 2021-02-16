@@ -226,10 +226,10 @@ You can compare the upload/download speed while connecting to SAG app and discon
 
 # 6. Application to other similar scenarios
 - This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access in China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective) 
-- Acceleration from Korea to China: 
+- Acceleration from Korea to China: You don't need to use GA in this case, you can simply use SAG+CEN(cross-border bandwidth)+Proxy ECS with same configuration above. One thing different is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE5MDA4NzIsLTUzMDYxMTE1OSwtNT
-Y1Nzc2NzEwLC01OTQwNDA3NjAsLTEyMzAwMTUwNCwyMDIwNzU0
-MTcyLC0yNDc4OTA2NDEsLTE5NzIzNjgzNSwxNzEyMjcxMjIwLD
-E4MTk1MzU2MTksLTIwODAxMzI0MzddfQ==
+eyJoaXN0b3J5IjpbNDQ3ODIxOTMzLC01MzA2MTExNTksLTU2NT
+c3NjcxMCwtNTk0MDQwNzYwLC0xMjMwMDE1MDQsMjAyMDc1NDE3
+MiwtMjQ3ODkwNjQxLC0xOTcyMzY4MzUsMTcxMjI3MTIyMCwxOD
+E5NTM1NjE5LC0yMDgwMTMyNDM3XX0=
 -->
