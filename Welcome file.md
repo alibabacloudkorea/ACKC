@@ -18,7 +18,7 @@ To accelerate the Korea MS teams service as an example, we have 4 main parts:
 1. Client: SAG-APP is Alibaba Cloud SD-WAN client software that can be installed on Android, iOS, Windows, MacOS and other systems. SAG-APP can be connected to the nearest access point(PoP) of the CCN network.
 2. CCN: CCN is Alibaba Cloud SD-WAN access network, which consists of access points all over the country. It can quickly connect SAG terminals to Alibaba Cloud backbone networks.
 3. CEN: CEN is a global virtual enterprise network. Relying on Alibaba Cloud global backbone network, it provides high-quality global networking services for enterprise customers.
-4. Proxy server: as a local public exit(Korea), will visit MS teams request forwarded to 
+4. Proxy server: As a forward proxy and SNAT, it has two different functions to forward 
 
 ## Create files and folders
 
@@ -155,6 +155,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTM5NzcyOCw5NzM4NTQzNzcsLTg1OT
+eyJoaXN0b3J5IjpbLTI2MDY1NTcyOSw5NzM4NTQzNzcsLTg1OT
 I3Nzg1Nl19
 -->
