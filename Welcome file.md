@@ -30,7 +30,8 @@ This solution can accelerate HTTP/HTTPs based on the domain name.
 Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
 
 2. Use the Private Zone to resolve the domain name to be accelerated into the internal IP address of the proxy server. If the domain does not exist in Private Zone, the SAG client then lookup public DNS to reach the target server. In this way, we only accelerate teams related domains.
-3. The traffic to be accelerated is forwarded to t
+3. The traffic to be accelerated is forwarded to the proxy server via CCN and CEN. The proxy server then send the request to the MS teams service through the local Korea internet.
+4. Traffic that does not need to be accelerated is not pulled to CCN, and is directly accessed from the local internet 
 
 ## Switch to another file
 
@@ -163,6 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzg5NDI0OCwxNzc2NzgyNTgwLC0xMz
-gxMDU5MzI4LDk3Mzg1NDM3NywtODU5Mjc3ODU2XX0=
+eyJoaXN0b3J5IjpbMjAxNzE3MDgxLDE3NzY3ODI1ODAsLTEzOD
+EwNTkzMjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
