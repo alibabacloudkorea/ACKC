@@ -28,13 +28,13 @@ Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
 3. The traffic to be accelerated is forwarded to the proxy server via CCN and CEN. The proxy server then send the request to the MS teams service through the local Korea internet.
 4. Traffic that does not need to be accelerated is not pulled to CCN, and is directly accessed from the local internet of the client, without occupying SAG-APP acceleration bandwidth.
 
-# Prerequisites
+# 3. Prerequisites
 As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use an old version of GA(Global Accelerator). We can use a current version of GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc, which leads to become cumbersome to manage entire components. To be able to use old version of GA(GA1.0), you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
 	1) GA1.0
 	2) Korea(Seoul) Network PoP for an accelerated area
 	3) A VPC whitelist for Korea Network PoP
 
-# Main steps
+# 4. Main steps
 ![](https://github.com/rnlduaeo/alibaba/blob/master/process.png?raw=true)
 
 ## 4.1 create a VPC/CEN/CCN
@@ -64,12 +64,11 @@ Create a CCN instance for SAG-APP access and name it SF_Accelerate_CCN.
 The steps to create CCN are detailed in:
 https://www.alibabacloud.com/help/doc-detail/93669.htm?spm=a2c63.p38356.b99.84.3ca863f2I8DgK7
 
+After the CCN is created, bind the CCN to SF_Accelerate_CEN. For more information, see:
+https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6b3e72e6tMfBFd
 
+## 4.2
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
-# Synchronization
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -182,7 +181,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2OTY2MjE1LC04Nzg4NjE5NDcsNTcxNT
-AwMjg1LDEwNzUyNTU4ODAsMTc3Njc4MjU4MCwtMTM4MTA1OTMy
-OCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbLTIyOTA2NTk3NSwtODc4ODYxOTQ3LDU3MT
+UwMDI4NSwxMDc1MjU1ODgwLDE3NzY3ODI1ODAsLTEzODEwNTkz
+MjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
