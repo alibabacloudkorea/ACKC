@@ -221,10 +221,13 @@ After the purchase is successful, you need to configure the SAG-APP. Mainly:
 ### 4.5.3 create SAG-APP account
 After you download and install the SAG app on your terminal, you need to wait for a while to access Alibaba Cloud Network. If you fail to access to intranet network, please wait for a while and retry.
 
-# Verification
-You can compare the upload/download speed over  respectively to compare the latency and packet loss.
+# 5. Verification
+You can compare the upload/download speed while connecting to SAG app and disconnecting to SAG app respectively to compare the latency and packet loss.
+
+# 6. Application to other similar scenarios
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTE4NzUzNCwtNTY1Nzc2NzEwLC01OT
+eyJoaXN0b3J5IjpbLTUzMDYxMTE1OSwtNTY1Nzc2NzEwLC01OT
 QwNDA3NjAsLTEyMzAwMTUwNCwyMDIwNzU0MTcyLC0yNDc4OTA2
 NDEsLTE5NzIzNjgzNSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLT
 IwODAxMzI0MzddfQ==
