@@ -67,7 +67,9 @@ https://www.alibabacloud.com/help/doc-detail/93669.htm?spm=a2c63.p38356.b99.84.3
 After the CCN is created, bind the CCN to SF_Accelerate_CEN. For more information, see:
 https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6b3e72e6tMfBFd
 
-## 4.2
+## 4.2 Create GA and bind a backend instance
+If your whitelist (see in the prerequisites section) is successfully applied, you would see the Global Accelerator in VPC console.
+
 
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
@@ -181,7 +183,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTA2NTk3NSwtODc4ODYxOTQ3LDU3MT
+eyJoaXN0b3J5IjpbLTIzMTczNTc1OSwtODc4ODYxOTQ3LDU3MT
 UwMDI4NSwxMDc1MjU1ODgwLDE3NzY3ODI1ODAsLTEzODEwNTkz
 MjgsOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
 -->
