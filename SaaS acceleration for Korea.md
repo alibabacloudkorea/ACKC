@@ -216,9 +216,11 @@ After the purchase is successful, you need to configure the SAG-APP. Mainly:
 -   Bind CCN: the SF_Accelerate_CCN created before binding;
 -   Configure DNS: configure the PrivateZone DNS, namely 100.2.136 and 100.100.2.138;
 -   Configure private CIDR block: configure the CIDR block assigned to the SAG-APP client. This CIDR block must be carefully planned and cannot conflict with other CIDR blocks in the network, try to avoid conflicts with the address segment of the customer terminal itself and avoid using the address segment in 168.0.0/16.
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.33.45%20PM.png?raw=true)
 
+### 4.5.3 create 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1MzU2NDQ5LC01OTQwNDA3NjAsLTEyMz
+eyJoaXN0b3J5IjpbMTY5MDI5MjI4LC01OTQwNDA3NjAsLTEyMz
 AwMTUwNCwyMDIwNzU0MTcyLC0yNDc4OTA2NDEsLTE5NzIzNjgz
 NSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0MzddfQ
 ==
