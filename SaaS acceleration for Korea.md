@@ -40,7 +40,7 @@ As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having ever
 ## 4.1 create a VPC/CEN/CCN
 In this step, the basic network architecture on which the entire service depends is built. 
 
-## 4.1.1 create a VPC
+### 4.1.1 create a VPC
 In this scenario, we need to create 2 VPC.
 |   VPC name       |usage                          |Region     |     Address segment  |
 |----------------|-------------------------------|-----------------------------|----|
@@ -48,7 +48,7 @@ In this scenario, we need to create 2 VPC.
 |PVZ_VPC|The domain name associated with the PrivateZone.|Shanghai|172.19.0.0/16
 Which Proxy-VPC can be created in 2 different AZ the vSwitch for easy deployment High available agent cluster. You do not need to deploy any resources in the PVZ-VPC. You can also use any existing domestic VPC without any conflict with the PrivateZone configuration.
 
-## 4.1.2 create a CEN
+### 4.1.2 create a CEN
 Create a CEN instance named SF_Accelerate_CEN.
 For more information, see:
 https://www.alibabacloud.com/help/doc-detail/128625.htm?spm=a2c63.l28256.b99.21.28856ee1KV3iAr
@@ -244,6 +244,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAzMjI3MjYsMTgxOTUzNTYxOSwtMj
-A4MDEzMjQzN119
+eyJoaXN0b3J5IjpbMjAwNzQ3MzY3MCwxODE5NTM1NjE5LC0yMD
+gwMTMyNDM3XX0=
 -->
