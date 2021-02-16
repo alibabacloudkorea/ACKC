@@ -123,12 +123,9 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-|   VPC name       |usage                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
+|   VPC name       |usage                          |Region     |     Address segment  |
+|----------------|-------------------------------|-----------------------------|----|
+|Proxy_VPC|Deploy forward proxy services|Shanghai (can be other region depending on your needs)| 
 
 ## KaTeX
 
@@ -169,7 +166,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc0Nzg2MzUsNTcxNTAwMjg1LDEwNz
-UyNTU4ODAsMTc3Njc4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQz
-NzcsLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbLTg3ODg2MTk0Nyw1NzE1MDAyODUsMTA3NT
+I1NTg4MCwxNzc2NzgyNTgwLC0xMzgxMDU5MzI4LDk3Mzg1NDM3
+NywtODU5Mjc3ODU2XX0=
 -->
