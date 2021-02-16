@@ -200,12 +200,13 @@ https://www.alibabacloud.com/help/doc-detail/64629.htm?spm=a2c63.p38356.b99.15.1
 Do the same procedure for other domains. In my test scenario, I found out 8 domains are engaged to access Microsoft teams. I registered all the domains.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.08.32%20PM.png?raw=true)
 
-
+### 4.4.4 Configure Private Zone in CEN 
+You need to publish the Private Zone to CEN so as 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.09.45%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NjMwMDcyMCwtNTk0MDQwNzYwLC0xMj
-MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
-MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
-0=
+eyJoaXN0b3J5IjpbLTk2ODIzMDY1LC01OTQwNDA3NjAsLTEyMz
+AwMTUwNCwyMDIwNzU0MTcyLC0yNDc4OTA2NDEsLTE5NzIzNjgz
+NSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0MzddfQ
+==
 -->
