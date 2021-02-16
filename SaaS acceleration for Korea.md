@@ -35,7 +35,7 @@ As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having ever
 	3) A VPC whitelist for Korea Network PoP
 
 # 4. Main steps
-![](https://github.com/rnlduaeo/alibaba/blob/master/process.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.03.13%20PM.png?raw=true)
 
 ## 4.1 create a VPC/CEN/CCN
 In this step, the basic network architecture on which the entire service depends is built. 
@@ -67,7 +67,7 @@ https://www.alibabacloud.com/help/doc-detail/93669.htm?spm=a2c63.p38356.b99.84.3
 After the CCN is created, bind the CCN to SF_Accelerate_CEN. For more information, see:
 https://www.alibabacloud.com/help/doc-detail/93671.htm?spm=a2c63.p38356.b99.83.6b3e72e6tMfBFd
 
-## 4.2 Create GA and bind a backend instance
+## 4.2 Create proxy ECS, GA and bind a backend instance
 If your whitelist (see in the prerequisites section) is successfully applied, you would see the Global Accelerator in VPC console.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.02.08%20PM.png?raw=true)
 
@@ -222,5 +222,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDI2NjAzOF19
+eyJoaXN0b3J5IjpbMTIyMDE5NjE5OV19
 -->
