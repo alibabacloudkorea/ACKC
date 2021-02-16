@@ -93,9 +93,10 @@ Choose the ECS instance previously created.
 Now you can see the backend service instance IP address. Keep this address.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.49.22%20PM.png?raw=true)
 
+## 4.2.3 Activate the backend service
+After the backend service is bound, you need to add a NIC sub interface to the bound ECS instance. The IP address of the sub interface is the backend service address allocated by the system. After the backend service is bound to the Global Acceleration instance, the acceleration link is always active as long as the sub interface in the backend server is correctly configured.
 
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
+> Note: Activation is required only when the backend service is an ECS instance.
 
 There are two types of synchronization and they can complement each other:
 
@@ -206,7 +207,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU3Njc2OTksMTE0ODY2NDIzNCwtOD
+eyJoaXN0b3J5IjpbLTE5MjA2ODA4MzQsMTE0ODY2NDIzNCwtOD
 Q2OTM4NjM5LDEwMjE1Mzk1ODEsMTM5MTc1MjE3MSwtMjMxNzM1
 NzU5LC04Nzg4NjE5NDcsNTcxNTAwMjg1LDEwNzUyNTU4ODAsMT
 c3Njc4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3
