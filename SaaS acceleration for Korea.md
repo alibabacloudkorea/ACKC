@@ -177,8 +177,14 @@ https://www.alibabacloud.com/help/doc-detail/64627.htm?spm=a2c63.l28256.b99.13.3
 
 ### 4.4.2 add an accelerate domain name
 First add a zone
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.08.32%20PM.png?raw=true)
+
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%202.09.45%20PM.png?raw=true)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAwMTUwNCwyMDIwNzU0MTcyLC0yND
-c4OTA2NDEsLTE5NzIzNjgzNSwxNzEyMjcxMjIwLDE4MTk1MzU2
-MTksLTIwODAxMzI0MzddfQ==
+eyJoaXN0b3J5IjpbMzgxNzUyMTA1LC0xMjMwMDE1MDQsMjAyMD
+c1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4MzUsMTcxMjI3MTIy
+MCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX0=
 -->
