@@ -97,10 +97,22 @@ Now you can see the backend service instance IP address. Keep this address.
 After the backend service is bound, you need to add a NIC sub interface to the bound ECS instance. The IP address of the sub interface is the backend service address allocated by the system. After the backend service is bound to the Global Acceleration instance, the acceleration link is always active as long as the sub interface in the backend server is correctly configured.
 
 > Note: Activation is required only when the backend service is an ECS instance.
+
+4.2.3.1 Run the following command to open the NIC configuration file.
 ```
 sudo vi /etc/sysconfig/network-scripts/ifcfg-eth0:1
 ```
 
+```
+DEVICE=eth0:1
+ IPADDR=10.0.0.124
+ NETMASK=255.255.255.255
+ ONBOOT=yes
+```
+
+```
+ifup eth0:1
+```
 There are two types of synchronization and they can complement each other:
 
 - The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
@@ -210,5 +222,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTQwNjE2XX0=
+eyJoaXN0b3J5IjpbNTk0NjQxNjgxXX0=
 -->
