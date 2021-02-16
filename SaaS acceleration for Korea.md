@@ -140,7 +140,8 @@ Access the proxy ECS and run the following command after root logon:
 ```
 curl https://network-scripts.oss-cn-shanghai.aliyuncs.com/proxy-scripts/install-proxy.sh|bash
 ```
-If you want to see how the forward proxy works through **ngx_stream_ssl_preread_module**, 
+If you want to see how the forward proxy works through **ngx_stream_ssl_preread_module**, reach the following blog to understand how this L4 proxy extract the domain name from the upper-layer packets to obtain the target domain name. (in this case, teams related domains)
+https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-server_595799#
 
 There are two types of synchronization and they can complement each other:
 
@@ -251,6 +252,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMzMTM3MzgsLTE5NzIzNjgzNSwxNz
+eyJoaXN0b3J5IjpbLTEwMzU1OTMxNTksLTE5NzIzNjgzNSwxNz
 EyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0MzddfQ==
 -->
