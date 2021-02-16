@@ -128,6 +128,8 @@ After the backend service is bound, you need to add a NIC sub interface to the b
 	```
 	ifup eth0:1
 	```
+5. Verification
+After the backend service is bound, you can ping the EIP of the Global Acceleration instance to verify if the configuration takes effect. You can also ping the public IP of the backend server and the EIP of the Global Acceleration instance respectively to compare the latency and packet loss.
 There are two types of synchronization and they can complement each other:
 
 - The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
@@ -237,5 +239,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NTkyODI4LC0yMDgwMTMyNDM3XX0=
+eyJoaXN0b3J5IjpbMTgxOTUzNTYxOSwtMjA4MDEzMjQzN119
 -->
