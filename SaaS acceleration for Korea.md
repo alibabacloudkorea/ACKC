@@ -155,8 +155,9 @@ https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-ser
 	yum -y install iptables-services
 	systemctl start iptables       
 	systemctl enable iptables  
-   # snat rule, dns resolve to eth0, and using eth0:1 as source to access internet
-  iptables -t nat -A POSTROUTING -s 10.0.0.122 -o eth0 -j SNAT --to-source 10.0.0.124
+	
+   #snat rule, dns resolve to eth0, and using eth0:1 as a source to access the internet
+	iptables -t nat -A POSTROUTING -s 10.0.0.122 -o eth0 -j SNAT --to-source 10.0.0.124
 	```
 	
 
@@ -269,7 +270,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3MTA1OTY4LC0yNDc4OTA2NDEsLTE5Nz
-IzNjgzNSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0
-MzddfQ==
+eyJoaXN0b3J5IjpbLTE4NDk0NzM2OCwtMjQ3ODkwNjQxLC0xOT
+cyMzY4MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMy
+NDM3XX0=
 -->
