@@ -81,6 +81,13 @@ Select the 'Dedicated Bandwidth' and the 'create instance' button.
 Select the same as the figure below and complete purchasing.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.04.00%20PM.png?raw=true)
 
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.48.11%20PM.png?raw=true)
+
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.48.48%20PM.png?raw=true)
+
+
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2012.49.22%20PM.png?raw=true)
 
 
 
@@ -195,8 +202,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODY2NDIzNCwtODQ2OTM4NjM5LDEwMj
-E1Mzk1ODEsMTM5MTc1MjE3MSwtMjMxNzM1NzU5LC04Nzg4NjE5
-NDcsNTcxNTAwMjg1LDEwNzUyNTU4ODAsMTc3Njc4MjU4MCwtMT
-M4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3Nzg1Nl19
+eyJoaXN0b3J5IjpbLTE2NTk0MDUyODcsMTE0ODY2NDIzNCwtOD
+Q2OTM4NjM5LDEwMjE1Mzk1ODEsMTM5MTc1MjE3MSwtMjMxNzM1
+NzU5LC04Nzg4NjE5NDcsNTcxNTAwMjg1LDEwNzUyNTU4ODAsMT
+c3Njc4MjU4MCwtMTM4MTA1OTMyOCw5NzM4NTQzNzcsLTg1OTI3
+Nzg1Nl19
 -->
