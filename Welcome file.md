@@ -12,8 +12,9 @@ This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an applicati
 
 # 2. Solution Overview
 ## 2.1 Overview
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.04.06%20AM.png?raw=true)
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+To accelerate the 
 
 ## Create files and folders
 
@@ -150,5 +151,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczODU0Mzc3LC04NTkyNzc4NTZdfQ==
+eyJoaXN0b3J5IjpbLTEyMTc0ODIyODUsOTczODU0Mzc3LC04NT
+kyNzc4NTZdfQ==
 -->
