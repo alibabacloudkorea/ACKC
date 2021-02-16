@@ -140,11 +140,17 @@ Log in to the proxy ECS and run the following command after root logon:
 ```
 curl https://network-scripts.oss-cn-shanghai.aliyuncs.com/proxy-scripts/install-proxy.sh|bash
 ```
-If you want to see how the forward proxy works through **ngx_stream_ssl_preread_module**, reach the following blog to understand how this L4 proxy extract the domain name from the upper-layer packets to obtain the target domain name. (in this case, teams related domains)
+If you want to see how the forward proxy works through **ngx_stream_ssl_preread_module** in nginx, reach the following blog to understand how this L4 proxy extract the domain name from the upper-layer packets to obtain the target domain name. (in this case, teams related domains)
 https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-server_595799#
 
 ### 4.3.2 configure SNAT 
+1. log in to the proxy ECS server via SSH and enable IP forwarding:
+	```
+	echo "net.ipv4.ip_forward = 1" >> /etc/sysctl.conf
+	sysctl -p
+	```
 
+2. Install and configure the iptables
 
 There are two types of synchronization and they can complement each other:
 
@@ -255,7 +261,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjAxNzUyNywtMjQ3ODkwNjQxLC0xOT
-cyMzY4MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMy
-NDM3XX0=
+eyJoaXN0b3J5IjpbNzgxOTY3ODMwLC0yNDc4OTA2NDEsLTE5Nz
+IzNjgzNSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0
+MzddfQ==
 -->
