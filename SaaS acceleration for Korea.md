@@ -208,9 +208,14 @@ You need to publish the Private Zone to CEN so as to let other CEN networks (PVZ
 In this step, we will purchase and configure SAG-APP to enable the terminal to access CCN and access the proxy server cluster in Shanghai through CEN.
 You can purchase, configure, and create an account.
 ### 4.5.1 purchase SAG-APP
-For more information about how to 
+For more information about how to setup SAG-APP, see:
+https://www.alibabacloud.com/help/doc-detail/173726.htm?spm=a2c63.p38356.b99.139.222231c0FfvHFY
+
+### 4.5.2 configure SAG-APP
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDE1MTQ5NSwtNTk0MDQwNzYwLC0xMj
+eyJoaXN0b3J5IjpbLTg4Njk2NTI0OSwtNTk0MDQwNzYwLC0xMj
 MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
 MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
 0=
