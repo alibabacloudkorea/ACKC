@@ -212,11 +212,14 @@ For more information about how to setup SAG-APP, see:
 https://www.alibabacloud.com/help/doc-detail/173726.htm?spm=a2c63.p38356.b99.139.222231c0FfvHFY
 
 ### 4.5.2 configure SAG-APP
-
+After the purchase is successful, you need to configure the SAG-APP. Mainly:
+-   Bind CCN: the SF_Accelerate_CCN created before binding;
+-   Configure DNS: configure the PrivateZone DNS, namely 100.2.136 and 100.100.2.138;
+-   Configure private CIDR block: configure the CIDR block assigned to the SAG-APP client. This CIDR block must be carefully planned and cannot conflict with other CIDR blocks in the network, try to avoid conflicts with the address segment of the customer terminal itself and avoid using the address segment in 168.0.0/16.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Njk2NTI0OSwtNTk0MDQwNzYwLC0xMj
-MwMDE1MDQsMjAyMDc1NDE3MiwtMjQ3ODkwNjQxLC0xOTcyMzY4
-MzUsMTcxMjI3MTIyMCwxODE5NTM1NjE5LC0yMDgwMTMyNDM3XX
-0=
+eyJoaXN0b3J5IjpbNDM1MzU2NDQ5LC01OTQwNDA3NjAsLTEyMz
+AwMTUwNCwyMDIwNzU0MTcyLC0yNDc4OTA2NDEsLTE5NzIzNjgz
+NSwxNzEyMjcxMjIwLDE4MTk1MzU2MTksLTIwODAxMzI0MzddfQ
+==
 -->
