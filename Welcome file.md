@@ -15,7 +15,9 @@ This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an applicati
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.04.06%20AM.png?raw=true)
 
 To accelerate the Korea MS teams service as an example, we have 4 main parts:
-1. Client: SAG-APP is Alibaba Cloud SD-WAN client software that can be installed on Android, iOS, Windows, MacOS
+1. Client: SAG-APP is Alibaba Cloud SD-WAN client software that can be installed on Android, iOS, Windows, MacOS and other systems. SAG-APP can be connected to the nearest access point(PoP) of the CCN network.
+2. CCN: CCN is Alibaba Cloud SD-WAN access network, which consists of access points all over the country. It can quickly connect SAG terminals to Alibaba Cloud backbone networks.
+3. CEN: CEN is a global virtual enterprise network. Relying on Alibaba Cloud global 
 
 ## Create files and folders
 
@@ -152,6 +154,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTg1MDk1LDk3Mzg1NDM3NywtODU5Mj
-c3ODU2XX0=
+eyJoaXN0b3J5IjpbLTE5NDY0MjQwNDIsOTczODU0Mzc3LC04NT
+kyNzc4NTZdfQ==
 -->
