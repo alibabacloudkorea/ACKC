@@ -50,11 +50,11 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 ![](https://github.com/rnlduaeo/alibaba/blob/master/operator_trend_ga.png?raw=true)
 
 ** Key findings
-1. The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms to over tends of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most over 3000 ms. 
+1. The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most over 3000 ms. 
 2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjcwODc4NDcsLTEzNTE4NTg4NiwtMT
-kzNTg1MDc3NiwtNzQzNjM5Nzg1LDc1ODEzNTI0NCwxNDc3NjIw
-MjcxLC0xNzk4NzczMTUxXX0=
+eyJoaXN0b3J5IjpbLTk5MzYxNjk1NSwtMTM1MTg1ODg2LC0xOT
+M1ODUwNzc2LC03NDM2Mzk3ODUsNzU4MTM1MjQ0LDE0Nzc2MjAy
+NzEsLTE3OTg3NzMxNTFdfQ==
 -->
