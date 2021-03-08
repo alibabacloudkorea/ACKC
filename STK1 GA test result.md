@@ -6,9 +6,11 @@ For SKT1 website acceleration from China, we have been testing Alibaba Global Ac
 ## Test overview
 
 * Test period
-2021/03/05 (Fri) 19:00 - 2021/03/08 (Mon) 12:00
+2.5 days, 2021/03/05 (Fri) 19:00 - 2021/03/08 (Mon) 12:00
  
 * Test tool and environment
+Alibaba Cloud site monitor
+If you want to look at the details of what Alibaba cloud site monitoring is, go to  https://www.alibabacloud.com/help/doc-detail/67907.htm?spm=a2c63.l28256.b99.72.6d2e2129UQNZ3J
 
 * Test region
 
@@ -160,5 +162,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA0OTczOTVdfQ==
+eyJoaXN0b3J5IjpbMTQ3NTAzMzM4Nl19
 -->
