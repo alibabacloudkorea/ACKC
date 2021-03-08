@@ -48,7 +48,7 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 	2. Operator trends over **GA**
 ![](https://github.com/rnlduaeo/alibaba/blob/master/operator_trend_ga.png?raw=true)
 
-** Key findings
+## Key findings
 1. Standard Deviation(stdv) standpoint: 
 The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most over 3000 ms. 
 2. Average latency standpoint:
@@ -57,7 +57,8 @@ The t1.gg access over internet shows that 21.73% of entire measurement is over 1
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2MTAyNjQxLC0xNjMxODg1MzIzLC0xMz
-UxODU4ODYsLTE5MzU4NTA3NzYsLTc0MzYzOTc4NSw3NTgxMzUy
-NDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
+eyJoaXN0b3J5IjpbODgxMjgyMDY1LDY1NjEwMjY0MSwtMTYzMT
+g4NTMyMywtMTM1MTg1ODg2LC0xOTM1ODUwNzc2LC03NDM2Mzk3
+ODUsNzU4MTM1MjQ0LDE0Nzc2MjAyNzEsLTE3OTg3NzMxNTFdfQ
+==
 -->
