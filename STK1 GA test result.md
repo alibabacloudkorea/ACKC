@@ -1,6 +1,6 @@
 # SKT1 Test result
 
-GA
+For SKT1 website acceleration from China, we have been testing Alibaba Global Accelerator(GA) to see the accelerated result dividing into 4 
 
 
 # Files
@@ -142,5 +142,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ5NzMxOTNdfQ==
+eyJoaXN0b3J5IjpbODAxNjAxODA1XX0=
 -->
