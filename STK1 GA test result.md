@@ -1,6 +1,6 @@
 # SKT1 Test result
 
-For SKT1 website acceleration from China, we have been testing Alibaba Global Accelerator(GA) to see the accelerated result dividing China into 4 quadrant, east/west/north/south and measuring the access latency
+For SKT1 website acceleration from China, we have been testing Alibaba Global Accelerator(GA) by dividing China into 4 quadrant, east/west/north/south and measuring the access latency in order to see the accelerated result 
 
 
 # Files
@@ -142,5 +142,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDYzNjE2Ml19
+eyJoaXN0b3J5IjpbMTI2MDI5ODY4XX0=
 -->
