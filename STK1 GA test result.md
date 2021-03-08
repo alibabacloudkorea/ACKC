@@ -53,10 +53,10 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 1. Standard Deviation(stdv) standpoint: 
 The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most over 3000 ms. 
 2. Average latency standpoint:
-The t1/
+The t1.gg access over internet. On the other hand, the access over GA shows that most of 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTUxNDI5NSwtMTM1MTg1ODg2LC0xOT
-M1ODUwNzc2LC03NDM2Mzk3ODUsNzU4MTM1MjQ0LDE0Nzc2MjAy
-NzEsLTE3OTg3NzMxNTFdfQ==
+eyJoaXN0b3J5IjpbODQ4MDIwNTAyLC0xMzUxODU4ODYsLTE5Mz
+U4NTA3NzYsLTc0MzYzOTc4NSw3NTgxMzUyNDQsMTQ3NzYyMDI3
+MSwtMTc5ODc3MzE1MV19
 -->
