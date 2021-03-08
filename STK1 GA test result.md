@@ -5,25 +5,28 @@ For SKT1 website acceleration from China, we have been testing Alibaba Global Ac
 
 ## Test overview
 
-* Test period
+ * Test period
 2.5 days, 2021/03/05 (Fri) 19:00 - 2021/03/08 (Mon) 12:00
  
-* Test tool and environment
+ * Test tool and environment
 Alibaba Cloud site monitor
 For more information on site monitoring, see https://www.alibabacloud.com/help/doc-detail/67907.htm?spm=a2c63.l28256.b99.72.6d2e2129UQNZ3J
 
-* Test region
+ * Test region
 China Sichuan > Korea (AWS)
 China Beijing > Korea (AWS)
 China Shandong > Korea (AWS)
 China Shanghai > Korea (AWS)
 China Zhejiang > Korea (AWS)
 
-* Test URLs
-https://47.57.4.53
-https://t1.gg
-* Test method and measuring metric
+ * Test URLs
+	 * Over internet: https://t1.gg
+	 * Over GA: https://47.57.4.53
 
+* Test method and measuring metric
+	* monitoring type: HTTP(s)
+	* Monitoring frequency: 5 minutes
+	* 
 * Test objects
 
 * Test groups
@@ -170,5 +173,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mjg2NDAzNF19
+eyJoaXN0b3J5IjpbOTExNDI0NzY5XX0=
 -->
