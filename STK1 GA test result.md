@@ -1,10 +1,15 @@
 # SKT1 Test result
 
-For SKT1 website acceleration from China, we have been testing Alibaba Global Accelerator(GA) by dividing China into 4 quadrant, east/west/north/south and measuring the access latency in order to see the accelerated result 
+## Introduction
+For SKT1 website acceleration from China, we have been testing Alibaba Global Accelerator(GA) by dividing China into 4 quadrant, east/west/north/south and measuring the access latency in order to see the accelerated result.
 
+## Test overview
 
-# Files
+* Test period
 
+* Test region
+
+* Test method and mesu
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 ## Create files and folders
@@ -142,5 +147,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDI5ODY4XX0=
+eyJoaXN0b3J5IjpbMjQ5Nzg1MzA2XX0=
 -->
