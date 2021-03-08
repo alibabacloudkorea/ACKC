@@ -6,7 +6,7 @@ For SKT1 website acceleration from China, we have been testing Alibaba Global Ac
 ## Test overview
 
  * Test period
-2.5 days, 2021/03/05 (Fri) 19:00 - 2021/03/08 (Mon) 12:00
+3 days, 2021/03/05 (Fri) 19:00 - 2021/03/08 (Mon) 16:00
  
  * Test tool and environment
 Alibaba Cloud site monitor
@@ -42,10 +42,11 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 	2. Indicator trend over **GA**
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_ga.png?raw=true)
 
-* Operator Trends
-1. 
+* Operator Trends: can view the trend chars of different carriers.
+1. Operator trends over **public internet**
 ![](https://github.com/rnlduaeo/alibaba/blob/master/operator_trend_internet.png?raw=true)
 
+2. Operator trends over **GA**
 ![](https://github.com/rnlduaeo/alibaba/blob/master/operator_trend_ga.png?raw=true)
 
 
@@ -180,6 +181,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0NzYzNzM4LC03NDM2Mzk3ODUsNzU4MT
-M1MjQ0LDE0Nzc2MjAyNzEsLTE3OTg3NzMxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE3OTc1OTI4NjMsLTc0MzYzOTc4NSw3NT
+gxMzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
 -->
