@@ -10,9 +10,11 @@ For SKT1 website acceleration from China, we have been testing Alibaba Global Ac
  
 * Test tool and environment
 Alibaba Cloud site monitor
-If you want to look at the details of what Alibaba cloud site monitoring is, go to  https://www.alibabacloud.com/help/doc-detail/67907.htm?spm=a2c63.l28256.b99.72.6d2e2129UQNZ3J
+For more information on site monitoring, see https://www.alibabacloud.com/help/doc-detail/67907.htm?spm=a2c63.l28256.b99.72.6d2e2129UQNZ3J
 
 * Test region
+China Sichuan
+China 
 
 * Test method and measuring metric
 
@@ -162,5 +164,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTAzMzM4Nl19
+eyJoaXN0b3J5IjpbLTE5MDkxODAxMzZdfQ==
 -->
