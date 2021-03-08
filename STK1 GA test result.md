@@ -35,10 +35,11 @@ China Zhejiang > Korea (AWS)
 https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107.64ef47dba3pK7k
 
 ## Test result
-1. Indicator trend over public internet
+* Indicator Trends: can view the trend charts of different metrics.
+	1. Indicator trend over public internet
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_internet.png?raw=true)
 
-2. Indicator trend over GA
+	2. Indicator trend over GA
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_ga.png?raw=true)
 
 
@@ -178,6 +179,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjQ1NjA0OSwtNzQzNjM5Nzg1LDc1OD
-EzNTI0NCwxNDc3NjIwMjcxLC0xNzk4NzczMTUxXX0=
+eyJoaXN0b3J5IjpbLTExNzE2NzE0ODMsLTc0MzYzOTc4NSw3NT
+gxMzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
 -->
