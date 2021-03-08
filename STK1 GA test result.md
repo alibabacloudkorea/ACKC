@@ -35,9 +35,10 @@ China Zhejiang > Korea (AWS)
 https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107.64ef47dba3pK7k
 
 ## Test result
-
+1. Indicator trend over public internet
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_internet.png?raw=true)
 
+2. Indicator trend over GA
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_ga.png?raw=true)
 
 
@@ -177,6 +178,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE4NjQwMiwtNzQzNjM5Nzg1LDc1OD
+eyJoaXN0b3J5IjpbLTQ0MjQ1NjA0OSwtNzQzNjM5Nzg1LDc1OD
 EzNTI0NCwxNDc3NjIwMjcxLC0xNzk4NzczMTUxXX0=
 -->
