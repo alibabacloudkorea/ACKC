@@ -30,9 +30,11 @@ China Zhejiang > Korea (AWS)
 
 * DNS
 	* In this test, didn't set a DNS record for the GA accelerated IP (47.57.4.53)
-	* In production env, need to set GA accelerated IP (47.57.4.53) for China ISPs through geoDNS or global traffic manager in DNS features.
+	* In production env, need to set GA accelerated IP (47.57.4.53) for China ISPs through geoDNS or global traffic manager(GTM) in DNS features.
+	* For more information on GTM in DNS, see
+https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107.64ef47dba3pK7k
 
-## Create files and folders
+## Test result
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
@@ -167,5 +169,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg3NzMxNTFdfQ==
+eyJoaXN0b3J5IjpbMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
 -->
