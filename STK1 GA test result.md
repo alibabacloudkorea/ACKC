@@ -6,7 +6,8 @@ For SKT1 website acceleration from China, we have been testing Alibaba Global Ac
 ## Test overview
 
 * Test period
-
+2021/03/05 (Fri) 19:00 - 2021/03/08 (Mon) 12:00
+ 
 * Test tool and environment
 
 * Test region
@@ -159,5 +160,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU3NjU2NTFdfQ==
+eyJoaXN0b3J5IjpbLTEzMTA0OTczOTVdfQ==
 -->
