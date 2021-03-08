@@ -29,10 +29,8 @@ China Zhejiang > Korea (AWS)
 	* didn't set advanced settings which contains request method, match response method, http request header, cookie etc.
 
 * DNS
-	* In this test, didn't set DNS record for GA accelerated IP (47.57.4.53) 
-
-
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+	* In this test, didn't set a DNS record for the GA accelerated IP (47.57.4.53)
+	* In production env, need to set GA accelerated IP (47.57.4.53) for China ISPs through geoDNS or global traffic manager in DNS features.
 
 ## Create files and folders
 
@@ -169,5 +167,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTYxOTY3MV19
+eyJoaXN0b3J5IjpbLTE3OTg3NzMxNTFdfQ==
 -->
