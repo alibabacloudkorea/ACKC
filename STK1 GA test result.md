@@ -53,10 +53,11 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most over 3000 ms. 
 2. Average latency standpoint:
 The t1.gg access over internet shows that 21.73% of entire measurement is over 1500 ms. On the other hand, the access over GA shows that 99.66% of the entire measurement is below 1350 ms.
-3. For more details, see cloud monit
+3. For more details, see cloud monitor console:
+https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2ODI2NTcxLC0xNjMxODg1MzIzLC0xMz
+eyJoaXN0b3J5IjpbNjU2MTAyNjQxLC0xNjMxODg1MzIzLC0xMz
 UxODU4ODYsLTE5MzU4NTA3NzYsLTc0MzYzOTc4NSw3NTgxMzUy
 NDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
 -->
