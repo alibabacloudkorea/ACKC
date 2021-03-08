@@ -28,11 +28,8 @@ China Zhejiang > Korea (AWS)
 	* Monitoring frequency: 5 minutes
 	* didn't set advanced settings which contains request method, match response method, http request header, cookie etc.
 
-* Test groups
-
-
-
 * DNS
+	* In this test, didn't set DNS record for GA accelerated IP (47.57.4.53) 
 
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -172,5 +169,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU3NDI2NDddfQ==
+eyJoaXN0b3J5IjpbMTYwMTYxOTY3MV19
 -->
