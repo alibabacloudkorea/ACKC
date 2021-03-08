@@ -27,8 +27,6 @@ China Zhejiang > Korea (AWS)
 	* monitoring type: HTTP(s)
 	* Monitoring frequency: 5 minutes
 	* didn't set advanced settings which contains request method, match response method, http request header, cookie etc.
-	
-* Test objects
 
 * Test groups
 
@@ -174,5 +172,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkyMDEzNTldfQ==
+eyJoaXN0b3J5IjpbLTE2NzU3NDI2NDddfQ==
 -->
