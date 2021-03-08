@@ -1,5 +1,4 @@
 # SKT1 Test result
-
 ## Test goal
 For SKT1 website acceleration from China, we have been testing Alibaba Global Accelerator(GA) by dividing China into 4 quadrant, east/west/north/south and measuring the access latency in order to see the accelerated result.
 
@@ -53,10 +52,11 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 1. Standard Deviation(stdv) standpoint: 
 The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most over 3000 ms. 
 2. Average latency standpoint:
-The t1.gg access over internet shows that  On the other hand, the access over GA shows that 99.66% of the entire measurement is below 1350 ms.
+The t1.gg access over internet shows that 21.73% of entire measurement is over 1500 ms. On the other hand, the access over GA shows that 99.66% of the entire measurement is below 1350 ms.
+3. For more details, see cloud monit
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzE4ODUzMjMsLTEzNTE4NTg4NiwtMT
-kzNTg1MDc3NiwtNzQzNjM5Nzg1LDc1ODEzNTI0NCwxNDc3NjIw
-MjcxLC0xNzk4NzczMTUxXX0=
+eyJoaXN0b3J5IjpbMjg2ODI2NTcxLC0xNjMxODg1MzIzLC0xMz
+UxODU4ODYsLTE5MzU4NTA3NzYsLTc0MzYzOTc4NSw3NTgxMzUy
+NDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
 -->
