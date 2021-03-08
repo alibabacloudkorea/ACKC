@@ -36,10 +36,10 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 
 ## Test result
 * Indicator Trends: can view the trend charts of different metrics.
-	1. Indicator trend over public internet
+	1. Indicator trend over <span style="color:blue">**public internet**
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_internet.png?raw=true)
 
-	2. Indicator trend over GA
+	2. Indicator trend over **GA**
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_ga.png?raw=true)
 
 
@@ -179,6 +179,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE2NzE0ODMsLTc0MzYzOTc4NSw3NT
-gxMzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
+eyJoaXN0b3J5IjpbMTU4NDc1MTExNCwtNzQzNjM5Nzg1LDc1OD
+EzNTI0NCwxNDc3NjIwMjcxLC0xNzk4NzczMTUxXX0=
 -->
