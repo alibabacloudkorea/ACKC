@@ -19,13 +19,16 @@ China Shandong > Korea (AWS)
 China Shanghai > Korea (AWS)
 China Zhejiang > Korea (AWS)
 
+* Test URLs
+https://47.57.4.53
+https://t1.gg
 * Test method and measuring metric
 
 * Test objects
 
 * Test groups
 
-* Test URLs
+
 
 * DNS
 
@@ -167,5 +170,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMzMjkzMjRdfQ==
+eyJoaXN0b3J5IjpbLTc2Mjg2NDAzNF19
 -->
