@@ -49,9 +49,11 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 	2. Operator trends over **GA**
 ![](https://github.com/rnlduaeo/alibaba/blob/master/operator_trend_ga.png?raw=true)
 
+** Key findings
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU4NTA3NzYsLTc0MzYzOTc4NSw3NT
-gxMzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
+eyJoaXN0b3J5IjpbLTE2OTMwNzc3ODEsLTE5MzU4NTA3NzYsLT
+c0MzYzOTc4NSw3NTgxMzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3
+MzE1MV19
 -->
