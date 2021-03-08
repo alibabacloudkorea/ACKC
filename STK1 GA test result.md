@@ -35,7 +35,7 @@ China Zhejiang > Korea (AWS)
 https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107.64ef47dba3pK7k
 
 ## Test result
-
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-03-08%20at%202.49.33%20PM.png?raw=true)
 
 ## Switch to another file
 
@@ -168,6 +168,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MTM1MjQ0LDE0Nzc2MjAyNzEsLTE3OT
-g3NzMxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE5ODE3OTk2MzIsNzU4MTM1MjQ0LDE0Nz
+c2MjAyNzEsLTE3OTg3NzMxNTFdfQ==
 -->
