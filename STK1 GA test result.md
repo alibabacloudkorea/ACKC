@@ -50,10 +50,10 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 ![](https://github.com/rnlduaeo/alibaba/blob/master/operator_trend_ga.png?raw=true)
 
 ** Key findings
-1. The 
+1. The t1.gg access over internet shows the larger range of fluctuation which is between 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTUxNzAxMSwtMTM1MTg1ODg2LC0xOT
-M1ODUwNzc2LC03NDM2Mzk3ODUsNzU4MTM1MjQ0LDE0Nzc2MjAy
-NzEsLTE3OTg3NzMxNTFdfQ==
+eyJoaXN0b3J5IjpbODY1NDU2NjcwLC0xMzUxODU4ODYsLTE5Mz
+U4NTA3NzYsLTc0MzYzOTc4NSw3NTgxMzUyNDQsMTQ3NzYyMDI3
+MSwtMTc5ODc3MzE1MV19
 -->
