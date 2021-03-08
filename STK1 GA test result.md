@@ -36,11 +36,6 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 
 ## Test result
 
-![](https://github.com/rnlduaeo/alibaba/blob/master/overGA.png?raw=true)
-
-![](https://github.com/rnlduaeo/alibaba/blob/master/overGA1.png?raw=true)
-
-![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-03-08%20at%202.49.33%20PM.png?raw=true)
 
 
 ## Switch to another file
@@ -174,6 +169,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzYzOTc4NSw3NTgxMzUyNDQsMTQ3Nz
-YyMDI3MSwtMTc5ODc3MzE1MV19
+eyJoaXN0b3J5IjpbLTQ2ODA4OTMxNCwtNzQzNjM5Nzg1LDc1OD
+EzNTI0NCwxNDc3NjIwMjcxLC0xNzk4NzczMTUxXX0=
 -->
