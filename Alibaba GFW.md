@@ -9,14 +9,9 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 - 방법: 알려진 바로는 키워드 필터링, IP 주소 블랙리스트, DNS poisioning, 패킷 검사 등을 통해 컨텐츠를 검열한다. 
 - 고객이 웹사이트가 느리다, 접속이 안된다 등 문제를 이야기 할 때 우리는 반드시 아래를 체크해야 한다.
 	- 웹사이트가 느린 것인가? 접속이 되었다 안되는 하는 것인가?
-	- 
+	- 웹사이트가 느리다면, GA(홍콩 경유)나 MCA를 고려해 볼 수 있지만 추 후에 GFW로 인한 접속 불
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+
 위의 대상이 되는 트래픽에 대해 잘 기억하자.
 ## ICP와 China Great Firewall간의 관계
 많은 경우에 한국에 서버를 두고 서비스를 하는데 중국 유저들의 접속이 원활하지 못한 경우가 있다. 단순히 속도가 느린 것은 다른 알리바바 서비스를 통해 쉽게 해결이 가능하지만, 문제는 가령 사이트 접속은 잘되는데 특정 컨텐츠가 안보인다든지, 모바일 앱을 켰는데 갑자기 접속이 안된다든지, 모바일 앱의 특정 기능이 작동 안 한다든지 등 중국의 great firewall에 의해 차단된 것으로 의심되는 경우이다. 이 경우 우리는 다음과 같은 질문을 할 수 있다.
@@ -55,6 +50,6 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
  GA2.0을 제안하고 테스트를 진행한다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzY4NjUxOSwxOTI4MjIwNzU2LC0xMz
-Q2OTkyOTg0LDE4MzcwNzIyNzddfQ==
+eyJoaXN0b3J5IjpbLTEyNjkwNDQxMjMsMTkyODIyMDc1NiwtMT
+M0Njk5Mjk4NCwxODM3MDcyMjc3XX0=
 -->
