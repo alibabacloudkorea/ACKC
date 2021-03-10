@@ -50,11 +50,11 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 
 * Overview table
 
-|    |Average (s) | min (s)     | max (s) |
-|-----------|---------|---------|---------|
-|Over GA|   1.2 s | 1.0 s | 2.0 s
-|Over Internet |1.2 s| 0.4 s | 19 s
-|Dashes          ||-- is en-dash, --- is em-dash|
+|    | Availability (%) | Average (s)     | min (s) | max (s) |
+|-----------|---------|---------|---------| ----
+|Over GA|   1.2 s | 1.0 s | 2.0 s | 100 %
+|Over Internet |1.2 s| 0.4 s | 19 s | 99.6 %
+
 
 
 
@@ -71,8 +71,8 @@ The t1.gg access over internet shows that 21.73% of entire measurement is over 1
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDMwODAzMywxMjI0MzIwMjE5LC00MT
-MxMTY2MjcsODgxMjgyMDY1LDY1NjEwMjY0MSwtMTYzMTg4NTMy
-MywtMTM1MTg1ODg2LC0xOTM1ODUwNzc2LC03NDM2Mzk3ODUsNz
-U4MTM1MjQ0LDE0Nzc2MjAyNzEsLTE3OTg3NzMxNTFdfQ==
+eyJoaXN0b3J5IjpbMjY1NzA3MTM5LDEyMjQzMjAyMTksLTQxMz
+ExNjYyNyw4ODEyODIwNjUsNjU2MTAyNjQxLC0xNjMxODg1MzIz
+LC0xMzUxODU4ODYsLTE5MzU4NTA3NzYsLTc0MzYzOTc4NSw3NT
+gxMzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
 -->
