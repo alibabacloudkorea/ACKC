@@ -12,11 +12,11 @@ Alibaba Cloud site monitor
 For more information on site monitoring, see https://www.alibabacloud.com/help/doc-detail/67907.htm?spm=a2c63.l28256.b99.72.6d2e2129UQNZ3J
 
  * Test region
-China Sichuan > Korea (AWS)
-China Beijing > Korea (AWS)
-China Shandong > Korea (AWS)
-China Shanghai > Korea (AWS)
-China Zhejiang > Korea (AWS)
+	* China Sichuan > Korea (AWS)
+	* China Beijing > Korea (AWS)
+	* China Shandong > Korea (AWS)
+	* China Shanghai > Korea (AWS)
+	* China Zhejiang > Korea (AWS)
 
  * Test URLs
 	 * Over internet: https://t1.gg
@@ -73,10 +73,10 @@ The t1.gg access over internet shows the larger range of fluctuation which is be
 The t1.gg access over internet shows that 23.4% of entire measurement is over 1500 ms. On the other hand, the access over GA shows that 95.75% of the entire measurement is below 1350 ms.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzI2MjI1MCwtMjY4NjI4OTg4LDE2ND
-gyNjMyMjQsLTExMjUzMjE5NTEsMTE4NzAyOTEzMywxNDQ0OTA5
-Mjk5LDEyMjQzMjAyMTksLTQxMzExNjYyNyw4ODEyODIwNjUsNj
-U2MTAyNjQxLC0xNjMxODg1MzIzLC0xMzUxODU4ODYsLTE5MzU4
-NTA3NzYsLTc0MzYzOTc4NSw3NTgxMzUyNDQsMTQ3NzYyMDI3MS
-wtMTc5ODc3MzE1MV19
+eyJoaXN0b3J5IjpbMjMyNjg2OCwtMjY4NjI4OTg4LDE2NDgyNj
+MyMjQsLTExMjUzMjE5NTEsMTE4NzAyOTEzMywxNDQ0OTA5Mjk5
+LDEyMjQzMjAyMTksLTQxMzExNjYyNyw4ODEyODIwNjUsNjU2MT
+AyNjQxLC0xNjMxODg1MzIzLC0xMzUxODU4ODYsLTE5MzU4NTA3
+NzYsLTc0MzYzOTc4NSw3NTgxMzUyNDQsMTQ3NzYyMDI3MSwtMT
+c5ODc3MzE1MV19
 -->
