@@ -67,14 +67,15 @@ How we calculated: https://github.com/rnlduaeo/alibaba/blob/master/cms_sitemonit
 1. Standard Deviation(stdv) standpoint: 
 The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most 2 sec. **The maximum latency of GA and internet was 2 sec and 19 sec respectively.**
 2. Average latency standpoint:
-The t1.gg access over internet shows that 21.73% of entire measurement is over 1500 ms. On the other hand, the access over GA shows that 99.66% of the entire measurement is below 1350 ms.
+The t1.gg access over internet shows that 23.4% of entire measurement is over 1500 ms. On the other hand, the access over GA shows that 95.75% of the entire measurement is below 1350 ms.
 3. For more details, see cloud monitor console:
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODI2MzIyNCwtMTEyNTMyMTk1MSwxMT
-g3MDI5MTMzLDE0NDQ5MDkyOTksMTIyNDMyMDIxOSwtNDEzMTE2
-NjI3LDg4MTI4MjA2NSw2NTYxMDI2NDEsLTE2MzE4ODUzMjMsLT
-EzNTE4NTg4NiwtMTkzNTg1MDc3NiwtNzQzNjM5Nzg1LDc1ODEz
-NTI0NCwxNDc3NjIwMjcxLC0xNzk4NzczMTUxXX0=
+eyJoaXN0b3J5IjpbLTI2ODYyODk4OCwxNjQ4MjYzMjI0LC0xMT
+I1MzIxOTUxLDExODcwMjkxMzMsMTQ0NDkwOTI5OSwxMjI0MzIw
+MjE5LC00MTMxMTY2MjcsODgxMjgyMDY1LDY1NjEwMjY0MSwtMT
+YzMTg4NTMyMywtMTM1MTg1ODg2LC0xOTM1ODUwNzc2LC03NDM2
+Mzk3ODUsNzU4MTM1MjQ0LDE0Nzc2MjAyNzEsLTE3OTg3NzMxNT
+FdfQ==
 -->
