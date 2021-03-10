@@ -58,8 +58,9 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 
 The overview table values were retrieved from DescribeSiteMonitorData API, extracted 'ResponseTime' and 'Availability' metric value from the response json and calculated avg/min/max respectively. 
 For more information, see:
-DescribeSiteMonitorData: https://www.alibabacloud.com/help/doc-detail/115046.htm?spm=a2c63.p38356.b99.238.6c9512d7WnHTwz
-How we calculated: https://github.com/rnlduaeo/alibaba/blob/master/cms_sitemonitoring_query.py
+* DescribeSiteMonitorData: https://www.alibabacloud.com/help/doc-detail/115046.htm?spm=a2c63.p38356.b99.238.6c9512d7WnHTwz
+
+* How we calculated: https://github.com/rnlduaeo/alibaba/blob/master/cms_sitemonitoring_query.py
 
 
 
@@ -73,7 +74,7 @@ The t1.gg access over internet shows that 23.4% of entire measurement is over 15
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MzUzNTQ4LC0yNjg2Mjg5ODgsMTY0OD
+eyJoaXN0b3J5IjpbNzk0NzA1MjMwLC0yNjg2Mjg5ODgsMTY0OD
 I2MzIyNCwtMTEyNTMyMTk1MSwxMTg3MDI5MTMzLDE0NDQ5MDky
 OTksMTIyNDMyMDIxOSwtNDEzMTE2NjI3LDg4MTI4MjA2NSw2NT
 YxMDI2NDEsLTE2MzE4ODUzMjMsLTEzNTE4NTg4NiwtMTkzNTg1
