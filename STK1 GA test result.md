@@ -39,7 +39,7 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 ![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_internet.png?raw=true)
 
 	2. Indicator trend over **GA**
-![](https://github.com/rnlduaeo/alibaba/blob/master/indicator_trend_ga.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/overGa.png?raw=true)
 
 * Operator Trends: can view the trend chars of different carriers.
 	1. Operator trends over **public internet**
@@ -73,9 +73,9 @@ The t1.gg access over internet shows that 21.73% of entire measurement is over 1
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzAyOTEzMywxNDQ0OTA5Mjk5LDEyMj
-QzMjAyMTksLTQxMzExNjYyNyw4ODEyODIwNjUsNjU2MTAyNjQx
-LC0xNjMxODg1MzIzLC0xMzUxODU4ODYsLTE5MzU4NTA3NzYsLT
-c0MzYzOTc4NSw3NTgxMzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3
-MzE1MV19
+eyJoaXN0b3J5IjpbLTkzMzkyOTc0OSwxMTg3MDI5MTMzLDE0ND
+Q5MDkyOTksMTIyNDMyMDIxOSwtNDEzMTE2NjI3LDg4MTI4MjA2
+NSw2NTYxMDI2NDEsLTE2MzE4ODUzMjMsLTEzNTE4NTg4NiwtMT
+kzNTg1MDc3NiwtNzQzNjM5Nzg1LDc1ODEzNTI0NCwxNDc3NjIw
+MjcxLC0xNzk4NzczMTUxXX0=
 -->
