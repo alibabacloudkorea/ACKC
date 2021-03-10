@@ -71,11 +71,9 @@ For more information, see:
 The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most 2 sec. **The maximum latency of GA and internet was 2 sec and 19 sec respectively.**
 2. Average latency standpoint:
 The t1.gg access over internet shows that 23.4% of entire measurement is over 1500 ms. On the other hand, the access over GA shows that 95.75% of the entire measurement is below 1350 ms.
-3. For more details, see cloud monitor console:
-https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDI4Mjk0MCwtMjY4NjI4OTg4LDE2ND
+eyJoaXN0b3J5IjpbMTUzNzI2MjI1MCwtMjY4NjI4OTg4LDE2ND
 gyNjMyMjQsLTExMjUzMjE5NTEsMTE4NzAyOTEzMywxNDQ0OTA5
 Mjk5LDEyMjQzMjAyMTksLTQxMzExNjYyNyw4ODEyODIwNjUsNj
 U2MTAyNjQxLC0xNjMxODg1MzIzLC0xMzUxODU4ODYsLTE5MzU4
