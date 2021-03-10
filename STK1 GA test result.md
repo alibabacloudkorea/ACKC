@@ -5,7 +5,7 @@ For SKT1 website acceleration from China, we have been testing Alibaba Global Ac
 ## Test overview
 
  * Test period
-3 days, 2021/03/05 (Fri) 19:00 - 2021/03/08 (Mon) 16:00
+2 days, 2021/03/06 (Sat) 00:00 - 2021/03/07 (Sun) 23:59:59
  
  * Test tool and environment
 Alibaba Cloud site monitor
@@ -52,8 +52,8 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 
 |    | Availability (%) | Average (s)     | min (s) | max (s) |
 |-----------|---------|---------|---------| ----
-|Over GA|   100 % | 1.2 s | 1.0 s | ** 2.0 s**
-|Over Internet |99.6 %| 1.2 s | 0.5 s | **19 s**
+|Over GA|   **100 %** | 1.2 s | 1.0 s | **2.0 s**
+|Over Internet |**99.6 %**| 1.2 s | 0.5 s | **19 s**
 
 
 
@@ -71,7 +71,7 @@ The t1.gg access over internet shows that 21.73% of entire measurement is over 1
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTUzOTE2NCwxMjI0MzIwMjE5LC00MT
+eyJoaXN0b3J5IjpbLTg0MTgzOTQ2NCwxMjI0MzIwMjE5LC00MT
 MxMTY2MjcsODgxMjgyMDY1LDY1NjEwMjY0MSwtMTYzMTg4NTMy
 MywtMTM1MTg1ODg2LC0xOTM1ODUwNzc2LC03NDM2Mzk3ODUsNz
 U4MTM1MjQ0LDE0Nzc2MjAyNzEsLTE3OTg3NzMxNTFdfQ==
