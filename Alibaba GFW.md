@@ -7,6 +7,8 @@
 ICP와는 별개로 트래픽에 관한 규제이다. 
 - **대상: Border Network(중국-중국외지역)를 경유하는 모든 public traffic(port)에 대하여 규제한다.**
 - 방법: 알려진 바로는 키워드 필터링, IP 주소 블랙리스트, DNS poisioning, 패킷 검사 등을 통해 컨텐츠를 검열한다. 
+- 고객이 웹사이트가 느리다, 접속이 안된다 등 문제를 이야기 할 때 우리는 반드시 아래를 체크해야 한다.
+	- 
 
 위의 대상이 되는 트래픽에 대해 잘 기억하자.
 ## ICP와 China Great Firewall간의 관계
@@ -46,6 +48,6 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
  GA2.0을 제안하고 테스트를 진행한다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODIyMDc1NiwtMTM0Njk5Mjk4NCwxOD
-M3MDcyMjc3XX0=
+eyJoaXN0b3J5IjpbMTc5MTcxMzU0NywxOTI4MjIwNzU2LC0xMz
+Q2OTkyOTg0LDE4MzcwNzIyNzddfQ==
 -->
