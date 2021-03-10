@@ -50,9 +50,9 @@ https://www.alibabacloud.com/help/doc-detail/206111.htm?spm=a2c63.p38356.b99.107
 
 * Overview table
 
-|    |Average | min     | max |
+|    |Average | min (s)     | max (s) |
 |-----------|---------|---------|---------|
-|Over GA|           |'Isn't this fun?'            |
+|Over GA|   1.4 | 1.0 | 8.3
 |Over Internet |`"Isn't this fun?"`            |"Isn't this fun?"            |
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
@@ -71,8 +71,8 @@ The t1.gg access over internet shows that 21.73% of entire measurement is over 1
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDMyMDIxOSwtNDEzMTE2NjI3LDg4MT
-I4MjA2NSw2NTYxMDI2NDEsLTE2MzE4ODUzMjMsLTEzNTE4NTg4
-NiwtMTkzNTg1MDc3NiwtNzQzNjM5Nzg1LDc1ODEzNTI0NCwxND
-c3NjIwMjcxLC0xNzk4NzczMTUxXX0=
+eyJoaXN0b3J5IjpbMTM4NzgwOTc4NSwxMjI0MzIwMjE5LC00MT
+MxMTY2MjcsODgxMjgyMDY1LDY1NjEwMjY0MSwtMTYzMTg4NTMy
+MywtMTM1MTg1ODg2LC0xOTM1ODUwNzc2LC03NDM2Mzk3ODUsNz
+U4MTM1MjQ0LDE0Nzc2MjAyNzEsLTE3OTg3NzMxNTFdfQ==
 -->
