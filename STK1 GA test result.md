@@ -63,8 +63,6 @@ How we calculated: https://github.com/rnlduaeo/alibaba/blob/master/cms_sitemonit
 
 
 
-
-
 ## Key findings
 1. Standard Deviation(stdv) standpoint: 
 The t1.gg access over internet shows the larger range of fluctuation which is between thousands of ms and over tens of thousands of ms. On the other hand, the access over GA shows a little fluctuation which is at most over 3000 ms. 
@@ -74,9 +72,9 @@ The t1.gg access over internet shows that 21.73% of entire measurement is over 1
 https://cms-intl.console.aliyun.com/?spm=a2c8b.12215442.products-recent.dcms.76393c2ffJRS5i#/newSite/list/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTU4MzM1NSwtMTEyNTMyMTk1MSwxMT
-g3MDI5MTMzLDE0NDQ5MDkyOTksMTIyNDMyMDIxOSwtNDEzMTE2
-NjI3LDg4MTI4MjA2NSw2NTYxMDI2NDEsLTE2MzE4ODUzMjMsLT
-EzNTE4NTg4NiwtMTkzNTg1MDc3NiwtNzQzNjM5Nzg1LDc1ODEz
-NTI0NCwxNDc3NjIwMjcxLC0xNzk4NzczMTUxXX0=
+eyJoaXN0b3J5IjpbLTEyMzQwODAyODcsLTExMjUzMjE5NTEsMT
+E4NzAyOTEzMywxNDQ0OTA5Mjk5LDEyMjQzMjAyMTksLTQxMzEx
+NjYyNyw4ODEyODIwNjUsNjU2MTAyNjQxLC0xNjMxODg1MzIzLC
+0xMzUxODU4ODYsLTE5MzU4NTA3NzYsLTc0MzYzOTc4NSw3NTgx
+MzUyNDQsMTQ3NzYyMDI3MSwtMTc5ODc3MzE1MV19
 -->
