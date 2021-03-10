@@ -9,7 +9,8 @@ ICP와는 별개로 트래픽에 관한 규제이다.
 - 방법: 알려진 바로는 키워드 필터링, IP 주소 블랙리스트, DNS poisioning, 패킷 검사 등을 통해 컨텐츠를 검열한다. 
 - 고객이 웹사이트가 느리다, 접속이 안된다 등 문제를 이야기 할 때 우리는 반드시 아래를 체크해야 한다.
 	- 웹사이트가 느린 것인가? 접속이 되었다 안되는 하는 것인가?
-	- 웹사이트가 느리다면, GA(홍콩 경유)나 MCA를 고려해 볼 수 있지만 추 후에 GFW로 인한 접속 불
+	- 웹사이트가 느리다면, GA(홍콩 경유)나 MCA를 고려해 볼 수 있지만 추 후에 GFW로 인한 접속 불가 문제를 겪을 수 있다. 
+	- 접속이 되었다 안되었다 하는 것이라면 GFW 문제이다. 이 것은 도메인을 바꾸는 수 밖에 없다. 또 걸리면 또 바꾸는 식으로 가야 한다. 따라서 중국 비즈니스를 반드시 고려해야 하는 상황이라면 ICP filing 도메인을 통한 
 
 
 위의 대상이 되는 트래픽에 대해 잘 기억하자.
@@ -50,6 +51,6 @@ GA2.0은 내부적으로 CEN(알리바바 전용선)라인을 사용한다. 따�
  GA2.0을 제안하고 테스트를 진행한다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjkwNDQxMjMsMTkyODIyMDc1NiwtMT
-M0Njk5Mjk4NCwxODM3MDcyMjc3XX0=
+eyJoaXN0b3J5IjpbNjg0ODA2NDUzLDE5MjgyMjA3NTYsLTEzND
+Y5OTI5ODQsMTgzNzA3MjI3N119
 -->
