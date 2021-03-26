@@ -6,7 +6,7 @@
 가령, 사내 직원 용 또는 비즈니스 용도로 사용 되는Salesforce/MS Teams/Groupware/VDI 등과 같은 서비스가 될 수 있다.
 
 # 불특정 다수 대상 서비스
-대상을 특정화할 수 없는
+대상을 특정화할 수 없는 일반 웹사이트, 쇼핑몰, 게임 등이 되겠다. 
 
 ## Rename a file
 
@@ -135,5 +135,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTM4NTEzMCwtMTc3OTE1NzI5M119
+eyJoaXN0b3J5IjpbMzE2MTQzNTk5LC0xNzc5MTU3MjkzXX0=
 -->
