@@ -3,7 +3,9 @@
 ㅇㅇㅇ
 
 # 특정 다수 대상 서비스
-가령, 사내 직원 용 또는 비즈니스 용도로 사용 되는Salesforce/MS Teams/Groupware/VDI 등과 같은 서비스가 될 수 있다. 불특정 다수가 들어올 수 있는 일반 웹사이트라고 하더라도, 대상을 특정화할 수 있다면(가령, 회사 네트워크로 접속할 때, 트
+가령, 사내 직원 용 또는 비즈니스 용도로 사용 되는Salesforce/MS Teams/Groupware/VDI 등과 같은 서비스가 될 수 있다. 불특정 다수가 들어올 수 있는 일반 웹사이트라고 하더라도, 대상을 특정화할 수 있다면(가령, 회사 네트워크로 접속할 때, 특정 그룹내 사용자들 등) 여기에 속할 수 있다. 
+- 질문 리스트
+1. 무엇을 가속화  
 
 # 불특정 다수 대상 서비스
 대상을 특정화할 수 없는 일반 웹사이트, 쇼핑몰, 게임 등이 되겠다. 
@@ -135,6 +137,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM3NTc3NDgsLTE3NzkxNTcyOTNdfQ
-==
+eyJoaXN0b3J5IjpbLTY0NzkxNTQwNSwtMTc3OTE1NzI5M119
 -->
