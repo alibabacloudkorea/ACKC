@@ -114,9 +114,11 @@ local ID와 remote ID를 무시할 수 있는 ikev2로 설정합니다. IKE conf
 
 ### 4.9 AWS tunnel IP를 GA Backend Service IP로 등록
 AWS VPN connection에서 받은 configuration file을 보면 AWS에서 생성한 tunnel IP 2개를 확인할 수 있습니다. 물론, 콘솔에서도 확인할 수 있습니다. 
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%206.44.09%20PM.png?raw=true)
+
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM4MTQyOTMsNjY1MTcyNDY1LDM2MT
+eyJoaXN0b3J5IjpbLTE3NzMxNDExMjEsNjY1MTcyNDY1LDM2MT
 I1MTIwOSwtMTg5NjY1ODk2OCw5NTI2ODg4MzYsNzAyMzA5OTI0
 LDIwNDA1OTcxMzksMTkzNTIwMDY3NywtODIzODkwMzU5LC0xNz
 MyMDMzODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMTcxNDgw
