@@ -48,16 +48,17 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 가속화 리전은 상하이로 선택하여 생성합니다. [자세한 가이드는 클릭](https://www.alibabacloud.com/help/doc-detail/153212.htm?spm=a2c63.l28256.b99.43.418e6796yJw0kV)하여 확인해 주시기 바랍니다. 생성한 후 획득한 Accelerated IP Address를 복사(상하이 VPN Gateway에서 peer IP로 사용 예정)해 둡니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.39.11%20PM.png?raw=true)
 
-### 4.3 GA OFF IP 획득
+### [Optional] 4.3 종단 간 VPN Gateway 생성 (기존 장비가 있다면 생략 가능)
+
 
 ### 4.4 종단간 IPSec Connection 설정
 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTM1Nzg4MCwtODc0NzAyMDk5LC0xNT
-A1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2
-NDksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMS
-wtNjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQwNjQwNywyNDEw
-NTc3NTEsNjkyMjE2NzQ0LC0yMTA4NjU1Mzc4XX0=
+eyJoaXN0b3J5IjpbNjQyNDA4MjIsLTg3NDcwMjA5OSwtMTUwNT
+c4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5
+LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLT
+YwODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQxMDU3
+NzUxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
 -->
