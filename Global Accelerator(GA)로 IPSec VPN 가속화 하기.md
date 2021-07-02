@@ -41,6 +41,8 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 |GA Instance Type|Basic Bandwidth Type|Cross Border Acceleration |
 |---|---|---|
 |Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|구매|
+
+
 [GA 인스턴스를 구매](https://www.alibabacloud.com/help/doc-detail/153200.htm?spm=a2c63.p38356.b99.22.3e8d3ec5YMYcrz) 하고 [Basic Bandwidth를 구매](https://www.alibabacloud.com/help/doc-detail/153205.htm?spm=a2c63.p38356.b99.27.111077493Kolwl)하고 [Cross Border Acceleration을 구매](https://www.alibabacloud.com/help/doc-detail/155107.htm?spm=a2c63.p38356.b99.35.4f37763eng34lg)합니다. 
 그리고 구매한 Basic Bandwidth와 Cross Bandwidth를 GA 인스턴스에 bind합니다. 바인딩에 대한 자세한 사항은 [bind basic bandwidth 문서](https://www.alibabacloud.com/help/doc-detail/153206.htm?spm=a2c63.p38356.b99.28.34528816XU1IGd)와 [bind cross border acceleration 문서](https://www.alibabacloud.com/help/doc-detail/155108.htm?spm=a2c63.p38356.b99.36.4095289crKAgox)를 참조해주시기 바랍니다.
 
@@ -84,11 +86,11 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ### [Optional] 4.6 AWS Site-to-Site VPN Connections 생성
 > Note: 고객사 장비로 설정한다면 4.6 ~ 4.8 단계는 각 고객사 장비에 맞게 설정해 주시면 됩니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzg5MDM1OSwtMTczMjAzMzgxLDE3OT
-k1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcw
-MjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5Ny
-wyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEy
-MzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MD
-Y0MDcsMjQxMDU3NzUxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
-
+eyJoaXN0b3J5IjpbMTkzNTIwMDY3NywtODIzODkwMzU5LC0xNz
+MyMDMzODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMTcxNDgw
+NjU1NSwtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLDIzOTkzMjQ4NS
+wxNTU3MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2MTc0NzksLTE3
+NDc3MTM1NjEsMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5MzI0Mz
+gwNCwtMTUyMTQwNjQwNywyNDEwNTc3NTEsNjkyMjE2NzQ0LC0y
+MTA4NjU1Mzc4XX0=
 -->
