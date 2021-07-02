@@ -45,7 +45,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 그리고 구매한 Basic Bandwidth와 Cross Bandwidth를 GA 인스턴스에 bind합니다. 바인딩에 대한 자세한 사항은 [bind basic bandwidth 문서](https://www.alibabacloud.com/help/doc-detail/153206.htm?spm=a2c63.p38356.b99.28.34528816XU1IGd)와 [bind cross border acceleration 문서](https://www.alibabacloud.com/help/doc-detail/155108.htm?spm=a2c63.p38356.b99.36.4095289crKAgox)를 참조해주시기 바랍니다.
 
 ### 4.2 GA 가속화 리전 생성
-
+가속화 리전은 상하이로 선택하여 생성합니다. [자세한 가이드는 클릭](https://www.alibabacloud.com/help/doc-detail/153212.htm?spm=a2c63.l28256.b99.43.418e6796yJw0kV)하여 확인해 주시기 바랍니다.
 
 ### 4.3 GA OFF IP 획득
 
@@ -54,9 +54,9 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDcwMjA5OSwtMTUwNTc4NzA2MywyMz
-k5MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMjYzNjE3
-NDc5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1MTcxMi
-w0OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQxMDU3NzUxLDY5MjIx
-Njc0NCwtMjEwODY1NTM3OF19
+eyJoaXN0b3J5IjpbLTY1MDY1MTM2NiwtODc0NzAyMDk5LC0xNT
+A1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2
+NDksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMS
+wtNjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQwNjQwNywyNDEw
+NTc3NTEsNjkyMjE2NzQ0LC0yMTA4NjU1Mzc4XX0=
 -->
