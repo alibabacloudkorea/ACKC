@@ -126,16 +126,18 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 
 ### 4.10 IPSec Connection 상태 확인
-
+설정이 제대로 되었다면 아래와 같이 Alibaba Cloud (상하이) 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%207.06.50%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%206.44.09%20PM.png?raw=true)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzMxMzAyMTksLTI1NjYzNDA2Miw2Nj
-UxNzI0NjUsMzYxMjUxMjA5LC0xODk2NjU4OTY4LDk1MjY4ODgz
-Niw3MDIzMDk5MjQsMjA0MDU5NzEzOSwxOTM1MjAwNjc3LC04Mj
-M4OTAzNTksLTE3MzIwMzM4MSwxNzk5NTAzOTM1LC0xODQ4MzQw
-NTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3ODcwNj
-MsMjM5OTMyNDg1LDE1NTcxMDQ0OTcsMjAyOTM4NTY0OSwtMTI2
-MzYxNzQ3OV19
+eyJoaXN0b3J5IjpbMjA5MDEzOTg0MCwtMjU2NjM0MDYyLDY2NT
+E3MjQ2NSwzNjEyNTEyMDksLTE4OTY2NTg5NjgsOTUyNjg4ODM2
+LDcwMjMwOTkyNCwyMDQwNTk3MTM5LDE5MzUyMDA2NzcsLTgyMz
+g5MDM1OSwtMTczMjAzMzgxLDE3OTk1MDM5MzUsLTE4NDgzNDA1
+MjMsLTE3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4NzA2My
+wyMzk5MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMjYz
+NjE3NDc5XX0=
 -->
