@@ -55,15 +55,15 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 
 ### 4.4 GA Listener 등록 및 GA OFF IP 신청
 #### 4.4.1 GA Listener 등록
-
+!{}
 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMT
-cxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLDIzOTkz
-MjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2MTc0Nz
-ksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5
-MzI0MzgwNCwtMTUyMTQwNjQwNywyNDEwNTc3NTEsNjkyMjE2Nz
-Q0LC0yMTA4NjU1Mzc4XX0=
+eyJoaXN0b3J5IjpbLTgxMDE1Nzk0NiwxNzk5NTAzOTM1LC0xOD
+Q4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3
+ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OTcsMjAyOTM4NTY0OS
+wtMTI2MzYxNzQ3OSwtMTc0NzcxMzU2MSwxMjM2MzQwMjExLC02
+MDg3NTE3MTIsNDkzMjQzODA0LC0xNTIxNDA2NDA3LDI0MTA1Nz
+c1MSw2OTIyMTY3NDQsLTIxMDg2NTUzNzhdfQ==
 -->
