@@ -15,7 +15,7 @@
 > Note: GA가 양단의 VPN 입장에서는 일종의 NAT 역할을 하는 장비가 되기 때문에, VPN장비 사이에 NAT 장비가 존재하게 되는 셈이고 이로 인해 Pair 메세지의 무결성이 침해되어 IKE Phase 1,2 협상 과정이 실패하게 됩니다. NAT-T 기능을 제공하는 VPN 장비로 이 문제를 해결할 수 있습니다. 
 
 ### 2.2 가속화 원리 
-![](https://github.com/rnlduaeo/alibaba/blob/master/GAIpSecVPN1.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/VPNoverGA.png?raw=true)
 
 알리바바 클라우드의 [Global Accelerator(GA)](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7)
 는 사용자 시스템의 IP/Domain만 등록하여 네트워크 통신을 가속화하는 솔루션입니다. 이번 가이드에서는 중국 상해에 고객사의 중국지사 VPN장비가 있고(Alibaba Cloud VPN Gateway로 대체) 한국에 본사 VPN 장비가 있다고(AWS Virtual Private Gateway로 대체) 가정하고 테스트를 수행합니다. 
@@ -55,7 +55,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTMxNjc2NSwtODc0NzAyMDk5LC0xNT
+eyJoaXN0b3J5IjpbLTk4MTM1Nzg4MCwtODc0NzAyMDk5LC0xNT
 A1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2
 NDksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMS
 wtNjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQwNjQwNywyNDEw
