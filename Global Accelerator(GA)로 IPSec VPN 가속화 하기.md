@@ -108,7 +108,7 @@ AWS에서 다운로드 받은 configuration file의 정보를 사용하여 IPSec
 local ID와 remote ID를 무시할 수 있는 ikev2로 설정합니다. IKE configuration과 IPSec configuration 정보는 AWS configuration file 내용과 동일한 값으로 설정해야 합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.07%20PM.png?raw=true)
 
-VPN Gateway는 기본적으로 NAT Traversal이 enable되어 있습니다. 그대로 설정합니다. 이번 테스트에는 BGP가 아닌 Static으로 라우팅을 설정했기 때문에 BGP 설정은 건너뛰겠습니다. 
+VPN Gateway는 기본적으로 NAT Traversal이 enable되어 있습니다. 이 기능은 GA와의 연동에 가장 중요한 기능입니다. 그대로 설정합니다. 이번 테스트에는 BGP가 아닌 Static으로 라우팅을 설정했기 때문에 BGP 설정은 건너뛰겠습니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.22%20PM.png?raw=true)
 
 #### 4.8.2 Add route entry
@@ -125,7 +125,7 @@ AWS에서는 기본적으로 2개의 tunnel IP를 생성합니다. 이번 테스
 GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP를 위에서 획득한 AWS Tunnel 1 IP로 변경합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzYwODgwMCw2NjUxNzI0NjUsMzYxMj
+eyJoaXN0b3J5IjpbLTI1NjYzNDA2Miw2NjUxNzI0NjUsMzYxMj
 UxMjA5LC0xODk2NjU4OTY4LDk1MjY4ODgzNiw3MDIzMDk5MjQs
 MjA0MDU5NzEzOSwxOTM1MjAwNjc3LC04MjM4OTAzNTksLTE3Mz
 IwMzM4MSwxNzk5NTAzOTM1LC0xODQ4MzQwNTIzLC0xNzE0ODA2
