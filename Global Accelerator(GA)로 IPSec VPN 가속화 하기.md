@@ -37,11 +37,10 @@
 GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 이번 시나리오는 중국과 한국간 네트워크를 가속화 하고, 양 종단이 Alibaba Cloud 외 리소스이기 때문에 아래의 조합으로 구매해 주시면 됩니다. 
 > Note: [GA 인스턴스 및 밴드위스 구매 조건](https://www.alibabacloud.com/help/doc-detail/153194.htm?spm=a2c63.p38356.b99.10.571c2e24WeD1J9)에 대한 자세한 사항은 클릭하여 확인해 주시기 바랍니다. 
 
-|GA Instance Type|Basic Bandwidth Type| |
-|----------------|-------------------------------|-----------------------------|
+|GA Instance Type|Basic Bandwidth Type|Cross Border Acceleration |
+|Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|
 |Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
 
 ### 4.2 GA 리스너 설정
 
@@ -52,8 +51,8 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTM5MTcwLC0xMjYzNjE3NDc5LC0xNz
-Q3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4
-MDQsLTE1MjE0MDY0MDcsMjQxMDU3NzUxLDY5MjIxNjc0NCwtMj
-EwODY1NTM3OF19
+eyJoaXN0b3J5IjpbMTMwMzA1NDg2OSwtMTI2MzYxNzQ3OSwtMT
+c0NzcxMzU2MSwxMjM2MzQwMjExLC02MDg3NTE3MTIsNDkzMjQz
+ODA0LC0xNTIxNDA2NDA3LDI0MTA1Nzc1MSw2OTIyMTY3NDQsLT
+IxMDg2NTUzNzhdfQ==
 -->
