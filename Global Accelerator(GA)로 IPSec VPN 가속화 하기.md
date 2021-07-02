@@ -41,7 +41,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 |---|---|---|
 |Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|구매|
 [GA 인스턴스를 구매](https://www.alibabacloud.com/help/doc-detail/153200.htm?spm=a2c63.p38356.b99.22.3e8d3ec5YMYcrz) 하고 [Basic Bandwidth를 구매](https://www.alibabacloud.com/help/doc-detail/153205.htm?spm=a2c63.p38356.b99.27.111077493Kolwl)하고 [Cross Border Acceleration을 구매](https://www.alibabacloud.com/help/doc-detail/155107.htm?spm=a2c63.p38356.b99.35.4f37763eng34lg)합니다. 
-그리고 구매한 Basic Bandwidth와 Cross Bandwidth를 GA 인스턴스에 bind합니다. 바인딩에 대한 자세한 사항은 [bind basic bandwidth 문서](https://www.alibabacloud.com/help/doc-detail/153206.htm?spm=a2c63.p38356.b99.28.34528816XU1IGd)와 bind cross border acceleration
+그리고 구매한 Basic Bandwidth와 Cross Bandwidth를 GA 인스턴스에 bind합니다. 바인딩에 대한 자세한 사항은 [bind basic bandwidth 문서](https://www.alibabacloud.com/help/doc-detail/153206.htm?spm=a2c63.p38356.b99.28.34528816XU1IGd)와 [bind cross border acceleration 문서](https://www.alibabacloud.com/help/doc-detail/155108.htm?spm=a2c63.p38356.b99.36.4095289crKAgox)를 참조해주시기 바랍니다.
 
 
 
@@ -54,7 +54,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODYzNzI1NSwyMDI5Mzg1NjQ5LC0xMj
+eyJoaXN0b3J5IjpbLTM0MTAwMDgwMywyMDI5Mzg1NjQ5LC0xMj
 YzNjE3NDc5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1
 MTcxMiw0OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQxMDU3NzUxLD
 Y5MjIxNjc0NCwtMjEwODY1NTM3OF19
