@@ -1,5 +1,5 @@
 
-# SaaS acceleration for Korea: SAG + CEN + GA (for bidirectional, KR to CN and CN to KR)
+# Global Accelerator(GA)로 IPSec VPN 가속화 하기
 
 ## 1. background
 
@@ -437,5 +437,5 @@ You can compare the upload/download speed while connecting to SAG app and discon
 -   **Bypass the China Great Firewall**: This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access from China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective)
 -   **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different are that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, and you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example [www.qq.com](http://www.qq.com/), baidu.com) over Alibaba backbone network to with accelerated network speed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODM1ODk0LC0xMTUzNTUyOTk1XX0=
+eyJoaXN0b3J5IjpbMTc4NzY1NzI3MCwtMTE1MzU1Mjk5NV19
 -->
