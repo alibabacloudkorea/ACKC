@@ -91,12 +91,14 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 
 ### [Optional] 4.7 Download Configuration from AWS VPN Connections
 
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.05.46%20PM.png?raw=true)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMzA5OTI0LDIwNDA1OTcxMzksMTkzNT
-IwMDY3NywtODIzODkwMzU5LC0xNzMyMDMzODEsMTc5OTUwMzkz
-NSwtMTg0ODM0MDUyMywtMTcxNDgwNjU1NSwtODc0NzAyMDk5LC
-0xNTA1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkz
-ODU2NDksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIzNjM0MD
-IxMSwtNjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQwNjQwNywy
-NDEwNTc3NTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MjE1NzE5NTcsNzAyMzA5OTI0LDIwND
+A1OTcxMzksMTkzNTIwMDY3NywtODIzODkwMzU5LC0xNzMyMDMz
+ODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMTcxNDgwNjU1NS
+wtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3
+MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2MTc0NzksLTE3NDc3MT
+M1NjEsMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5MzI0MzgwNCwt
+MTUyMTQwNjQwN119
 -->
