@@ -70,18 +70,19 @@ Endpoint Group 등록 시 Backend Service에는 한국 VPN 장비의 Public IP(S
 > Note: 이 단계는 반드시 리스너 등록 후 수행해야 유효한 IP를 전달 받을 수 있습니다. 또한 리스너를 삭제하고 재설정하는 경우 GA OFF IP는 변하기 때문에 재신청해야 합니다. 리스너 수정시에는 GA OFF IP가 유지되기에 재신청할 필요가 없습니다. 
 
 ### 4.5 양 종단의 Customer Gateway 등록
-#### 4.5.1 Alibaba Cloud VPN Gateway에서 Customer Gateway 등록
+고객사 장비를 연결한다면 각 장비에서 Remote Peer IP를 아래와 동일한 IP로 등록해 주면 됩니다.
 
-
+#### 4.5.1 Alibaba Cloud VPN Gateway에서 [Customer Gateway 등록](https://www.alibabacloud.com/help/doc-detail/65286.htm?spm=a2c63.l28256.b99.30.3067e889Usd0nF)
+Customer Gateway를 생성하고 GA에서 획득한 상하이 Accelerated IP를 등록합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.19.50%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.20.40%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5Nzg3NzUyLC0xNzMyMDMzODEsMTc5OT
-UwMzkzNSwtMTg0ODM0MDUyMywtMTcxNDgwNjU1NSwtODc0NzAy
-MDk5LC0xNTA1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LD
-IwMjkzODU2NDksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIz
-NjM0MDIxMSwtNjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQwNj
-QwNywyNDEwNTc3NTEsNjkyMjE2NzQ0LC0yMTA4NjU1Mzc4XX0=
+eyJoaXN0b3J5IjpbMTcwNDIzNjU2MiwtMTczMjAzMzgxLDE3OT
+k1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcw
+MjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5Ny
+wyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEy
+MzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MD
+Y0MDcsMjQxMDU3NzUxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
 
 -->
