@@ -102,11 +102,13 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 #### 4.8.1 IPSec Connection 생성
 AWS에서 다운로드 받은 configuration file의 정보를 사용하여 IPSec Connection을 생성합니다. 
 > Note: AWS와 Alibaba가 정의하는 Local Network와 Remote Network의 정의가 달라 헷갈리 수 있습니다. 공식 문서에 나와있는 설명을 토대로 작성하시기 바랍니다. 
+
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.08.58%20PM.png?raw=true)
 
 local ID와 remote ID를 무시할 수 있는 ikev2로 설정합니다. IKE configuration과 IPSec configuration 정보는 AWS configuration file 내용과 동일한 값으로 설정해야 합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.07%20PM.png?raw=true)
 
+VPN Gateway는 기본적으로 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.22%20PM.png?raw=true)
 
 #### 4.8.2 Add route entry
@@ -122,7 +124,7 @@ AWS에서는 기본적으로 2개의 tunnel IP를 생성합니다. 이번 테스
 GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP를 위에서 획득한 AWS Tunnel 1 IP로 변경합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjk4MTc5Miw2NjUxNzI0NjUsMzYxMj
+eyJoaXN0b3J5IjpbLTYyMjU1MzA2Myw2NjUxNzI0NjUsMzYxMj
 UxMjA5LC0xODk2NjU4OTY4LDk1MjY4ODgzNiw3MDIzMDk5MjQs
 MjA0MDU5NzEzOSwxOTM1MjAwNjc3LC04MjM4OTAzNTksLTE3Mz
 IwMzM4MSwxNzk5NTAzOTM1LC0xODQ4MzQwNTIzLC0xNzE0ODA2
