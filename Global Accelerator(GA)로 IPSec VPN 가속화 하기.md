@@ -58,18 +58,23 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 GA에서 Listener를 추가합니다. 이 리스너에는 VPN장비의 NAT-T에서 사용하는 프로토콜과 포트인 UDP 4500, 500번 포트를 등록 합니다. 이번테스트에서 사용된 AWS Virtual Private Gateway는 4500번 포트를 사용하기에 4500번만 등록하였습니다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.58.51%20PM.png?raw=true)
 
-Endpoint Group 등록 시 Backend Service에는 한국 VPN 장비의 Public IP(Serial IP)를 등록합니다. 이번 테스트에서 사용된 AWS VPN의 경우는 Customer Gateway를 등록하고 Site-to-Site VPN connection을 생성해야 tunnel IP(VPN Public IP)가 나오기에 이번 단계에서는 임시 public IP를 등록하고 후속 단계를 거친 뒤 수정하는 방법으로 진행하겠습니다. 
+Endpoint Group 등록 시 Backend Service에는 한국 VPN 장비의 Public IP(Serial IP)를 등록합니다. 
+> Note: 이번 테스트에서 사용된 AWS VPN의 경우는 Customer Gateway를 등록하고 Site-to-Site VPN connection을 생성해야 tunnel IP(VPN Public IP)가 나오기에 이번 단계에서는 임시 public IP를 등록하고 후속 단계를 거친 뒤 listener를 수정하는 방법으로 진행하겠습니다. 
+
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 
 [GA 리스너 등록에 대한 자세한 사항](https://www.alibabacloud.com/help/doc-detail/153217.htm?spm=a2c63.l28256.b99.48.68606796n12ytp)은 클릭해서 확인해 주세요.
 
+#### 4.4.2 GA OFF IP 신청
+
+
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2NDIyODUyLDE3OTk1MDM5MzUsLTE4ND
-gzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4
-NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC
-0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYw
-ODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQxMDU3Nz
-UxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
+eyJoaXN0b3J5IjpbLTE2NDAwMjA4MjEsMTc5OTUwMzkzNSwtMT
+g0ODM0MDUyMywtMTcxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1
+Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2ND
+ksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMSwt
+NjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQwNjQwNywyNDEwNT
+c3NTEsNjkyMjE2NzQ0LC0yMTA4NjU1Mzc4XX0=
 -->
