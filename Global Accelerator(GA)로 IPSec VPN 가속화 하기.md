@@ -50,15 +50,15 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 
 ### [Optional] 4.3 종단 간 VPN Gateway 생성 (기존 장비가 있다면 생략 가능)
 #### 4.3.1 [Alibaba Cloud VPN Gateway를 생성](https://www.alibabacloud.com/help/doc-detail/65290.htm?spm=a2c63.l28256.b99.23.d9a5e889eDXe0e)합니다.
-#### 4.3.2 [AWS Virtual Private Gateway를 생성]() 합니다.
+#### 4.3.2 [AWS Virtual Private Gateway를 생성](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/SetUpVPNConnections.html#vpn-create-target-gateway) 합니다.
 ### 4.4 종단간 IPSec Connection 설정
 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MjE4NTc1LC04NzQ3MDIwOTksLTE1MD
-U3ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OTcsMjAyOTM4NTY0
-OSwtMTI2MzYxNzQ3OSwtMTc0NzcxMzU2MSwxMjM2MzQwMjExLC
-02MDg3NTE3MTIsNDkzMjQzODA0LC0xNTIxNDA2NDA3LDI0MTA1
-Nzc1MSw2OTIyMTY3NDQsLTIxMDg2NTUzNzhdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMT
+UwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1
+NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMT
+EsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQx
+MDU3NzUxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
 -->
