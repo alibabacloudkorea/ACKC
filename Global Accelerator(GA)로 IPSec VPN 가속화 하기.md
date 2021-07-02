@@ -119,10 +119,10 @@ AWS VPN connection에서 받은 configuration file을 보면 AWS에서 생성된
 AWS에서는 기본적으로 2개의 tunnel IP를 생성합니다. 이번 테스트에는 이 중 하나의 tunnel IP로 하나의 IPSec connection만 구성하도록 하겠습니다. 운영환경에서는 2개의 connection을 구성하여 가용성을 높이는 아키텍쳐로 구성하는 것을 권장드립니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%206.44.09%20PM.png?raw=true)
 
-GA 콘솔로 가서 [Edit E]
+GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP를 위에서 획득한 AWS Tunnel 1 IP로 변경합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTU3ODk4OSw2NjUxNzI0NjUsMzYxMj
+eyJoaXN0b3J5IjpbMTcyNjk4MTc5Miw2NjUxNzI0NjUsMzYxMj
 UxMjA5LC0xODk2NjU4OTY4LDk1MjY4ODgzNiw3MDIzMDk5MjQs
 MjA0MDU5NzEzOSwxOTM1MjAwNjc3LC04MjM4OTAzNTksLTE3Mz
 IwMzM4MSwxNzk5NTAzOTM1LC0xODQ4MzQwNTIzLC0xNzE0ODA2
