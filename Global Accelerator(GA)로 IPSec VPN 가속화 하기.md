@@ -131,14 +131,14 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%206.44.09%20PM.png?raw=true)
 
->Note: 만약 Connection이 실패되었다면 [트러블슈팅 가이드](https://www.alibabacloud.com/help/doc-detail/65802.htm?spm=a2c63.l28256.b99.144.123ce889HXDiAH)를 참조하시기 바랍니다. 금번 테스트 도중 connection은 제대로 구성되었지만 ping이 도달하지 못하는 이슈가 있었는데 그 이유는 AWS VPC CIDR(172.32.0.0/16)을 알리바바 클라우드의 default system에서 Public IP 대역으로 인식했기 때문이었습니다. 이런 경우 account uid, vpc-id를 전달하여 해당 IP대역을 Private으로 인식할 수 있도록 whitelist 해주어야 합니다. 
+>Note: 만약 Connection이 실패되었다면 [트러블슈팅 가이드](https://www.alibabacloud.com/help/doc-detail/65802.htm?spm=a2c63.l28256.b99.144.123ce889HXDiAH)를 참조하시기 바랍니다. 금번 테스트 도중 connection은 제대로 구성되었지만 ping이 도달하지 못하는 이슈가 있었는데 그 이유는 AWS VPC CIDR(172.32.0.0/16)을 알리바바 클라우드의 default system에서 Public IP 대역으로 인식했기 때문이었습니다. 이런 경우 Ticket을 통해 account uid, vpc-id를 전달하여 해당 IP대역을 Private으로 인식할 수 있도록 whitelist 해주어야 합니다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzQ5NTUxLC0yNTY2MzQwNjIsNjY1MT
-cyNDY1LDM2MTI1MTIwOSwtMTg5NjY1ODk2OCw5NTI2ODg4MzYs
-NzAyMzA5OTI0LDIwNDA1OTcxMzksMTkzNTIwMDY3NywtODIzOD
-kwMzU5LC0xNzMyMDMzODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUy
-MywtMTcxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLD
-IzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2
-MTc0NzldfQ==
+eyJoaXN0b3J5IjpbMTc4MDc1Mjg4MiwtMjU2NjM0MDYyLDY2NT
+E3MjQ2NSwzNjEyNTEyMDksLTE4OTY2NTg5NjgsOTUyNjg4ODM2
+LDcwMjMwOTkyNCwyMDQwNTk3MTM5LDE5MzUyMDA2NzcsLTgyMz
+g5MDM1OSwtMTczMjAzMzgxLDE3OTk1MDM5MzUsLTE4NDgzNDA1
+MjMsLTE3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4NzA2My
+wyMzk5MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMjYz
+NjE3NDc5XX0=
 -->
