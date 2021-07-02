@@ -1,7 +1,7 @@
 
 # Global Accelerator(GA)로 IPSec VPN 가속화 하기
 
-## 1. background
+## 1. 배경  설명 
 한국과 중국간 인터넷 통신은 매우 불안정합니다. 아래의 베이징(BJ)-서울(KR), 상하이(SH)-서울(KR) 간 ping test 결과를 살펴보면 평균 응답시간이 불규칙하고 ping loss 도 많이 발생하는 것을 알 수 있습니다. 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/pingtime.png?raw=true)
@@ -14,12 +14,12 @@
 이번 가이드에서는 중국 Alibaba Cloud의 VPN Gateway와 한국 AWS의 Virtual Private Gateway를 GA와 연동합니다. 이는 테스트를 위한 차선책으로 굳이 알리바바 클라우드의 VPN Gateway를 사용하지 않더라도 'NAT-T(Nat Traversal)'기능을 enable할 수 있는 고객사 VPN 장비라면 GA와 연동하여 가속화할 수 있습니다.
 > Note: GA가 양단의 VPN 입장에서는 일종의 NAT 역할을 하는 장비가 되기 때문에, VPN장비 사이에 NAT 장비가 존재하게 되는 셈이고 이로 인해 Pair 메세지의 무결성이 침해되어 IKE Phase 1,2 협상 과정이 실패하게 됩니다. NAT-T 기능을 제공하는 VPN 장비로 이 문제를 해결할 수 있습니다. 
 
-### 2.2 Acceleration Principle
+### 2.2 가속화 원리 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/GAIpSecVPN1.png?raw=true)
 알리바바 클라우드의 [Global Accelerator(GA)](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7)
 는 사용자 시스템의 IP/Domain만 등록하여 네트워크 통신을 가속화하는 솔루션입니다. 이번 가이드에서는 중국 상해에 고객사의 중국지사 VPN장비가 있고(Alibaba Cloud VPN Gateway로 대체) 한국에 본사 VPN 장비가 있다고(AWS Virtual Private Gateway로 대체) 가정하고 테스트를 수행합니다. 
 
-## 3. Prerequisites
+## 3. 사전  조건 
 - [Alibaba Cloud VPN Gateway](https://www.alibabacloud.com/help/doc-detail/64960.htm?spm=a2c63.l28256.b99.5.5d6ae889hLNiHt) - 고객사 VPN 장비(NAT-T enabled)로 대체 가능
 - [AWS Virtual Private Gateway](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html) - 고객사 VPN 장비(NAT-T enabled)로 대체 가능
 - [Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7) 
@@ -451,6 +451,6 @@ You can compare the upload/download speed while connecting to SAG app and discon
 -   **Bypass the China Great Firewall**: This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access from China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective)
 -   **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different are that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, and you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example [www.qq.com](http://www.qq.com/), baidu.com) over Alibaba backbone network to with accelerated network speed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMDU3NzUxLDY5MjIxNjc0NCwtMjEwOD
-Y1NTM3OF19
+eyJoaXN0b3J5IjpbLTE1MjE0MDY0MDcsMjQxMDU3NzUxLDY5Mj
+IxNjc0NCwtMjEwODY1NTM3OF19
 -->
