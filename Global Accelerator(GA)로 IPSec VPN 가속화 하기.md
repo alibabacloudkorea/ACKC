@@ -34,7 +34,7 @@
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Picture1.png?raw=true)
 ### 4.1 GA 인스턴스 생성과 Source Consistent 요청(Ticket)
 #### 4.1.1 GA 인스턴스 및 밴드위스 생성
-GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 이번 시나리오는 중국과 한국간 네트워크를 가속화 하고, 양 종단이 Alibaba Cloud 외 리소스이기 때문에 아래의 조합으로 구매해 주시면 됩니다. 
+GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 이번 시나리오는 중국과 한국간 네트워크를 가속화 하고, 양 종단이 Alibaba Cloud 외 리소스인 조건이므로 아래의 조합으로 구매해 주시면 됩니다. 
 > Note: [GA 인스턴스 및 밴드위스 구매 조건](https://www.alibabacloud.com/help/doc-detail/153194.htm?spm=a2c63.p38356.b99.10.571c2e24WeD1J9)에 대한 자세한 사항은 클릭하여 확인해 주시기 바랍니다. 
 
 |GA Instance Type|Basic Bandwidth Type|Cross Border Acceleration |
@@ -42,8 +42,6 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 |Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|구매|
 [GA 인스턴스를 구매](https://www.alibabacloud.com/help/doc-detail/153200.htm?spm=a2c63.p38356.b99.22.3e8d3ec5YMYcrz) 하고 [Basic Bandwidth를 구매](https://www.alibabacloud.com/help/doc-detail/153205.htm?spm=a2c63.p38356.b99.27.111077493Kolwl)하고 [Cross Border Acceleration을 구매](https://www.alibabacloud.com/help/doc-detail/155107.htm?spm=a2c63.p38356.b99.35.4f37763eng34lg)합니다. 
 그리고 구매한 Basic Bandwidth와 Cross Bandwidth를 GA 인스턴스에 bind합니다. 바인딩에 대한 자세한 사항은 [bind basic bandwidth 문서](https://www.alibabacloud.com/help/doc-detail/153206.htm?spm=a2c63.p38356.b99.28.34528816XU1IGd)와 [bind cross border acceleration 문서](https://www.alibabacloud.com/help/doc-detail/155108.htm?spm=a2c63.p38356.b99.36.4095289crKAgox)를 참조해주시기 바랍니다.
-
-
 
 ### 4.2 GA 리스너 설정
 
@@ -54,7 +52,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTAwMDgwMywyMDI5Mzg1NjQ5LC0xMj
+eyJoaXN0b3J5IjpbMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMj
 YzNjE3NDc5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1
 MTcxMiw0OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQxMDU3NzUxLD
 Y5MjIxNjc0NCwtMjEwODY1NTM3OF19
