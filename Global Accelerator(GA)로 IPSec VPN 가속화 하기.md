@@ -33,7 +33,8 @@
 ## 4. Main steps
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Picture1.png?raw=true)
 ### 4.1 GA 인스턴스 생성과 Source Consistent 요청(Ticket)
-
+#### 4.1.1 GA 인스턴스 및 밴드위스 생성
+GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 이번 시나리오는 중국과 한국간 네트워크를 가속화 하고 
 
 ### 4.2 GA 리스너 설정
 
@@ -44,8 +45,8 @@
 ### 4.5 연결 확인 및 속도/성능 확인
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMT
-IzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQw
-NjQwNywyNDEwNTc3NTEsNjkyMjE2NzQ0LC0yMTA4NjU1Mzc4XX
-0=
+eyJoaXN0b3J5IjpbLTU3MDM0ODcwNSwtMTI2MzYxNzQ3OSwtMT
+c0NzcxMzU2MSwxMjM2MzQwMjExLC02MDg3NTE3MTIsNDkzMjQz
+ODA0LC0xNTIxNDA2NDA3LDI0MTA1Nzc1MSw2OTIyMTY3NDQsLT
+IxMDg2NTUzNzhdfQ==
 -->
