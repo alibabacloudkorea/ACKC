@@ -55,7 +55,8 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 
 ### 4.4 GA Listener 등록 및 GA OFF IP 신청
 #### 4.4.1 GA Listener 등록
-GA에서 Listener를 추가합니다. 이 리스너에서는 VPN장비의 NAT-T에서 사용하는 프로토콜과 포트인 UDP 4500, 500번 포트를 등록 합니다. ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.58.51%20PM.png?raw=true)
+GA에서 Listener를 추가합니다. 이 리스너에는 VPN장비의 NAT-T에서 사용하는 프로토콜과 포트인 UDP 4500, 500번 포트를 등록 합니다. 이번테스트에서 사용된 AWS Virtual Private Gateway는 4500번 포트를 사용하기에 4500번만 등록하였습니다.
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.58.51%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 
@@ -64,7 +65,7 @@ GA에서 Listener를 추가합니다. 이 리스너에서는 VPN장비의 NAT-T�
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjkyNTMwMCwxNzk5NTAzOTM1LC0xOD
+eyJoaXN0b3J5IjpbMTczNjY1MTY0OCwxNzk5NTAzOTM1LC0xOD
 Q4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3
 ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OTcsMjAyOTM4NTY0OS
 wtMTI2MzYxNzQ3OSwtMTc0NzcxMzU2MSwxMjM2MzQwMjExLC02
