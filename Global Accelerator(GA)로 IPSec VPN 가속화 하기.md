@@ -2,7 +2,7 @@
 # Global Accelerator(GA)로 IPSec VPN 가속화 하기
 
 ## 1. background
-한국과 중국간 인터넷 통신은 매우 불안정합니다. 아래의 베이징-서울, 상하이-서울 간 ping test 결과를 살펴보면 평균 응답시간이 불규칙하고 피크타임 시에는때는 ping loss 도 많이 발생하는 편이다.
+한국과 중국간 인터넷 통신은 매우 불안정합니다. 아래의 베이징(BJ)-서울(KR), 상하이(SH)-서울(KR) 간 ping test 결과를 살펴보면 평균 응답시간이 불규칙하고 피크타임 시에는 ping loss 도 많이 발생하는 것을 알 수 있습니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/pingtime.png?raw=true)
 이번 포스팅에서는 한국/중국 간 IPSec VPN으로 Site-to-Site VPN 통신을 맺고 있는 것을 알리바바 클라우드의 Global Accelerator(GA)로 가속화하는 방법에 대해 다루어 보겠습니다. 
 
@@ -439,6 +439,5 @@ You can compare the upload/download speed while connecting to SAG app and discon
 -   **Bypass the China Great Firewall**: This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access from China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective)
 -   **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different are that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, and you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example [www.qq.com](http://www.qq.com/), baidu.com) over Alibaba backbone network to with accelerated network speed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ0NDQxNDksLTIxMDg2NTUzNzhdfQ
-==
+eyJoaXN0b3J5IjpbMTgzMzkwNDU4MCwtMjEwODY1NTM3OF19
 -->
