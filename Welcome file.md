@@ -5,38 +5,18 @@
 
 
 ## 2. Solution Overview
-## 2.1 Overview
-![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.04.06%20AM.png?raw=true)
+### 2.1 Overview
 
-To accelerate the Korea MS teams service as an example, we have 5 main parts:
-1. Client: SAG-APP is Alibaba Cloud SD-WAN client software that can be installed on Android, iOS, Windows, MacOS and other systems. SAG-APP can be connected to the nearest access point(PoP) of the CCN network.
-2. CCN: CCN is Alibaba Cloud SD-WAN access network, which consists of access points all over the country. It can quickly connect SAG terminals to Alibaba Cloud backbone networks.
-3. CEN: CEN is a global virtual enterprise network. Relying on Alibaba Cloud global backbone network, it provides high-quality global networking services for enterprise customers.
-4. Proxy server: As a forward proxy and SNAT, it has two different functions to forward the traffic. It acts as a L4 proxy  helped from the upper layer to extract the domain name and acts as a SNAT to access public internet through GAIP.
-5. GA1.0: Backed by the Alibaba Cloud backbone network, GA provides a high-speed network experience and ultra-low transmission latency between China and Korea.
 
-## 2.2 Acceleration Principle
+### 2.2 Acceleration Principle
 
-This solution can accelerate HTTP/HTTPs based on the domain name.
-![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.26.37%20AM.png?raw=true)
-1. The client configures the DNS address of the Private Zone. The custom DNS function of the SAG-APP allows you to configure the DNS of the terminal to Private Zone DNS. 
+## 3. Prerequisites
 
-Private Zone DNS addresses are 100.100.2.136 and 100.100.2.138
 
-2. Use the Private Zone to resolve the domain name to be accelerated into the internal IP address of the proxy server. If the domain does not exist in Private Zone, the SAG client then lookup public DNS to reach the target server. In this way, we only accelerate teams related domains.
-3. The traffic to be accelerated is forwarded to the proxy server via CCN and CEN. The proxy server then send the request to the MS teams service through the local Korea internet.
-4. Traffic that does not need to be accelerated is not pulled to CCN, and is directly accessed from the local internet of the client, without occupying SAG-APP acceleration bandwidth.
-
-# 3. Prerequisites
-As of now(2021.02.16), Alibaba Cloud do not have a Korea region. For having every component be in Alibaba Cloud, we use an old version of GA(Global Accelerator). We can use a current version of GA, but then we need to deploy a proxy in somewhere in Korea by using other cloud vendors or IDC etc, which leads to become cumbersome to manage entire components. To be able to use old version of GA(GA1.0), you need to submit the ticket and apply a whitelist. Make sure that you apply all of them below.
-	1) GA1.0
-	2) Korea(Seoul) Network PoP for an accelerated area
-	3) A VPC whitelist for Korea Network PoP
-
-# 4. Main steps
+## 4. Main steps
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.03.13%20PM.png?raw=true)
 
-## 4.1 create a VPC/CEN/CCN
+### 4.1 create a VPC/CEN/CCN
 In this step, the basic network architecture on which the entire service depends is built. 
 
 ### 4.1.1 create a VPC
@@ -457,5 +437,5 @@ You can compare the upload/download speed while connecting to SAG app and discon
 -   **Bypass the China Great Firewall**: This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access from China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective)
 -   **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different are that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, and you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example [www.qq.com](http://www.qq.com/), baidu.com) over Alibaba backbone network to with accelerated network speed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODc0NjQzNCwtMTE1MzU1Mjk5NV19
+eyJoaXN0b3J5IjpbLTU3ODM1ODk0LC0xMTUzNTUyOTk1XX0=
 -->
