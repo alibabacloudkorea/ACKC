@@ -90,7 +90,7 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.55.21%20PM.png?raw=true)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.55.33%20PM.png?raw=true)
 
-#### 4.6.2 Route Tables
+#### 4.6.2 Route Tables에서 vgw를 propagate 합니다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.21.07%20PM.png?raw=true)
 
 
@@ -107,11 +107,11 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.19.09%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDk2MzI2Niw5NTI2ODg4MzYsNzAyMz
-A5OTI0LDIwNDA1OTcxMzksMTkzNTIwMDY3NywtODIzODkwMzU5
-LC0xNzMyMDMzODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMT
-cxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLDIzOTkz
-MjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2MTc0Nz
-ksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5
-MzI0MzgwNF19
+eyJoaXN0b3J5IjpbLTE4OTY2NTg5NjgsOTUyNjg4ODM2LDcwMj
+MwOTkyNCwyMDQwNTk3MTM5LDE5MzUyMDA2NzcsLTgyMzg5MDM1
+OSwtMTczMjAzMzgxLDE3OTk1MDM5MzUsLTE4NDgzNDA1MjMsLT
+E3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5
+MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMjYzNjE3ND
+c5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1MTcxMiw0
+OTMyNDM4MDRdfQ==
 -->
