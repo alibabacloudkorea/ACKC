@@ -53,15 +53,17 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 #### 4.3.2 [AWS Virtual Private Gateway를 생성](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/SetUpVPNConnections.html#vpn-create-target-gateway) 하고 VPC에 attach 합니다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.50.49%20PM.png?raw=true)
 
-### 4.4 GA Listener 등록 및 
+### 4.4 GA Listener 등록 및 GA OFF IP 신청
+#### 4.4.1 GA Listener 등록
+
 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY2OTUzNTEsLTE4NDgzNDA1MjMsLT
-E3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5
-MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMjYzNjE3ND
-c5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1MTcxMiw0
-OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQxMDU3NzUxLDY5MjIxNj
-c0NCwtMjEwODY1NTM3OF19
+eyJoaXN0b3J5IjpbMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMT
+cxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLDIzOTkz
+MjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2MTc0Nz
+ksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5
+MzI0MzgwNCwtMTUyMTQwNjQwNywyNDEwNTc3NTEsNjkyMjE2Nz
+Q0LC0yMTA4NjU1Mzc4XX0=
 -->
