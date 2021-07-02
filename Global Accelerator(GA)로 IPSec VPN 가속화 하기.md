@@ -79,12 +79,14 @@ Customer Gateway를 생성하고 GA에서 획득한 상하이 Accelerated IP를 
 #### 4.5.2 AWS VPN Gateway에서 [Customer Gateway 등록](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/SetUpVPNConnections.html#vpn-create-cgw)
 AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.20.40%20PM.png?raw=true)
+
+### 4.6 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNTY1MzQzLC0xNzMyMDMzODEsMTc5OT
-UwMzkzNSwtMTg0ODM0MDUyMywtMTcxNDgwNjU1NSwtODc0NzAy
-MDk5LC0xNTA1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LD
-IwMjkzODU2NDksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIz
-NjM0MDIxMSwtNjA4NzUxNzEyLDQ5MzI0MzgwNCwtMTUyMTQwNj
-QwNywyNDEwNTc3NTEsNjkyMjE2NzQ0LC0yMTA4NjU1Mzc4XX0=
+eyJoaXN0b3J5IjpbLTM0NjMxODA4NiwtMTczMjAzMzgxLDE3OT
+k1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcw
+MjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5Ny
+wyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEy
+MzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MD
+Y0MDcsMjQxMDU3NzUxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
 
 -->
