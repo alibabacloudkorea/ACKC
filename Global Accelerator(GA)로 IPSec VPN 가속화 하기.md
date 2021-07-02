@@ -90,7 +90,7 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.55.33%20PM.png?raw=true)
 
 ### [Optional] 4.7 Download Configuration from AWS VPN Connections
-고객사 장비에 
+고객사 장비에 맞게 configuration file을 다운로드 합니다. 이번 테스트에서는 Cisco system 장비로 다운로드 받아서 설정 값만 참조하겠습니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.05.46%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.08.58%20PM.png?raw=true)
@@ -100,11 +100,11 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.22%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU2NDYwMjMsNzAyMzA5OTI0LDIwND
-A1OTcxMzksMTkzNTIwMDY3NywtODIzODkwMzU5LC0xNzMyMDMz
-ODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMTcxNDgwNjU1NS
-wtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3
-MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2MTc0NzksLTE3NDc3MT
-M1NjEsMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5MzI0MzgwNCwt
-MTUyMTQwNjQwN119
+eyJoaXN0b3J5IjpbOTUyNjg4ODM2LDcwMjMwOTkyNCwyMDQwNT
+k3MTM5LDE5MzUyMDA2NzcsLTgyMzg5MDM1OSwtMTczMjAzMzgx
+LDE3OTk1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLT
+g3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEw
+NDQ5NywyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNT
+YxLDEyMzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1
+MjE0MDY0MDddfQ==
 -->
