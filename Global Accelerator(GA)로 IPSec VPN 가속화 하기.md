@@ -23,7 +23,7 @@
 - [Alibaba Cloud VPN Gateway](https://www.alibabacloud.com/help/doc-detail/64960.htm?spm=a2c63.l28256.b99.5.5d6ae889hLNiHt) - 고객사 VPN 장비(NAT-T enabled)로 대체 가능
 - [AWS Virtual Private Gateway](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html) - 고객사 VPN 장비(NAT-T enabled)로 대체 가능
 - [Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7) 
-
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%2011.20.04%20AM.png?raw=true)
 
 
 
@@ -451,6 +451,6 @@ You can compare the upload/download speed while connecting to SAG app and discon
 -   **Bypass the China Great Firewall**: This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access from China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective)
 -   **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different are that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, and you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example [www.qq.com](http://www.qq.com/), baidu.com) over Alibaba backbone network to with accelerated network speed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjE0MDY0MDcsMjQxMDU3NzUxLDY5Mj
-IxNjc0NCwtMjEwODY1NTM3OF19
+eyJoaXN0b3J5IjpbMTUwMTUxOTk2NSwtMTUyMTQwNjQwNywyND
+EwNTc3NTEsNjkyMjE2NzQ0LC0yMTA4NjU1Mzc4XX0=
 -->
