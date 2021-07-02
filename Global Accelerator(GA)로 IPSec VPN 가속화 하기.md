@@ -38,8 +38,9 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 > Note: [GA 인스턴스 및 밴드위스 구매 조건](https://www.alibabacloud.com/help/doc-detail/153194.htm?spm=a2c63.p38356.b99.10.571c2e24WeD1J9)에 대한 자세한 사항은 클릭하여 확인해 주시기 바랍니다. 
 
 |GA Instance Type|Basic Bandwidth Type|Cross Border Acceleration |
-|Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|---|---|---|
+|Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|구매|
+
 
 
 ### 4.2 GA 리스너 설정
@@ -51,7 +52,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzA1NDg2OSwtMTI2MzYxNzQ3OSwtMT
+eyJoaXN0b3J5IjpbMjAyOTM4NTY0OSwtMTI2MzYxNzQ3OSwtMT
 c0NzcxMzU2MSwxMjM2MzQwMjExLC02MDg3NTE3MTIsNDkzMjQz
 ODA0LC0xNTIxNDA2NDA3LDI0MTA1Nzc1MSw2OTIyMTY3NDQsLT
 IxMDg2NTUzNzhdfQ==
