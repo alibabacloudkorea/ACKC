@@ -112,10 +112,11 @@ local ID와 remote ID를 무시할 수 있는 ikev2로 설정합니다. IKE conf
 #### 4.8.2 Add route entry
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.19.09%20PM.png?raw=true)
 
-### 4.9 
+### 4.9 AWS tunnel IP를 GA Backend Service IP로 등록
+AWS VPN connection에서 받은 configuration file을 보면 AWS에서 생성한 tunnel IP 2개를 확인할 수 있습니다. 물론, 콘솔에서도 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2OTA5NDUzLDM2MTI1MTIwOSwtMTg5Nj
+eyJoaXN0b3J5IjpbNjY1MTcyNDY1LDM2MTI1MTIwOSwtMTg5Nj
 Y1ODk2OCw5NTI2ODg4MzYsNzAyMzA5OTI0LDIwNDA1OTcxMzks
 MTkzNTIwMDY3NywtODIzODkwMzU5LC0xNzMyMDMzODEsMTc5OT
 UwMzkzNSwtMTg0ODM0MDUyMywtMTcxNDgwNjU1NSwtODc0NzAy
