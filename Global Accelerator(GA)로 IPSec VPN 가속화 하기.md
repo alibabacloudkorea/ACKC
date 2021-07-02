@@ -104,7 +104,7 @@ AWS에서 다운로드 받은 configuration file의 정보를 사용하여 IPSec
 > Note: AWS와 Alibaba가 정의하는 Local Network와 Remote Network의 정의가 달라 헷갈리 수 있습니다. 공식 문서에 나와있는 설명을 토대로 작성하시기 바랍니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.08.58%20PM.png?raw=true)
 
-
+local ID와 remote ID를 무시할 수 있는 ikev2로 설정합니다. IKE configuration과 IPSec configuration 정보는 AWS configuration file 내용과 동일한 값으로 설정해야 합니다.
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.07%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.22%20PM.png?raw=true)
@@ -113,11 +113,11 @@ AWS에서 다운로드 받은 configuration file의 정보를 사용하여 IPSec
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.19.09%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk1MDExOTksMzYxMjUxMjA5LC0xOD
-k2NjU4OTY4LDk1MjY4ODgzNiw3MDIzMDk5MjQsMjA0MDU5NzEz
-OSwxOTM1MjAwNjc3LC04MjM4OTAzNTksLTE3MzIwMzM4MSwxNz
-k5NTAzOTM1LC0xODQ4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3
-MDIwOTksLTE1MDU3ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OT
-csMjAyOTM4NTY0OSwtMTI2MzYxNzQ3OSwtMTc0NzcxMzU2MSwx
-MjM2MzQwMjExXX0=
+eyJoaXN0b3J5IjpbLTcwMDYzODk4NiwzNjEyNTEyMDksLTE4OT
+Y2NTg5NjgsOTUyNjg4ODM2LDcwMjMwOTkyNCwyMDQwNTk3MTM5
+LDE5MzUyMDA2NzcsLTgyMzg5MDM1OSwtMTczMjAzMzgxLDE3OT
+k1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcw
+MjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5Ny
+wyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEy
+MzYzNDAyMTFdfQ==
 -->
