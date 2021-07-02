@@ -112,6 +112,7 @@ VPN Gateway는 기본적으로 NAT Traversal이 enable되어 있습니다. 그�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.22%20PM.png?raw=true)
 
 #### 4.8.2 Add route entry
+IPSec Connection 설정 시 해당 연결을 라우팅에 publish할 지에 대해 팝업창이 뜨는데 'Ok'를 누르면 자동으로 라우팅 테이블에 적용됩니다. 만약 적용이 안ㄷ
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.19.09%20PM.png?raw=true)
 
 
@@ -124,7 +125,7 @@ AWS에서는 기본적으로 2개의 tunnel IP를 생성합니다. 이번 테스
 GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP를 위에서 획득한 AWS Tunnel 1 IP로 변경합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzAwMzE5Niw2NjUxNzI0NjUsMzYxMj
+eyJoaXN0b3J5IjpbMTk2MjczNjEwNiw2NjUxNzI0NjUsMzYxMj
 UxMjA5LC0xODk2NjU4OTY4LDk1MjY4ODgzNiw3MDIzMDk5MjQs
 MjA0MDU5NzEzOSwxOTM1MjAwNjc3LC04MjM4OTAzNTksLTE3Mz
 IwMzM4MSwxNzk5NTAzOTM1LC0xODQ4MzQwNTIzLC0xNzE0ODA2
