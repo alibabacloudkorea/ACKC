@@ -31,12 +31,12 @@
 
 
 ## 4. Main steps
-![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%201.03.13%20PM.png?raw=true)
+![](https://github.com/rnlduaeo/alibaba/blob/master/Picture1.png?raw=true)
 
-### 4.1 create a VPC/CEN/CCN
-In this step, the basic network architecture on which the entire service depends is built. 
+### 4.1 GA 인스턴스 생성과 Source Consistent 요청(Ticket)
 
-### 4.1.1 create a VPC
+
+### 4.2
 In this scenario, we need to create 2 VPC.
 |   VPC name       |usage                          |Region     |     Address segment  |
 |----------------|-------------------------------|-----------------------------|----|
@@ -454,7 +454,7 @@ You can compare the upload/download speed while connecting to SAG app and discon
 -   **Bypass the China Great Firewall**: This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access from China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective)
 -   **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different are that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, and you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example [www.qq.com](http://www.qq.com/), baidu.com) over Alibaba backbone network to with accelerated network speed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5Mz
-I0MzgwNCwtMTUyMTQwNjQwNywyNDEwNTc3NTEsNjkyMjE2NzQ0
-LC0yMTA4NjU1Mzc4XX0=
+eyJoaXN0b3J5IjpbMTY1OTcwNDM4OSwxMjM2MzQwMjExLC02MD
+g3NTE3MTIsNDkzMjQzODA0LC0xNTIxNDA2NDA3LDI0MTA1Nzc1
+MSw2OTIyMTY3NDQsLTIxMDg2NTUzNzhdfQ==
 -->
