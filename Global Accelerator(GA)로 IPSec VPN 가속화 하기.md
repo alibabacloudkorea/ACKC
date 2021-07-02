@@ -66,7 +66,7 @@ Endpoint Group 등록 시 Backend Service에는 한국 VPN 장비의 Public IP(S
 [GA 리스너 등록에 대한 자세한 사항](https://www.alibabacloud.com/help/doc-detail/153217.htm?spm=a2c63.l28256.b99.48.68606796n12ytp)은 클릭해서 확인해 주세요.
 
 #### 4.4.2 GA OFF IP 신청
-리스너를 등록하고 난 뒤 티켓을 통해 GA instance-id 전달)GA OFF IP를 신청합니다. GA OFF IP를 전달 받으면 메모해 두고 추 후 AWS Customer Gateway IP로 사용합니다. 
+리스너를 등록하고 난 뒤 티켓을 통해 GA instance-id을 전달하며 GA OFF IP를 신청합니다. GA OFF IP를 전달 받으면 메모해 두고 추 후 AWS Customer Gateway IP로 사용합니다. 
 > Note: 이 단계는 반드시 리스너 등록 후 수행해야 유효한 IP를 전달 받을 수 있습니다. 또한 리스너를 삭제하고 재설정하는 경우 GA OFF IP는 변하기 때문에 재신청해야 합니다. 리스너 수정시에는 GA OFF IP가 유지되기에 재신청할 필요가 없습니다. 
 
 ### 4.5 양 종단의 Customer Gateway 등록
@@ -74,7 +74,7 @@ Endpoint Group 등록 시 Backend Service에는 한국 VPN 장비의 Public IP(S
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.20.40%20PM.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTYyOTE4OCwtMTczMjAzMzgxLDE3OT
+eyJoaXN0b3J5IjpbLTg2OTU4ODAzNywtMTczMjAzMzgxLDE3OT
 k1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcw
 MjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5Ny
 wyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEy
