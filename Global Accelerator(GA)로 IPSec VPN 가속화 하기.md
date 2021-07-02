@@ -131,10 +131,10 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%206.44.09%20PM.png?raw=true)
 
->Note: 만약 Connection이 fail되었다면 [트러블슈팅 가이드](https://www.alibabacloud.com/help/doc-detail/65802.htm?spm=a2c63.l28256.b99.144.123ce889HXDiAH)를 참조하시기 바랍니다.
+>Note: 만약 Connection이 실패되었다면 [트러블슈팅 가이드](https://www.alibabacloud.com/help/doc-detail/65802.htm?spm=a2c63.l28256.b99.144.123ce889HXDiAH)를 참조하시기 바랍니다. 금번 테스트 도중 con
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4MDgyMjQyLC0yNTY2MzQwNjIsNjY1MT
+eyJoaXN0b3J5IjpbOTkxMTAxNjU3LC0yNTY2MzQwNjIsNjY1MT
 cyNDY1LDM2MTI1MTIwOSwtMTg5NjY1ODk2OCw5NTI2ODg4MzYs
 NzAyMzA5OTI0LDIwNDA1OTcxMzksMTkzNTIwMDY3NywtODIzOD
 kwMzU5LC0xNzMyMDMzODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUy
