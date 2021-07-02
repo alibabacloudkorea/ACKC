@@ -126,18 +126,19 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%203.59.12%20PM.png?raw=true)
 
 ### 4.10 IPSec Connection 상태 확인
-설정이 제대로 되었다면 아래와 같이 Alibaba Cloud (상하이) 
+설정이 제대로 되었다면 아래와 같이 Alibaba Cloud (상하이) 와 AWS(서울) 두개의 콘솔에서 모두 IPSec Connection이 정상적으로 연결됨이 확인 될 것입니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%207.06.50%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%206.44.09%20PM.png?raw=true)
 
+>Note: 만약 Connection이 fail되었다면 [트러블슈팅 가이드](https://www.alibabacloud.com/help/doc-detail/65802.htm?spm=a2c63.l28256.b99.144.123ce889HXDiAH)를 참조하시기 바랍니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDEzOTg0MCwtMjU2NjM0MDYyLDY2NT
-E3MjQ2NSwzNjEyNTEyMDksLTE4OTY2NTg5NjgsOTUyNjg4ODM2
-LDcwMjMwOTkyNCwyMDQwNTk3MTM5LDE5MzUyMDA2NzcsLTgyMz
-g5MDM1OSwtMTczMjAzMzgxLDE3OTk1MDM5MzUsLTE4NDgzNDA1
-MjMsLTE3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4NzA2My
-wyMzk5MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMjYz
-NjE3NDc5XX0=
+eyJoaXN0b3J5IjpbMjc4MDgyMjQyLC0yNTY2MzQwNjIsNjY1MT
+cyNDY1LDM2MTI1MTIwOSwtMTg5NjY1ODk2OCw5NTI2ODg4MzYs
+NzAyMzA5OTI0LDIwNDA1OTcxMzksMTkzNTIwMDY3NywtODIzOD
+kwMzU5LC0xNzMyMDMzODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUy
+MywtMTcxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLD
+IzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2
+MTc0NzldfQ==
 -->
