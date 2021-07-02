@@ -31,7 +31,7 @@
 
 
 ## 4. Main steps
-큰 흐름의 단계는 아래와 같습니다. 
+각 단계의 큰 흐름은 아래와 같습니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Picture1.png?raw=true)
 ### 4.1 GA 인스턴스 생성과 Source Consistent 요청(Ticket)
 #### 4.1.1 GA 인스턴스 및 밴드위스 생성
@@ -58,10 +58,10 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLT
-g3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEw
-NDQ5NywyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNT
-YxLDEyMzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1
-MjE0MDY0MDcsMjQxMDU3NzUxLDY5MjIxNjc0NCwtMjEwODY1NT
-M3OF19
+eyJoaXN0b3J5IjpbNTYxNDkzOTI4LC0xODQ4MzQwNTIzLC0xNz
+E0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3ODcwNjMsMjM5OTMy
+NDg1LDE1NTcxMDQ0OTcsMjAyOTM4NTY0OSwtMTI2MzYxNzQ3OS
+wtMTc0NzcxMzU2MSwxMjM2MzQwMjExLC02MDg3NTE3MTIsNDkz
+MjQzODA0LC0xNTIxNDA2NDA3LDI0MTA1Nzc1MSw2OTIyMTY3ND
+QsLTIxMDg2NTUzNzhdfQ==
 -->
