@@ -137,12 +137,13 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 아래는 48시간 동안 mtr report(1초에 1번씩 17280번의 ping 수행)를 걸어놓고 측정한 결과입니다. 인터넷을 통한 VPN은 ping loss가 50%에 육박하며 이는 총 패킷의 절반 가량이 loss되어 타켓 서버에 도달되지 못한 것을 의미합니다. 또한 지연시간 측면에서도 약 2배 가량 개선된 것을 확인할 수 있습니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/compasion2.png?raw=true)
 
+IPSec Connection redundancy로 2개 구성할 경우 설정 가이드에 대해서는 아직 안썼음... 다시 물어봐야함 쩝.. BGP 구성해야함???
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNDc3OTg5LDE3NDcwNTE4NzgsLTI1Nj
-YzNDA2Miw2NjUxNzI0NjUsMzYxMjUxMjA5LC0xODk2NjU4OTY4
-LDk1MjY4ODgzNiw3MDIzMDk5MjQsMjA0MDU5NzEzOSwxOTM1Mj
-AwNjc3LC04MjM4OTAzNTksLTE3MzIwMzM4MSwxNzk5NTAzOTM1
-LC0xODQ4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLT
-E1MDU3ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OTcsMjAyOTM4
-NTY0OV19
+eyJoaXN0b3J5IjpbLTEwNzM5MTUzMiwzMDE0Nzc5ODksMTc0Nz
+A1MTg3OCwtMjU2NjM0MDYyLDY2NTE3MjQ2NSwzNjEyNTEyMDks
+LTE4OTY2NTg5NjgsOTUyNjg4ODM2LDcwMjMwOTkyNCwyMDQwNT
+k3MTM5LDE5MzUyMDA2NzcsLTgyMzg5MDM1OSwtMTczMjAzMzgx
+LDE3OTk1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLT
+g3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEw
+NDQ5N119
 -->
