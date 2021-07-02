@@ -99,21 +99,23 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.05.46%20PM.png?raw=true)
 
 ### [Optional] 4.8 Alibaba IPSec Connection 생성
-#### 4.8.1 IPSec Connection을 생성합니다
+#### 4.8.1 IPSec Connection 생성
+AWS에서 다운로드 받은 configuration file을 가지고 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.08.58%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.07%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.22%20PM.png?raw=true)
 
+#### 4.8.2 Add route entry
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.19.09%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMjUxMjA5LC0xODk2NjU4OTY4LDk1Mj
-Y4ODgzNiw3MDIzMDk5MjQsMjA0MDU5NzEzOSwxOTM1MjAwNjc3
-LC04MjM4OTAzNTksLTE3MzIwMzM4MSwxNzk5NTAzOTM1LC0xOD
-Q4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3
-ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OTcsMjAyOTM4NTY0OS
-wtMTI2MzYxNzQ3OSwtMTc0NzcxMzU2MSwxMjM2MzQwMjExLC02
-MDg3NTE3MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMzI4NjkxNDgsMzYxMjUxMjA5LC0xOD
+k2NjU4OTY4LDk1MjY4ODgzNiw3MDIzMDk5MjQsMjA0MDU5NzEz
+OSwxOTM1MjAwNjc3LC04MjM4OTAzNTksLTE3MzIwMzM4MSwxNz
+k5NTAzOTM1LC0xODQ4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3
+MDIwOTksLTE1MDU3ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OT
+csMjAyOTM4NTY0OSwtMTI2MzYxNzQ3OSwtMTc0NzcxMzU2MSwx
+MjM2MzQwMjExXX0=
 -->
