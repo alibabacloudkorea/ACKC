@@ -86,8 +86,13 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ### [Optional] 4.6 AWS Site-to-Site VPN Connections 생성
 > Note: 고객사 장비로 설정한다면 4.6 ~ 4.8 단계는 각 고객사 장비에 맞게 설정해 주시면 됩니다. 
 
+#### 4.6.1 Site-to-Site VPN Connection을 생성합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.55.21%20PM.png?raw=true)
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.55.33%20PM.png?raw=true)
+
+#### 4.6.2 Route Tables
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.21.07%20PM.png?raw=true)
+
 
 ### [Optional] 4.7 Download Configuration from AWS VPN Connections
 고객사 장비에 맞게 configuration file을 다운로드 합니다. 이번 테스트에서는 Cisco system 장비로 다운로드 받아서 설정 값만 참조하겠습니다. 
@@ -99,12 +104,14 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.22%20PM.png?raw=true)
 
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.19.09%20PM.png?raw=true)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyNjg4ODM2LDcwMjMwOTkyNCwyMDQwNT
-k3MTM5LDE5MzUyMDA2NzcsLTgyMzg5MDM1OSwtMTczMjAzMzgx
-LDE3OTk1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLT
-g3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEw
-NDQ5NywyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNT
-YxLDEyMzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1
-MjE0MDY0MDddfQ==
+eyJoaXN0b3J5IjpbLTgzNDk2MzI2Niw5NTI2ODg4MzYsNzAyMz
+A5OTI0LDIwNDA1OTcxMzksMTkzNTIwMDY3NywtODIzODkwMzU5
+LC0xNzMyMDMzODEsMTc5OTUwMzkzNSwtMTg0ODM0MDUyMywtMT
+cxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1Nzg3MDYzLDIzOTkz
+MjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2NDksLTEyNjM2MTc0Nz
+ksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMSwtNjA4NzUxNzEyLDQ5
+MzI0MzgwNF19
 -->
