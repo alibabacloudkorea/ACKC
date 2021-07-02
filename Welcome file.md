@@ -1,14 +1,10 @@
 
 # SaaS acceleration for Korea: SAG + CEN + GA (for bidirectional, KR to CN and CN to KR)
 
-# 1. background
-Many multinational enterprises use SaaS services deployed overseas, such as Office365 and Salesforce. Due to the poor quality of China domestic visits to overseas sites, the customer experience is badly affected.
+## 1. background
 
-This solution uses smart Access Gateway SAG, CEN and GA1.0 to build an application acceleration service, which can help domestic users in China accelerate access to application systems deployed overseas.
 
-Before the start, you need to check the location of your SaaS service so that you can determine the proxy ECS instance region. If it's not located in Korea, please reach out to Alibaba Cloud Korea sales rep.
-
-# 2. Solution Overview
+## 2. Solution Overview
 ## 2.1 Overview
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-02-16%20at%2011.04.06%20AM.png?raw=true)
 
@@ -461,5 +457,5 @@ You can compare the upload/download speed while connecting to SAG app and discon
 -   **Bypass the China Great Firewall**: This scenario only takes an example of microsoft teams, but you can register the any domains(using wildcard domain) in PrivateZone that you want to access from China. (such as google drive, sites that are forbidden to access from China filtered by China Great Firewall, you can use this scenario to bypass GFW, But I do not know whether it is allowed from China regulation perspective)
 -   **Accelerate network from Korea to China**: You don't need to use GA in this case, you can simply use the combination of 'SAG+CEN(cross-border bandwidth)+Proxy ECS' with same configuration in above sections. Two things different are that you need to add CEN cross border bandwidth to connect Korea to China through Alibaba Cloud backbone network and, and you can skip SNAT setting on the proxy ECS server. In this case, you can access several China sites (for example [www.qq.com](http://www.qq.com/), baidu.com) over Alibaba backbone network to with accelerated network speed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5MTM4NjM0LC0xMTUzNTUyOTk1XX0=
+eyJoaXN0b3J5IjpbLTY5ODc0NjQzNCwtMTE1MzU1Mjk5NV19
 -->
