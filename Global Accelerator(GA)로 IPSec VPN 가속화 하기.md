@@ -81,13 +81,14 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%204.20.40%20PM.png?raw=true)
 
 
-### [Optional]4.6 AWS Site-to-Site VPN Connections 생성
+### [Optional] 4.6 AWS Site-to-Site VPN Connections 생성
 > Note: 고객사 장비로 설정한다면 4.6 ~ 4.8 단계는 각 고객사 장비에 맞게 설정해 주시면 됩니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NTIyNSwtMTczMjAzMzgxLDE3OTk1MD
-M5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcwMjA5
-OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5NywyMD
-I5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEyMzYz
-NDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MDY0MD
-csMjQxMDU3NzUxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
+eyJoaXN0b3J5IjpbLTgyMzg5MDM1OSwtMTczMjAzMzgxLDE3OT
+k1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcw
+MjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEwNDQ5Ny
+wyMDI5Mzg1NjQ5LC0xMjYzNjE3NDc5LC0xNzQ3NzEzNTYxLDEy
+MzYzNDAyMTEsLTYwODc1MTcxMiw0OTMyNDM4MDQsLTE1MjE0MD
+Y0MDcsMjQxMDU3NzUxLDY5MjIxNjc0NCwtMjEwODY1NTM3OF19
+
 -->
