@@ -98,6 +98,8 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 고객사 장비에 맞게 configuration file을 다운로드 합니다. 이번 테스트에서는 Cisco system 장비로 다운로드 받아서 설정 값만 참조하겠습니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.05.46%20PM.png?raw=true)
 
+### [Optional] 4.8 Alibaba IPSec Connection 생성
+#### 4.8.1 IPSec Connection을 생성합니다
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.08.58%20PM.png?raw=true)
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.09.07%20PM.png?raw=true)
@@ -107,11 +109,11 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.19.09%20PM.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTY2NTg5NjgsOTUyNjg4ODM2LDcwMj
-MwOTkyNCwyMDQwNTk3MTM5LDE5MzUyMDA2NzcsLTgyMzg5MDM1
-OSwtMTczMjAzMzgxLDE3OTk1MDM5MzUsLTE4NDgzNDA1MjMsLT
-E3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5
-MzI0ODUsMTU1NzEwNDQ5NywyMDI5Mzg1NjQ5LC0xMjYzNjE3ND
-c5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1MTcxMiw0
-OTMyNDM4MDRdfQ==
+eyJoaXN0b3J5IjpbMzYxMjUxMjA5LC0xODk2NjU4OTY4LDk1Mj
+Y4ODgzNiw3MDIzMDk5MjQsMjA0MDU5NzEzOSwxOTM1MjAwNjc3
+LC04MjM4OTAzNTksLTE3MzIwMzM4MSwxNzk5NTAzOTM1LC0xOD
+Q4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3
+ODcwNjMsMjM5OTMyNDg1LDE1NTcxMDQ0OTcsMjAyOTM4NTY0OS
+wtMTI2MzYxNzQ3OSwtMTc0NzcxMzU2MSwxMjM2MzQwMjExLC02
+MDg3NTE3MTJdfQ==
 -->
