@@ -40,7 +40,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 |GA Instance Type|Basic Bandwidth Type|Cross Border Acceleration |
 |---|---|---|
 |Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|구매|
-
+[GA 인스턴스 구매]
 
 
 ### 4.2 GA 리스너 설정
@@ -52,8 +52,8 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 ### 4.5 연결 확인 및 속도/성능 확인
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTM4NTY0OSwtMTI2MzYxNzQ3OSwtMT
-c0NzcxMzU2MSwxMjM2MzQwMjExLC02MDg3NTE3MTIsNDkzMjQz
-ODA0LC0xNTIxNDA2NDA3LDI0MTA1Nzc1MSw2OTIyMTY3NDQsLT
-IxMDg2NTUzNzhdfQ==
+eyJoaXN0b3J5IjpbLTQ2NDE4ODQxMSwyMDI5Mzg1NjQ5LC0xMj
+YzNjE3NDc5LC0xNzQ3NzEzNTYxLDEyMzYzNDAyMTEsLTYwODc1
+MTcxMiw0OTMyNDM4MDQsLTE1MjE0MDY0MDcsMjQxMDU3NzUxLD
+Y5MjIxNjc0NCwtMjEwODY1NTM3OF19
 -->
