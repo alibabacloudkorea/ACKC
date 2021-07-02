@@ -66,12 +66,13 @@ Endpoint Group 등록 시 Backend Service에는 한국 VPN 장비의 Public IP(S
 [GA 리스너 등록에 대한 자세한 사항](https://www.alibabacloud.com/help/doc-detail/153217.htm?spm=a2c63.l28256.b99.48.68606796n12ytp)은 클릭해서 확인해 주세요.
 
 #### 4.4.2 GA OFF IP 신청
-
+리스너를 등록하고 난 뒤 티켓을 통해 GA OFF IP를 신청합니다. 
+> Note: 이 단계는 반드시 리스너 등록 후 수행해야 유효한 IP를 전달 받을 수 있습니다. 또한 리스너를 삭제하고 재설정하는 경우 GA OFF IP는 변하기 때문에 재신청해야 합니다. 리스너 수정시에는 GA OFF IP가 유지됩
 
 ### 4.5 연결 확인 및 속도/성능 확인
 If you delete all listener confgiration and reconfigure it ,the ga endpoint ip will be changed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAwMjA4MjEsMTc5OTUwMzkzNSwtMT
+eyJoaXN0b3J5IjpbLTE4NDk3NDE2MTYsMTc5OTUwMzkzNSwtMT
 g0ODM0MDUyMywtMTcxNDgwNjU1NSwtODc0NzAyMDk5LC0xNTA1
 Nzg3MDYzLDIzOTkzMjQ4NSwxNTU3MTA0NDk3LDIwMjkzODU2ND
 ksLTEyNjM2MTc0NzksLTE3NDc3MTM1NjEsMTIzNjM0MDIxMSwt
