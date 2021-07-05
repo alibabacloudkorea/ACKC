@@ -95,7 +95,10 @@ AWS 환경에  Alibaba Cloud로  연결될  Customer Gateway를  생성합니다
 - Remote IPv4 Network Cidr(중요) : 4.4 단계에서  생성된  AWS의  VPC환경  Cidr 입력
 
 - Tunnel Option : 기본  값  사용
->
+> AWS 환경에서  의미하는 Local은  Local Data Center를  의미하며  Remote는  원격지  Data Center를  의미합니다. 즉, 현재  환경에서  AWS Site에서의  Local은  Alibaba Cloud를  의미하여  Remote는  AWS를  의미합니다.
+
+![Screen Shot 2021-07-05 at 5 57 03 PM](https://user-images.githubusercontent.com/34003729/124445366-73b79a00-ddba-11eb-9543-2257f3d039ee.png)
+
 
 ## Delete a file
 
@@ -221,8 +224,8 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODE3NTM0LC04NDY0NTMwNDYsLTE1OT
-c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
-NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
-E0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NDMzNDQ0MzYsLTg0NjQ1MzA0NiwtMT
+U5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5
+NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMz
+ksMTQxMTI0ODU1NV19
 -->
