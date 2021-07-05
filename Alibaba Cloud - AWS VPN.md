@@ -99,6 +99,11 @@ AWS 환경에  Alibaba Cloud로  연결될  Customer Gateway를  생성합니다
 
 ![Screen Shot 2021-07-05 at 5 57 03 PM](https://user-images.githubusercontent.com/34003729/124445366-73b79a00-ddba-11eb-9543-2257f3d039ee.png)
 
+### 4.9 VPN Connection 확인
+생성된  VPN Connection의  Tunnel Details 정보를  확인합니다. 생성된  Tunnel 1, 2의  Outside IP Address를  메모합니다.
+> AWS의  Site to Site VPN Connection은  기본적으로  HA를  위한  옵션으로  터널을  두개  생성합니다. 우리는  본  환경에서  두개의  Tunnel을  연결하기  위해  Alibaba Cloud 환경에  Customer Gateway를  두개  생성해야  합니다.
+
+
 
 ## Delete a file
 
@@ -224,8 +229,8 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDMzNDQ0MzYsLTg0NjQ1MzA0NiwtMT
-U5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5
-NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMz
-ksMTQxMTI0ODU1NV19
+eyJoaXN0b3J5IjpbMTQwNTk5Mzg2OCwtODQ2NDUzMDQ2LC0xNT
+k3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAyNzEzOSwtODU4NTk0
+NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NTUsLTMwOTAyNzEzOS
+wxNDExMjQ4NTU1XX0=
 -->
