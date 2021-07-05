@@ -2,9 +2,7 @@
 # Alibaba Cloud VPC와 AWS VPC를 VPN으로 연결하기 (IPsec VPN Connection / Site-to-site VPN Connection)
 
 
-# 1. 배경 설명
-
-<![endif]-->
+## 1. 배경 설명
 
 많은  기업들은  목적에  따라  다양한  종류의  Public Cloud를  사용하고  있습니다.
 
@@ -12,11 +10,11 @@
 
 본  시나리오는  고객이  이기종의  Cloud 환경을  안전하게  연결할  수  있는  VPN Connection에  대한  내용을  담았습니다.
 
-특히  Alibaba Cloud의  고객  중  케이스가  많은  중국의  Alibaba Cloud VPC – 한국의  AWS VPC를  연결하는  시나리오에  대해서  해당  내용을  참조할  수  있습니다.
+특히  Alibaba Cloud의  고객  중  케이스가  많은  **중국의  Alibaba Cloud VPC – 한국의  AWS VPC를  연결하는  시나리오**에  대해서  해당  내용을  참조할  수  있습니다.
 
-## Create files and folders
+## 2. Solution Overview
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+예시  환경은  중국  Shanghai Region의  Alibaba Cloud VPC 환경과  한국  Central Region의  AWS VPC환경을  VPN 으로  연결합니다.
 
 ## Switch to another file
 
@@ -150,7 +148,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MDQ1OTE3LC0zMDkwMjcxMzksLTg1OD
-U5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcx
-MzksMTQxMTI0ODU1NV19
+eyJoaXN0b3J5IjpbMTUyODU5NjQ1MiwtMzA5MDI3MTM5LC04NT
+g1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3
+MTM5LDE0MTEyNDg1NTVdfQ==
 -->
