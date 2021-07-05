@@ -16,9 +16,14 @@
 
 예시  환경은  중국  Shanghai Region의  Alibaba Cloud VPC 환경과  한국  Central Region의  AWS VPC환경을  VPN (IPsec VPN Connection / Site-to-site VPN Connection) 으로  연결합니다.
 
-## Switch to another file
+<img width="648" alt="Screen Shot 2021-07-05 at 5 30 22 PM" src="https://user-images.githubusercontent.com/34003729/124441562-c2633500-ddb6-11eb-914f-d67b95f679cc.png">
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+
+## 3. 사전  조건
+
+- Alibaba Cloud VPN Gateway ([https://www.alibabacloud.com/help/doc-detail/64960.htm?spm=a2c63.l28256.b99.5.5d6ae889hLNiHt](https://www.alibabacloud.com/help/doc-detail/64960.htm?spm=a2c63.l28256.b99.5.5d6ae889hLNiHt))
+
+- AWS Virtual Private Gateway ([https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html))
 
 ## Rename a file
 
@@ -148,7 +153,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NT
-g1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3
-MTM5LDE0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbMTU4NjM0MDcyNiwtMjU4MjkyNzE1LC0zMD
+kwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4
+NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
 -->
