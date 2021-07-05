@@ -29,6 +29,9 @@
 ## 4. Main Steps
 
 **[Alibaba Cloud Side]**
+### 4.1 VPC 생성
+VPC를  생성합니다. 사용할  이름과  IPv4 CIDR Block을  설정합니다.
+> VPC는  퍼블릭  클라우드에서  사용할  전용  가상  네트워크입니다. 설정된  IPv4 CIDR Block은  Private Network으로  사용할  구간으로  이해할  수  있습니다.
 
 
 ## Delete a file
@@ -155,7 +158,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjEzNzQyNiwtMjU4MjkyNzE1LC0zMD
-kwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4
-NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
+eyJoaXN0b3J5IjpbLTE1OTc0NDYxMDQsLTI1ODI5MjcxNSwtMz
+A5MDI3MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0
+ODU1NSwtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
 -->
