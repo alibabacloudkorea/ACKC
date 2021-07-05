@@ -119,8 +119,12 @@ AWS VPN에  연결을  위한  Customer Gateway를  **2개**  생성합니다. �
 - IP Address : 4.9에서  메모한  각  Tunnel 1 / 2의  Outside IP Address 입력
 - ASN : 4.6에서  메모한  AWS 환경의  ASN 입력
 
+![Screen Shot 2021-07-05 at 6 05 03 PM](https://user-images.githubusercontent.com/34003729/124446625-8ed6d980-ddbb-11eb-8b76-dcd86224225b.png)
+
+### 4.13 IPsec VPN Connection *2개* 생성
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNTE0NzU5LC04NDY0NTMwNDYsLTE1OT
+eyJoaXN0b3J5IjpbNjUwMzQ5ODIyLC04NDY0NTMwNDYsLTE1OT
 c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
 NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
 E0MTEyNDg1NTVdfQ==
