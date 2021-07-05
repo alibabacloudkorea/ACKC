@@ -144,11 +144,9 @@ C --> D
 ```
 
 
-![enter image description here](https://github.com/Jason-Jongjin-Lim/Alibaba-Cloud-Korea/blob/master/Alibaba-AWS-VPN/Screen%20Shot%202021-07-02%20at%204.55.05%20PM.png)
-
-
+<img width="1440" alt="Screen Shot 2021-07-05 at 10 40 22 AM" src="https://user-images.githubusercontent.com/34003729/124407018-d63e7500-dd7d-11eb-90c3-fdea50c5b9a5.png">
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMz
-A5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTkwMzE4ODQzNywtMjAzMTEyMjY3OSwxND
+ExMjQ4NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
 -->
