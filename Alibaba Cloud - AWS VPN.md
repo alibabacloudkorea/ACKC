@@ -145,9 +145,18 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 ![Screen Shot 2021-07-05 at 6 08 23 PM](https://user-images.githubusercontent.com/34003729/124447132-0b69b800-ddbc-11eb-8476-87267fbcd9a6.png)
 ![Screen Shot 2021-07-05 at 6 08 39 PM](https://user-images.githubusercontent.com/34003729/124447181-16244d00-ddbc-11eb-82b8-5b902e3397a2.png)
 
+### 4.14 연결 확인
+연결을  기다린  후, Alibaba Cloud와  AWS 양쪽에서  정상적으로  연결이  된  것을  확인합니다.
+
+*[Alibaba Cloud Side] – 2개의  Connection에  대한  Phase 2 of IKE Tunnel Negotiation Succeeded 확인*
+<img width="853" alt="Screen Shot 2021-07-05 at 6 10 35 PM" src="https://user-images.githubusercontent.com/34003729/124447420-4f5cbd00-ddbc-11eb-94c5-b20690f4c089.png">
+
+
+*[AWS Side] – Site-to-Site VPN Connection > VPN 선택  > Tunnel Details에서  두개의  터널  모두  UP으로  활성화  확인*
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNDEyMjQ3LC04NDY0NTMwNDYsLTE1OT
+eyJoaXN0b3J5IjpbLTU1ODQ2MTkxLC04NDY0NTMwNDYsLTE1OT
 c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
 NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
 E0MTEyNDg1NTVdfQ==
