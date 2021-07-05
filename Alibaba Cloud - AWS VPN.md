@@ -81,19 +81,12 @@ AWS 환경에  Alibaba Cloud로  연결될  Customer Gateway를  생성합니다
 <![endif]-->
 
 - Name tag : 사용할  VPN Connection 이름  입력
-
 - Virtual Private Gateway : 4.5단계에서  생성한  VPG 선택
-
 - Customer Gateway : 4.7 단계에서  생성한  Customer Gateway 선택
-
 - Routing Options : Dynamic (requires BGP)
-
 - Tunnel Inside Ip Version : IPv4
-
 - Local IPv4 Network Cidr(중요) : 4.1 단계에서  생성한  Alibaba Cloud의  VPC 환경  Cidr 입력
-
 - Remote IPv4 Network Cidr(중요) : 4.4 단계에서  생성된  AWS의  VPC환경  Cidr 입력
-
 - Tunnel Option : 기본  값  사용
 > AWS 환경에서  의미하는 Local은  Local Data Center를  의미하며  Remote는  원격지  Data Center를  의미합니다. 즉, 현재  환경에서  AWS Site에서의  Local은  Alibaba Cloud를  의미하여  Remote는  AWS를  의미합니다.
 
@@ -114,15 +107,21 @@ VPN Connection 화면에서  Download Configuration을  선택합니다. 나오�
 ### 4.11 Route Propagation 설정
 Alibaba Cloud설정으로  넘어가기  전, AWS에  내부  네트워크에  자동  라우팅을  위한  경로  전파  활성화가  필요합니다. [VPC > Route tables > route table 선택 > Route propagation > Edit route propagation > 활성화] 작업을  수행합니다.
 
-
+<img width="872" alt="Screen Shot 2021-07-05 at 6 02 54 PM" src="https://user-images.githubusercontent.com/34003729/124446275-3e5f7c00-ddbb-11eb-8567-3101ed654928.png">
 
 
 **[Alibaba Cloud Side]**
 *본  단계에서부터  Alibaba Cloud의  IPsec Connection을  설정합니다.*
 
+### 4.12 Customer Gateway *2개* 생성
+AWS VPN에  연결을  위한  Customer Gateway를  **2개**  생성합니다. 내용은  아래  내용을  참조할  수  있습니다.
+- Name : AWS VPN Connection의  각  Tunnel 1 / 2와  연결할  이름  입력
+- IP Address : 4.9에서  메모한  각  Tunnel 1 / 2의  Outside IP Address 입력
+- ASN : 4.6에서  메모한  AWS 환경의  ASN 입력
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzU4OTE2NywtODQ2NDUzMDQ2LC0xNT
-k3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAyNzEzOSwtODU4NTk0
-NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NTUsLTMwOTAyNzEzOS
-wxNDExMjQ4NTU1XX0=
+eyJoaXN0b3J5IjpbODQzNTE0NzU5LC04NDY0NTMwNDYsLTE1OT
+c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
+NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
+E0MTEyNDg1NTVdfQ==
 -->
