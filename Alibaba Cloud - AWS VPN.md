@@ -168,10 +168,19 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 <img width="830" alt="Screen Shot 2021-07-05 at 6 13 33 PM" src="https://user-images.githubusercontent.com/34003729/124447831-baa68f00-ddbc-11eb-9751-d6d302deec1f.png">
 
 ## 5.2 연결 테스트
+정상적으로  연결된  Alibaba Cloud VPC, AWS VPC 환경에  각각  ECS / EC2를  생성하고  Security Group에서  ICMP를  Allow한  후  Private IP로  Ping 테스트를  진행합니다.
 
+<img width="870" alt="Screen Shot 2021-07-05 at 6 14 33 PM" src="https://user-images.githubusercontent.com/34003729/124447949-dd38a800-ddbc-11eb-99c7-59bc52dc650f.png">
+
+양방향  모두  정상적으로  Private 통신이  가능함을  확인할  수  있습니다. 하지만  해당  시나리오는  한-중간  통신이라는  조건으로  많은  Packet Loss와  Delay가  발생됨을  확인할  수  있습니다.
+
+# 마치며..
+<![endif]-->
+
+다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud GA])를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3MzM5NzY2LC04NDY0NTMwNDYsLTE1OT
-c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
-NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
-E0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NzcwNjM2ODQsLTg0NjQ1MzA0NiwtMT
+U5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5
+NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMz
+ksMTQxMTI0ODU1NV19
 -->
