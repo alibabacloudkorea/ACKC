@@ -33,6 +33,13 @@
 VPC를  생성합니다. 사용할  이름과  IPv4 CIDR Block을  설정합니다.
 > VPC는  퍼블릭  클라우드에서  사용할  전용  가상  네트워크입니다. 설정된  IPv4 CIDR Block은  Private Network으로  사용할  구간으로  이해할  수  있습니다.
 
+<img width="691" alt="Screen Shot 2021-07-05 at 5 39 07 PM" src="https://user-images.githubusercontent.com/34003729/124442672-effcae00-ddb7-11eb-9e63-88d6a38313d9.png">
+
+### 4.2 VPN 생성
+VPN Gateway를  구매합니다. 본  시나리오에서는  Shanghai Region에  생성했습니다.
+> VPN은  Site to Site환경에서  통신  내용을  바깥  사람에게  드러내지  않고  통신할  목적으로  쓰이는  사설  통신망입니다. 이  환경에서  VPN Gateway는  Alibaba Cloud VPC 환경에  들어올  문으로  이해할  수  있습니다.
+
+
 
 ## Delete a file
 
@@ -158,7 +165,8 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc0NDYxMDQsLTI1ODI5MjcxNSwtMz
-A5MDI3MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0
-ODU1NSwtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTI2ODg5MjcxNCwtMTU5NzQ0NjEwNCwtMj
+U4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEy
+MjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV
+19
 -->
