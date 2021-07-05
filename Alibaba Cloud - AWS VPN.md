@@ -19,11 +19,12 @@
 <img width="648" alt="Screen Shot 2021-07-05 at 5 30 22 PM" src="https://user-images.githubusercontent.com/34003729/124441562-c2633500-ddb6-11eb-914f-d67b95f679cc.png">
 
 
-## 3. 사전  조건
+## 3. 사전  준비
 
-- Alibaba Cloud VPN Gateway ([https://www.alibabacloud.com/help/doc-detail/64960.htm?spm=a2c63.l28256.b99.5.5d6ae889hLNiHt](https://www.alibabacloud.com/help/doc-detail/64960.htm?spm=a2c63.l28256.b99.5.5d6ae889hLNiHt))
+- [Alibaba Cloud VPN Gateway](https://www.alibabacloud.com/help/doc-detail/64960.htm?spm=a2c63.l28256.b99.5.5d6ae889hLNiHt)
 
-- AWS Virtual Private Gateway ([https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html))
+- [AWS Virtual Private Gateway](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html)
+
 
 ## Rename a file
 
@@ -153,7 +154,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjM0MDcyNiwtMjU4MjkyNzE1LC0zMD
-kwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4
-NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
+eyJoaXN0b3J5IjpbLTUyNDQ5MzQ0LC0yNTgyOTI3MTUsLTMwOT
+AyNzEzOSwtODU4NTk0NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1
+NTUsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX0=
 -->
