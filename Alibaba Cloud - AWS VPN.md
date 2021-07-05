@@ -50,8 +50,11 @@ VPN Gateway를  구매합니다. 본  시나리오에서는  Shanghai Region에 
 **[AWS Side]**
 *Alibaba Cloud에  Customer Gateway를  생성하기  전, Alibaba의  VPC에  연결될  환경인  AWS에  Virtual Private Gateway(Alibaba Cloud의  VPN Gateway와  같은  개념)를  생성해야  합니다.*
 
-### 4.4
+### 4.4 VPC 생성
+Alibaba Cloud와  VPN으로  연결될  환경인  AWS에  VPC를  생성합니다. 생성된  VPC 정보에서  CIDR 정보를  메모합니다.
+> 메모된  CIDR은  각  VPN Connection 설정  시  사용됩니다.
 
+<img width="874" alt="Screen Shot 2021-07-05 at 5 46 29 PM" src="https://user-images.githubusercontent.com/34003729/124443809-f50e2d00-ddb8-11eb-8948-e7b990cdc6e5.png">
 
 
 
@@ -181,7 +184,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTgwODY5NTIsLTE1OTc0NDYxMDQsLT
+eyJoaXN0b3J5IjpbLTEwODMwNjc4ODEsLTE1OTc0NDYxMDQsLT
 I1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3NjQsLTIwMzEx
 MjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LDE0MTEyNDg1NT
 VdfQ==
