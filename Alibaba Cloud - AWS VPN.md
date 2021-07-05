@@ -68,6 +68,10 @@ Virtual Private Gateway를  생성합니다. 해당  시나리오에서는  AWS�
 
 <img width="736" alt="Screen Shot 2021-07-05 at 5 49 46 PM" src="https://user-images.githubusercontent.com/34003729/124444300-6948d080-ddb9-11eb-8237-73738a98ae12.png">
 
+### 4.7 Customer Gateway 생성
+AWS 환경에  Alibaba Cloud로  연결될  Customer Gateway를  생성합니다. 본  환경에서는  BGP를  사용할  것이므로  Routing은  Dynamic을  설정해줍니다. 
+-  IP Address : 4.3단계에서  메모한  Alibaba Cloud의  VPN Gateway IP를  입력합니다.
+- BGP ASN : Alibaba Cloud BGP ASN의  기본  값인  45104으로  설정합니다. 추후  Alibaba Cloud VPN에서  IPsec Peering 설정  시  나오는  값으로  수정할  수  있습니다.
 
 ## Delete a file
 
@@ -193,7 +197,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjEzMTM3NSwtMTU5NzQ0NjEwNCwtMj
+eyJoaXN0b3J5IjpbMTI4NjU4MzE3NiwtMTU5NzQ0NjEwNCwtMj
 U4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEy
 MjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV
 19
