@@ -45,6 +45,16 @@ VPN Gateway를  구매합니다. 본  시나리오에서는  Shanghai Region에 
 생성된  VPN Gateway의  Name을  설정합니다. 또한  VPN Gateway의  IP Address를  메모합니다.
 > 이  IP Address는  VPN으로  연결될  AWS의  Customer Gateway에  설정됩니다.
 
+<img width="882" alt="Screen Shot 2021-07-05 at 5 43 36 PM" src="https://user-images.githubusercontent.com/34003729/124443329-8cbf4b80-ddb8-11eb-8f91-4d20672c00b7.png">
+
+**[AWS Side]**
+*Alibaba Cloud에  Customer Gateway를  생성하기  전, Alibaba의  VPC에  연결될  환경인  AWS에  Virtual Private Gateway(Alibaba Cloud의  VPN Gateway와  같은  개념)를  생성해야  합니다.*
+
+### 4.4
+
+
+
+
 
 
 ## Delete a file
@@ -171,8 +181,8 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzIyODEzOCwtMTU5NzQ0NjEwNCwtMj
-U4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEy
-MjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV
-19
+eyJoaXN0b3J5IjpbLTE3NTgwODY5NTIsLTE1OTc0NDYxMDQsLT
+I1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3NjQsLTIwMzEx
+MjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LDE0MTEyNDg1NT
+VdfQ==
 -->
