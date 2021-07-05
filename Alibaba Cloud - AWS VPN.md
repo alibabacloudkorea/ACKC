@@ -175,11 +175,10 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 양방향  모두  정상적으로  Private 통신이  가능함을  확인할  수  있습니다. 하지만  해당  시나리오는  한-중간  통신이라는  조건으로  많은  Packet Loss와  Delay가  발생됨을  확인할  수  있습니다.
 
 # 마치며..
-<![endif]-->
 
-다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud GA])를  연동한  내용을  확인하실  수  있습니다.
+다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzcwNjM2ODQsLTg0NjQ1MzA0NiwtMT
+eyJoaXN0b3J5IjpbLTE2ODU1MzI3NjIsLTg0NjQ1MzA0NiwtMT
 U5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5
 NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMz
 ksMTQxMTI0ODU1NV19
