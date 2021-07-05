@@ -26,9 +26,10 @@
 - [AWS Virtual Private Gateway](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html)
 
 
-## Rename a file
+## 4. Main Steps
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+**[Alibaba Cloud Side]**
+
 
 ## Delete a file
 
@@ -154,7 +155,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDQ5MzQ0LC0yNTgyOTI3MTUsLTMwOT
-AyNzEzOSwtODU4NTk0NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1
-NTUsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX0=
+eyJoaXN0b3J5IjpbLTc2MjEzNzQyNiwtMjU4MjkyNzE1LC0zMD
+kwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4
+NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
 -->
