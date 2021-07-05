@@ -153,11 +153,16 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 
 
 *[AWS Side] – Site-to-Site VPN Connection > VPN 선택  > Tunnel Details에서  두개의  터널  모두  UP으로  활성화  확인*
+<img width="737" alt="Screen Shot 2021-07-05 at 6 11 13 PM" src="https://user-images.githubusercontent.com/34003729/124447505-656a7d80-ddbc-11eb-902a-901da0726632.png">
 
 
+## 5. 결과
+
+### 5.1 트러블 슈팅
+연결을  시도했을  시  아래와  같이  Phase 1,2 of connection Fail 혹은  BGP : error 등의  붉은색  문구가  나오면  설정  문제로  연결이  실패했다는  뜻입니다. 우리는  해당  문제를Alibaba Cloud 사이트의  [FAQ](https://www.alibabacloud.com/help/doc-detail/65802.htm)를  통해  해결할  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODQ2MTkxLC04NDY0NTMwNDYsLTE1OT
-c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
-NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
-E0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQyMDE1NjMsLTg0NjQ1MzA0NiwtMT
+U5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5
+NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMz
+ksMTQxMTI0ODU1NV19
 -->
