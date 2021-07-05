@@ -41,7 +41,11 @@ VPN Gateway를  구매합니다. 본  시나리오에서는  Shanghai Region에 
 
 <img width="862" alt="Screen Shot 2021-07-05 at 5 41 08 PM" src="https://user-images.githubusercontent.com/34003729/124442991-3fdb7500-ddb8-11eb-95e7-383d346d9add.png">
 
-### 
+### 4.3 VPN Gateway 설정
+생성된  VPN Gateway의  Name을  설정합니다. 또한  VPN Gateway의  IP Address를  메모합니다.
+> 이  IP Address는  VPN으로  연결될  AWS의  Customer Gateway에  설정됩니다.
+
+
 
 ## Delete a file
 
@@ -167,7 +171,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Mzk2NDI1NywtMTU5NzQ0NjEwNCwtMj
+eyJoaXN0b3J5IjpbMTU1MzIyODEzOCwtMTU5NzQ0NjEwNCwtMj
 U4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5NDc2NCwtMjAzMTEy
 MjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV
 19
