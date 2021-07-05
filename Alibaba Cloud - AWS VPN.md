@@ -14,7 +14,7 @@
 
 ## 2. Solution Overview
 
-예시  환경은  중국  Shanghai Region의  Alibaba Cloud VPC 환경과  한국  Central Region의  AWS VPC환경을  VPN 으로  연결합니다.
+예시  환경은  중국  Shanghai Region의  Alibaba Cloud VPC 환경과  한국  Central Region의  AWS VPC환경을  VPN (IPsec VPN Connection / Site-to-site VPN Connection) 으로  연결합니다.
 
 ## Switch to another file
 
@@ -148,7 +148,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODU5NjQ1MiwtMzA5MDI3MTM5LC04NT
+eyJoaXN0b3J5IjpbLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NT
 g1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3
 MTM5LDE0MTEyNDg1NTVdfQ==
 -->
