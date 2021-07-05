@@ -142,10 +142,13 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 - Local BGP IP Address : 위의  Block으로  입력된  xxx.xxx.xxx.xxx의  마지막  주소에  +1하여  입력  (스크린샷  예시  참조)
 - Local ASN : 기본  값  사용  (해당  값으로  4.7 단계의  ASN과  싱크)
 
+![Screen Shot 2021-07-05 at 6 08 23 PM](https://user-images.githubusercontent.com/34003729/124447132-0b69b800-ddbc-11eb-8476-87267fbcd9a6.png)
+![Screen Shot 2021-07-05 at 6 08 39 PM](https://user-images.githubusercontent.com/34003729/124447181-16244d00-ddbc-11eb-82b8-5b902e3397a2.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzU5MTAwMiwtODQ2NDUzMDQ2LC0xNT
-k3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAyNzEzOSwtODU4NTk0
-NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NTUsLTMwOTAyNzEzOS
-wxNDExMjQ4NTU1XX0=
+eyJoaXN0b3J5IjpbNjgwNDEyMjQ3LC04NDY0NTMwNDYsLTE1OT
+c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
+NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
+E0MTEyNDg1NTVdfQ==
 -->
