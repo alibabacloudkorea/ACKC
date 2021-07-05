@@ -56,8 +56,10 @@ Alibaba Cloud와  VPN으로  연결될  환경인  AWS에  VPC를  생성합니�
 
 <img width="874" alt="Screen Shot 2021-07-05 at 5 46 29 PM" src="https://user-images.githubusercontent.com/34003729/124443809-f50e2d00-ddb8-11eb-8948-e7b990cdc6e5.png">
 
-
-
+### 4.5 Virtual Private Gateway 생성
+Virtual Private Gateway를  생성합니다. 해당  시나리오에서는  AWS에서  기본으로  설정될  ASN을  사용하기  때문에  별도  ASN을  설정할  필요는  없습니다.
+> AWS의  Virtual Private Gateway는  AWS의  VPC환경에 VPN으로  접속될  Gate 의  역할을  합니다. ASN은  각기  다른  오퍼레이터가  관리하는  IP 서브넷을  식별하기  위해  고유하게  부여된  번호입니다.
+<img width="871" alt="Screen Shot 2021-07-05 at 5 48 14 PM" src="https://user-images.githubusercontent.com/34003729/124444077-3272ba80-ddb9-11eb-90b4-4253d409698f.png">
 
 
 ## Delete a file
@@ -184,8 +186,8 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMwNjc4ODEsLTE1OTc0NDYxMDQsLT
-I1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3NjQsLTIwMzEx
-MjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LDE0MTEyNDg1NT
-VdfQ==
+eyJoaXN0b3J5IjpbNDIwNjA2MjI2LC0xNTk3NDQ2MTA0LC0yNT
+gyOTI3MTUsLTMwOTAyNzEzOSwtODU4NTk0NzY0LC0yMDMxMTIy
+Njc5LDE0MTEyNDg1NTUsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX
+0=
 -->
