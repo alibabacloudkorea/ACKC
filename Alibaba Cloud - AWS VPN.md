@@ -109,6 +109,9 @@ AWS 환경에  Alibaba Cloud로  연결될  Customer Gateway를  생성합니다
 VPN Connection 화면에서  Download Configuration을  선택합니다. 나오는  팝업창에서는  구분이  쉬운  CISCO Configuration를  다운로드합니다.
 > AWS에서는  VPN Connection 정보  확인을  위한  Configuration을  제공합니다. 본  시나리오에서는  해당  정보를  이용해  Alibaba Cloud IPsec Connection 설정을  쉽게  찾을  수  있습니다.
 
+<img width="875" alt="Screen Shot 2021-07-05 at 6 00 54 PM" src="https://user-images.githubusercontent.com/34003729/124445959-f6d8f000-ddba-11eb-88dc-39a5fe0e5939.png">
+
+
 
 ## Delete a file
 
@@ -234,7 +237,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTM4MTY1NiwtODQ2NDUzMDQ2LC0xNT
+eyJoaXN0b3J5IjpbLTkwMzM1NDkzNiwtODQ2NDUzMDQ2LC0xNT
 k3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAyNzEzOSwtODU4NTk0
 NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NTUsLTMwOTAyNzEzOS
 wxNDExMjQ4NTU1XX0=
