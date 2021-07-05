@@ -122,10 +122,30 @@ AWS VPN에  연결을  위한  Customer Gateway를  **2개**  생성합니다. �
 ![Screen Shot 2021-07-05 at 6 05 03 PM](https://user-images.githubusercontent.com/34003729/124446625-8ed6d980-ddbb-11eb-8b76-dcd86224225b.png)
 
 ### 4.13 IPsec VPN Connection *2개* 생성
+Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개**  생성합니다. 본  단계에서  필요한  내용들은  4.10에서  다운로드  받은  Configuration File에서  쉽게  참조할  수  있습니다.
+> 전  단계에서  언급했듯이, AWS는  Site to Site VPN Connection을  생성하면  2개의  터널이  생성되는  메카니즘을  지니고  있습니다. 하지만  Alibaba Cloud는  기본적으로  한개의  터널로  VPN Connection을  생성하여  AWS와  연결을  위해서는  두개의  IPsec VPN Connection을  생성해야  합니다.
+
+> 본  내용에서  Local Network/Remote Network은  AWS와  반대의  개념을  지니고  있습니다. Local Network은  Alibaba Cloud의  VPC를  의미하며  Remote Network은  Alibaba Cloud VPC와  연결될  원격지  즉, AWS의  VPC를  의미합니다.
+
+- Name : 각Tunnel 1 / 2 연결을  위한  IPsec Connection 이름  입력
+- VPN Gateway : 4.3에서  설정한  VPN Gateway 선택
+- Customer Gateway : 4.12에서  생성한  각  Tunnel 1 / 2 연결을  위한  Customer Gateway 선택
+- Routing Mode : Protected Data Flow 선택
+- Local Network(중요) : 4.1에서  생성한  Alibaba Cloud VPC CIDR 입력
+- Remote Network(중요) : 4.4에서  메모한  AWS VPC CIDR 입력
+- Effective Immediately : YES
+- Pre-shared Key : 4.10에서  다운받은  Configuration File에서  Pre-shared Key 검색하여  입력
+- IKE / IPsec Configuration : 4.10에서  다운받은  Configuration 참조하여  각  항목  입력
+- DPD, NAT Traversal : 활성화
+- BGP Configuration : 활성화
+- Tunnel CIDR Block : AWS VPN에  설정된  Tunnel 1 / 2의  Local CIDR 입력
+- Local BGP IP Address : 위의  Block으로  입력된  xxx.xxx.xxx.xxx의  마지막  주소에  +1하여  입력  (스크린샷  예시  참조)
+- Local ASN : 기본  값  사용  (해당  값으로  4.7 단계의  ASN과  싱크)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMzQ5ODIyLC04NDY0NTMwNDYsLTE1OT
-c0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3
-NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LD
-E0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTYwNzU5MTAwMiwtODQ2NDUzMDQ2LC0xNT
+k3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAyNzEzOSwtODU4NTk0
+NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NTUsLTMwOTAyNzEzOS
+wxNDExMjQ4NTU1XX0=
 -->
