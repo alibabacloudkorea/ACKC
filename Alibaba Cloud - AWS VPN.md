@@ -143,7 +143,7 @@ B --> D{Rhombus}
 C --> D
 ```
 
-
+![image입니다](https://drive.google.com/file/d/15jEwdBfBahYE6YPwTq3_qFaL2iziA22k/view?usp=sharing)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTI0ODU1NV19
+eyJoaXN0b3J5IjpbNzE0MjMxMTU5LDE0MTEyNDg1NTVdfQ==
 -->
