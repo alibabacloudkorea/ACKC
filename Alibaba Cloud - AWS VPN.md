@@ -143,9 +143,10 @@ B --> D{Rhombus}
 C --> D
 ```
 
+<img width="1440" alt="Screen Shot 2021-07-02 at 4 55 05 PM" src="https://user-images.githubusercontent.com/34003729/124407148-287f9600-dd7e-11eb-842a-32db2b647af7.png">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzc4MTUyOSwtMjAzMTEyMjY3OSwxND
+eyJoaXN0b3J5IjpbLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxND
 ExMjQ4NTU1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
 -->
