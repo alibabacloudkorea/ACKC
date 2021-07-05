@@ -1,12 +1,18 @@
 
-# Alibaba Cloud VPC와 AWS VPC를 VPN Connection으로 연결하기
-
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+# Alibaba Cloud VPC와 AWS VPC를 VPN으로 연결하기 (IPsec VPN Connection / Site-to-site VPN Connection)
 
 
-# Files
+# 1. 배경 설명
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+<![endif]-->
+
+많은  기업들은  목적에  따라  다양한  종류의  Public Cloud를  사용하고  있습니다.
+
+이는  사업의  형태  및  목적성에  따라  Alibaba Cloud 혹은  그  외의  Cloud를  혼용하여  사용하기도  하며  Vendor Lock-in 해제의  목적에  따라  같은  국가에  두개  이상의  Cloud 환경을  이용하기도  합니다.
+
+본  시나리오는  고객이  이기종의  Cloud 환경을  안전하게  연결할  수  있는  VPN Connection에  대한  내용을  담았습니다.
+
+특히  Alibaba Cloud의  고객  중  케이스가  많은  중국의  Alibaba Cloud VPC – 한국의  AWS VPC를  연결하는  시나리오에  대해서  해당  내용을  참조할  수  있습니다.
 
 ## Create files and folders
 
@@ -144,7 +150,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTk4NTI1OSwtMzA5MDI3MTM5LC04NT
-g1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NSwtMzA5MDI3
-MTM5LDE0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbMjY5MDQ1OTE3LC0zMDkwMjcxMzksLTg1OD
+U5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcx
+MzksMTQxMTI0ODU1NV19
 -->
