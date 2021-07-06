@@ -70,23 +70,23 @@ Alibaba Cloud와  VPN으로  연결될  환경인  AWS에  VPC를  생성합니�
 
 ### 4.7 Customer Gateway 생성
 AWS 환경에  Alibaba Cloud로  연결될  [Customer Gateway를  생성](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/SetUpVPNConnections.html#vpn-create-cgw)합니다. 
-- Routing : BGP를  사용할  것이므로  Routing은  Dynamic을  설정합니다. 
-- BGP ASN : Alibaba Cloud BGP ASN의  기본  값인  45104으로  설정합니다. 추후  Alibaba Cloud VPN에서  IPsec Peering 설정  시  나오는  값으로  수정할  수  있습니다.
-- IP Address : 4.3단계에서  메모한  Alibaba Cloud의  VPN Gateway IP를  입력합니다.
+- *Routing* : BGP를  사용할  것이므로  Routing은  Dynamic을  설정합니다. 
+- *BGP ASN* : Alibaba Cloud BGP ASN의  기본  값인  45104으로  설정합니다. 추후  Alibaba Cloud VPN에서  IPsec Peering 설정  시  나오는  값으로  수정할  수  있습니다.
+- *IP Address* : **4.3** 단계에서  메모한  Alibaba Cloud의  VPN Gateway IP를  입력합니다.
 
 <img width="816" alt="Screen Shot 2021-07-05 at 5 54 16 PM" src="https://user-images.githubusercontent.com/34003729/124444934-0dcb1280-ddba-11eb-8117-740707240d04.png">
 
 ### 4.8 Site-to-Site VPN 설정
 가장  중요한  단계인  AWS의  Site-to-Site VPN Connection(Alibaba Cloud의  IPsec Connection과  같은  의미) 설정입니다. 본  단계에서  아래와  같은  내용으로  입력합니다.
 
-- Name tag : 사용할  VPN Connection 이름  입력
-- Virtual Private Gateway : 4.5단계에서  생성한  VPG 선택
-- Customer Gateway : 4.7 단계에서  생성한  Customer Gateway 선택
-- Routing Options : Dynamic (requires BGP)
-- Tunnel Inside Ip Version : IPv4
-- Local IPv4 Network Cidr(중요) : 4.1 단계에서  생성한  Alibaba Cloud의  VPC 환경  Cidr 입력
-- Remote IPv4 Network Cidr(중요) : 4.4 단계에서  생성된  AWS의  VPC환경  Cidr 입력
-- Tunnel Option : 기본  값  사용
+- *Name tag* : 사용할  VPN Connection 이름  입력
+- *Virtual Private Gateway* : 4.5단계에서  생성한  VPG 선택
+- *Customer Gateway* : 4.7 단계에서  생성한  Customer Gateway 선택
+- *Routing Options* : Dynamic (requires BGP)
+- Tunnel Inside IP Version : IPv4
+- *Local IPv4 Network Cidr(중요)* : 4.1 단계에서  생성한  Alibaba Cloud의  VPC 환경  CID 입력
+- *Remote IPv4 Network Cidr(중요)* : 4.4 단계에서  생성된  AWS의  VPC환경  Cidr 입력
+- *Tunnel Option* : 기본  값  사용
 > AWS 환경에서  의미하는 Local은  Local Data Center를  의미하며  Remote는  원격지  Data Center를  의미합니다. 즉, 현재  환경에서  AWS Site에서의  Local은  Alibaba Cloud를  의미하여  Remote는  AWS를  의미합니다.
 
 ![Screen Shot 2021-07-05 at 5 57 03 PM](https://user-images.githubusercontent.com/34003729/124445366-73b79a00-ddba-11eb-9543-2257f3d039ee.png)
@@ -177,8 +177,8 @@ Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.a
 
 다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5NTg3NDE1LC0xNjg1NTMyNzYyLC04ND
-Y0NTMwNDYsLTE1OTc0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3
-MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NS
-wtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE4NzY0MzY2MzMsLTE2ODU1MzI3NjIsLT
+g0NjQ1MzA0NiwtMTU5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkw
+MjcxMzksLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NT
+U1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
 -->
