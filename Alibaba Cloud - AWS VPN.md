@@ -80,12 +80,12 @@ AWS 환경에  Alibaba Cloud로  연결될  [Customer Gateway를  생성](https:
 가장  중요한  단계인  AWS의  Site-to-Site VPN Connection(Alibaba Cloud의  IPsec Connection과  같은  의미) 설정입니다. 본  단계에서  아래와  같은  내용으로  입력합니다.
 
 - *Name tag* : 사용할  VPN Connection 이름  입력
-- *Virtual Private Gateway* : 4.5단계에서  생성한  VPG 선택
-- *Customer Gateway* : 4.7 단계에서  생성한  Customer Gateway 선택
-- *Routing Options* : Dynamic (requires BGP)
-- Tunnel Inside IP Version : IPv4
-- *Local IPv4 Network Cidr(중요)* : 4.1 단계에서  생성한  Alibaba Cloud의  VPC 환경  CID 입력
-- *Remote IPv4 Network Cidr(중요)* : 4.4 단계에서  생성된  AWS의  VPC환경  Cidr 입력
+- *Virtual Private Gateway* : **4.5** 단계에서  생성한  VPG 선택
+- *Customer Gateway* : **4.7** 단계에서  생성한  Customer Gateway 선택
+- *Routing Options* : Dynamic (requires BGP) 선택
+- Tunnel Inside IP Version : IPv4 선택
+- *Local IPv4 Network Cidr(중요)* : **4.1** 단계에서  생성한  Alibaba Cloud의  VPC 환경  CIDR 입력
+- *Remote IPv4 Network Cidr(중요)* : **4.4** 단계에서  생성된  AWS의  VPC환경  CIDR 입력
 - *Tunnel Option* : 기본  값  사용
 > AWS 환경에서  의미하는 Local은  Local Data Center를  의미하며  Remote는  원격지  Data Center를  의미합니다. 즉, 현재  환경에서  AWS Site에서의  Local은  Alibaba Cloud를  의미하여  Remote는  AWS를  의미합니다.
 
@@ -104,7 +104,7 @@ VPN Connection 화면에서  Download Configuration을  선택합니다. 나오�
 <img width="875" alt="Screen Shot 2021-07-05 at 6 00 54 PM" src="https://user-images.githubusercontent.com/34003729/124445959-f6d8f000-ddba-11eb-88dc-39a5fe0e5939.png">
 
 ### 4.11 Route Propagation 설정
-Alibaba Cloud설정으로  넘어가기  전, AWS에  내부  네트워크에  자동  라우팅을  위한  경로  전파  활성화가  필요합니다. [VPC > Route tables > route table 선택 > Route propagation > Edit route propagation > 활성화] 작업을  수행합니다.
+Alibaba Cloud설정으로  넘어가기  전, AWS에  내부  네트워크에  자동  라우팅을  위한  경로  전파  활성화가  필요합니다. *[VPC > Route tables > route table 선택 > Route propagation > Edit route propagation > 활성화]* 작업을  수행합니다.
 
 <img width="872" alt="Screen Shot 2021-07-05 at 6 02 54 PM" src="https://user-images.githubusercontent.com/34003729/124446275-3e5f7c00-ddbb-11eb-8567-3101ed654928.png">
 
@@ -114,9 +114,9 @@ Alibaba Cloud설정으로  넘어가기  전, AWS에  내부  네트워크에  �
 
 ### 4.12 Customer Gateway *2개* 생성
 AWS VPN에  연결을  위한  [Customer Gateway](https://www.alibabacloud.com/help/doc-detail/65286.htm?spm=a2c63.l28256.b99.30.3067e889Usd0nF)를  **2개**  생성합니다. 내용은  아래  내용을  참조할  수  있습니다.
-- Name : AWS VPN Connection의  각  Tunnel 1 / 2와  연결할  이름  입력
-- IP Address : 4.9에서  메모한  각  Tunnel 1 / 2의  Outside IP Address 입력
-- ASN : 4.6에서  메모한  AWS 환경의  ASN 입력
+- *Name* : AWS VPN Connection의  각  Tunnel 1 / 2와  연결할  이름  입력
+- *IP Address* : **4.9** 에서  메모한  각  Tunnel 1 / 2의  Outside IP Address 입력
+- *ASN* : **4.6** 에서  메모한  AWS 환경의  ASN 입력
 
 ![Screen Shot 2021-07-05 at 6 05 03 PM](https://user-images.githubusercontent.com/34003729/124446625-8ed6d980-ddbb-11eb-8b76-dcd86224225b.png)
 
@@ -126,8 +126,8 @@ Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.a
 
 > 본  내용에서  Local Network/Remote Network은  AWS와  반대의  개념을  지니고  있습니다. Local Network은  Alibaba Cloud의  VPC를  의미하며  Remote Network은  Alibaba Cloud VPC와  연결될  원격지  즉, AWS의  VPC를  의미합니다.
 
-- Name : 각Tunnel 1 / 2 연결을  위한  IPsec Connection 이름  입력
-- VPN Gateway : 4.3에서  설정한  VPN Gateway 선택
+- Name : 각 Tunnel 1 / 2 연결을  위한  IPsec Connection 이름  입력
+- VPN Gateway : 4.3 에서  설정한  VPN Gateway 선택
 - Customer Gateway : 4.12에서  생성한  각  Tunnel 1 / 2 연결을  위한  Customer Gateway 선택
 - Routing Mode : Protected Data Flow 선택
 - Local Network(중요) : 4.1에서  생성한  Alibaba Cloud VPC CIDR 입력
@@ -177,8 +177,8 @@ Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.a
 
 다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY0MzY2MzMsLTE2ODU1MzI3NjIsLT
-g0NjQ1MzA0NiwtMTU5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkw
-MjcxMzksLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NT
-U1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
+eyJoaXN0b3J5IjpbMTI3NDYwNTExMSwtMTY4NTUzMjc2MiwtOD
+Q2NDUzMDQ2LC0xNTk3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAy
+NzEzOSwtODU4NTk0NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NT
+UsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX0=
 -->
