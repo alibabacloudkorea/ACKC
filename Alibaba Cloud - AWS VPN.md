@@ -14,7 +14,7 @@
 
 ## 2. Solution Overview
 
-예시  환경은  중국  Shanghai Region의  Alibaba Cloud VPC 환경과  한국  Central Region의  AWS VPC환경을  VPN (IPsec VPN Connection / Site-to-site VPN Connection) 으로  연결합니다.
+예시  환경은  중국  Shanghai Region의  Alibaba Cloud VPC 환경과  한국  Central Region의  AWS VPC환경을  VPN ([IPsec VPN Connection](https://www.alibabacloud.com/help/doc-detail/65279.htm?spm=a2c63.p38356.b99.11.228b2a71nCFedg) / [Site-to-site VPN](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/how_it_works.html)) 으로  연결합니다.
 
 <img width="648" alt="Screen Shot 2021-07-05 at 5 30 22 PM" src="https://user-images.githubusercontent.com/34003729/124441562-c2633500-ddb6-11eb-914f-d67b95f679cc.png">
 
@@ -178,8 +178,8 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 
 다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTIxMDg0OCwtMTY4NTUzMjc2MiwtOD
-Q2NDUzMDQ2LC0xNTk3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAy
-NzEzOSwtODU4NTk0NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NT
-UsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX0=
+eyJoaXN0b3J5IjpbLTIwMzcyNjk0NTYsLTE2ODU1MzI3NjIsLT
+g0NjQ1MzA0NiwtMTU5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkw
+MjcxMzksLTg1ODU5NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NT
+U1LC0zMDkwMjcxMzksMTQxMTI0ODU1NV19
 -->
