@@ -57,7 +57,7 @@ Alibaba Cloud와  VPN으로  연결될  환경인  AWS에  VPC를  생성합니�
 <img width="874" alt="Screen Shot 2021-07-05 at 5 46 29 PM" src="https://user-images.githubusercontent.com/34003729/124443809-f50e2d00-ddb8-11eb-8948-e7b990cdc6e5.png">
 
 ### 4.5 Virtual Private Gateway 생성
-Virtual Private Gateway를  생성합니다. 해당  시나리오에서는  AWS에서  기본으로  설정될  ASN을  사용하기  때문에  별도  ASN을  설정할  필요는  없습니다.
+[Virtual Private Gateway를  생성](https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/SetUpVPNConnections.html#vpn-create-target-gateway)합니다. 해당  시나리오에서는  AWS에서  기본으로  설정될  ASN을  사용하기  때문에  별도  ASN을  설정할  필요는  없습니다.
 > AWS의  Virtual Private Gateway는  AWS의  VPC환경에 VPN으로  접속될  Gate 의  역할을  합니다. ASN은  각기  다른  오퍼레이터가  관리하는  IP 서브넷을  식별하기  위해  고유하게  부여된  번호입니다.
 
 <img width="871" alt="Screen Shot 2021-07-05 at 5 48 14 PM" src="https://user-images.githubusercontent.com/34003729/124444077-3272ba80-ddb9-11eb-90b4-4253d409698f.png">
@@ -114,7 +114,7 @@ Alibaba Cloud설정으로  넘어가기  전, AWS에  내부  네트워크에  �
 *본  단계에서부터  Alibaba Cloud의  IPsec Connection을  설정합니다.*
 
 ### 4.12 Customer Gateway *2개* 생성
-AWS VPN에  연결을  위한  Customer Gateway를  **2개**  생성합니다. 내용은  아래  내용을  참조할  수  있습니다.
+AWS VPN에  연결을  위한  Customer Gateway를  **2개**  [생성](https://www.alibabacloud.com/help/doc-detail/65286.htm?spm=a2c63.l28256.b99.30.3067e889Usd0nF)합니다. 내용은  아래  내용을  참조할  수  있습니다.
 - Name : AWS VPN Connection의  각  Tunnel 1 / 2와  연결할  이름  입력
 - IP Address : 4.9에서  메모한  각  Tunnel 1 / 2의  Outside IP Address 입력
 - ASN : 4.6에서  메모한  AWS 환경의  ASN 입력
@@ -178,8 +178,8 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 
 다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MTQ0NTMyLC0xNjg1NTMyNzYyLC04ND
-Y0NTMwNDYsLTE1OTc0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3
-MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NS
-wtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTIzMTk0MzUxNSwtMTY4NTUzMjc2MiwtOD
+Q2NDUzMDQ2LC0xNTk3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAy
+NzEzOSwtODU4NTk0NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NT
+UsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX0=
 -->
