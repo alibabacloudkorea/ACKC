@@ -126,20 +126,20 @@ Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.a
 
 > 본  내용에서  Local Network/Remote Network은  AWS와  반대의  개념을  지니고  있습니다. Local Network은  Alibaba Cloud의  VPC를  의미하며  Remote Network은  Alibaba Cloud VPC와  연결될  원격지  즉, AWS의  VPC를  의미합니다.
 
-- Name : 각 Tunnel 1 / 2 연결을  위한  IPsec Connection 이름  입력
-- VPN Gateway : 4.3 에서  설정한  VPN Gateway 선택
-- Customer Gateway : 4.12에서  생성한  각  Tunnel 1 / 2 연결을  위한  Customer Gateway 선택
-- Routing Mode : Protected Data Flow 선택
-- Local Network(중요) : 4.1에서  생성한  Alibaba Cloud VPC CIDR 입력
-- Remote Network(중요) : 4.4에서  메모한  AWS VPC CIDR 입력
-- Effective Immediately : YES
-- Pre-shared Key : 4.10에서  다운받은  Configuration File에서  Pre-shared Key 검색하여  입력
-- IKE / IPsec Configuration : 4.10에서  다운받은  Configuration 참조하여  각  항목  입력
-- DPD, NAT Traversal : 활성화
-- BGP Configuration : 활성화
-- Tunnel CIDR Block : AWS VPN에  설정된  Tunnel 1 / 2의  Local CIDR 입력
-- Local BGP IP Address : 위의  Block으로  입력된  xxx.xxx.xxx.xxx의  마지막  주소에  +1하여  입력  (스크린샷  예시  참조)
-- Local ASN : 기본  값  사용  (해당  값으로  4.7 단계의  ASN과  싱크)
+- *Name* : 각 Tunnel 1 / 2 연결을  위한  IPsec Connection 이름  입력
+- *VPN Gateway* : **4.3** 에서  설정한  VPN Gateway 선택
+- *Customer Gateway* : **4.12** 에서  생성한  각  Tunnel 1 / 2 연결을  위한  Customer Gateway 선택
+- *Routing Mode* : Protected Data Flow 선택
+- *Local Network(중요)* : **4.1** 에서  생성한  Alibaba Cloud VPC CIDR 입력
+- *Remote Network(중요)* : **4.4** 에서  메모한  AWS VPC CIDR 입력
+- *Effective Immediately* : YES
+- *Pre-shared Key* : **4.10** 에서  다운받은  Configuration File에서  Pre-shared Key 검색하여  입력
+- *IKE / IPsec Configuration* : **4.10** 에서  다운받은  Configuration 참조하여  각  항목  입력
+- *DPD, NAT Traversal* : 활성화
+- *BGP Configuration* : 활성화
+- *Tunnel CIDR Block* : AWS VPN에  설정된  Tunnel 1 / 2의  Local CIDR 입력
+- *Local BGP IP Address* : 위의  Block으로  입력된  xxx.xxx.xxx.xxx의  마지막  주소에  +1하여  입력  (스크린샷  예시  참조)
+- *Local ASN* : 기본  값  사용  (해당  값으로  **4.7** 단계의  ASN과  싱크)
 
 ![Screen Shot 2021-07-05 at 6 08 23 PM](https://user-images.githubusercontent.com/34003729/124447132-0b69b800-ddbc-11eb-8476-87267fbcd9a6.png)
 ![Screen Shot 2021-07-05 at 6 08 39 PM](https://user-images.githubusercontent.com/34003729/124447181-16244d00-ddbc-11eb-82b8-5b902e3397a2.png)
@@ -177,7 +177,7 @@ Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.a
 
 다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDYwNTExMSwtMTY4NTUzMjc2MiwtOD
+eyJoaXN0b3J5IjpbMTM5OTUwMzcxNSwtMTY4NTUzMjc2MiwtOD
 Q2NDUzMDQ2LC0xNTk3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAy
 NzEzOSwtODU4NTk0NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NT
 UsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX0=
