@@ -36,7 +36,7 @@ VPC를  생성합니다. 사용할  이름과  IPv4 CIDR Block을  설정합니�
 <img width="691" alt="Screen Shot 2021-07-05 at 5 39 07 PM" src="https://user-images.githubusercontent.com/34003729/124442672-effcae00-ddb7-11eb-9e63-88d6a38313d9.png">
 
 ### 4.2 VPN 생성
-VPN Gateway를  구매합니다. 본  시나리오에서는  Shanghai Region에  생성했습니다.
+[VPN Gateway를  구매 및 생성](https://www.alibabacloud.com/help/doc-detail/65290.htm?spm=a2c63.l28256.b99.23.d9a5e889eDXe0e)합니다. 본  시나리오에서는  Shanghai Region에  생성했습니다.
 > VPN은  Site to Site환경에서  통신  내용을  바깥  사람에게  드러내지  않고  통신할  목적으로  쓰이는  사설  통신망입니다. 이  환경에서  VPN Gateway는  Alibaba Cloud VPC 환경에  들어올  문으로  이해할  수  있습니다.
 
 <img width="862" alt="Screen Shot 2021-07-05 at 5 41 08 PM" src="https://user-images.githubusercontent.com/34003729/124442991-3fdb7500-ddb8-11eb-95e7-383d346d9add.png">
@@ -178,8 +178,8 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 
 다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU1MzI3NjIsLTg0NjQ1MzA0NiwtMT
-U5NzQ0NjEwNCwtMjU4MjkyNzE1LC0zMDkwMjcxMzksLTg1ODU5
-NDc2NCwtMjAzMTEyMjY3OSwxNDExMjQ4NTU1LC0zMDkwMjcxMz
-ksMTQxMTI0ODU1NV19
+eyJoaXN0b3J5IjpbOTY5MTQ0NTMyLC0xNjg1NTMyNzYyLC04ND
+Y0NTMwNDYsLTE1OTc0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3
+MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NS
+wtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
 -->
