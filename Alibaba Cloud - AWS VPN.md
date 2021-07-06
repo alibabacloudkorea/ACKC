@@ -121,7 +121,7 @@ AWS VPN에  연결을  위한  [Customer Gateway](https://www.alibabacloud.com/h
 ![Screen Shot 2021-07-05 at 6 05 03 PM](https://user-images.githubusercontent.com/34003729/124446625-8ed6d980-ddbb-11eb-8b76-dcd86224225b.png)
 
 ### 4.13 IPsec VPN Connection *2개* 생성
-Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개**  생성합니다. 본  단계에서  필요한  내용들은  4.10에서  다운로드  받은  Configuration File에서  쉽게  참조할  수  있습니다.
+Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.alibabacloud.com/help/doc-detail/65072.htm?spm=a2c63.p38356.b99.12.3f0b1d8cDOWhyE)을  **두개**  생성합니다. 본  단계에서  필요한  내용들은  4.10에서  다운로드  받은  Configuration File에서  쉽게  참조할  수  있습니다.
 > 전  단계에서  언급했듯이, AWS는  Site to Site VPN Connection을  생성하면  2개의  터널이  생성되는  메카니즘을  지니고  있습니다. 하지만  Alibaba Cloud는  기본적으로  한개의  터널로  VPN Connection을  생성하여  AWS와  연결을  위해서는  두개의  IPsec VPN Connection을  생성해야  합니다.
 
 > 본  내용에서  Local Network/Remote Network은  AWS와  반대의  개념을  지니고  있습니다. Local Network은  Alibaba Cloud의  VPC를  의미하며  Remote Network은  Alibaba Cloud VPC와  연결될  원격지  즉, AWS의  VPC를  의미합니다.
@@ -177,8 +177,8 @@ Alibaba Cloud의  가장  중요한  단계인  IPsec Connection을  **두개** 
 
 다음  시나리오에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzEwMzk2MywtMTY4NTUzMjc2MiwtOD
-Q2NDUzMDQ2LC0xNTk3NDQ2MTA0LC0yNTgyOTI3MTUsLTMwOTAy
-NzEzOSwtODU4NTk0NzY0LC0yMDMxMTIyNjc5LDE0MTEyNDg1NT
-UsLTMwOTAyNzEzOSwxNDExMjQ4NTU1XX0=
+eyJoaXN0b3J5IjpbNDk5NTg3NDE1LC0xNjg1NTMyNzYyLC04ND
+Y0NTMwNDYsLTE1OTc0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3
+MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NS
+wtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
 -->
