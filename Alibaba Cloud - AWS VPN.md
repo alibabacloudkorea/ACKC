@@ -28,7 +28,7 @@
 
 ## 4. Main Steps
 
-**[Alibaba Cloud Side]**
+***[Alibaba Cloud Side]***
 ### 4.1 VPC 생성
 VPC를  생성합니다. 사용할  이름과  IPv4 CIDR Block을  설정합니다.
 > VPC는  퍼블릭  클라우드에서  사용할  전용  가상  네트워크입니다. 설정된  IPv4 CIDR Block은  Private Network으로  사용할  구간으로  이해할  수  있습니다.
@@ -47,7 +47,7 @@ VPC를  생성합니다. 사용할  이름과  IPv4 CIDR Block을  설정합니�
 
 <img width="882" alt="Screen Shot 2021-07-05 at 5 43 36 PM" src="https://user-images.githubusercontent.com/34003729/124443329-8cbf4b80-ddb8-11eb-8f91-4d20672c00b7.png">
 
-**[AWS Side]**
+***[AWS Side]***
 *Alibaba Cloud에  Customer Gateway를  생성하기  전, Alibaba의  VPC에  연결될  환경인  AWS에  Virtual Private Gateway(Alibaba Cloud의  VPN Gateway와  같은  개념)를  생성해야  합니다.*
 
 ### 4.4 VPC 생성
@@ -109,7 +109,7 @@ Alibaba Cloud설정으로  넘어가기  전, AWS에  내부  네트워크에  �
 <img width="872" alt="Screen Shot 2021-07-05 at 6 02 54 PM" src="https://user-images.githubusercontent.com/34003729/124446275-3e5f7c00-ddbb-11eb-8567-3101ed654928.png">
 
 
-**[Alibaba Cloud Side]**
+***[Alibaba Cloud Side]***
 *본  단계에서부터  Alibaba Cloud의  IPsec Connection을  설정합니다.*
 
 ### 4.12 Customer Gateway *2개* 생성
@@ -147,11 +147,13 @@ Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.a
 ### 4.14 연결 확인
 연결을  기다린  후, Alibaba Cloud와  AWS 양쪽에서  정상적으로  연결이  된  것을  확인합니다.
 
-*[Alibaba Cloud Side] – 2개의  Connection에  대한  Phase 2 of IKE Tunnel Negotiation Succeeded 확인*
+***[Alibaba Cloud Side]** 
+2개의  Connection에  대한  Phase 2 of IKE Tunnel Negotiation Succeeded 확인*
 <img width="853" alt="Screen Shot 2021-07-05 at 6 10 35 PM" src="https://user-images.githubusercontent.com/34003729/124447420-4f5cbd00-ddbc-11eb-94c5-b20690f4c089.png">
 
 
-*[AWS Side] – Site-to-Site VPN Connection > VPN 선택  > Tunnel Details에서  두개의  터널  모두  UP으로  활성화  확인*
+***[AWS Side]** 
+Site-to-Site VPN Connection > VPN 선택  > Tunnel Details에서  두개의  터널  모두  UP으로  활성화  확인*
 <img width="737" alt="Screen Shot 2021-07-05 at 6 11 13 PM" src="https://user-images.githubusercontent.com/34003729/124447505-656a7d80-ddbc-11eb-902a-901da0726632.png">
 
 
@@ -177,8 +179,9 @@ Alibaba Cloud의  가장  중요한  단계인  [IPsec Connection](https://www.a
 
 [다음  시나리오](https://github.com/rnlduaeo/alibaba/blob/master/Global%20Accelerator(GA)%EB%A1%9C%20IPSec%20VPN%20%EA%B0%80%EC%86%8D%ED%99%94%20%ED%95%98%EA%B8%B0.md)에서는  본  시나리오에서  문제가  된  Site 간  VPN 연결에서의  Packet Loss 및  연결  지연  문제를  해결할  수  있는  가속화  솔루션([Alibaba Cloud Global Accelerator](https://www.alibabacloud.com/help/doc-detail/153189.htm?spm=a2c63.l28256.b99.5.82586796Hc8DP7))를  연동한  내용을  확인하실  수  있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwNTM3Njg3LC0xNjg1NTMyNzYyLC04ND
-Y0NTMwNDYsLTE1OTc0NDYxMDQsLTI1ODI5MjcxNSwtMzA5MDI3
-MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2NzksMTQxMTI0ODU1NS
-wtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE1OTA3ODY3MjksNzUwNTM3Njg3LC0xNj
+g1NTMyNzYyLC04NDY0NTMwNDYsLTE1OTc0NDYxMDQsLTI1ODI5
+MjcxNSwtMzA5MDI3MTM5LC04NTg1OTQ3NjQsLTIwMzExMjI2Nz
+ksMTQxMTI0ODU1NSwtMzA5MDI3MTM5LDE0MTEyNDg1NTVdfQ==
+
 -->
