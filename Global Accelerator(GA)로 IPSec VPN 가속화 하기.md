@@ -101,7 +101,7 @@ AWS에서 Customer Gateway를 생성하고 IP Address에는 GA OFF IP를 등록�
 ### [Optional] 4.8 Alibaba IPSec Connection 생성
 #### 4.8.1 IPSec Connection 생성
 AWS에서 다운로드 받은 configuration file의 정보를 사용하여 IPSec Connection을 생성합니다. 
-> Note: AWS와 Alibaba가 정의하는 Local Network와 Remote Network의 정의가 달라 헷갈리 수 있습니다. 공식 문서에 나와있는 설명을 토대로 작성하시기 바랍니다. 
+> Note: AWS와 Alibaba가 정의하는 Local Network와 Remote Network의 정의가 달라 헷갈릴 수 있습니다. 공식 문서에 나와있는 설명을 토대로 작성하시기 바랍니다. 
 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%205.08.58%20PM.png?raw=true)
 
@@ -139,11 +139,11 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 
 IPSec Connection redundancy로 2개 구성할 경우 설정 가이드에 대해서는 아직 안썼음... 다시 물어봐야함 쩝.. BGP 구성해야함???
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM5MTUzMiwzMDE0Nzc5ODksMTc0Nz
-A1MTg3OCwtMjU2NjM0MDYyLDY2NTE3MjQ2NSwzNjEyNTEyMDks
-LTE4OTY2NTg5NjgsOTUyNjg4ODM2LDcwMjMwOTkyNCwyMDQwNT
-k3MTM5LDE5MzUyMDA2NzcsLTgyMzg5MDM1OSwtMTczMjAzMzgx
-LDE3OTk1MDM5MzUsLTE4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLT
-g3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5MzI0ODUsMTU1NzEw
-NDQ5N119
+eyJoaXN0b3J5IjpbNTU2ODA3MzcyLC0xMDczOTE1MzIsMzAxND
+c3OTg5LDE3NDcwNTE4NzgsLTI1NjYzNDA2Miw2NjUxNzI0NjUs
+MzYxMjUxMjA5LC0xODk2NjU4OTY4LDk1MjY4ODgzNiw3MDIzMD
+k5MjQsMjA0MDU5NzEzOSwxOTM1MjAwNjc3LC04MjM4OTAzNTks
+LTE3MzIwMzM4MSwxNzk5NTAzOTM1LC0xODQ4MzQwNTIzLC0xNz
+E0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3ODcwNjMsMjM5OTMy
+NDg1XX0=
 -->
