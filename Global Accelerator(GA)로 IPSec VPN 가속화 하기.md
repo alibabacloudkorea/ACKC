@@ -41,7 +41,7 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 |Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|구매|
 
 #### 4.1.2 Source Consistent 요청
-GA Inst
+Ticket을 통해 GA Instance ID를 전달하며 'Source Consistent' 작업을 요청합니다. 
 ![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%2011.20.04%20AM.png?raw=true)
 
 [GA 인스턴스를 구매](https://www.alibabacloud.com/help/doc-detail/153200.htm?spm=a2c63.p38356.b99.22.3e8d3ec5YMYcrz) 하고 [Basic Bandwidth를 구매](https://www.alibabacloud.com/help/doc-detail/153205.htm?spm=a2c63.p38356.b99.27.111077493Kolwl)하고 [Cross Border Acceleration을 구매](https://www.alibabacloud.com/help/doc-detail/155107.htm?spm=a2c63.p38356.b99.35.4f37763eng34lg)합니다. 
@@ -140,11 +140,11 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/compasion2.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMDE3ODY0LC0xNTI1MzA5MzczLC0xMD
-czOTE1MzIsMzAxNDc3OTg5LDE3NDcwNTE4NzgsLTI1NjYzNDA2
-Miw2NjUxNzI0NjUsMzYxMjUxMjA5LC0xODk2NjU4OTY4LDk1Mj
-Y4ODgzNiw3MDIzMDk5MjQsMjA0MDU5NzEzOSwxOTM1MjAwNjc3
-LC04MjM4OTAzNTksLTE3MzIwMzM4MSwxNzk5NTAzOTM1LC0xOD
-Q4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3
-ODcwNjNdfQ==
+eyJoaXN0b3J5IjpbLTE2MTE0MzY3MzgsLTE1MjUzMDkzNzMsLT
+EwNzM5MTUzMiwzMDE0Nzc5ODksMTc0NzA1MTg3OCwtMjU2NjM0
+MDYyLDY2NTE3MjQ2NSwzNjEyNTEyMDksLTE4OTY2NTg5NjgsOT
+UyNjg4ODM2LDcwMjMwOTkyNCwyMDQwNTk3MTM5LDE5MzUyMDA2
+NzcsLTgyMzg5MDM1OSwtMTczMjAzMzgxLDE3OTk1MDM5MzUsLT
+E4NDgzNDA1MjMsLTE3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUw
+NTc4NzA2M119
 -->
