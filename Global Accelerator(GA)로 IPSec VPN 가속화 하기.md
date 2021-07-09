@@ -27,8 +27,6 @@
 	 
 	* GA 인스턴스를 만든 후 티켓을 통해 GA Instance ID로 'Source-Consistent' 기능 enable할 것을 요청합니다. 	
 	* Listener 설정이 끝난 후 티켓을 통해 GA OFF IP를 획득합니다.(이 EIP는 한국 VPN 장비의 Peer IP로 사용됨) - GA 내부적으로 로드발란서의 가중치(weight)를 0으로 수정 (1 개의 ECS 만 포워딩 용으로 예약)하고 나머지 ECS의 EIP를 획득하는 과정입니다. 
-	![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%2011.20.04%20AM.png?raw=true)
-
 
 ## 4. Main steps
 각 단계의 큰 흐름은 아래와 같습니다. 
@@ -42,6 +40,9 @@ GA는 가속화 요건에 따라 다양한 조합의 구매가 가능합니다. 
 |---|---|---|
 |Small I(필요한 최대 밴드위스에 따라 구매)|Enhanced Bandwidth|구매|
 
+#### 4.1.2 Source Consistent 요청
+GA Inst
+![](https://github.com/rnlduaeo/alibaba/blob/master/Screen%20Shot%202021-07-02%20at%2011.20.04%20AM.png?raw=true)
 
 [GA 인스턴스를 구매](https://www.alibabacloud.com/help/doc-detail/153200.htm?spm=a2c63.p38356.b99.22.3e8d3ec5YMYcrz) 하고 [Basic Bandwidth를 구매](https://www.alibabacloud.com/help/doc-detail/153205.htm?spm=a2c63.p38356.b99.27.111077493Kolwl)하고 [Cross Border Acceleration을 구매](https://www.alibabacloud.com/help/doc-detail/155107.htm?spm=a2c63.p38356.b99.35.4f37763eng34lg)합니다. 
 그리고 구매한 Basic Bandwidth와 Cross Bandwidth를 GA 인스턴스에 bind합니다. 바인딩에 대한 자세한 사항은 [bind basic bandwidth 문서](https://www.alibabacloud.com/help/doc-detail/153206.htm?spm=a2c63.p38356.b99.28.34528816XU1IGd)와 [bind cross border acceleration 문서](https://www.alibabacloud.com/help/doc-detail/155108.htm?spm=a2c63.p38356.b99.36.4095289crKAgox)를 참조해주시기 바랍니다.
@@ -139,11 +140,11 @@ GA 콘솔로 가서 [Edit Endpoint Group]을 클릭하여 Backend Service의 IP�
 ![](https://github.com/rnlduaeo/alibaba/blob/master/compasion2.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjUzMDkzNzMsLTEwNzM5MTUzMiwzMD
-E0Nzc5ODksMTc0NzA1MTg3OCwtMjU2NjM0MDYyLDY2NTE3MjQ2
-NSwzNjEyNTEyMDksLTE4OTY2NTg5NjgsOTUyNjg4ODM2LDcwMj
-MwOTkyNCwyMDQwNTk3MTM5LDE5MzUyMDA2NzcsLTgyMzg5MDM1
-OSwtMTczMjAzMzgxLDE3OTk1MDM5MzUsLTE4NDgzNDA1MjMsLT
-E3MTQ4MDY1NTUsLTg3NDcwMjA5OSwtMTUwNTc4NzA2MywyMzk5
-MzI0ODVdfQ==
+eyJoaXN0b3J5IjpbMjUwMDE3ODY0LC0xNTI1MzA5MzczLC0xMD
+czOTE1MzIsMzAxNDc3OTg5LDE3NDcwNTE4NzgsLTI1NjYzNDA2
+Miw2NjUxNzI0NjUsMzYxMjUxMjA5LC0xODk2NjU4OTY4LDk1Mj
+Y4ODgzNiw3MDIzMDk5MjQsMjA0MDU5NzEzOSwxOTM1MjAwNjc3
+LC04MjM4OTAzNTksLTE3MzIwMzM4MSwxNzk5NTAzOTM1LC0xOD
+Q4MzQwNTIzLC0xNzE0ODA2NTU1LC04NzQ3MDIwOTksLTE1MDU3
+ODcwNjNdfQ==
 -->
